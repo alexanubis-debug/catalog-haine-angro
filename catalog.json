@@ -585,13 +585,17 @@
         "Crem"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-001.jpg",
+      "image": "assets/AJ-FOTO-001-studio-ai.png",
       "images": [
+        "assets/AJ-FOTO-001-studio-ai.png",
         "assets/AJ-FOTO-001.jpg",
         "assets/AJ-FOTO-001-2.jpg",
         "assets/AJ-FOTO-001-3.jpg"
       ],
-      "internalCode": true
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-001-studio-ai.png"
+      ]
     },
     {
       "code": "B-86497",
@@ -630,11 +634,15 @@
         "Roz"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-002.jpg",
+      "image": "assets/AJ-FOTO-002-studio-ai.png",
       "images": [
+        "assets/AJ-FOTO-002-studio-ai.png",
         "assets/AJ-FOTO-002.jpg"
       ],
-      "internalCode": true
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-002-studio-ai.png"
+      ]
     },
     {
       "code": "A-87302",
@@ -659,12 +667,16 @@
         "Negru / Galben"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-003.jpg",
+      "image": "assets/AJ-FOTO-003-studio-ai.png",
       "images": [
+        "assets/AJ-FOTO-003-studio-ai.png",
         "assets/AJ-FOTO-003.jpg",
         "assets/AJ-FOTO-003-2.jpg"
       ],
-      "internalCode": true
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-003-studio-ai.png"
+      ]
     },
     {
       "code": "A86970",
@@ -740,12 +752,16 @@
         "Bordo"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-004.jpg",
+      "image": "assets/AJ-FOTO-004-studio-ai.png",
       "images": [
+        "assets/AJ-FOTO-004-studio-ai.png",
         "assets/AJ-FOTO-004.jpg",
         "assets/AJ-FOTO-004-2.jpg"
       ],
-      "internalCode": true
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-004-studio-ai.png"
+      ]
     },
     {
       "code": "A-87234",
@@ -837,11 +853,15 @@
         "Roz"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-005.jpg",
+      "image": "assets/AJ-FOTO-005-studio-ai.png",
       "images": [
+        "assets/AJ-FOTO-005-studio-ai.png",
         "assets/AJ-FOTO-005.jpg"
       ],
-      "internalCode": true
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-005-studio-ai.png"
+      ]
     },
     {
       "code": "A86568",
