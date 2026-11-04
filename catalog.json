@@ -1178,6 +1178,804 @@
       "images": [
         "assets/HJD7250.jpg"
       ]
+    },
+    {
+      "code": "AJ-FOTO-006",
+      "name": "Pantaloni bufanți cu buline",
+      "colors": [
+        "Negru / Auriu"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-006-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-006-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-006-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-007",
+      "name": "Pantaloni cu imprimeu floral vintage",
+      "colors": [
+        "Negru / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-007-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-007-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-007-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-008",
+      "name": "Bluză cu imprimeu ilustrat",
+      "colors": [
+        "Bej"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-008-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-008-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-008-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-009",
+      "name": "Pantaloni culotte cu talie elastică",
+      "colors": [
+        "Negru",
+        "Verde"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-009-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-009-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-009-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-010",
+      "name": "Jeans cu broderie la tiv",
+      "colors": [
+        "Albastru",
+        "Albastru deschis",
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-010-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-010-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-010-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-011",
+      "name": "Bluză cu motiv stilizat",
+      "colors": [
+        "Maro",
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-011-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-011-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-011-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-012",
+      "name": "Jeans cu buzunare brodate",
+      "colors": [
+        "Albastru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-012-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-012-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-012-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-013",
+      "name": "Jeans cu fluture decorativ",
+      "colors": [
+        "Negru / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-013-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-013-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-013-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-014",
+      "name": "Bluză cu imprimeu de ren",
+      "colors": [
+        "Bej",
+        "Alb"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-014-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-014-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-014-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-015",
+      "name": "Bluză cu glugă și șnur",
+      "colors": [
+        "Crem",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-015-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-015-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-015-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-016",
+      "name": "Bluză simplă cu mâneci până la cot",
+      "colors": [
+        "Bordo",
+        "Negru",
+        "Alb"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-016-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-016-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-016-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-017",
+      "name": "Jeans cu buzunare și inimă decorativă",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-017-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-017-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-017-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-018",
+      "name": "Bluză simplă cu mâneci lungi",
+      "colors": [
+        "Bordo",
+        "Gri"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-018-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-018-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-018-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-019",
+      "name": "Jeans cu buzunare aplicate și petice",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-019-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-019-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-019-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-020",
+      "name": "Jeans cu buzunare mari și nasturi",
+      "colors": [
+        "Gri închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-020-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-020-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-020-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-021",
+      "name": "Bluză cu decolteu în V și inserție",
+      "colors": [
+        "Gri închis / Alb"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-021-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-021-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-021-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-022",
+      "name": "Bluză cu nasturi la decolteu",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-022-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-022-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-022-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-023",
+      "name": "Bluză cu guler înalt",
+      "colors": [
+        "Crem",
+        "Maro",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-023-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-023-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-023-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-024",
+      "name": "Bluză cu ursuleț decorativ",
+      "colors": [
+        "Crem",
+        "Maro"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-024-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-024-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-024-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-025",
+      "name": "Bluză albă cu mâneci lungi",
+      "colors": [
+        "Alb"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-025-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-025-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-025-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-026",
+      "name": "Jeans cu petice geometrice",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-026-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-026-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-026-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-027",
+      "name": "Jeans cu cusături contrastante",
+      "colors": [
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-027-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-027-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-027-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-028",
+      "name": "Bluză cu șnur la decolteu",
+      "colors": [
+        "Negru",
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-028-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-028-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-028-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-029",
+      "name": "Jeans cu stele decorative",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-029-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-029-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-029-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-030",
+      "name": "Tricou cu imprimeu muzical",
+      "colors": [
+        "Alb"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-030-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-030-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-030-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-031",
+      "name": "Tricou cu pisică imprimată",
+      "colors": [
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-031-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-031-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-031-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-032",
+      "name": "Bluză cu decolteu în V și tiv rotunjit",
+      "colors": [
+        "Bordo",
+        "Gri"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-032-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-032-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-032-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-033",
+      "name": "Pantaloni largi cu maci brodați",
+      "colors": [
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-033-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-033-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-033-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-034",
+      "name": "Pantaloni cargo cu șnur",
+      "colors": [
+        "Negru",
+        "Gri",
+        "Maro"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-034-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-034-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-034-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-035",
+      "name": "Bluză cu decolteu asimetric",
+      "colors": [
+        "Crem",
+        "Gri"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-035-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-035-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-035-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-036",
+      "name": "Jeans cu flori și broderie laterală",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-036-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-036-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-036-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-037",
+      "name": "Pantaloni culotte simpli",
+      "colors": [
+        "Negru",
+        "Gri"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-037-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-037-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-037-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-038",
+      "name": "Jeans cu iepuraș și aplicații colorate",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-038-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-038-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-038-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-039",
+      "name": "Bluză cu guler scurt și mâneci răsfrânte",
+      "colors": [
+        "Albastru închis",
+        "Alb",
+        "Maro",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-039-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-039-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-039-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-040",
+      "name": "Pantaloni cu petice și buline",
+      "colors": [
+        "Gri închis / Maro"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-040-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-040-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-040-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-041",
+      "name": "Pantaloni largi cu flori de câmp",
+      "colors": [
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-041-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-041-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-041-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-042",
+      "name": "Bluză cu guler înalt și mâneci scurte",
+      "colors": [
+        "Crem",
+        "Gri",
+        "Negru",
+        "Bordo"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-042-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-042-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-042-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-043",
+      "name": "Jeans cu buzunare și inserții decorative",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-043-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-043-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-043-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-044",
+      "name": "Jeans cu broderie cu flori și coș",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-044-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-044-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-044-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-045",
+      "name": "Rochie cu volane și dantelă",
+      "colors": [
+        "Roz",
+        "Muștar"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-045-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-045-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-045-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-046",
+      "name": "Tricou cu personaj ilustrat",
+      "colors": [
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-046-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-046-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-046-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-047",
+      "name": "Bluză cu detaliu la umăr",
+      "colors": [
+        "Bordo",
+        "Maro"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-047-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-047-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-047-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-048",
+      "name": "Jeans cu broderie florală suspendată",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-048-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-048-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-048-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-049",
+      "name": "Jeans cu flori colorate",
+      "colors": [
+        "Gri închis / Multicolor"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-049-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-049-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-049-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-050",
+      "name": "Bluză simplă cu decolteu rotund",
+      "colors": [
+        "Negru",
+        "Bordo",
+        "Maro"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-050-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-050-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-050-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-051",
+      "name": "Pantaloni largi cu șnur alb",
+      "colors": [
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-051-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-051-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-051-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-052",
+      "name": "Bluză polo cu fermoar",
+      "colors": [
+        "Crem",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-052-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-052-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-052-studio-ai.png"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "AJ-FOTO-053",
+      "name": "Pantaloni largi cu flori portocalii",
+      "colors": [
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-053-studio-ai.png",
+      "images": [
+        "assets/AJ-FOTO-053-studio-ai.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-053-studio-ai.png"
+      ],
+      "internalCode": true
     }
   ]
 }

@@ -15,3 +15,5 @@ Import nou: 74 fotografii primite, 13 copii identice excluse, 16 fotografii ale 
 Produsele AJ-FOTO-001–005 folosesc imagini de studio generate cu AI ca fotografii principale, marcate în `aiImages`; fotografiile originale sunt păstrate în galerie. Fotografiile AI sunt ilustrative, pot prezenta diferențe de detaliu față de original.
 
 La cererea comerciantului, produsele AJ-FOTO-001–005 afișează exclusiv imaginile AI, fără fotografii originale în galeriile publice.
+
+Import Archive 2.zip (50 fotografii): 48 modele noi, coduri interne AJ-FOTO-006–053, exclusiv imagini de studio AI în galeriile publice, fără prețuri completate. Total 125 modele. Cealaltă arhivă depășește limita de transfer de 32 MiB și nu a fost procesată.
