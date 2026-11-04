@@ -1,0 +1,219 @@
+{
+  "name": "AJ PARIS FASHION SRL",
+  "whatsapp": "40722212459",
+  "minimumOrder": "",
+  "products": [
+    {
+      "code": "DR207AB",
+      "name": "Compleu cu guler polo",
+      "colors": [
+        "Coffee",
+        "Gri",
+        "Verde",
+        "Camel",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/DR207AB.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-86952",
+      "name": "Compleu cu volane",
+      "colors": [
+        "Coffee",
+        "Khaki",
+        "Camel",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-86952.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-87098",
+      "name": "Compleu cu buline mari",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-87098.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-8386",
+      "name": "Compleu cu inimioare",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Verde",
+        "Mov",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-8386.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-87030",
+      "name": "Compleu cu decolteu în V și volane",
+      "colors": [
+        "Coffee",
+        "Verde",
+        "Maro",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-87030.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "P1559",
+      "name": "Compleu cu detalii contrastante",
+      "colors": [
+        "Bordo",
+        "Gri",
+        "Coffee",
+        "Camel",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/P1559.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-87267",
+      "name": "Compleu cu glugă și fermoar",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Verde",
+        "Khaki",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-87267.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-86913",
+      "name": "Compleu cu borduri contrastante",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-86913.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-8572",
+      "name": "Compleu cu dungi",
+      "colors": [
+        "Crem / Coffee",
+        "Negru / Gri",
+        "Coffee / Camel"
+      ],
+      "price": 125,
+      "image": "assets/A-8572.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-86979",
+      "name": "Compleu cu nasturi laterali",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-86979.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A86547",
+      "name": "Compleu cu decolteu în V și buzunare",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Gri",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A86547.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-8207",
+      "name": "Compleu cu finisaje contrastante",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-8207.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A8256",
+      "name": "Compleu cu manșete contrastante",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A8256.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-8588",
+      "name": "Compleu cu romburi",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Roșu",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-8588.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A86546",
+      "name": "Compleu cu buzunare",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Gri",
+        "Verde",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A86546.jpg",
+      "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "A-8526",
+      "name": "Compleu cu buline",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Gri",
+        "Negru"
+      ],
+      "price": 125,
+      "image": "assets/A-8526.jpg",
+      "priceUnit": "lei / compleu"
+    }
+  ]
+}
