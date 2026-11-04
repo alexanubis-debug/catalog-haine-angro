@@ -577,6 +577,596 @@
       "images": [
         "assets/QF3151.jpg"
       ]
+    },
+    {
+      "code": "AJ-FOTO-001",
+      "name": "Jachetă cu textură buclată",
+      "colors": [
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-001.jpg",
+      "images": [
+        "assets/AJ-FOTO-001.jpg",
+        "assets/AJ-FOTO-001-2.jpg",
+        "assets/AJ-FOTO-001-3.jpg"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "B-86497",
+      "name": "Pulover cu romburi",
+      "colors": [
+        "Albastru",
+        "Coffee",
+        "Gri",
+        "Crem"
+      ],
+      "price": null,
+      "image": "assets/B-86497.jpg",
+      "images": [
+        "assets/B-86497.jpg"
+      ]
+    },
+    {
+      "code": "BR8043",
+      "name": "Rochie cu guler contrastant și nasturi",
+      "colors": [
+        "Crem",
+        "Negru",
+        "Coffee",
+        "Mov"
+      ],
+      "price": null,
+      "image": "assets/BR8043.jpg",
+      "images": [
+        "assets/BR8043.jpg"
+      ]
+    },
+    {
+      "code": "AJ-FOTO-002",
+      "name": "Bluză roz cu mâneci scurte",
+      "colors": [
+        "Roz"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-002.jpg",
+      "images": [
+        "assets/AJ-FOTO-002.jpg"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "A-87302",
+      "name": "Bluză cu emblemă și mâneci scurte",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Roșu",
+        "Alb",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A-87302.jpg",
+      "images": [
+        "assets/A-87302.jpg"
+      ]
+    },
+    {
+      "code": "AJ-FOTO-003",
+      "name": "Bluză polo cu dungi contrastante",
+      "colors": [
+        "Negru / Galben"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-003.jpg",
+      "images": [
+        "assets/AJ-FOTO-003.jpg",
+        "assets/AJ-FOTO-003-2.jpg"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "A86970",
+      "name": "Bluză polo cu dungi",
+      "colors": [
+        "Gri",
+        "Albastru",
+        "Roz",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A86970.jpg",
+      "images": [
+        "assets/A86970.jpg"
+      ]
+    },
+    {
+      "code": "P1595",
+      "name": "Bluză cu fir strălucitor",
+      "colors": [
+        "Roz",
+        "Bej",
+        "Coffee",
+        "Camel",
+        "Alb",
+        "Gri închis"
+      ],
+      "price": null,
+      "image": "assets/P1595.jpg",
+      "images": [
+        "assets/P1595.jpg"
+      ]
+    },
+    {
+      "code": "OY92",
+      "name": "Bluză cu eșarfă imprimată",
+      "colors": [
+        "Roz",
+        "Bordo",
+        "Coffee",
+        "Crem",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/OY92.jpg",
+      "images": [
+        "assets/OY92.jpg"
+      ]
+    },
+    {
+      "code": "C6907",
+      "name": "Cardigan cu buzunare în formă de inimă",
+      "colors": [
+        "Khaki",
+        "Bej",
+        "Coffee",
+        "Gri",
+        "Roz",
+        "Gri închis"
+      ],
+      "price": null,
+      "image": "assets/C6907.jpg",
+      "images": [
+        "assets/C6907.jpg",
+        "assets/C6907-2.jpg"
+      ]
+    },
+    {
+      "code": "AJ-FOTO-004",
+      "name": "Pulover cu buline mari",
+      "colors": [
+        "Bej",
+        "Bordo"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-004.jpg",
+      "images": [
+        "assets/AJ-FOTO-004.jpg",
+        "assets/AJ-FOTO-004-2.jpg"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "A-87234",
+      "name": "Pulover cu decolteu în V și dantelă",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Camel",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A-87234.jpg",
+      "images": [
+        "assets/A-87234.jpg"
+      ]
+    },
+    {
+      "code": "P1522",
+      "name": "Pulover cu fundă și dantelă",
+      "colors": [
+        "Bej",
+        "Gri",
+        "Coffee",
+        "Alb",
+        "Gri închis"
+      ],
+      "price": null,
+      "image": "assets/P1522.jpg",
+      "images": [
+        "assets/P1522.jpg"
+      ]
+    },
+    {
+      "code": "BR8044-1",
+      "name": "Rochie cu nasturi și margini decorative",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Verde",
+        "Crem",
+        "Mov"
+      ],
+      "price": null,
+      "image": "assets/BR8044-1.jpg",
+      "images": [
+        "assets/BR8044-1.jpg"
+      ]
+    },
+    {
+      "code": "P1619",
+      "name": "Pulover cu șnur și dantelă",
+      "colors": [
+        "Coffee",
+        "Camel",
+        "Bordo",
+        "Bej",
+        "Gri închis"
+      ],
+      "price": null,
+      "image": "assets/P1619.jpg",
+      "images": [
+        "assets/P1619.jpg",
+        "assets/P1619-2.jpg"
+      ]
+    },
+    {
+      "code": "A-86968",
+      "name": "Bluză cu fundă cu buline",
+      "colors": [
+        "Crem",
+        "Camel",
+        "Roz",
+        "Coffee",
+        "Galben",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A-86968.jpg",
+      "images": [
+        "assets/A-86968.jpg",
+        "assets/A-86968-2.jpg"
+      ]
+    },
+    {
+      "code": "AJ-FOTO-005",
+      "name": "Bluză cu detalii strălucitoare la umeri",
+      "colors": [
+        "Roz"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-005.jpg",
+      "images": [
+        "assets/AJ-FOTO-005.jpg"
+      ],
+      "internalCode": true
+    },
+    {
+      "code": "A86568",
+      "name": "Bluză cu mâneci scurte și detalii strălucitoare",
+      "colors": [
+        "Coffee",
+        "Crem",
+        "Negru",
+        "Camel"
+      ],
+      "price": null,
+      "image": "assets/A86568.jpg",
+      "images": [
+        "assets/A86568.jpg"
+      ]
+    },
+    {
+      "code": "B87061",
+      "name": "Bluză cu borduri ondulate contrastante",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Coffee",
+        "Roz",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/B87061.jpg",
+      "images": [
+        "assets/B87061.jpg"
+      ]
+    },
+    {
+      "code": "G6882",
+      "name": "Bluză cu decolteu în V",
+      "colors": [
+        "Roz",
+        "Coffee",
+        "Alb",
+        "Verde",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/G6882.jpg",
+      "images": [
+        "assets/G6882.jpg"
+      ]
+    },
+    {
+      "code": "AL-2251",
+      "name": "Bluză polo cu guler decorativ",
+      "colors": [
+        "Negru",
+        "Mov",
+        "Coffee",
+        "Bej"
+      ],
+      "price": null,
+      "image": "assets/AL-2251.jpg",
+      "images": [
+        "assets/AL-2251.jpg"
+      ]
+    },
+    {
+      "code": "BR8042",
+      "name": "Rochie cu guler și buzunare contrastante",
+      "colors": [
+        "Crem",
+        "Negru",
+        "Coffee",
+        "Mov"
+      ],
+      "price": null,
+      "image": "assets/BR8042.jpg",
+      "images": [
+        "assets/BR8042.jpg"
+      ]
+    },
+    {
+      "code": "B-86647",
+      "name": "Pulover cu romburi laterale",
+      "colors": [
+        "Coffee",
+        "Verde",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/B-86647.jpg",
+      "images": [
+        "assets/B-86647.jpg"
+      ]
+    },
+    {
+      "code": "DL533",
+      "name": "Bluză cu decolteu în V și fir strălucitor",
+      "colors": [
+        "Alb",
+        "Camel",
+        "Gri",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/DL533.jpg",
+      "images": [
+        "assets/DL533.jpg"
+      ]
+    },
+    {
+      "code": "BR8065",
+      "name": "Bluză polo cu guler decorativ",
+      "colors": [
+        "Crem",
+        "Negru",
+        "Mov",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/BR8065.jpg",
+      "images": [
+        "assets/BR8065.jpg"
+      ]
+    },
+    {
+      "code": "A-87048",
+      "name": "Bluză polo cu emblemă",
+      "colors": [
+        "Crem",
+        "Bordo",
+        "Coffee",
+        "Albastru închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A-87048.jpg",
+      "images": [
+        "assets/A-87048.jpg"
+      ]
+    },
+    {
+      "code": "G6897",
+      "name": "Pulover cu romburi mari",
+      "colors": [
+        "Bej",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/G6897.jpg",
+      "images": [
+        "assets/G6897.jpg"
+      ]
+    },
+    {
+      "code": "G6883",
+      "name": "Bluză cu mâneci scurte și paiete",
+      "colors": [
+        "Galben",
+        "Bordo",
+        "Verde",
+        "Coffee",
+        "Alb",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/G6883.jpg",
+      "images": [
+        "assets/G6883.jpg"
+      ]
+    },
+    {
+      "code": "BR8046",
+      "name": "Rochie cu guler rotunjit și nasturi",
+      "colors": [
+        "Crem",
+        "Negru",
+        "Coffee",
+        "Mov",
+        "Khaki"
+      ],
+      "price": null,
+      "image": "assets/BR8046.jpg",
+      "images": [
+        "assets/BR8046.jpg"
+      ]
+    },
+    {
+      "code": "B-87134",
+      "name": "Cardigan cu buline și guler pufos",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Roz",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/B-87134.jpg",
+      "images": [
+        "assets/B-87134.jpg"
+      ]
+    },
+    {
+      "code": "OY78",
+      "name": "Bluză cu fundă în dungi",
+      "colors": [
+        "Negru",
+        "Bej",
+        "Coffee",
+        "Crem",
+        "Gri",
+        "Lila"
+      ],
+      "price": null,
+      "image": "assets/OY78.jpg",
+      "images": [
+        "assets/OY78.jpg"
+      ]
+    },
+    {
+      "code": "A-86424",
+      "name": "Pulover cu romburi",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Roșu",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/A-86424.jpg",
+      "images": [
+        "assets/A-86424.jpg"
+      ]
+    },
+    {
+      "code": "B86814",
+      "name": "Pulover cu dungi late",
+      "colors": [
+        "Roșu",
+        "Camel",
+        "Lila",
+        "Verde",
+        "Galben",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/B86814.jpg",
+      "images": [
+        "assets/B86814.jpg"
+      ]
+    },
+    {
+      "code": "JK9436AB",
+      "name": "Compleu cu mâneci scurte și motiv floral",
+      "colors": [
+        "Alb",
+        "Bej",
+        "Gri",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/JK9436AB.jpg",
+      "images": [
+        "assets/JK9436AB.jpg"
+      ]
+    },
+    {
+      "code": "055",
+      "name": "Bluză cu inserții cu imprimeu animal",
+      "colors": [
+        "Negru",
+        "Albastru închis",
+        "Crem",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/055.jpg",
+      "images": [
+        "assets/055.jpg"
+      ]
+    },
+    {
+      "code": "HJD7230",
+      "name": "Compleu cu broșă decorativă",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Gri",
+        "Khaki"
+      ],
+      "price": null,
+      "image": "assets/HJD7230.jpg",
+      "images": [
+        "assets/HJD7230.jpg"
+      ]
+    },
+    {
+      "code": "HJD7225",
+      "name": "Compleu cu nasturi decorativi",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Gri",
+        "Khaki"
+      ],
+      "price": null,
+      "image": "assets/HJD7225.jpg",
+      "images": [
+        "assets/HJD7225.jpg"
+      ]
+    },
+    {
+      "code": "HJD7250",
+      "name": "Pulover cu guler decorativ",
+      "colors": [
+        "Negru",
+        "Crem",
+        "Gri",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/HJD7250.jpg",
+      "images": [
+        "assets/HJD7250.jpg"
+      ]
     }
   ]
 }
