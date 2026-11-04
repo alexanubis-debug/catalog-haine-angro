@@ -214,6 +214,369 @@
       "price": 125,
       "image": "assets/A-8526.jpg",
       "priceUnit": "lei / compleu"
+    },
+    {
+      "code": "BWY6520",
+      "name": "Rochie cu mâneci decorative",
+      "colors": [
+        "Bej",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWY6520.jpg",
+      "images": [
+        "assets/BWY6520.jpg",
+        "assets/BWY6520-2.jpg"
+      ]
+    },
+    {
+      "code": "BWC96620",
+      "name": "Bluză cu volane",
+      "colors": [
+        "Bej",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWC96620.jpg",
+      "images": [
+        "assets/BWC96620.jpg",
+        "assets/BWC96620-2.jpg"
+      ]
+    },
+    {
+      "code": "BWC96826",
+      "name": "Rochie cu mâneci scurte",
+      "colors": [
+        "Khaki",
+        "Coffee",
+        "Albastru închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWC96826.jpg",
+      "images": [
+        "assets/BWC96826.jpg",
+        "assets/BWC96826-2.jpg"
+      ]
+    },
+    {
+      "code": "BWC96836ABC",
+      "name": "Compleu cu vestă matlasată",
+      "colors": [
+        "Khaki",
+        "Albastru închis",
+        "Khaki închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWC96836ABC.jpg",
+      "images": [
+        "assets/BWC96836ABC.jpg",
+        "assets/BWC96836ABC-2.jpg"
+      ]
+    },
+    {
+      "code": "BWY36971",
+      "name": "Cardigan cu nasturi",
+      "colors": [
+        "Khaki",
+        "Coffee",
+        "Albastru",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWY36971.jpg",
+      "images": [
+        "assets/BWY36971.jpg",
+        "assets/BWY36971-2.jpg"
+      ]
+    },
+    {
+      "code": "BWC96886AB",
+      "name": "Compleu cu textură în relief",
+      "colors": [
+        "Bej",
+        "Albastru închis",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWC96886AB.jpg",
+      "images": [
+        "assets/BWC96886AB.jpg",
+        "assets/BWC96886AB-2.jpg"
+      ]
+    },
+    {
+      "code": "BWT6220",
+      "name": "Jachetă cu nasturi și buzunare",
+      "colors": [
+        "Crem",
+        "Khaki",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWT6220.jpg",
+      "images": [
+        "assets/BWT6220.jpg",
+        "assets/BWT6220-2.jpg"
+      ]
+    },
+    {
+      "code": "BWY36695ABC",
+      "name": "Compleu cu fermoar și broderie",
+      "colors": [
+        "Khaki",
+        "Albastru",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWY36695ABC.jpg",
+      "images": [
+        "assets/BWY36695ABC.jpg",
+        "assets/BWY36695ABC-2.jpg"
+      ]
+    },
+    {
+      "code": "BWY6378",
+      "name": "Bluză cu aplicații florale",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWY6378.jpg",
+      "images": [
+        "assets/BWY6378.jpg",
+        "assets/BWY6378-2.jpg"
+      ]
+    },
+    {
+      "code": "BWC96707",
+      "name": "Vestă cu nasture decorativ",
+      "colors": [
+        "Khaki închis",
+        "Coffee",
+        "Bej",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWC96707.jpg",
+      "images": [
+        "assets/BWC96707.jpg",
+        "assets/BWC96707-2.jpg"
+      ]
+    },
+    {
+      "code": "BWY36372",
+      "name": "Bluză cu broderie florală",
+      "colors": [
+        "Crem",
+        "Coffee",
+        "Khaki",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/BWY36372.jpg",
+      "images": [
+        "assets/BWY36372.jpg",
+        "assets/BWY36372-2.jpg"
+      ]
+    },
+    {
+      "code": "QF2181",
+      "name": "Cardigan cu broderie",
+      "colors": [
+        "Crem",
+        "Maro",
+        "Cappuccino",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF2181.jpg",
+      "images": [
+        "assets/QF2181.jpg"
+      ]
+    },
+    {
+      "code": "QF9123",
+      "name": "Fustă midi plisată",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF9123.jpg",
+      "images": [
+        "assets/QF9123.jpg"
+      ]
+    },
+    {
+      "code": "QF3202",
+      "name": "Pulover cu guler înalt și manșete cu imprimeu",
+      "colors": [
+        "Crem",
+        "Maro",
+        "Cappuccino",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF3202.jpg",
+      "images": [
+        "assets/QF3202.jpg"
+      ]
+    },
+    {
+      "code": "QF3206",
+      "name": "Pulover cu buline mari",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF3206.jpg",
+      "images": [
+        "assets/QF3206.jpg"
+      ]
+    },
+    {
+      "code": "QF2157",
+      "name": "Pulover cu model geometric",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF2157.jpg",
+      "images": [
+        "assets/QF2157.jpg"
+      ]
+    },
+    {
+      "code": "QF1935",
+      "name": "Pulover cu motiv floral",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Bordo",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF1935.jpg",
+      "images": [
+        "assets/QF1935.jpg"
+      ]
+    },
+    {
+      "code": "QF1858",
+      "name": "Pulover cu ursuleț",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Albastru",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF1858.jpg",
+      "images": [
+        "assets/QF1858.jpg"
+      ]
+    },
+    {
+      "code": "QF6353-1",
+      "name": "Pulover cu guler înalt",
+      "colors": [
+        "Albastru",
+        "Verde",
+        "Fucsia",
+        "Mov",
+        "Portocaliu",
+        "Lila",
+        "Alb",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF6353-1.jpg",
+      "images": [
+        "assets/QF6353-1.jpg"
+      ]
+    },
+    {
+      "code": "QF1735",
+      "name": "Pantaloni cu croială largă",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Khaki",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF1735.jpg",
+      "images": [
+        "assets/QF1735.jpg"
+      ]
+    },
+    {
+      "code": "QF3201",
+      "name": "Pulover cu guler și manșete cu imprimeu",
+      "colors": [
+        "Crem",
+        "Maro",
+        "Cappuccino",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF3201.jpg",
+      "images": [
+        "assets/QF3201.jpg"
+      ]
+    },
+    {
+      "code": "QF2112",
+      "name": "Pulover cu romburi",
+      "colors": [
+        "Bordo",
+        "Maro",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF2112.jpg",
+      "images": [
+        "assets/QF2112.jpg"
+      ]
+    },
+    {
+      "code": "QF3151",
+      "name": "Pulover cu ursuleț decorativ",
+      "colors": [
+        "Bej",
+        "Maro",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/QF3151.jpg",
+      "images": [
+        "assets/QF3151.jpg"
+      ]
     }
   ]
 }
