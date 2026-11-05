@@ -25,3 +25,5 @@ Archive 3.zip (lot de 26 fotografii): o copie identică și o fotografie a model
 Test foto A86547: fotografia principală prezintă modelul întreg, fără inscripții. Câmpul opțional `colorVariantsImage` afișează fotografia variantelor de culoare sub fotografia principală în detalii; includeți această sursă în `media`. Scriptul de optimizare procesează și aceste imagini. Restul produselor nu sunt transformate de acest test.
 
 Ordinea „Descoperă colecția” amestecă produsele o singură dată la fiecare deschidere sau reîncărcare a paginii. Filtrarea, căutarea, detaliile și încărcarea loturilor păstrează aceeași ordine pe pagina deschisă; „Cod produs A–Z” rămâne disponibil. Fișierul catalog.json nu este reordonat.
+
+Pe mobil și tabletă (sub 1100 px), selectorul vizibil „Categorie” apare deasupra numărului de modele și a sortării. Este sincronizat cu meniul și navigația desktop; filtrarea păstrează ordinea vizitei și reîncepe încărcarea de la primul lot. Sortarea rămâne un control separat.
