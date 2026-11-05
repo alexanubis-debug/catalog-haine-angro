@@ -32,12 +32,3 @@
 
 /* Color variants sit beneath the full-length model photo. */
 .gallery>.color-variants{margin-top:10px;margin-bottom:0;border-radius:10px;width:100%;height:auto}
-
-/* Visible category filter on mobile and tablet, separate from sorting. */
-.mobile-category{display:none}
-@media(max-width:1099px){
- .mobile-category{display:flex;align-items:center;gap:16px;min-height:54px;margin:0 0 16px;padding:0 16px;border:1px solid #dcd9e4;border-radius:16px;background:#faf9fc;color:#19191d}
- .mobile-category>span{font-size:15px;font-weight:650;flex-shrink:0}
- .mobile-category select{flex:1;min-width:0;max-width:100%;min-height:52px;padding:10px 0;border:0;border-radius:10px;background:transparent;color:#333;font:inherit;font-size:16px;cursor:pointer}
- .mobile-category:focus-within{outline:2px solid var(--purple);outline-offset:2px}
-}
