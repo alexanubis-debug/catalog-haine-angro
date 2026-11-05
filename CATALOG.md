@@ -23,3 +23,5 @@ Imaginile publice folosesc variante WebP responsive: 360/640 px în listă și p
 Archive 3.zip (lot de 26 fotografii): o copie identică și o fotografie a modelului A-86913 excluse. Adăugate 24 modele, total 149; prețuri necompletate. Modelele 2991 și 9882 au fotografii de studio AI, fără originalele de pe umeraș în galerie. Toate imaginile noi au variante WebP 360/640/1200 px.
 
 Test foto A86547: fotografia principală prezintă modelul întreg, fără inscripții. Câmpul opțional `colorVariantsImage` afișează fotografia variantelor de culoare sub fotografia principală în detalii; includeți această sursă în `media`. Scriptul de optimizare procesează și aceste imagini. Restul produselor nu sunt transformate de acest test.
+
+Ordinea „Descoperă colecția” amestecă produsele o singură dată la fiecare deschidere sau reîncărcare a paginii. Filtrarea, căutarea, detaliile și încărcarea loturilor păstrează aceeași ordine pe pagina deschisă; „Cod produs A–Z” rămâne disponibil. Fișierul catalog.json nu este reordonat.

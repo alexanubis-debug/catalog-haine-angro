@@ -1,4 +1,13 @@
 const $=s=>document.querySelector(s);let catalog;let selectedCategory="";const PAGE_SIZE=12;let visibleCount=PAGE_SIZE;
+// Shuffle once per page visit; filters, sorting and pagination reuse this order.
+function discoveryOrder(products){
+ const shuffled=[...products];
+ for(let i=shuffled.length-1;i>0;i--){
+  const j=Math.floor(Math.random()*(i+1));
+  [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
+ }
+ return shuffled;
+}
 function el(tag,text,cls){const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n}
 function photo(p,src=p.image,mode='detail'){
  const img=el('img',null,'photo'),media=p.media?.[src];
@@ -46,7 +55,7 @@ function render(append=false){
  const shown=Math.min(visibleCount,products.length),remaining=products.length-shown;$('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length){$('#products').children[start].focus({preventScroll:true});}
 }
-fetch('catalog.json?v=31').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog=data;document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=32').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
 const dialog=$('#detail');
