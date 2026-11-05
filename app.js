@@ -21,7 +21,7 @@ function renderCategories(){
  const categories=['','Compleuri','Bluze și tricouri','Pulovere și cardigane','Pantaloni și jeans','Rochii','Fuste','Veste și jachete'];
  $('#categories').replaceChildren(...categories.map(category=>{
   const button=el('button',category||'Toate','category-button');button.type='button';button.setAttribute('aria-pressed',String(category===selectedCategory));
-  button.onclick=()=>{selectedCategory=category;$('#selectedCategoryLabel').textContent=category||'Toate';if(window.matchMedia('(max-width:700px)').matches)$('#categoryMenu').open=false;$('#categories').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();};return button;
+  button.onclick=()=>{selectedCategory=category;$('#menuDialog').close();$('#categories').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();};return button;
  }));
 }
 function render(append=false){
@@ -62,10 +62,18 @@ $('#whatsappClose').onclick=()=>whatsappDialog.close();
 whatsappDialog.addEventListener('close',()=>{document.body.style.overflow=dialog.open?'hidden':'';});
 whatsappDialog.addEventListener('click',event=>{if(event.target===whatsappDialog){const r=whatsappDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)whatsappDialog.close();}});
 
-const mobileLayout=window.matchMedia('(max-width:700px)');
-function syncCategoryMenu(){ $('#categoryMenu').open=!mobileLayout.matches; }
-syncCategoryMenu();mobileLayout.addEventListener('change',syncCategoryMenu);
 const backToTop=$('#backToTop');
 function updateBackToTop(){backToTop.hidden=window.scrollY<400;}
 window.addEventListener('scroll',updateBackToTop,{passive:true});updateBackToTop();
 backToTop.onclick=()=>{window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
+
+const menuDialog=$('#menuDialog');
+$('#menuToggle').onclick=()=>{menuDialog.showModal();document.body.style.overflow='hidden';};
+$('#menuClose').onclick=()=>menuDialog.close();
+menuDialog.addEventListener('close',()=>{document.body.style.overflow=(whatsappDialog.open||dialog.open)?'hidden':'';});
+$('#menuContact').onclick=()=>{menuDialog.close();openWhatsApp();};
+$('#searchToggle').onclick=()=>{
+ const panel=$('#searchPanel'),opening=panel.hidden;panel.hidden=!opening;$('#searchToggle').setAttribute('aria-expanded',String(opening));
+ if(opening){$('#search').focus();}else{$('#search').value='';render();}
+};
+$('#search').addEventListener('keydown',event=>{if(event.key==='Escape'){$('#searchPanel').hidden=true;$('#searchToggle').setAttribute('aria-expanded','false');$('#search').value='';render();$('#searchToggle').focus();}});
