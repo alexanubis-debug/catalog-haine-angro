@@ -16,7 +16,16 @@
       "price": 125,
       "image": "assets/DR207AB.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/DR207AB.jpg": {
+          "small": "assets/optimized/DR207AB-small.webp",
+          "card": "assets/optimized/DR207AB-card.webp",
+          "detail": "assets/optimized/DR207AB-detail.webp",
+          "width": 800,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "A-86952",
@@ -31,7 +40,16 @@
       "price": 125,
       "image": "assets/A-86952.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-86952.jpg": {
+          "small": "assets/optimized/A-86952-small.webp",
+          "card": "assets/optimized/A-86952-card.webp",
+          "detail": "assets/optimized/A-86952-detail.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      }
     },
     {
       "code": "A-87098",
@@ -45,7 +63,16 @@
       "price": 125,
       "image": "assets/A-87098.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-87098.jpg": {
+          "small": "assets/optimized/A-87098-small.webp",
+          "card": "assets/optimized/A-87098-card.webp",
+          "detail": "assets/optimized/A-87098-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "A-8386",
@@ -60,7 +87,16 @@
       "price": 125,
       "image": "assets/A-8386.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-8386.jpg": {
+          "small": "assets/optimized/A-8386-small.webp",
+          "card": "assets/optimized/A-8386-card.webp",
+          "detail": "assets/optimized/A-8386-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "A-87030",
@@ -74,7 +110,16 @@
       "price": 125,
       "image": "assets/A-87030.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-87030.jpg": {
+          "small": "assets/optimized/A-87030-small.webp",
+          "card": "assets/optimized/A-87030-card.webp",
+          "detail": "assets/optimized/A-87030-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "P1559",
@@ -89,7 +134,16 @@
       "price": 125,
       "image": "assets/P1559.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/P1559.jpg": {
+          "small": "assets/optimized/P1559-small.webp",
+          "card": "assets/optimized/P1559-card.webp",
+          "detail": "assets/optimized/P1559-detail.webp",
+          "width": 630,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "A-87267",
@@ -104,7 +158,16 @@
       "price": 125,
       "image": "assets/A-87267.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-87267.jpg": {
+          "small": "assets/optimized/A-87267-small.webp",
+          "card": "assets/optimized/A-87267-card.webp",
+          "detail": "assets/optimized/A-87267-detail.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      }
     },
     {
       "code": "A-86913",
@@ -117,7 +180,16 @@
       "price": 125,
       "image": "assets/A-86913.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-86913.jpg": {
+          "small": "assets/optimized/A-86913-small.webp",
+          "card": "assets/optimized/A-86913-card.webp",
+          "detail": "assets/optimized/A-86913-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "A-8572",
@@ -130,7 +202,16 @@
       "price": 125,
       "image": "assets/A-8572.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-8572.jpg": {
+          "small": "assets/optimized/A-8572-small.webp",
+          "card": "assets/optimized/A-8572-card.webp",
+          "detail": "assets/optimized/A-8572-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "A-86979",
@@ -144,7 +225,16 @@
       "price": 125,
       "image": "assets/A-86979.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-86979.jpg": {
+          "small": "assets/optimized/A-86979-small.webp",
+          "card": "assets/optimized/A-86979-card.webp",
+          "detail": "assets/optimized/A-86979-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "A86547",
@@ -159,7 +249,16 @@
       "price": 125,
       "image": "assets/A86547.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A86547.jpg": {
+          "small": "assets/optimized/A86547-small.webp",
+          "card": "assets/optimized/A86547-card.webp",
+          "detail": "assets/optimized/A86547-detail.webp",
+          "width": 1600,
+          "height": 1101
+        }
+      }
     },
     {
       "code": "A-8207",
@@ -173,7 +272,16 @@
       "price": 125,
       "image": "assets/A-8207.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-8207.jpg": {
+          "small": "assets/optimized/A-8207-small.webp",
+          "card": "assets/optimized/A-8207-card.webp",
+          "detail": "assets/optimized/A-8207-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "A8256",
@@ -186,7 +294,16 @@
       "price": 125,
       "image": "assets/A8256.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A8256.jpg": {
+          "small": "assets/optimized/A8256-small.webp",
+          "card": "assets/optimized/A8256-card.webp",
+          "detail": "assets/optimized/A8256-detail.webp",
+          "width": 761,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "A-8588",
@@ -200,7 +317,16 @@
       "price": 125,
       "image": "assets/A-8588.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-8588.jpg": {
+          "small": "assets/optimized/A-8588-small.webp",
+          "card": "assets/optimized/A-8588-card.webp",
+          "detail": "assets/optimized/A-8588-detail.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      }
     },
     {
       "code": "A86546",
@@ -215,7 +341,16 @@
       "price": 125,
       "image": "assets/A86546.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A86546.jpg": {
+          "small": "assets/optimized/A86546-small.webp",
+          "card": "assets/optimized/A86546-card.webp",
+          "detail": "assets/optimized/A86546-detail.webp",
+          "width": 1600,
+          "height": 1101
+        }
+      }
     },
     {
       "code": "A-8526",
@@ -229,7 +364,16 @@
       "price": 125,
       "image": "assets/A-8526.jpg",
       "priceUnit": "lei / compleu",
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/A-8526.jpg": {
+          "small": "assets/optimized/A-8526-small.webp",
+          "card": "assets/optimized/A-8526-card.webp",
+          "detail": "assets/optimized/A-8526-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWY6520",
@@ -245,7 +389,23 @@
         "assets/BWY6520.jpg",
         "assets/BWY6520-2.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/BWY6520.jpg": {
+          "small": "assets/optimized/BWY6520-small.webp",
+          "card": "assets/optimized/BWY6520-card.webp",
+          "detail": "assets/optimized/BWY6520-detail.webp",
+          "width": 1080,
+          "height": 1350
+        },
+        "assets/BWY6520-2.jpg": {
+          "small": "assets/optimized/BWY6520-2-small.webp",
+          "card": "assets/optimized/BWY6520-2-card.webp",
+          "detail": "assets/optimized/BWY6520-2-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     },
     {
       "code": "BWC96620",
@@ -261,7 +421,23 @@
         "assets/BWC96620.jpg",
         "assets/BWC96620-2.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/BWC96620.jpg": {
+          "small": "assets/optimized/BWC96620-small.webp",
+          "card": "assets/optimized/BWC96620-card.webp",
+          "detail": "assets/optimized/BWC96620-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWC96620-2.jpg": {
+          "small": "assets/optimized/BWC96620-2-small.webp",
+          "card": "assets/optimized/BWC96620-2-card.webp",
+          "detail": "assets/optimized/BWC96620-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWC96826",
@@ -278,7 +454,23 @@
         "assets/BWC96826.jpg",
         "assets/BWC96826-2.jpg"
       ],
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/BWC96826.jpg": {
+          "small": "assets/optimized/BWC96826-small.webp",
+          "card": "assets/optimized/BWC96826-card.webp",
+          "detail": "assets/optimized/BWC96826-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWC96826-2.jpg": {
+          "small": "assets/optimized/BWC96826-2-small.webp",
+          "card": "assets/optimized/BWC96826-2-card.webp",
+          "detail": "assets/optimized/BWC96826-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWC96836ABC",
@@ -295,7 +487,23 @@
         "assets/BWC96836ABC.jpg",
         "assets/BWC96836ABC-2.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/BWC96836ABC.jpg": {
+          "small": "assets/optimized/BWC96836ABC-small.webp",
+          "card": "assets/optimized/BWC96836ABC-card.webp",
+          "detail": "assets/optimized/BWC96836ABC-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWC96836ABC-2.jpg": {
+          "small": "assets/optimized/BWC96836ABC-2-small.webp",
+          "card": "assets/optimized/BWC96836ABC-2-card.webp",
+          "detail": "assets/optimized/BWC96836ABC-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWY36971",
@@ -312,7 +520,23 @@
         "assets/BWY36971.jpg",
         "assets/BWY36971-2.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/BWY36971.jpg": {
+          "small": "assets/optimized/BWY36971-small.webp",
+          "card": "assets/optimized/BWY36971-card.webp",
+          "detail": "assets/optimized/BWY36971-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWY36971-2.jpg": {
+          "small": "assets/optimized/BWY36971-2-small.webp",
+          "card": "assets/optimized/BWY36971-2-card.webp",
+          "detail": "assets/optimized/BWY36971-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWC96886AB",
@@ -329,7 +553,23 @@
         "assets/BWC96886AB.jpg",
         "assets/BWC96886AB-2.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/BWC96886AB.jpg": {
+          "small": "assets/optimized/BWC96886AB-small.webp",
+          "card": "assets/optimized/BWC96886AB-card.webp",
+          "detail": "assets/optimized/BWC96886AB-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWC96886AB-2.jpg": {
+          "small": "assets/optimized/BWC96886AB-2-small.webp",
+          "card": "assets/optimized/BWC96886AB-2-card.webp",
+          "detail": "assets/optimized/BWC96886AB-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWT6220",
@@ -346,7 +586,23 @@
         "assets/BWT6220.jpg",
         "assets/BWT6220-2.jpg"
       ],
-      "category": "Veste și jachete"
+      "category": "Veste și jachete",
+      "media": {
+        "assets/BWT6220.jpg": {
+          "small": "assets/optimized/BWT6220-small.webp",
+          "card": "assets/optimized/BWT6220-card.webp",
+          "detail": "assets/optimized/BWT6220-detail.webp",
+          "width": 1027,
+          "height": 1531
+        },
+        "assets/BWT6220-2.jpg": {
+          "small": "assets/optimized/BWT6220-2-small.webp",
+          "card": "assets/optimized/BWT6220-2-card.webp",
+          "detail": "assets/optimized/BWT6220-2-detail.webp",
+          "width": 1080,
+          "height": 1440
+        }
+      }
     },
     {
       "code": "BWY36695ABC",
@@ -362,7 +618,23 @@
         "assets/BWY36695ABC.jpg",
         "assets/BWY36695ABC-2.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/BWY36695ABC.jpg": {
+          "small": "assets/optimized/BWY36695ABC-small.webp",
+          "card": "assets/optimized/BWY36695ABC-card.webp",
+          "detail": "assets/optimized/BWY36695ABC-detail.webp",
+          "width": 1000,
+          "height": 1500
+        },
+        "assets/BWY36695ABC-2.jpg": {
+          "small": "assets/optimized/BWY36695ABC-2-small.webp",
+          "card": "assets/optimized/BWY36695ABC-2-card.webp",
+          "detail": "assets/optimized/BWY36695ABC-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWY6378",
@@ -379,7 +651,23 @@
         "assets/BWY6378.jpg",
         "assets/BWY6378-2.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/BWY6378.jpg": {
+          "small": "assets/optimized/BWY6378-small.webp",
+          "card": "assets/optimized/BWY6378-card.webp",
+          "detail": "assets/optimized/BWY6378-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWY6378-2.jpg": {
+          "small": "assets/optimized/BWY6378-2-small.webp",
+          "card": "assets/optimized/BWY6378-2-card.webp",
+          "detail": "assets/optimized/BWY6378-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWC96707",
@@ -396,7 +684,23 @@
         "assets/BWC96707.jpg",
         "assets/BWC96707-2.jpg"
       ],
-      "category": "Veste și jachete"
+      "category": "Veste și jachete",
+      "media": {
+        "assets/BWC96707.jpg": {
+          "small": "assets/optimized/BWC96707-small.webp",
+          "card": "assets/optimized/BWC96707-card.webp",
+          "detail": "assets/optimized/BWC96707-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWC96707-2.jpg": {
+          "small": "assets/optimized/BWC96707-2-small.webp",
+          "card": "assets/optimized/BWC96707-2-card.webp",
+          "detail": "assets/optimized/BWC96707-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BWY36372",
@@ -413,7 +717,23 @@
         "assets/BWY36372.jpg",
         "assets/BWY36372-2.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/BWY36372.jpg": {
+          "small": "assets/optimized/BWY36372-small.webp",
+          "card": "assets/optimized/BWY36372-card.webp",
+          "detail": "assets/optimized/BWY36372-detail.webp",
+          "width": 1066,
+          "height": 1600
+        },
+        "assets/BWY36372-2.jpg": {
+          "small": "assets/optimized/BWY36372-2-small.webp",
+          "card": "assets/optimized/BWY36372-2-card.webp",
+          "detail": "assets/optimized/BWY36372-2-detail.webp",
+          "width": 1066,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF2181",
@@ -430,7 +750,16 @@
       "images": [
         "assets/QF2181.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF2181.jpg": {
+          "small": "assets/optimized/QF2181-small.webp",
+          "card": "assets/optimized/QF2181-card.webp",
+          "detail": "assets/optimized/QF2181-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF9123",
@@ -446,7 +775,16 @@
       "images": [
         "assets/QF9123.jpg"
       ],
-      "category": "Fuste"
+      "category": "Fuste",
+      "media": {
+        "assets/QF9123.jpg": {
+          "small": "assets/optimized/QF9123-small.webp",
+          "card": "assets/optimized/QF9123-card.webp",
+          "detail": "assets/optimized/QF9123-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF3202",
@@ -463,7 +801,16 @@
       "images": [
         "assets/QF3202.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF3202.jpg": {
+          "small": "assets/optimized/QF3202-small.webp",
+          "card": "assets/optimized/QF3202-card.webp",
+          "detail": "assets/optimized/QF3202-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF3206",
@@ -479,7 +826,16 @@
       "images": [
         "assets/QF3206.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF3206.jpg": {
+          "small": "assets/optimized/QF3206-small.webp",
+          "card": "assets/optimized/QF3206-card.webp",
+          "detail": "assets/optimized/QF3206-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF2157",
@@ -495,7 +851,16 @@
       "images": [
         "assets/QF2157.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF2157.jpg": {
+          "small": "assets/optimized/QF2157-small.webp",
+          "card": "assets/optimized/QF2157-card.webp",
+          "detail": "assets/optimized/QF2157-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF1935",
@@ -512,7 +877,16 @@
       "images": [
         "assets/QF1935.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF1935.jpg": {
+          "small": "assets/optimized/QF1935-small.webp",
+          "card": "assets/optimized/QF1935-card.webp",
+          "detail": "assets/optimized/QF1935-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF1858",
@@ -529,7 +903,16 @@
       "images": [
         "assets/QF1858.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF1858.jpg": {
+          "small": "assets/optimized/QF1858-small.webp",
+          "card": "assets/optimized/QF1858-card.webp",
+          "detail": "assets/optimized/QF1858-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF6353-1",
@@ -549,7 +932,16 @@
       "images": [
         "assets/QF6353-1.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF6353-1.jpg": {
+          "small": "assets/optimized/QF6353-1-small.webp",
+          "card": "assets/optimized/QF6353-1-card.webp",
+          "detail": "assets/optimized/QF6353-1-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF1735",
@@ -566,7 +958,16 @@
       "images": [
         "assets/QF1735.jpg"
       ],
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/QF1735.jpg": {
+          "small": "assets/optimized/QF1735-small.webp",
+          "card": "assets/optimized/QF1735-card.webp",
+          "detail": "assets/optimized/QF1735-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF3201",
@@ -583,7 +984,16 @@
       "images": [
         "assets/QF3201.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF3201.jpg": {
+          "small": "assets/optimized/QF3201-small.webp",
+          "card": "assets/optimized/QF3201-card.webp",
+          "detail": "assets/optimized/QF3201-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF2112",
@@ -599,7 +1009,16 @@
       "images": [
         "assets/QF2112.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF2112.jpg": {
+          "small": "assets/optimized/QF2112-small.webp",
+          "card": "assets/optimized/QF2112-card.webp",
+          "detail": "assets/optimized/QF2112-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "QF3151",
@@ -615,7 +1034,16 @@
       "images": [
         "assets/QF3151.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/QF3151.jpg": {
+          "small": "assets/optimized/QF3151-small.webp",
+          "card": "assets/optimized/QF3151-card.webp",
+          "detail": "assets/optimized/QF3151-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "AJ-FOTO-001",
@@ -632,7 +1060,16 @@
       "aiImages": [
         "assets/AJ-FOTO-001-studio-ai.png"
       ],
-      "category": "Veste și jachete"
+      "category": "Veste și jachete",
+      "media": {
+        "assets/AJ-FOTO-001-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-001-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-001-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-001-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "B-86497",
@@ -648,7 +1085,16 @@
       "images": [
         "assets/B-86497.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/B-86497.jpg": {
+          "small": "assets/optimized/B-86497-small.webp",
+          "card": "assets/optimized/B-86497-card.webp",
+          "detail": "assets/optimized/B-86497-detail.webp",
+          "width": 1600,
+          "height": 1171
+        }
+      }
     },
     {
       "code": "BR8043",
@@ -664,7 +1110,16 @@
       "images": [
         "assets/BR8043.jpg"
       ],
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/BR8043.jpg": {
+          "small": "assets/optimized/BR8043-small.webp",
+          "card": "assets/optimized/BR8043-card.webp",
+          "detail": "assets/optimized/BR8043-detail.webp",
+          "width": 1279,
+          "height": 1706
+        }
+      }
     },
     {
       "code": "AJ-FOTO-002",
@@ -681,7 +1136,16 @@
       "aiImages": [
         "assets/AJ-FOTO-002-studio-ai.png"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-002-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-002-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-002-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-002-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "A-87302",
@@ -698,7 +1162,16 @@
       "images": [
         "assets/A-87302.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/A-87302.jpg": {
+          "small": "assets/optimized/A-87302-small.webp",
+          "card": "assets/optimized/A-87302-card.webp",
+          "detail": "assets/optimized/A-87302-detail.webp",
+          "width": 799,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "AJ-FOTO-003",
@@ -715,7 +1188,16 @@
       "aiImages": [
         "assets/AJ-FOTO-003-studio-ai.png"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-003-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-003-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-003-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-003-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "A86970",
@@ -731,7 +1213,16 @@
       "images": [
         "assets/A86970.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/A86970.jpg": {
+          "small": "assets/optimized/A86970-small.webp",
+          "card": "assets/optimized/A86970-card.webp",
+          "detail": "assets/optimized/A86970-detail.webp",
+          "width": 1131,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "P1595",
@@ -749,7 +1240,16 @@
       "images": [
         "assets/P1595.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/P1595.jpg": {
+          "small": "assets/optimized/P1595-small.webp",
+          "card": "assets/optimized/P1595-card.webp",
+          "detail": "assets/optimized/P1595-detail.webp",
+          "width": 832,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "OY92",
@@ -766,7 +1266,16 @@
       "images": [
         "assets/OY92.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/OY92.jpg": {
+          "small": "assets/optimized/OY92-small.webp",
+          "card": "assets/optimized/OY92-card.webp",
+          "detail": "assets/optimized/OY92-detail.webp",
+          "width": 1356,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "C6907",
@@ -785,7 +1294,23 @@
         "assets/C6907.jpg",
         "assets/C6907-2.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/C6907.jpg": {
+          "small": "assets/optimized/C6907-small.webp",
+          "card": "assets/optimized/C6907-card.webp",
+          "detail": "assets/optimized/C6907-detail.webp",
+          "width": 1600,
+          "height": 887
+        },
+        "assets/C6907-2.jpg": {
+          "small": "assets/optimized/C6907-2-small.webp",
+          "card": "assets/optimized/C6907-2-card.webp",
+          "detail": "assets/optimized/C6907-2-detail.webp",
+          "width": 1152,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "AJ-FOTO-004",
@@ -803,7 +1328,16 @@
       "aiImages": [
         "assets/AJ-FOTO-004-studio-ai.png"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/AJ-FOTO-004-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-004-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-004-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-004-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "A-87234",
@@ -820,7 +1354,16 @@
       "images": [
         "assets/A-87234.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/A-87234.jpg": {
+          "small": "assets/optimized/A-87234-small.webp",
+          "card": "assets/optimized/A-87234-card.webp",
+          "detail": "assets/optimized/A-87234-detail.webp",
+          "width": 1023,
+          "height": 1537
+        }
+      }
     },
     {
       "code": "P1522",
@@ -837,7 +1380,16 @@
       "images": [
         "assets/P1522.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/P1522.jpg": {
+          "small": "assets/optimized/P1522-small.webp",
+          "card": "assets/optimized/P1522-card.webp",
+          "detail": "assets/optimized/P1522-detail.webp",
+          "width": 756,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "BR8044-1",
@@ -854,7 +1406,16 @@
       "images": [
         "assets/BR8044-1.jpg"
       ],
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/BR8044-1.jpg": {
+          "small": "assets/optimized/BR8044-1-small.webp",
+          "card": "assets/optimized/BR8044-1-card.webp",
+          "detail": "assets/optimized/BR8044-1-detail.webp",
+          "width": 1279,
+          "height": 1706
+        }
+      }
     },
     {
       "code": "P1619",
@@ -872,7 +1433,23 @@
         "assets/P1619.jpg",
         "assets/P1619-2.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/P1619.jpg": {
+          "small": "assets/optimized/P1619-small.webp",
+          "card": "assets/optimized/P1619-card.webp",
+          "detail": "assets/optimized/P1619-detail.webp",
+          "width": 790,
+          "height": 1600
+        },
+        "assets/P1619-2.jpg": {
+          "small": "assets/optimized/P1619-2-small.webp",
+          "card": "assets/optimized/P1619-2-card.webp",
+          "detail": "assets/optimized/P1619-2-detail.webp",
+          "width": 1152,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "A-86968",
@@ -891,7 +1468,23 @@
         "assets/A-86968.jpg",
         "assets/A-86968-2.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/A-86968.jpg": {
+          "small": "assets/optimized/A-86968-small.webp",
+          "card": "assets/optimized/A-86968-card.webp",
+          "detail": "assets/optimized/A-86968-detail.webp",
+          "width": 800,
+          "height": 1600
+        },
+        "assets/A-86968-2.jpg": {
+          "small": "assets/optimized/A-86968-2-small.webp",
+          "card": "assets/optimized/A-86968-2-card.webp",
+          "detail": "assets/optimized/A-86968-2-detail.webp",
+          "width": 1152,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "AJ-FOTO-005",
@@ -908,7 +1501,16 @@
       "aiImages": [
         "assets/AJ-FOTO-005-studio-ai.png"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-005-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-005-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-005-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-005-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "A86568",
@@ -924,7 +1526,16 @@
       "images": [
         "assets/A86568.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/A86568.jpg": {
+          "small": "assets/optimized/A86568-small.webp",
+          "card": "assets/optimized/A86568-card.webp",
+          "detail": "assets/optimized/A86568-detail.webp",
+          "width": 758,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "B87061",
@@ -941,7 +1552,16 @@
       "images": [
         "assets/B87061.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/B87061.jpg": {
+          "small": "assets/optimized/B87061-small.webp",
+          "card": "assets/optimized/B87061-card.webp",
+          "detail": "assets/optimized/B87061-detail.webp",
+          "width": 761,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "G6882",
@@ -958,7 +1578,16 @@
       "images": [
         "assets/G6882.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/G6882.jpg": {
+          "small": "assets/optimized/G6882-small.webp",
+          "card": "assets/optimized/G6882-card.webp",
+          "detail": "assets/optimized/G6882-detail.webp",
+          "width": 787,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "AL-2251",
@@ -974,7 +1603,16 @@
       "images": [
         "assets/AL-2251.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AL-2251.jpg": {
+          "small": "assets/optimized/AL-2251-small.webp",
+          "card": "assets/optimized/AL-2251-card.webp",
+          "detail": "assets/optimized/AL-2251-detail.webp",
+          "width": 1145,
+          "height": 1374
+        }
+      }
     },
     {
       "code": "BR8042",
@@ -990,7 +1628,16 @@
       "images": [
         "assets/BR8042.jpg"
       ],
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/BR8042.jpg": {
+          "small": "assets/optimized/BR8042-small.webp",
+          "card": "assets/optimized/BR8042-card.webp",
+          "detail": "assets/optimized/BR8042-detail.webp",
+          "width": 1536,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "B-86647",
@@ -1006,7 +1653,16 @@
       "images": [
         "assets/B-86647.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/B-86647.jpg": {
+          "small": "assets/optimized/B-86647-small.webp",
+          "card": "assets/optimized/B-86647-card.webp",
+          "detail": "assets/optimized/B-86647-detail.webp",
+          "width": 800,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "DL533",
@@ -1022,7 +1678,16 @@
       "images": [
         "assets/DL533.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/DL533.jpg": {
+          "small": "assets/optimized/DL533-small.webp",
+          "card": "assets/optimized/DL533-card.webp",
+          "detail": "assets/optimized/DL533-detail.webp",
+          "width": 1439,
+          "height": 1093
+        }
+      }
     },
     {
       "code": "BR8065",
@@ -1038,7 +1703,16 @@
       "images": [
         "assets/BR8065.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/BR8065.jpg": {
+          "small": "assets/optimized/BR8065-small.webp",
+          "card": "assets/optimized/BR8065-card.webp",
+          "detail": "assets/optimized/BR8065-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "A-87048",
@@ -1055,7 +1729,16 @@
       "images": [
         "assets/A-87048.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/A-87048.jpg": {
+          "small": "assets/optimized/A-87048-small.webp",
+          "card": "assets/optimized/A-87048-card.webp",
+          "detail": "assets/optimized/A-87048-detail.webp",
+          "width": 799,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "G6897",
@@ -1070,7 +1753,16 @@
       "images": [
         "assets/G6897.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/G6897.jpg": {
+          "small": "assets/optimized/G6897-small.webp",
+          "card": "assets/optimized/G6897-card.webp",
+          "detail": "assets/optimized/G6897-detail.webp",
+          "width": 1054,
+          "height": 1080
+        }
+      }
     },
     {
       "code": "G6883",
@@ -1088,7 +1780,16 @@
       "images": [
         "assets/G6883.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/G6883.jpg": {
+          "small": "assets/optimized/G6883-small.webp",
+          "card": "assets/optimized/G6883-card.webp",
+          "detail": "assets/optimized/G6883-detail.webp",
+          "width": 1600,
+          "height": 1101
+        }
+      }
     },
     {
       "code": "BR8046",
@@ -1105,7 +1806,16 @@
       "images": [
         "assets/BR8046.jpg"
       ],
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/BR8046.jpg": {
+          "small": "assets/optimized/BR8046-small.webp",
+          "card": "assets/optimized/BR8046-card.webp",
+          "detail": "assets/optimized/BR8046-detail.webp",
+          "width": 1279,
+          "height": 1919
+        }
+      }
     },
     {
       "code": "B-87134",
@@ -1121,7 +1831,16 @@
       "images": [
         "assets/B-87134.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/B-87134.jpg": {
+          "small": "assets/optimized/B-87134-small.webp",
+          "card": "assets/optimized/B-87134-card.webp",
+          "detail": "assets/optimized/B-87134-detail.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      }
     },
     {
       "code": "OY78",
@@ -1139,7 +1858,16 @@
       "images": [
         "assets/OY78.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/OY78.jpg": {
+          "small": "assets/optimized/OY78-small.webp",
+          "card": "assets/optimized/OY78-card.webp",
+          "detail": "assets/optimized/OY78-detail.webp",
+          "width": 1366,
+          "height": 2048
+        }
+      }
     },
     {
       "code": "A-86424",
@@ -1155,7 +1883,16 @@
       "images": [
         "assets/A-86424.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/A-86424.jpg": {
+          "small": "assets/optimized/A-86424-small.webp",
+          "card": "assets/optimized/A-86424-card.webp",
+          "detail": "assets/optimized/A-86424-detail.webp",
+          "width": 1254,
+          "height": 1254
+        }
+      }
     },
     {
       "code": "B86814",
@@ -1173,7 +1910,16 @@
       "images": [
         "assets/B86814.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/B86814.jpg": {
+          "small": "assets/optimized/B86814-small.webp",
+          "card": "assets/optimized/B86814-card.webp",
+          "detail": "assets/optimized/B86814-detail.webp",
+          "width": 761,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "JK9436AB",
@@ -1190,7 +1936,16 @@
       "images": [
         "assets/JK9436AB.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/JK9436AB.jpg": {
+          "small": "assets/optimized/JK9436AB-small.webp",
+          "card": "assets/optimized/JK9436AB-card.webp",
+          "detail": "assets/optimized/JK9436AB-detail.webp",
+          "width": 915,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "055",
@@ -1206,7 +1961,16 @@
       "images": [
         "assets/055.jpg"
       ],
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/055.jpg": {
+          "small": "assets/optimized/055-small.webp",
+          "card": "assets/optimized/055-card.webp",
+          "detail": "assets/optimized/055-detail.webp",
+          "width": 1040,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "HJD7230",
@@ -1222,7 +1986,16 @@
       "images": [
         "assets/HJD7230.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/HJD7230.jpg": {
+          "small": "assets/optimized/HJD7230-small.webp",
+          "card": "assets/optimized/HJD7230-card.webp",
+          "detail": "assets/optimized/HJD7230-detail.webp",
+          "width": 1512,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "HJD7225",
@@ -1238,7 +2011,16 @@
       "images": [
         "assets/HJD7225.jpg"
       ],
-      "category": "Compleuri"
+      "category": "Compleuri",
+      "media": {
+        "assets/HJD7225.jpg": {
+          "small": "assets/optimized/HJD7225-small.webp",
+          "card": "assets/optimized/HJD7225-card.webp",
+          "detail": "assets/optimized/HJD7225-detail.webp",
+          "width": 1600,
+          "height": 1500
+        }
+      }
     },
     {
       "code": "HJD7250",
@@ -1254,7 +2036,16 @@
       "images": [
         "assets/HJD7250.jpg"
       ],
-      "category": "Pulovere și cardigane"
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/HJD7250.jpg": {
+          "small": "assets/optimized/HJD7250-small.webp",
+          "card": "assets/optimized/HJD7250-card.webp",
+          "detail": "assets/optimized/HJD7250-detail.webp",
+          "width": 1067,
+          "height": 1600
+        }
+      }
     },
     {
       "code": "AJ-FOTO-006",
@@ -1271,7 +2062,16 @@
         "assets/AJ-FOTO-006-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-006-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-006-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-006-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-006-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-007",
@@ -1288,7 +2088,16 @@
         "assets/AJ-FOTO-007-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-007-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-007-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-007-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-007-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-008",
@@ -1305,7 +2114,16 @@
         "assets/AJ-FOTO-008-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-008-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-008-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-008-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-008-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-009",
@@ -1323,7 +2141,16 @@
         "assets/AJ-FOTO-009-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-009-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-009-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-009-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-009-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-010",
@@ -1342,7 +2169,16 @@
         "assets/AJ-FOTO-010-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-010-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-010-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-010-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-010-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-011",
@@ -1360,7 +2196,16 @@
         "assets/AJ-FOTO-011-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-011-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-011-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-011-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-011-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-012",
@@ -1377,7 +2222,16 @@
         "assets/AJ-FOTO-012-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-012-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-012-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-012-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-012-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-013",
@@ -1394,7 +2248,16 @@
         "assets/AJ-FOTO-013-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-013-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-013-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-013-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-013-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-014",
@@ -1412,7 +2275,16 @@
         "assets/AJ-FOTO-014-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-014-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-014-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-014-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-014-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-015",
@@ -1430,7 +2302,16 @@
         "assets/AJ-FOTO-015-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-015-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-015-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-015-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-015-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-016",
@@ -1449,7 +2330,16 @@
         "assets/AJ-FOTO-016-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-016-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-016-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-016-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-016-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-017",
@@ -1466,7 +2356,16 @@
         "assets/AJ-FOTO-017-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-017-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-017-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-017-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-017-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-018",
@@ -1484,7 +2383,16 @@
         "assets/AJ-FOTO-018-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-018-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-018-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-018-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-018-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-019",
@@ -1501,7 +2409,16 @@
         "assets/AJ-FOTO-019-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-019-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-019-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-019-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-019-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-020",
@@ -1518,7 +2435,16 @@
         "assets/AJ-FOTO-020-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-020-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-020-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-020-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-020-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-021",
@@ -1535,7 +2461,16 @@
         "assets/AJ-FOTO-021-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-021-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-021-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-021-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-021-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-022",
@@ -1552,7 +2487,16 @@
         "assets/AJ-FOTO-022-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-022-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-022-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-022-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-022-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-023",
@@ -1571,7 +2515,16 @@
         "assets/AJ-FOTO-023-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-023-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-023-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-023-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-023-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-024",
@@ -1589,7 +2542,16 @@
         "assets/AJ-FOTO-024-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-024-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-024-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-024-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-024-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-025",
@@ -1606,7 +2568,16 @@
         "assets/AJ-FOTO-025-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-025-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-025-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-025-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-025-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-026",
@@ -1623,7 +2594,16 @@
         "assets/AJ-FOTO-026-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-026-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-026-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-026-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-026-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-027",
@@ -1640,7 +2620,16 @@
         "assets/AJ-FOTO-027-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-027-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-027-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-027-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-027-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-028",
@@ -1658,7 +2647,16 @@
         "assets/AJ-FOTO-028-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-028-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-028-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-028-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-028-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-029",
@@ -1675,7 +2673,16 @@
         "assets/AJ-FOTO-029-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-029-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-029-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-029-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-029-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-030",
@@ -1692,7 +2699,16 @@
         "assets/AJ-FOTO-030-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-030-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-030-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-030-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-030-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-031",
@@ -1709,7 +2725,16 @@
         "assets/AJ-FOTO-031-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-031-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-031-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-031-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-031-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-032",
@@ -1727,7 +2752,16 @@
         "assets/AJ-FOTO-032-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-032-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-032-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-032-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-032-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-033",
@@ -1744,7 +2778,16 @@
         "assets/AJ-FOTO-033-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-033-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-033-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-033-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-033-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-034",
@@ -1763,7 +2806,16 @@
         "assets/AJ-FOTO-034-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-034-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-034-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-034-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-034-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-035",
@@ -1781,7 +2833,16 @@
         "assets/AJ-FOTO-035-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-035-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-035-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-035-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-035-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-036",
@@ -1798,7 +2859,16 @@
         "assets/AJ-FOTO-036-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-036-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-036-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-036-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-036-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-037",
@@ -1816,7 +2886,16 @@
         "assets/AJ-FOTO-037-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-037-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-037-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-037-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-037-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-038",
@@ -1833,7 +2912,16 @@
         "assets/AJ-FOTO-038-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-038-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-038-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-038-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-038-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-039",
@@ -1853,7 +2941,16 @@
         "assets/AJ-FOTO-039-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-039-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-039-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-039-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-039-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-040",
@@ -1870,7 +2967,16 @@
         "assets/AJ-FOTO-040-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-040-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-040-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-040-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-040-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-041",
@@ -1887,7 +2993,16 @@
         "assets/AJ-FOTO-041-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-041-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-041-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-041-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-041-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-042",
@@ -1907,7 +3022,16 @@
         "assets/AJ-FOTO-042-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-042-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-042-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-042-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-042-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-043",
@@ -1924,7 +3048,16 @@
         "assets/AJ-FOTO-043-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-043-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-043-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-043-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-043-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-044",
@@ -1941,7 +3074,16 @@
         "assets/AJ-FOTO-044-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-044-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-044-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-044-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-044-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-045",
@@ -1959,7 +3101,16 @@
         "assets/AJ-FOTO-045-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Rochii"
+      "category": "Rochii",
+      "media": {
+        "assets/AJ-FOTO-045-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-045-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-045-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-045-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-046",
@@ -1976,7 +3127,16 @@
         "assets/AJ-FOTO-046-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-046-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-046-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-046-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-046-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-047",
@@ -1994,7 +3154,16 @@
         "assets/AJ-FOTO-047-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-047-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-047-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-047-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-047-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-048",
@@ -2011,7 +3180,16 @@
         "assets/AJ-FOTO-048-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-048-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-048-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-048-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-048-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-049",
@@ -2028,7 +3206,16 @@
         "assets/AJ-FOTO-049-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-049-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-049-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-049-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-049-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-050",
@@ -2047,7 +3234,16 @@
         "assets/AJ-FOTO-050-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-050-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-050-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-050-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-050-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-051",
@@ -2065,7 +3261,16 @@
         "assets/AJ-FOTO-051-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-051-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-051-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-051-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-051-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-052",
@@ -2083,7 +3288,16 @@
         "assets/AJ-FOTO-052-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Bluze și tricouri"
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/AJ-FOTO-052-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-052-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-052-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-052-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     },
     {
       "code": "AJ-FOTO-053",
@@ -2100,7 +3314,16 @@
         "assets/AJ-FOTO-053-studio-ai.png"
       ],
       "internalCode": true,
-      "category": "Pantaloni și jeans"
+      "category": "Pantaloni și jeans",
+      "media": {
+        "assets/AJ-FOTO-053-studio-ai.png": {
+          "small": "assets/optimized/AJ-FOTO-053-studio-ai-small.webp",
+          "card": "assets/optimized/AJ-FOTO-053-studio-ai-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-053-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     }
   ],
   "whatsappContacts": [
