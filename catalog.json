@@ -2102,5 +2102,19 @@
       "internalCode": true,
       "category": "Pantaloni și jeans"
     }
+  ],
+  "whatsappContacts": [
+    {
+      "name": "Alina",
+      "phone": "40722212459"
+    },
+    {
+      "name": "Anda",
+      "phone": "40768256142"
+    },
+    {
+      "name": "Cristina",
+      "phone": "40751066580"
+    }
   ]
 }

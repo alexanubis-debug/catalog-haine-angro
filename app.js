@@ -4,7 +4,7 @@ function photo(p,src=p.image){const img=el('img',null,'photo');img.alt=p.name+' 
 function info(p,parent){parent.append(el('p',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('h2',p.name),el('p',p.colors.join(' · '),'colors'),el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'))}
 function detail(p){
  const c=$('#detailContent'),description=el('div',null,'detail-info'),gallery=el('div',null,'gallery'),mainPhoto=photo(p);gallery.append(mainPhoto);const caption=el('p',null,'image-caption');function updateCaption(src){caption.textContent=(p.aiImages||[]).includes(src)?'Imagine de studio creată cu AI':'Fotografie originală';}const images=p.images||[p.image];if(images.length>1){const thumbs=el('div',null,'thumbnails');images.forEach((src,i)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(i+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(i===0));thumb.append(photo(p,src));thumb.onclick=()=>{const next=photo(p,src);gallery.firstElementChild.replaceWith(next);updateCaption(src);thumbs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===thumb)));};thumbs.append(thumb);});gallery.append(thumbs);}c.replaceChildren(gallery,description);info(p,description);description.append(el('p','Vânzare exclusiv angro.','wholesale'));
- if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';description.append(link)}
+ if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link)}
  description.querySelector('h2').id='productTitle';$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
 }
 function renderCategories(){
@@ -28,9 +28,20 @@ function render(){
  }));
  $('#count').replaceChildren(el('strong',String(products.length)),document.createTextNode(' modele'));$('#empty').hidden=products.length!==0;
 }
-fetch('catalog.json?v=15').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog=data;document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=17').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog=data;document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#search').addEventListener('input',render);$('#sort').addEventListener('change',render);
 const dialog=$('#detail');
 $('#close').onclick=()=>dialog.close();
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>{document.body.style.overflow='';});
+
+const whatsappDialog=$('#whatsappDialog');
+function openWhatsApp(product){
+ const message=product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.';
+ whatsappDialog.querySelectorAll('.contact-list a').forEach(link=>{link.href='https://wa.me/'+link.dataset.phone+'?text='+encodeURIComponent(message);});
+ whatsappDialog.showModal();document.body.style.overflow='hidden';
+}
+$('.header-contact').onclick=event=>{event.preventDefault();openWhatsApp();};
+$('#whatsappClose').onclick=()=>whatsappDialog.close();
+whatsappDialog.addEventListener('close',()=>{document.body.style.overflow=dialog.open?'hidden':'';});
+whatsappDialog.addEventListener('click',event=>{if(event.target===whatsappDialog){const r=whatsappDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)whatsappDialog.close();}});
