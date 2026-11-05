@@ -247,21 +247,29 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A86547-clean-test.png",
+      "image": "assets/A86547-clean-model.png",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A86547-clean-test.png": {
-          "small": "assets/optimized/A86547-clean-test-small.webp",
-          "card": "assets/optimized/A86547-clean-test-card.webp",
-          "detail": "assets/optimized/A86547-clean-test-detail.webp",
+        "assets/A86547-clean-model.png": {
+          "small": "assets/optimized/A86547-clean-model-small.webp",
+          "card": "assets/optimized/A86547-clean-model-card.webp",
+          "detail": "assets/optimized/A86547-clean-model-detail.webp",
           "width": 1086,
           "height": 1448
+        },
+        "assets/A86547-clean-colors.png": {
+          "small": "assets/optimized/A86547-clean-colors-small.webp",
+          "card": "assets/optimized/A86547-clean-colors-card.webp",
+          "detail": "assets/optimized/A86547-clean-colors-detail.webp",
+          "width": 1774,
+          "height": 887
         }
       },
       "images": [
-        "assets/A86547-clean-test.png"
-      ]
+        "assets/A86547-clean-model.png"
+      ],
+      "colorVariantsImage": "assets/A86547-clean-colors.png"
     },
     {
       "code": "A-8207",

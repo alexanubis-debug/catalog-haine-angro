@@ -24,12 +24,12 @@ def export(source):
 
 def main():
     catalog = json.loads(CATALOG.read_text())
-    sources = sorted({source for product in catalog['products'] for source in [product['image']] + product.get('images', [])})
+    sources = sorted({source for product in catalog['products'] for source in [product['image']] + product.get('images', []) + ([product['colorVariantsImage']] if product.get('colorVariantsImage') else [])})
     (ROOT / 'assets/optimized').mkdir(exist_ok=True)
     with ThreadPoolExecutor(max_workers=4) as pool:
         media = dict(pool.map(export, sources))
     for product in catalog['products']:
-        product['media'] = {source: media[source] for source in dict.fromkeys([product['image']] + product.get('images', []))}
+        product['media'] = {source: media[source] for source in dict.fromkeys([product['image']] + product.get('images', []) + ([product['colorVariantsImage']] if product.get('colorVariantsImage') else []))}
     CATALOG.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
     print(f'Optimized {len(sources)} images for {len(catalog["products"])} products.')
 
