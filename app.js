@@ -19,10 +19,13 @@ function detail(p){
 }
 function renderCategories(){
  const categories=['','Compleuri','Bluze și tricouri','Pulovere și cardigane','Pantaloni și jeans','Rochii','Fuste','Veste și jachete'];
- $('#categories').replaceChildren(...categories.map(category=>{
-  const button=el('button',category||'Toate','category-button');button.type='button';button.setAttribute('aria-pressed',String(category===selectedCategory));
-  button.onclick=()=>{selectedCategory=category;$('#menuDialog').close();$('#categories').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();};return button;
- }));
+ const shortNames={'Bluze și tricouri':'Bluze și tricouri','Pulovere și cardigane':'Pulovere','Pantaloni și jeans':'Pantaloni','Veste și jachete':'Veste și jachete'};
+ for(const target of ['#categories','#desktopCategories']){
+  $(target).replaceChildren(...categories.map(category=>{
+   const button=el('button',target==='#desktopCategories'?(shortNames[category]||category||'Toate'):(category||'Toate'),'category-button');button.type='button';button.dataset.category=category;button.setAttribute('aria-label',category||'Toate');button.setAttribute('aria-pressed',String(category===selectedCategory));
+   button.onclick=()=>{selectedCategory=category;if($('#menuDialog').open)$('#menuDialog').close();document.querySelectorAll('#categories button,#desktopCategories button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===category)));render();};return button;
+  }));
+ }
 }
 function render(append=false){
  if(!catalog)return;
@@ -77,3 +80,5 @@ $('#searchToggle').onclick=()=>{
  if(opening){$('#search').focus();}else{$('#search').value='';render();}
 };
 $('#search').addEventListener('keydown',event=>{if(event.key==='Escape'){$('#searchPanel').hidden=true;$('#searchToggle').setAttribute('aria-expanded','false');$('#search').value='';render();$('#searchToggle').focus();}});
+
+$('#desktopContact').onclick=()=>openWhatsApp();
