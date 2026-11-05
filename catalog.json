@@ -3324,6 +3324,626 @@
           "height": 1448
         }
       }
+    },
+    {
+      "code": "DH305",
+      "name": "Pulover cu veveriță",
+      "colors": [
+        "Crem",
+        "Khaki",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/DH305.jpg",
+      "images": [
+        "assets/DH305.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/DH305.jpg": {
+          "small": "assets/optimized/DH305-small.webp",
+          "card": "assets/optimized/DH305-card.webp",
+          "detail": "assets/optimized/DH305-detail.webp",
+          "width": 1079,
+          "height": 1920
+        }
+      }
+    },
+    {
+      "code": "DH273",
+      "name": "Pulover cu decolteu în V",
+      "colors": [
+        "Negru",
+        "Bej",
+        "Alb",
+        "Verde",
+        "Coffee",
+        "Bordo",
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/DH273.jpg",
+      "images": [
+        "assets/DH273.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/DH273.jpg": {
+          "small": "assets/optimized/DH273-small.webp",
+          "card": "assets/optimized/DH273-card.webp",
+          "detail": "assets/optimized/DH273-detail.webp",
+          "width": 1080,
+          "height": 1972
+        }
+      }
+    },
+    {
+      "code": "YL0046AB",
+      "name": "Compleu cu bluză și fustă cu dungi contrastante",
+      "colors": [
+        "Bej / Negru",
+        "Khaki / Negru",
+        "Gri / Negru",
+        "Negru / Bej"
+      ],
+      "price": null,
+      "image": "assets/YL0046AB.jpg",
+      "images": [
+        "assets/YL0046AB.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/YL0046AB.jpg": {
+          "small": "assets/optimized/YL0046AB-small.webp",
+          "card": "assets/optimized/YL0046AB-card.webp",
+          "detail": "assets/optimized/YL0046AB-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "FG2186",
+      "name": "Compleu cu pantaloni și eșarfă",
+      "colors": [
+        "Khaki",
+        "Bordo",
+        "Verde",
+        "Bej",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/FG2186.jpg",
+      "images": [
+        "assets/FG2186.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/FG2186.jpg": {
+          "small": "assets/optimized/FG2186-small.webp",
+          "card": "assets/optimized/FG2186-card.webp",
+          "detail": "assets/optimized/FG2186-detail.webp",
+          "width": 1600,
+          "height": 1077
+        }
+      }
+    },
+    {
+      "code": "SJ7017",
+      "name": "Pulover cu model geometric multicolor",
+      "colors": [
+        "Crem",
+        "Khaki",
+        "Verde",
+        "Gri închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/SJ7017.jpg",
+      "images": [
+        "assets/SJ7017.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/SJ7017.jpg": {
+          "small": "assets/optimized/SJ7017-small.webp",
+          "card": "assets/optimized/SJ7017-card.webp",
+          "detail": "assets/optimized/SJ7017-detail.webp",
+          "width": 1200,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "B1020AB",
+      "name": "Compleu cu guler înalt",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/B1020AB.jpg",
+      "images": [
+        "assets/B1020AB.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/B1020AB.jpg": {
+          "small": "assets/optimized/B1020AB-small.webp",
+          "card": "assets/optimized/B1020AB-card.webp",
+          "detail": "assets/optimized/B1020AB-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "MY1091",
+      "name": "Bluză cu nasturi decorativi pe umăr",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Maro",
+        "Gri închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/MY1091.jpg",
+      "images": [
+        "assets/MY1091.jpg"
+      ],
+      "category": "Bluze și tricouri",
+      "media": {
+        "assets/MY1091.jpg": {
+          "small": "assets/optimized/MY1091-small.webp",
+          "card": "assets/optimized/MY1091-card.webp",
+          "detail": "assets/optimized/MY1091-detail.webp",
+          "width": 1200,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "CR510",
+      "name": "Pulover polo cu model geometric",
+      "colors": [
+        "Bej",
+        "Gri",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/CR510.jpg",
+      "images": [
+        "assets/CR510.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/CR510.jpg": {
+          "small": "assets/optimized/CR510-small.webp",
+          "card": "assets/optimized/CR510-card.webp",
+          "detail": "assets/optimized/CR510-detail.webp",
+          "width": 1080,
+          "height": 1872
+        }
+      }
+    },
+    {
+      "code": "2991",
+      "name": "Fustă cu broderie florală și franjuri",
+      "colors": [
+        "Muștar",
+        "Bordo",
+        "Crem",
+        "Camel",
+        "Maro"
+      ],
+      "price": null,
+      "image": "assets/2991-studio-ai.png",
+      "images": [
+        "assets/2991-studio-ai.png"
+      ],
+      "category": "Fuste",
+      "aiImages": [
+        "assets/2991-studio-ai.png"
+      ],
+      "media": {
+        "assets/2991-studio-ai.png": {
+          "small": "assets/optimized/2991-studio-ai-small.webp",
+          "card": "assets/optimized/2991-studio-ai-card.webp",
+          "detail": "assets/optimized/2991-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
+    },
+    {
+      "code": "FM113",
+      "name": "Compleu cu mâneci scurte și pantaloni largi",
+      "colors": [
+        "Khaki",
+        "Gri",
+        "Albastru",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/FM113.jpg",
+      "images": [
+        "assets/FM113.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/FM113.jpg": {
+          "small": "assets/optimized/FM113-small.webp",
+          "card": "assets/optimized/FM113-card.webp",
+          "detail": "assets/optimized/FM113-detail.webp",
+          "width": 2048,
+          "height": 1552
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-054",
+      "name": "Compleu cu rochie plisată și bluză",
+      "colors": [
+        "Khaki",
+        "Bordo",
+        "Albastru închis",
+        "Bej",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/AJ-FOTO-054.jpg",
+      "images": [
+        "assets/AJ-FOTO-054.jpg"
+      ],
+      "category": "Compleuri",
+      "internalCode": true,
+      "media": {
+        "assets/AJ-FOTO-054.jpg": {
+          "small": "assets/optimized/AJ-FOTO-054-small.webp",
+          "card": "assets/optimized/AJ-FOTO-054-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-054-detail.webp",
+          "width": 2048,
+          "height": 1134
+        }
+      }
+    },
+    {
+      "code": "DH251",
+      "name": "Cardigan cu ursuleț decorativ",
+      "colors": [
+        "Gri",
+        "Crem",
+        "Coffee",
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/DH251.jpg",
+      "images": [
+        "assets/DH251.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/DH251.jpg": {
+          "small": "assets/optimized/DH251-small.webp",
+          "card": "assets/optimized/DH251-card.webp",
+          "detail": "assets/optimized/DH251-detail.webp",
+          "width": 1080,
+          "height": 1763
+        }
+      }
+    },
+    {
+      "code": "B1021AB",
+      "name": "Compleu cu aplicație decorativă",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/B1021AB.jpg",
+      "images": [
+        "assets/B1021AB.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/B1021AB.jpg": {
+          "small": "assets/optimized/B1021AB-small.webp",
+          "card": "assets/optimized/B1021AB-card.webp",
+          "detail": "assets/optimized/B1021AB-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "LM3035AB",
+      "name": "Compleu cu bluză și fustă în dungi",
+      "colors": [
+        "Alb / Negru",
+        "Negru / Bej",
+        "Negru / Alb"
+      ],
+      "price": null,
+      "image": "assets/LM3035AB.jpg",
+      "images": [
+        "assets/LM3035AB.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/LM3035AB.jpg": {
+          "small": "assets/optimized/LM3035AB-small.webp",
+          "card": "assets/optimized/LM3035AB-card.webp",
+          "detail": "assets/optimized/LM3035AB-detail.webp",
+          "width": 1600,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "CR520",
+      "name": "Pulover cu dungi în degrade",
+      "colors": [
+        "Camel",
+        "Bej",
+        "Coffee",
+        "Verde",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/CR520.jpg",
+      "images": [
+        "assets/CR520.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/CR520.jpg": {
+          "small": "assets/optimized/CR520-small.webp",
+          "card": "assets/optimized/CR520-card.webp",
+          "detail": "assets/optimized/CR520-detail.webp",
+          "width": 1080,
+          "height": 1773
+        }
+      }
+    },
+    {
+      "code": "2319",
+      "name": "Compleu cu pulover și fustă scurtă",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Gri",
+        "Bordo",
+        "Albastru închis"
+      ],
+      "price": null,
+      "image": "assets/2319.jpg",
+      "images": [
+        "assets/2319.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/2319.jpg": {
+          "small": "assets/optimized/2319-small.webp",
+          "card": "assets/optimized/2319-card.webp",
+          "detail": "assets/optimized/2319-detail.webp",
+          "width": 2048,
+          "height": 1192
+        }
+      }
+    },
+    {
+      "code": "DH176",
+      "name": "Pulover cu broderie florală",
+      "colors": [
+        "Bordo",
+        "Khaki",
+        "Crem",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/DH176.jpg",
+      "images": [
+        "assets/DH176.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/DH176.jpg": {
+          "small": "assets/optimized/DH176-small.webp",
+          "card": "assets/optimized/DH176-card.webp",
+          "detail": "assets/optimized/DH176-detail.webp",
+          "width": 1080,
+          "height": 1759
+        }
+      }
+    },
+    {
+      "code": "9882",
+      "name": "Bluză cu guler decorativ și fundă",
+      "colors": [
+        "Alb",
+        "Crem",
+        "Bordo",
+        "Khaki",
+        "Muștar"
+      ],
+      "price": null,
+      "image": "assets/9882-studio-ai.png",
+      "images": [
+        "assets/9882-studio-ai.png"
+      ],
+      "category": "Bluze și tricouri",
+      "aiImages": [
+        "assets/9882-studio-ai.png"
+      ],
+      "media": {
+        "assets/9882-studio-ai.png": {
+          "small": "assets/optimized/9882-studio-ai-small.webp",
+          "card": "assets/optimized/9882-studio-ai-card.webp",
+          "detail": "assets/optimized/9882-studio-ai-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
+    },
+    {
+      "code": "CR385",
+      "name": "Pulover cu model contrastant",
+      "colors": [
+        "Alb",
+        "Camel",
+        "Verde",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/CR385.jpg",
+      "images": [
+        "assets/CR385.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/CR385.jpg": {
+          "small": "assets/optimized/CR385-small.webp",
+          "card": "assets/optimized/CR385-card.webp",
+          "detail": "assets/optimized/CR385-detail.webp",
+          "width": 1080,
+          "height": 1818
+        }
+      }
+    },
+    {
+      "code": "MY9140AB",
+      "name": "Compleu cu glugă și fermoar",
+      "colors": [
+        "Bej / Negru",
+        "Coffee / Alb",
+        "Negru / Alb"
+      ],
+      "price": null,
+      "image": "assets/MY9140AB.jpg",
+      "images": [
+        "assets/MY9140AB.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/MY9140AB.jpg": {
+          "small": "assets/optimized/MY9140AB-small.webp",
+          "card": "assets/optimized/MY9140AB-card.webp",
+          "detail": "assets/optimized/MY9140AB-detail.webp",
+          "width": 1200,
+          "height": 1600
+        }
+      }
+    },
+    {
+      "code": "FG2316",
+      "name": "Compleu cu pantaloni largi și eșarfă",
+      "colors": [
+        "Khaki",
+        "Coffee",
+        "Bej",
+        "Verde",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/FG2316.jpg",
+      "images": [
+        "assets/FG2316.jpg"
+      ],
+      "category": "Compleuri",
+      "media": {
+        "assets/FG2316.jpg": {
+          "small": "assets/optimized/FG2316-small.webp",
+          "card": "assets/optimized/FG2316-card.webp",
+          "detail": "assets/optimized/FG2316-detail.webp",
+          "width": 2048,
+          "height": 1372
+        }
+      }
+    },
+    {
+      "code": "CR380",
+      "name": "Pulover cu motive florale mari",
+      "colors": [
+        "Camel",
+        "Bej",
+        "Verde",
+        "Coffee"
+      ],
+      "price": null,
+      "image": "assets/CR380.jpg",
+      "images": [
+        "assets/CR380.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/CR380.jpg": {
+          "small": "assets/optimized/CR380-small.webp",
+          "card": "assets/optimized/CR380-card.webp",
+          "detail": "assets/optimized/CR380-detail.webp",
+          "width": 1080,
+          "height": 1858
+        }
+      }
+    },
+    {
+      "code": "DH269",
+      "name": "Cardigan cu model geometric",
+      "colors": [
+        "Coffee",
+        "Gri",
+        "Alb",
+        "Verde"
+      ],
+      "price": null,
+      "image": "assets/DH269.jpg",
+      "images": [
+        "assets/DH269.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/DH269.jpg": {
+          "small": "assets/optimized/DH269-small.webp",
+          "card": "assets/optimized/DH269-card.webp",
+          "detail": "assets/optimized/DH269-detail.webp",
+          "width": 1058,
+          "height": 2048
+        }
+      }
+    },
+    {
+      "code": "SJ7003",
+      "name": "Pulover cu guler înalt și inimioare",
+      "colors": [
+        "Bej",
+        "Khaki",
+        "Coffee",
+        "Gri închis",
+        "Negru"
+      ],
+      "price": null,
+      "image": "assets/SJ7003.jpg",
+      "images": [
+        "assets/SJ7003.jpg"
+      ],
+      "category": "Pulovere și cardigane",
+      "media": {
+        "assets/SJ7003.jpg": {
+          "small": "assets/optimized/SJ7003-small.webp",
+          "card": "assets/optimized/SJ7003-card.webp",
+          "detail": "assets/optimized/SJ7003-detail.webp",
+          "width": 1199,
+          "height": 1600
+        }
+      }
     }
   ],
   "whatsappContacts": [

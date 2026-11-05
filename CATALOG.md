@@ -19,3 +19,5 @@ La cererea comerciantului, produsele AJ-FOTO-001–005 afișează exclusiv imagi
 Import Archive 2.zip (50 fotografii): 48 modele noi, coduri interne AJ-FOTO-006–053, exclusiv imagini de studio AI în galeriile publice, fără prețuri completate. Total 125 modele. Cealaltă arhivă depășește limita de transfer de 32 MiB și nu a fost procesată.
 
 Imaginile publice folosesc variante WebP responsive: 360/640 px în listă și până la 1200 px în detalii. Originalele rămân pe disc. După adăugarea de fotografii rulează `python3 scripts/optimize_images.py` (necesită Pillow). Lista afișează 12 produse inițial; butonul adaugă următorul lot de 12. Căutarea și categoria operează asupra întregului catalog.
+
+Archive 3.zip (lot de 26 fotografii): o copie identică și o fotografie a modelului A-86913 excluse. Adăugate 24 modele, total 149; prețuri necompletate. Modelele 2991 și 9882 au fotografii de studio AI, fără originalele de pe umeraș în galerie. Toate imaginile noi au variante WebP 360/640/1200 px.
