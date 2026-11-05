@@ -68,7 +68,7 @@ window.addEventListener('scroll',updateBackToTop,{passive:true});updateBackToTop
 backToTop.onclick=()=>{window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
 
 const menuDialog=$('#menuDialog');
-$('#menuToggle').onclick=()=>{menuDialog.showModal();document.body.style.overflow='hidden';};
+$('#menuToggle').onclick=()=>{menuDialog.showModal();menuDialog.focus({preventScroll:true});document.body.style.overflow='hidden';};
 $('#menuClose').onclick=()=>menuDialog.close();
 menuDialog.addEventListener('close',()=>{document.body.style.overflow=(whatsappDialog.open||dialog.open)?'hidden':'';});
 $('#menuContact').onclick=()=>{menuDialog.close();openWhatsApp();};
