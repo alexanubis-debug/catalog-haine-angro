@@ -23,13 +23,18 @@ function photo(p,src=p.image,mode='detail'){
 }
 function sizeText(p){return (p.sizes||[]).map(size=>size==='TU'?'Talie universală (TU)':size).join(' · ');}
 function info(p,parent){
- parent.append(el('p',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('h2',p.name),el('p',p.colors.join(' · '),'colors'));
- if(p.sizes?.length)parent.append(el('p','Mărimi: '+sizeText(p),'sizes'));
+ parent.append(el('p',(p.internalCode?'Cod intern: ':'Cod produs: ')+p.code,'code'),el('h2',p.name));
+ const facts=el('dl',null,'product-facts'),colors=el('div'),colorValues=el('dd',null,'colors');
+ colorValues.append(...p.colors.map(color=>el('span',color,'fact-chip')));colors.append(el('dt','Culori'),colorValues);facts.append(colors);
+ const sizes=el('div'),sizeValues=el('dd',null,p.sizes?.length?'sizes':'size-inquiry');sizes.append(el('dt','Mărimi'));
+ if(p.sizes?.length)sizeValues.append(...p.sizes.map(size=>el('span',size==='TU'?'Talie universală (TU)':size,'fact-chip size-chip')));
+ else{const ask=el('button','Întreabă pe WhatsApp');ask.type='button';ask.onclick=()=>openWhatsApp(p,'Bună! Ce mărimi sunt disponibile pentru modelul '+p.code+'?');sizeValues.append(ask);}
+ sizes.append(sizeValues);facts.append(sizes);parent.append(facts);
  if(p.description)parent.append(el('p',p.description,'product-description'));
- parent.append(el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'));
+ const price=el('div',null,'price-panel');price.append(el('span','Preț','price-label'),el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'));parent.append(price);
 }
 function detail(p){
- const c=$('#detailContent'),description=el('div',null,'detail-info'),gallery=el('div',null,'gallery'),mainPhoto=photo(p);gallery.append(mainPhoto);const caption=el('p',null,'image-caption');function updateCaption(src){caption.textContent=(p.aiImages||[]).includes(src)?'Imagine de studio creată cu AI':'Fotografie originală';}const images=p.images||[p.image];if(images.length>1){const thumbs=el('div',null,'thumbnails');images.forEach((src,i)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(i+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(i===0));thumb.append(photo(p,src,'thumb'));thumb.onclick=()=>{const next=photo(p,src);gallery.firstElementChild.replaceWith(next);updateCaption(src);thumbs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===thumb)));};thumbs.append(thumb);});gallery.append(thumbs);}if(p.colorVariantsImage){const variants=photo(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
+ const c=$('#detailContent'),description=el('div',null,'detail-info'),gallery=el('div',null,'gallery'),mainPhoto=galleryPhoto(p,p.image);let activeSrc=p.image;gallery.append(mainPhoto);const enlarge=el('button','Mărește fotografia','photo-enlarge');enlarge.type='button';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,activeSrc);gallery.append(enlarge);const caption=el('p',null,'image-caption');function updateCaption(src){caption.textContent=(p.aiImages||[]).includes(src)?'Imagine de studio creată cu AI':'Fotografie originală';}const images=p.images||[p.image];if(images.length>1){const thumbs=el('div',null,'thumbnails');images.forEach((src,i)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(i+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(i===0));thumb.append(photo(p,src,'thumb'));thumb.onclick=()=>{activeSrc=src;const next=galleryPhoto(p,src);gallery.firstElementChild.replaceWith(next);updateCaption(src);thumbs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===thumb)));};thumbs.append(thumb);});gallery.append(thumbs);}if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
  if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link)}
  description.querySelector('h2').id='productTitle';$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
 }
@@ -101,7 +106,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=43').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';restoreSelection();renderCategories();render();updateSelection()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=44').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';restoreSelection();renderCategories();render();updateSelection()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
@@ -111,8 +116,8 @@ dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog
 dialog.addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';});
 
 const whatsappDialog=$('#whatsappDialog');
-function openWhatsApp(product){
- const message=Array.isArray(product)?'Bună! Mă interesează următoarele modele pentru angro:\n'+product.map(p=>'- '+p.code).join('\n')+'\nÎmi confirmați disponibilitatea, prețurile și condițiile pentru angro?':product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.';
+function openWhatsApp(product,customMessage){
+ const message=customMessage||(Array.isArray(product)?'Bună! Mă interesează următoarele modele pentru angro:\n'+product.map(p=>'- '+p.code).join('\n')+'\nÎmi confirmați disponibilitatea, prețurile și condițiile pentru angro?':product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.');
  whatsappDialog.querySelectorAll('.contact-list a').forEach(link=>{link.href='https://wa.me/'+link.dataset.phone+'?text='+encodeURIComponent(message);});
  whatsappDialog.querySelector('.contact-intro').textContent=Array.isArray(product)?'Trimite selecția de '+product.length+' '+(product.length===1?'model':'modele')+' persoanei cu care vrei să vorbești.':'Alege persoana cu care vrei să vorbești.';
  whatsappDialog.showModal();document.body.style.overflow='hidden';
@@ -170,3 +175,56 @@ $('#selectionClose').onclick=()=>$('#selectionDialog').close();
 $('#selectionDialog').addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';if(!selectedCodes.size)$('#searchToggle').focus({preventScroll:true});});
 $('#selectionClear').onclick=()=>{selectedCodes.clear();updateSelection();$('#selectionStatus').textContent='Selecția a fost golită.';};
 $('#selectionSend').onclick=()=>{const products=selectedProducts();if(products.length)openWhatsApp(products);};
+
+// The viewer enlarges the original file and preserves left/right studio frames.
+function galleryPhoto(product,source){const img=photo(product,source);img.classList.add('zoomable-photo');img.onclick=()=>openPhotoViewer(product,source);return img;}
+const photoViewer=$('#photoViewer'),photoStage=$('#photoStage'),photoFrame=$('#photoFrame');
+let viewerProduct,viewerImages=[],viewerIndex=0,viewerScale=1,viewerX=0,viewerY=0,viewerWidth=0,viewerHeight=0;
+const viewerPointers=new Map();
+function fitPhotoViewer(){
+ if(!photoViewer.open||!viewerProduct)return;
+ const source=viewerImages[viewerIndex],meta=viewerProduct.media?.[source],width=meta?.width||1200,height=meta?.height||1600;
+ const fit=Math.min((photoStage.clientWidth-24)/width,(photoStage.clientHeight-24)/height,1);
+ viewerWidth=width*fit;viewerHeight=height*fit;photoFrame.style.width=viewerWidth+'px';photoFrame.style.height=viewerHeight+'px';resetPhotoZoom();
+}
+function applyPhotoZoom(){
+ const maxX=Math.max(0,(viewerWidth*viewerScale-photoStage.clientWidth)/2),maxY=Math.max(0,(viewerHeight*viewerScale-photoStage.clientHeight)/2);
+ viewerX=Math.max(-maxX,Math.min(maxX,viewerX));viewerY=Math.max(-maxY,Math.min(maxY,viewerY));
+ photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px) scale('+viewerScale+')';
+ $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=viewerScale>=4;
+ photoStage.classList.toggle('is-zoomed',viewerScale>1);
+}
+function zoomPhoto(value,clientX,clientY){
+ const next=Math.max(1,Math.min(4,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
+ viewerX=x-(x-viewerX)*ratio;viewerY=y-(y-viewerY)*ratio;viewerScale=next;applyPhotoZoom();
+}
+function resetPhotoZoom(){viewerScale=1;viewerX=0;viewerY=0;applyPhotoZoom();}
+function loadViewerPhoto(){
+ const source=viewerImages[viewerIndex],image=photo(viewerProduct,source);image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=source.split('#')[0];image.loading='eager';image.draggable=false;
+ photoFrame.replaceChildren(image);$('#photoViewerCode').textContent=viewerProduct.code;$('#photoViewerName').textContent=viewerProduct.name;
+ $('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerIndex===0;$('#photoNext').disabled=viewerIndex===viewerImages.length-1;
+ viewerPointers.clear();fitPhotoViewer();
+}
+function openPhotoViewer(product,source){
+ viewerProduct=product;viewerImages=[...new Set([...(product.images||[product.image]),...(product.colorVariantsImage?[product.colorVariantsImage]:[])])];if(!viewerImages.includes(source))viewerImages.push(source);viewerIndex=viewerImages.indexOf(source);
+ photoViewer.showModal();document.body.style.overflow='hidden';loadViewerPhoto();
+}
+$('#photoViewerClose').onclick=()=>photoViewer.close();
+photoViewer.addEventListener('close',()=>{viewerPointers.clear();photoFrame.replaceChildren();document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';$('#detail .photo-enlarge')?.focus({preventScroll:true});});
+$('#photoZoomIn').onclick=()=>zoomPhoto(viewerScale+.5);$('#photoZoomOut').onclick=()=>zoomPhoto(viewerScale-.5);$('#photoReset').onclick=resetPhotoZoom;
+$('#photoPrevious').onclick=()=>{if(viewerIndex>0){viewerIndex--;loadViewerPhoto();}};$('#photoNext').onclick=()=>{if(viewerIndex<viewerImages.length-1){viewerIndex++;loadViewerPhoto();}};
+photoStage.addEventListener('wheel',event=>{event.preventDefault();zoomPhoto(viewerScale*Math.exp(-event.deltaY*.002),event.clientX,event.clientY);},{passive:false});
+photoStage.addEventListener('dblclick',event=>zoomPhoto(viewerScale>1?1:2.5,event.clientX,event.clientY));
+photoStage.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&event.button!==0)return;viewerPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});photoStage.setPointerCapture(event.pointerId);});
+photoStage.addEventListener('pointermove',event=>{
+ if(!viewerPointers.has(event.pointerId))return;
+ const before=[...viewerPointers.values()],old=viewerPointers.get(event.pointerId);viewerPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});const after=[...viewerPointers.values()];
+ if(after.length===1){viewerX+=event.clientX-old.x;viewerY+=event.clientY-old.y;applyPhotoZoom();}
+ else if(after.length===2){const distance=points=>Math.hypot(points[0].x-points[1].x,points[0].y-points[1].y),oldDistance=distance(before),midX=(after[0].x+after[1].x)/2,midY=(after[0].y+after[1].y)/2;
+  if(oldDistance>0)zoomPhoto(viewerScale*distance(after)/oldDistance,midX,midY);
+  viewerX+=midX-(before[0].x+before[1].x)/2;viewerY+=midY-(before[0].y+before[1].y)/2;applyPhotoZoom();
+ }
+});
+for(const type of ['pointerup','pointercancel','lostpointercapture'])photoStage.addEventListener(type,event=>viewerPointers.delete(event.pointerId));
+photoStage.addEventListener('keydown',event=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)){event.preventDefault();viewerX+=event.key==='ArrowLeft'?45:event.key==='ArrowRight'?-45:0;viewerY+=event.key==='ArrowUp'?45:event.key==='ArrowDown'?-45:0;applyPhotoZoom();}else if(event.key==='+'||event.key==='='){event.preventDefault();zoomPhoto(viewerScale+.5);}else if(event.key==='-'){event.preventDefault();zoomPhoto(viewerScale-.5);}else if(event.key==='Home'){event.preventDefault();resetPhotoZoom();}});
+window.addEventListener('resize',fitPhotoViewer);
