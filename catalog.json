@@ -4312,27 +4312,42 @@
       "name": "Rochie cu volane și dantelă",
       "colors": [
         "Roz",
-        "Muștar"
+        "Muștar",
+        "Alb"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-045-studio-ai.png",
+      "image": "assets/AJ-FOTO-045-import-185939-studio-pair.png#left",
       "images": [
-        "assets/AJ-FOTO-045-studio-ai.png"
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#right"
       ],
       "aiImages": [
-        "assets/AJ-FOTO-045-studio-ai.png"
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#right"
       ],
       "internalCode": true,
       "category": "Rochii",
       "media": {
-        "assets/AJ-FOTO-045-studio-ai.png": {
-          "small": "assets/optimized/AJ-FOTO-045-studio-ai-small.webp",
-          "card": "assets/optimized/AJ-FOTO-045-studio-ai-card.webp",
-          "detail": "assets/optimized/AJ-FOTO-045-studio-ai-detail.webp",
-          "width": 1086,
-          "height": 1448
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-045-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-045-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
         }
-      }
+      },
+      "studioPair": "assets/AJ-FOTO-045-import-185939-studio-pair.png"
     },
     {
       "code": "AJ-FOTO-046",
@@ -5845,6 +5860,220 @@
         "M/L",
         "L/XL"
       ]
+    },
+    {
+      "code": "AJ-FOTO-058",
+      "name": "Rochie cu guler brodat și detalii patchwork",
+      "colors": [
+        "Crem",
+        "Roșu cărămiziu"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "internalCode": true,
+      "isNew": true,
+      "image": "assets/AJ-FOTO-058-import-185939-studio-pair.png#left",
+      "images": [
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#right"
+      ],
+      "studioPair": "assets/AJ-FOTO-058-import-185939-studio-pair.png",
+      "media": {
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-058-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-058-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-059",
+      "name": "Rochie cu plastron din dantelă și șnur în talie",
+      "colors": [
+        "Roșu cărămiziu",
+        "Roz",
+        "Crem"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "internalCode": true,
+      "isNew": true,
+      "image": "assets/AJ-FOTO-059-import-185939-studio-pair.png#left",
+      "images": [
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#right"
+      ],
+      "studioPair": "assets/AJ-FOTO-059-import-185939-studio-pair.png",
+      "media": {
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-059-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-059-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-060",
+      "name": "Rochie cu broderii decorative și volan în talie",
+      "colors": [
+        "Bej taupe",
+        "Roz",
+        "Crem"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "internalCode": true,
+      "isNew": true,
+      "image": "assets/AJ-FOTO-060-import-185939-studio-pair.png#left",
+      "images": [
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#right"
+      ],
+      "studioPair": "assets/AJ-FOTO-060-import-185939-studio-pair.png",
+      "media": {
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-060-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-060-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-061",
+      "name": "Rochie cu fundă din dantelă la guler",
+      "colors": [
+        "Roșu cărămiziu",
+        "Crem",
+        "Maro"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "internalCode": true,
+      "isNew": true,
+      "image": "assets/AJ-FOTO-061-import-185939-studio-pair.png#left",
+      "images": [
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#right"
+      ],
+      "studioPair": "assets/AJ-FOTO-061-import-185939-studio-pair.png",
+      "media": {
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-061-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-061-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-062",
+      "name": "Rochie tip cămașă cu broderie florală",
+      "colors": [
+        "Roșu cărămiziu",
+        "Roz",
+        "Bej deschis"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "internalCode": true,
+      "isNew": true,
+      "image": "assets/AJ-FOTO-062-import-185939-studio-pair.png#left",
+      "images": [
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#left",
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#right"
+      ],
+      "studioPair": "assets/AJ-FOTO-062-import-185939-studio-pair.png",
+      "media": {
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Vedere generală pe model"
+        },
+        "assets/AJ-FOTO-062-import-185939-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-062-import-185939-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Detalii ale modelului original"
+        }
+      }
     }
   ],
   "whatsappContacts": [
