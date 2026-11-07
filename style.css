@@ -55,7 +55,39 @@
 .collection-section h2:focus,#collectionTitle:focus{outline:none}
 @media(max-width:700px){.collection-section{margin-bottom:30px;padding-bottom:28px}.collection-section-header{margin:0 4px 14px;gap:10px}.collection-section-header h2{font-size:22px}.collection-total{font-size:12px}.view-collection{margin-top:18px;font-size:13px;min-height:44px}#collectionTitle{font-size:24px}}
 
-.collection-section[data-category="__new"] .product:only-child{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);width:100%;max-width:650px;justify-self:center}
+.collection-section[data-category="__new"] .product-tile:only-child{grid-column:1/-1;width:100%;max-width:650px;justify-self:center}
+.collection-section[data-category="__new"] .product-tile:only-child>.product{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
 
 .sizes{font-size:14px;font-weight:600;line-height:1.6;color:#514b5b;margin:12px 0 18px}
 .card-sizes{display:block;font-size:11px;font-weight:600;line-height:1.5;color:#655e70;margin:-8px 0 14px;overflow-wrap:anywhere}
+
+/* Visible mobile categories and a separate, accessible wholesale selection. */
+#mobileCategories{display:none}
+.product-tile{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:white}
+.product-tile>.product{width:100%;flex:1;border:0;border-radius:0}
+.product-tile>.product:hover{transform:none;box-shadow:none;background:#fdfcfe}
+.selection-toggle{display:flex;align-items:center;gap:9px;min-height:44px;padding:10px 14px;border-top:1px solid var(--line);font-size:13px;font-weight:600;color:#514b5b;cursor:pointer;background:#faf9fc}
+.selection-toggle input{width:19px;height:19px;margin:0;accent-color:var(--purple);flex-shrink:0}
+.selection-toggle:has(input:checked){background:#f0eafa;color:#6047b0}
+.detail-info>.selection-toggle{border:1px solid var(--line);border-radius:10px;margin:18px 0}
+.selection-bar{position:fixed;z-index:24;bottom:0;left:0;right:0;padding:12px 16px calc(12px + env(safe-area-inset-bottom,0px));background:#fffffff5;border-top:1px solid var(--line);box-shadow:0 -4px 22px #19191d0d;display:flex;justify-content:center}
+.selection-bar[hidden]{display:none}
+#reviewSelection{min-height:46px;width:min(100%,480px);border:0;border-radius:28px;background:#19191d;color:white;font:inherit;font-size:15px;font-weight:600;cursor:pointer}
+body.has-selection{padding-bottom:100px}
+body.has-selection .header-contact.whatsapp-floating{bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+body.has-selection .back-to-top{bottom:calc(166px + env(safe-area-inset-bottom,0px))}
+#selectionDialog{width:min(620px,94vw);padding:22px}
+.selection-close{display:block;margin:0 0 14px auto;padding:10px 14px;border:1px solid var(--line);border-radius:24px;background:white;font:inherit;cursor:pointer}
+#selectionTitle{margin:0 0 10px;font-size:25px}
+.selection-intro{font-size:14px;line-height:1.5;color:#666}
+#selectionList{list-style:none;margin:18px 0;padding:0}
+#selectionList li{display:grid;grid-template-columns:52px minmax(0,1fr) auto;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+#selectionList .photo{width:52px;height:70px;object-fit:cover;border-radius:6px;margin:0}
+#selectionList strong,#selectionList span{display:block;overflow-wrap:anywhere}
+#selectionList strong{font-size:12px;margin-bottom:5px;color:#666}
+#selectionList span{font-size:14px;line-height:1.4}
+#selectionList button,#selectionClear{min-height:44px;background:none;border:0;font:inherit;font-size:13px;color:#6650aa;cursor:pointer;padding:8px}
+#selectionSend{border:0;width:100%;font:inherit;font-size:15px;cursor:pointer}
+#selectionClear{display:block;margin:10px auto 0}
+@media(max-width:1099px){#mobileCategories{display:flex;gap:8px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:4px 0 10px;margin-top:14px}#mobileCategories .category-button{flex:0 0 auto;min-height:44px;border:1px solid #e1dfe6;border-radius:24px;background:#f8f7fa;color:#333;font:inherit;font-size:13px;font-weight:600;padding:10px 16px;white-space:nowrap}#mobileCategories .category-button[aria-pressed="true"]{background:#19191d;border-color:#19191d;color:white}.catalog-tools{margin-top:10px}}
+@media(max-width:700px){.product-tile{border-radius:16px}.selection-toggle{padding:10px;font-size:12px}#selectionDialog{padding:16px}#selectionList li{gap:8px}#selectionList button{padding:5px}}

@@ -29,16 +29,16 @@ function info(p,parent){
  parent.append(el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'));
 }
 function detail(p){
- const c=$('#detailContent'),description=el('div',null,'detail-info'),gallery=el('div',null,'gallery'),mainPhoto=photo(p);gallery.append(mainPhoto);const caption=el('p',null,'image-caption');function updateCaption(src){caption.textContent=(p.aiImages||[]).includes(src)?'Imagine de studio creată cu AI':'Fotografie originală';}const images=p.images||[p.image];if(images.length>1){const thumbs=el('div',null,'thumbnails');images.forEach((src,i)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(i+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(i===0));thumb.append(photo(p,src,'thumb'));thumb.onclick=()=>{const next=photo(p,src);gallery.firstElementChild.replaceWith(next);updateCaption(src);thumbs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===thumb)));};thumbs.append(thumb);});gallery.append(thumbs);}if(p.colorVariantsImage){const variants=photo(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(el('p','Vânzare exclusiv angro.','wholesale'));
+ const c=$('#detailContent'),description=el('div',null,'detail-info'),gallery=el('div',null,'gallery'),mainPhoto=photo(p);gallery.append(mainPhoto);const caption=el('p',null,'image-caption');function updateCaption(src){caption.textContent=(p.aiImages||[]).includes(src)?'Imagine de studio creată cu AI':'Fotografie originală';}const images=p.images||[p.image];if(images.length>1){const thumbs=el('div',null,'thumbnails');images.forEach((src,i)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(i+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(i===0));thumb.append(photo(p,src,'thumb'));thumb.onclick=()=>{const next=photo(p,src);gallery.firstElementChild.replaceWith(next);updateCaption(src);thumbs.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===thumb)));};thumbs.append(thumb);});gallery.append(thumbs);}if(p.colorVariantsImage){const variants=photo(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
  if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link)}
  description.querySelector('h2').id='productTitle';$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
 }
 function renderCategories(){
  const categories=['',...CATEGORIES];
  const shortNames={'Bluze și tricouri':'Bluze și tricouri','Pulovere și cardigane':'Pulovere','Pantaloni și jeans':'Pantaloni','Veste și jachete':'Veste și jachete'};
- for(const target of ['#categories','#desktopCategories']){
-  $(target).replaceChildren(...categories.map(category=>{
-   const button=el('button',target==='#desktopCategories'?(shortNames[category]||category||'Toate'):(category||'Toate'),'category-button');button.type='button';button.dataset.category=category;button.setAttribute('aria-label',category||'Toate');button.setAttribute('aria-pressed',String(category===selectedCategory));
+ for(const target of ['#categories','#desktopCategories','#mobileCategories']){
+  $(target).replaceChildren(...(target==='#mobileCategories'?['',NEW_CATEGORY,...CATEGORIES]:categories).map(category=>{
+   const button=el('button',category===NEW_CATEGORY?'Noutăți':target==='#desktopCategories'?(shortNames[category]||category||'Toate'):(category||'Toate'),'category-button');button.type='button';button.dataset.category=category;button.setAttribute('aria-label',category===NEW_CATEGORY?'Noutăți':category||'Toate');button.setAttribute('aria-pressed',String(category===selectedCategory));
    button.onclick=()=>openCollection(category);return button;
   }));
  }
@@ -47,11 +47,12 @@ function openCollection(category){
  selectedCategory=category;
  $('#search').value='';
  if($('#menuDialog').open)$('#menuDialog').close();
- document.querySelectorAll('#categories button,#desktopCategories button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.category===category)));
+ document.querySelectorAll('#categories button,#desktopCategories button,#mobileCategories button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.category===category)));
  render();
  window.scrollTo({top:0,behavior:'instant'});
  const heading=category?$('#collectionTitle'):$('#products h2');
  heading?.focus({preventScroll:true});
+ const active=$('#mobileCategories button[aria-pressed="true"]');if(active&&$('#mobileCategories').getClientRects().length)$('#mobileCategories').scrollLeft=active.offsetLeft-$('#mobileCategories').offsetLeft-12;
 }
 function productCard(p,priority=false){
  const card=el('button',null,'product');card.type='button';card.dataset.code=p.code;card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
@@ -60,7 +61,7 @@ function productCard(p,priority=false){
  body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
  if(p.isNew)card.append(el('span','NEW','new-badge'));
  const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
- card.append(image,body);card.onclick=()=>detail(p);return card;
+ card.append(image,body);card.onclick=()=>detail(p);const tile=el('div',null,'product-tile');tile.append(card,selectionControl(p));return tile;
 }
 function renderOverview(products){
  let cardIndex=0;
@@ -98,26 +99,27 @@ function render(append=false){
  $('#products').append(...batch.map((p,index)=>productCard(p,start===0&&index<2)));
  const shown=Math.min(visibleCount,products.length),remaining=products.length-shown;
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
- if(append&&remaining===0&&batch.length)$('#products').children[start].focus({preventScroll:true});
+ if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=42').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=43').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';restoreSelection();renderCategories();render();updateSelection()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
 const dialog=$('#detail');
 $('#close').onclick=()=>dialog.close();
 dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)dialog.close();}});
-dialog.addEventListener('close',()=>{document.body.style.overflow='';});
+dialog.addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';});
 
 const whatsappDialog=$('#whatsappDialog');
 function openWhatsApp(product){
- const message=product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.';
+ const message=Array.isArray(product)?'Bună! Mă interesează următoarele modele pentru angro:\n'+product.map(p=>'- '+p.code).join('\n')+'\nÎmi confirmați disponibilitatea, prețurile și condițiile pentru angro?':product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.';
  whatsappDialog.querySelectorAll('.contact-list a').forEach(link=>{link.href='https://wa.me/'+link.dataset.phone+'?text='+encodeURIComponent(message);});
+ whatsappDialog.querySelector('.contact-intro').textContent=Array.isArray(product)?'Trimite selecția de '+product.length+' '+(product.length===1?'model':'modele')+' persoanei cu care vrei să vorbești.':'Alege persoana cu care vrei să vorbești.';
  whatsappDialog.showModal();document.body.style.overflow='hidden';
 }
 $('.header-contact').onclick=event=>{event.preventDefault();openWhatsApp();};
 $('#whatsappClose').onclick=()=>whatsappDialog.close();
-whatsappDialog.addEventListener('close',()=>{document.body.style.overflow=dialog.open?'hidden':'';});
+whatsappDialog.addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';});
 whatsappDialog.addEventListener('click',event=>{if(event.target===whatsappDialog){const r=whatsappDialog.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)whatsappDialog.close();}});
 
 const backToTop=$('#backToTop');
@@ -137,3 +139,34 @@ $('#searchToggle').onclick=()=>{
 $('#search').addEventListener('keydown',event=>{if(event.key==='Escape'){$('#searchPanel').hidden=true;$('#searchToggle').setAttribute('aria-expanded','false');$('#search').value='';render();$('#searchToggle').focus();}});
 
 $('#desktopContact').onclick=()=>openWhatsApp();
+
+// Product selection stays in this browser tab; only an explicit link opens WhatsApp.
+const selectedCodes=new Set();
+function restoreSelection(){
+ try{const saved=JSON.parse(sessionStorage.getItem('ajparis-selection')||'[]');if(Array.isArray(saved))saved.forEach(code=>{if(catalog.products.some(p=>p.code===code))selectedCodes.add(code);});}catch{}
+}
+function selectedProducts(){return [...selectedCodes].map(code=>catalog.products.find(p=>p.code===code)).filter(Boolean);}
+function selectionControl(product){
+ const label=el('label',null,'selection-toggle'),input=el('input'),text=el('span',selectedCodes.has(product.code)?'Selectat':'Selectează');
+ input.type='checkbox';input.dataset.selectCode=product.code;input.checked=selectedCodes.has(product.code);input.setAttribute('aria-label','Selectează '+product.name+' '+product.code);
+ input.onchange=()=>{if(input.checked)selectedCodes.add(product.code);else selectedCodes.delete(product.code);updateSelection();$('#selectionStatus').textContent=(input.checked?'Adăugat: ':'Eliminat: ')+product.code+'. '+selectedCodes.size+' modele selectate.';};
+ label.append(input,text);return label;
+}
+function updateSelection(){
+ try{sessionStorage.setItem('ajparis-selection',JSON.stringify([...selectedCodes]));}catch{}
+ document.querySelectorAll('[data-select-code]').forEach(input=>{input.checked=selectedCodes.has(input.dataset.selectCode);input.nextElementSibling.textContent=input.checked?'Selectat':'Selectează';});
+ $('#selectionBar').hidden=!selectedCodes.size;$('#selectionCount').textContent=selectedCodes.size;document.body.classList.toggle('has-selection',!!selectedCodes.size);
+ if($('#selectionDialog').open){if(selectedCodes.size)renderSelection();else $('#selectionDialog').close();}
+}
+function renderSelection(){
+ $('#selectionList').replaceChildren(...selectedProducts().map(product=>{
+  const row=el('li'),text=el('div'),remove=el('button','Elimină');remove.type='button';remove.setAttribute('aria-label','Elimină '+product.code+' din selecție');
+  text.append(el('strong',product.code),el('span',product.name));row.append(photo(product,product.image,'thumb'),text,remove);
+  remove.onclick=()=>{const index=[...$('#selectionList').children].indexOf(row);selectedCodes.delete(product.code);updateSelection();$('#selectionStatus').textContent='Eliminat: '+product.code+'. '+selectedCodes.size+' modele selectate.';if($('#selectionDialog').open){const buttons=$('#selectionList').querySelectorAll('button');(buttons[Math.min(index,buttons.length-1)]||$('#selectionSend')).focus();}};return row;
+ }));
+}
+$('#reviewSelection').onclick=()=>{if(!selectedCodes.size)return;renderSelection();$('#selectionDialog').showModal();document.body.style.overflow='hidden';};
+$('#selectionClose').onclick=()=>$('#selectionDialog').close();
+$('#selectionDialog').addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';if(!selectedCodes.size)$('#searchToggle').focus({preventScroll:true});});
+$('#selectionClear').onclick=()=>{selectedCodes.clear();updateSelection();$('#selectionStatus').textContent='Selecția a fost golită.';};
+$('#selectionSend').onclick=()=>{const products=selectedProducts();if(products.length)openWhatsApp(products);};
