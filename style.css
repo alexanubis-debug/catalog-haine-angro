@@ -217,3 +217,8 @@ html[data-theme="dark"] #photoViewer{background:#151219}
 html[data-theme="dark"] #photoViewer button{background:#32263f;border-color:#655074;color:#f1ebf7}
 html[data-theme="dark"] :is(#photoViewerCode,.photo-viewer-tip){color:#cdbedb}
 html[data-theme="dark"] .photo-viewer-tip{background:#211c28}
+
+/* Mobile theme switch follows search in the header. */
+@media(max-width:1099px){#headerThemeToggle{display:inline-flex}#catalogThemeToggle{display:none}}
+@media(max-width:700px){.header-actions{gap:0}#headerThemeToggle{width:39px;height:44px}}
+@media(max-width:520px){.site-header{grid-template-columns:1fr auto;gap:12px;min-height:0}.header-catalog-title{grid-column:1/-1;grid-row:2}.site-header>.brand{justify-self:start}.site-header>.header-actions{grid-column:2;grid-row:1}.site-header .header-catalog-title h1{font-size:16px}.header-catalog-title p{font-size:10px}#headerThemeToggle{width:44px}.site-header .header-icon{width:44px}}
