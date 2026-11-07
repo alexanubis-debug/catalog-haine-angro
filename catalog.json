@@ -3955,6 +3955,62 @@
           "height": 1600
         }
       }
+    },
+    {
+      "code": "AJ-FOTO-055",
+      "internalCode": true,
+      "name": "Palton cu panouri matlasate și guler pufos",
+      "colors": [
+        "Crem",
+        "Camel"
+      ],
+      "price": 220,
+      "priceUnit": "lei / palton",
+      "category": "Veste și jachete",
+      "image": "assets/AJ-FOTO-055-cream-front.png",
+      "images": [
+        "assets/AJ-FOTO-055-cream-front.png",
+        "assets/AJ-FOTO-055-cream-back.png",
+        "assets/AJ-FOTO-055-camel-front.png",
+        "assets/AJ-FOTO-055-camel-back.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-055-cream-front.png",
+        "assets/AJ-FOTO-055-cream-back.png",
+        "assets/AJ-FOTO-055-camel-front.png",
+        "assets/AJ-FOTO-055-camel-back.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/AJ-FOTO-055-cream-front.png": {
+          "small": "assets/optimized/AJ-FOTO-055-cream-front-small.webp",
+          "card": "assets/optimized/AJ-FOTO-055-cream-front-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-055-cream-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/AJ-FOTO-055-cream-back.png": {
+          "small": "assets/optimized/AJ-FOTO-055-cream-back-small.webp",
+          "card": "assets/optimized/AJ-FOTO-055-cream-back-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-055-cream-back-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/AJ-FOTO-055-camel-front.png": {
+          "small": "assets/optimized/AJ-FOTO-055-camel-front-small.webp",
+          "card": "assets/optimized/AJ-FOTO-055-camel-front-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-055-camel-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/AJ-FOTO-055-camel-back.png": {
+          "small": "assets/optimized/AJ-FOTO-055-camel-back-small.webp",
+          "card": "assets/optimized/AJ-FOTO-055-camel-back-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-055-camel-back-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      }
     }
   ],
   "whatsappContacts": [
