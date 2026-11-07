@@ -4011,6 +4011,238 @@
           "height": 1448
         }
       }
+    },
+    {
+      "code": "AJ-FOTO-056",
+      "name": "Rochie din denim cu fundițe",
+      "colors": [
+        "Albastru",
+        "Bleu deschis",
+        "Indigo"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "image": "assets/AJ-FOTO-056-studio.png",
+      "images": [
+        "assets/AJ-FOTO-056-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/AJ-FOTO-056-studio.png": {
+          "small": "assets/optimized/AJ-FOTO-056-studio-small.webp",
+          "card": "assets/optimized/AJ-FOTO-056-studio-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-056-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "internalCode": true,
+      "aiImages": [
+        "assets/AJ-FOTO-056-studio.png"
+      ]
+    },
+    {
+      "code": "AJ-FOTO-057",
+      "name": "Vestă din denim cu broderii și dantelă",
+      "colors": [
+        "Albastru"
+      ],
+      "price": null,
+      "category": "Veste și jachete",
+      "image": "assets/AJ-FOTO-057.jpg",
+      "images": [
+        "assets/AJ-FOTO-057.jpg"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/AJ-FOTO-057.jpg": {
+          "small": "assets/optimized/AJ-FOTO-057-small.webp",
+          "card": "assets/optimized/AJ-FOTO-057-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-057-detail.webp",
+          "width": 851,
+          "height": 1222
+        }
+      },
+      "internalCode": true
+    },
+    {
+      "code": "B2008",
+      "name": "Pulover lejer cu mâneci trei sferturi",
+      "colors": [
+        "Crem",
+        "Mov",
+        "Bej",
+        "Maro",
+        "Bleumarin",
+        "Negru"
+      ],
+      "price": null,
+      "category": "Pulovere și cardigane",
+      "image": "assets/B2008-studio.png",
+      "images": [
+        "assets/B2008-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/B2008-studio.png": {
+          "small": "assets/optimized/B2008-studio-small.webp",
+          "card": "assets/optimized/B2008-studio-card.webp",
+          "detail": "assets/optimized/B2008-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/B2008-studio.png"
+      ]
+    },
+    {
+      "code": "LM6062",
+      "name": "Rochie tricotată cu margini contrastante",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Maro",
+        "Gri",
+        "Negru"
+      ],
+      "price": null,
+      "category": "Rochii",
+      "image": "assets/LM6062-studio.png",
+      "images": [
+        "assets/LM6062-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/LM6062-studio.png": {
+          "small": "assets/optimized/LM6062-studio-small.webp",
+          "card": "assets/optimized/LM6062-studio-card.webp",
+          "detail": "assets/optimized/LM6062-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/LM6062-studio.png"
+      ]
+    },
+    {
+      "code": "MY1007",
+      "name": "Pulover cu decolteu în V și mâneci ample",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Bordo",
+        "Bleumarin",
+        "Maro",
+        "Negru"
+      ],
+      "price": null,
+      "category": "Pulovere și cardigane",
+      "image": "assets/MY1007-studio.png",
+      "images": [
+        "assets/MY1007-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/MY1007-studio.png": {
+          "small": "assets/optimized/MY1007-studio-small.webp",
+          "card": "assets/optimized/MY1007-studio-card.webp",
+          "detail": "assets/optimized/MY1007-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/MY1007-studio.png"
+      ]
+    },
+    {
+      "code": "CR2672",
+      "name": "Cămașă în carouri cu buzunar",
+      "colors": [
+        "Albastru",
+        "Maro",
+        "Galben"
+      ],
+      "price": null,
+      "category": "Bluze și tricouri",
+      "image": "assets/CR2672-studio.png",
+      "images": [
+        "assets/CR2672-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/CR2672-studio.png": {
+          "small": "assets/optimized/CR2672-studio-small.webp",
+          "card": "assets/optimized/CR2672-studio-card.webp",
+          "detail": "assets/optimized/CR2672-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/CR2672-studio.png"
+      ]
+    },
+    {
+      "code": "CR2673",
+      "name": "Cămașă în carouri cu două buzunare",
+      "colors": [
+        "Maro",
+        "Albastru",
+        "Galben"
+      ],
+      "price": null,
+      "category": "Bluze și tricouri",
+      "image": "assets/CR2673-studio.png",
+      "images": [
+        "assets/CR2673-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/CR2673-studio.png": {
+          "small": "assets/optimized/CR2673-studio-small.webp",
+          "card": "assets/optimized/CR2673-studio-card.webp",
+          "detail": "assets/optimized/CR2673-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/CR2673-studio.png"
+      ]
+    },
+    {
+      "code": "XX9001",
+      "name": "Pulover cu guler de cămașă și model geometric",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Bleu",
+        "Maro",
+        "Gri închis",
+        "Negru"
+      ],
+      "price": null,
+      "category": "Pulovere și cardigane",
+      "image": "assets/XX9001-studio.png",
+      "images": [
+        "assets/XX9001-studio.png"
+      ],
+      "isNew": true,
+      "media": {
+        "assets/XX9001-studio.png": {
+          "small": "assets/optimized/XX9001-studio-small.webp",
+          "card": "assets/optimized/XX9001-studio-card.webp",
+          "detail": "assets/optimized/XX9001-studio-detail.webp",
+          "width": 1086,
+          "height": 1448
+        }
+      },
+      "aiImages": [
+        "assets/XX9001-studio.png"
+      ]
     }
   ],
   "whatsappContacts": [
