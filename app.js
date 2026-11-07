@@ -1,4 +1,4 @@
-const $=s=>document.querySelector(s);let catalog;let selectedCategory="";const PAGE_SIZE=12;let visibleCount=PAGE_SIZE;
+const $=s=>document.querySelector(s);let catalog;let selectedCategory="";const PAGE_SIZE=12;const PREVIEW_SIZE=6;const NEW_CATEGORY='__new';const CATEGORIES=['Compleuri','Bluze și tricouri','Pulovere și cardigane','Pantaloni și jeans','Rochii','Fuste','Veste și jachete'];let visibleCount=PAGE_SIZE;
 // Shuffle once per visit, then put NEW items first; navigation reuses this order.
 function discoveryOrder(products){
  const shuffled=[...products];
@@ -27,35 +27,74 @@ function detail(p){
  description.querySelector('h2').id='productTitle';$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
 }
 function renderCategories(){
- const categories=['','Compleuri','Bluze și tricouri','Pulovere și cardigane','Pantaloni și jeans','Rochii','Fuste','Veste și jachete'];
+ const categories=['',...CATEGORIES];
  const shortNames={'Bluze și tricouri':'Bluze și tricouri','Pulovere și cardigane':'Pulovere','Pantaloni și jeans':'Pantaloni','Veste și jachete':'Veste și jachete'};
  for(const target of ['#categories','#desktopCategories']){
   $(target).replaceChildren(...categories.map(category=>{
    const button=el('button',target==='#desktopCategories'?(shortNames[category]||category||'Toate'):(category||'Toate'),'category-button');button.type='button';button.dataset.category=category;button.setAttribute('aria-label',category||'Toate');button.setAttribute('aria-pressed',String(category===selectedCategory));
-   button.onclick=()=>{selectedCategory=category;if($('#menuDialog').open)$('#menuDialog').close();document.querySelectorAll('#categories button,#desktopCategories button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.category===category)));render();};return button;
+   button.onclick=()=>openCollection(category);return button;
   }));
+ }
+}
+function openCollection(category){
+ selectedCategory=category;
+ $('#search').value='';
+ if($('#menuDialog').open)$('#menuDialog').close();
+ document.querySelectorAll('#categories button,#desktopCategories button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.category===category)));
+ render();
+ window.scrollTo({top:0,behavior:'instant'});
+ const heading=category?$('#collectionTitle'):$('#products h2');
+ heading?.focus({preventScroll:true});
+}
+function productCard(p,priority=false){
+ const card=el('button',null,'product');card.type='button';card.dataset.code=p.code;card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
+ const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
+ bottom.append(el('span',p.price===null?'Cere preț':p.price+' lei + TVA','price'),arrow);
+ body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length+' culori','color-count'),bottom);
+ if(p.isNew)card.append(el('span','NEW','new-badge'));
+ const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
+ card.append(image,body);card.onclick=()=>detail(p);return card;
+}
+function renderOverview(products){
+ let cardIndex=0;
+ function section(title,category,items,total){
+  const block=el('section',null,'collection-section'),heading=el('h2',title),header=el('div',null,'collection-section-header'),grid=el('div',null,'grid category-preview');
+  heading.id='collection-'+(category===NEW_CATEGORY?'new':CATEGORIES.indexOf(category));heading.tabIndex=-1;block.setAttribute('aria-labelledby',heading.id);block.dataset.category=category;
+  header.append(heading,el('span',total+' '+(total===1?'model':'modele'),'collection-total'));
+  grid.append(...items.slice(0,PREVIEW_SIZE).map(product=>productCard(product,cardIndex++<2)));
+  const more=el('button','Vezi toate ('+total+') →','view-collection');more.type='button';more.setAttribute('aria-label',category===NEW_CATEGORY?'Vezi toate noutățile':'Vezi toate: '+title);more.onclick=()=>openCollection(category);
+  block.append(header,grid,more);$('#products').append(block);
+ }
+ const newProducts=products.filter(product=>product.isNew);
+ if(newProducts.length)section('Noutăți',NEW_CATEGORY,newProducts,newProducts.length);
+ for(const category of CATEGORIES){
+  const members=products.filter(product=>product.category===category);
+  if(members.length)section(category,category,members.filter(product=>!product.isNew),members.length);
  }
 }
 function render(append=false){
  if(!catalog)return;
  const query=$('#search').value.trim().toLocaleLowerCase('ro');
- const products=catalog.products.filter(p=>(!selectedCategory||p.category===selectedCategory)&&(p.code+' '+p.name+' '+p.colors.join(' ')).toLocaleLowerCase('ro').includes(query));
+ const products=catalog.products.filter(p=>(!selectedCategory||(selectedCategory===NEW_CATEGORY?p.isNew:p.category===selectedCategory))&&(p.code+' '+p.name+' '+p.colors.join(' ')).toLocaleLowerCase('ro').includes(query));
  if($('#sort').value==='code')products.sort((a,b)=>a.code.localeCompare(b.code,'ro',{numeric:true}));
+ const overview=!selectedCategory&&!query;
+ $('#products').classList.toggle('grid',!overview);
+ $('#products').classList.toggle('collections-overview',overview);
+ $('#collectionNavigation').hidden=overview;
+ $('#collectionTitle').textContent=selectedCategory===NEW_CATEGORY?'Noutăți':selectedCategory||'Rezultatele căutării';
+ $('#pagination').hidden=overview;
+ $('#count').replaceChildren(el('strong',String(products.length)),document.createTextNode(products.length===1?' model':' modele'));
+ $('#empty').hidden=products.length!==0;
  if(!append){visibleCount=PAGE_SIZE;$('#products').replaceChildren();}
- const start=append?$('#products').children.length:0;
- const batch=products.slice(start,visibleCount);
- $('#products').append(...batch.map((p,index)=>{
-  const card=el('button',null,'product');card.type='button';card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
-  const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
-  bottom.append(el('span',p.price===null?'Cere preț':p.price+' lei + TVA','price'),arrow);
-  body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length+' culori','color-count'),bottom);
-  if(p.isNew)card.append(el('span','NEW','new-badge'));const image=photo(p,p.image,'card');if(start===0&&index<2){image.loading='eager';image.fetchPriority='high';}card.append(image,body);card.onclick=()=>detail(p);return card;
- }));
- $('#count').replaceChildren(el('strong',String(products.length)),document.createTextNode(' modele'));$('#empty').hidden=products.length!==0;
- const shown=Math.min(visibleCount,products.length),remaining=products.length-shown;$('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
- if(append&&remaining===0&&batch.length){$('#products').children[start].focus({preventScroll:true});}
+ if(overview){renderOverview(products);$('#loadMore').hidden=true;$('#pageStatus').textContent='';return;}
+ const start=append?$('#products').children.length:0,batch=products.slice(start,visibleCount);
+ $('#products').append(...batch.map((p,index)=>productCard(p,start===0&&index<2)));
+ const shown=Math.min(visibleCount,products.length),remaining=products.length-shown;
+ $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
+ if(append&&remaining===0&&batch.length)$('#products').children[start].focus({preventScroll:true});
 }
-fetch('catalog.json?v=36').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=37').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+$('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
 const dialog=$('#detail');
