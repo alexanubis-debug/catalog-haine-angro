@@ -27,3 +27,5 @@ Test foto A86547: fotografia principală prezintă modelul întreg, fără inscr
 Ordinea „Descoperă colecția” amestecă produsele o singură dată la fiecare deschidere sau reîncărcare a paginii. Filtrarea, căutarea, detaliile și încărcarea loturilor păstrează aceeași ordine pe pagina deschisă; „Cod produs A–Z” rămâne disponibil. Fișierul catalog.json nu este reordonat.
 
 2026-11-07: arhiva WhatsApp conține 26 fotografii ale unui palton în crem și camel. Adăugat un singur produs AJ-FOTO-055 (cod intern), categoria Veste și jachete, 220 lei / palton, cu patru prezentări de studio (față/spate pentru fiecare culoare), optimizate WebP. Nu se declară compoziție, mărimi sau stocuri. `isNew: true` afișează eticheta NEW în card și detalii; elimină sau setează false când produsul nu mai trebuie marcat nou. Nu modifică ordinea amestecată.
+
+„Descoperă colecția” afișează întâi produsele `isNew`, apoi restul; ordinea este amestecată în fiecare grup o singură dată pe vizită. Filtrarea pe categorie păstrează prioritatea NEW. Sortarea explicită „Cod produs A–Z” continuă să sorteze alfabetic.
