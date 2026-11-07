@@ -49,7 +49,10 @@
           "width": 1254,
           "height": 1254
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-87098",
@@ -72,7 +75,10 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-8386",
@@ -96,7 +102,10 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-87030",
@@ -119,7 +128,10 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "P1559",
@@ -143,7 +155,10 @@
           "width": 630,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-87267",
@@ -167,7 +182,10 @@
           "width": 1254,
           "height": 1254
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-86913",
@@ -189,7 +207,10 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-8572",
@@ -211,7 +232,10 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-86979",
@@ -234,7 +258,10 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A86547",
@@ -269,7 +296,10 @@
       "images": [
         "assets/A86547-clean-model.png"
       ],
-      "colorVariantsImage": "assets/A86547-clean-colors.png"
+      "colorVariantsImage": "assets/A86547-clean-colors.png",
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-8207",
@@ -292,7 +322,10 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A8256",
@@ -314,7 +347,10 @@
           "width": 761,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-8588",
@@ -337,7 +373,10 @@
           "width": 1254,
           "height": 1254
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A86546",
@@ -361,7 +400,10 @@
           "width": 1600,
           "height": 1101
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-8526",
@@ -384,7 +426,10 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BWY6520",
@@ -416,7 +461,11 @@
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWC96620",
@@ -448,7 +497,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWC96826",
@@ -481,7 +534,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWC96836ABC",
@@ -514,7 +571,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWY36971",
@@ -547,7 +608,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWC96886AB",
@@ -580,40 +645,52 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWT6220",
       "name": "Jachetă cu nasturi și buzunare",
       "colors": [
         "Crem",
-        "Khaki",
-        "Coffee",
+        "Bej",
+        "Maro",
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWT6220.jpg",
+      "image": "assets/BWT6220-retouched-front.png",
       "images": [
-        "assets/BWT6220.jpg",
-        "assets/BWT6220-2.jpg"
+        "assets/BWT6220-retouched-front.png",
+        "assets/BWT6220-retouched-details.png"
       ],
       "category": "Veste și jachete",
       "media": {
-        "assets/BWT6220.jpg": {
-          "small": "assets/optimized/BWT6220-small.webp",
-          "card": "assets/optimized/BWT6220-card.webp",
-          "detail": "assets/optimized/BWT6220-detail.webp",
+        "assets/BWT6220-retouched-front.png": {
+          "small": "assets/optimized/BWT6220-retouched-front-small.webp",
+          "card": "assets/optimized/BWT6220-retouched-front-card.webp",
+          "detail": "assets/optimized/BWT6220-retouched-front-detail.webp",
           "width": 1027,
-          "height": 1531
+          "height": 1532
         },
-        "assets/BWT6220-2.jpg": {
-          "small": "assets/optimized/BWT6220-2-small.webp",
-          "card": "assets/optimized/BWT6220-2-card.webp",
-          "detail": "assets/optimized/BWT6220-2-detail.webp",
-          "width": 1080,
-          "height": 1440
+        "assets/BWT6220-retouched-details.png": {
+          "small": "assets/optimized/BWT6220-retouched-details-small.webp",
+          "card": "assets/optimized/BWT6220-retouched-details-card.webp",
+          "detail": "assets/optimized/BWT6220-retouched-details-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
-      }
+      },
+      "aiImages": [
+        "assets/BWT6220-retouched-front.png",
+        "assets/BWT6220-retouched-details.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWY36695ABC",
@@ -645,7 +722,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWY6378",
@@ -678,7 +759,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWC96707",
@@ -711,7 +796,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "BWY36372",
@@ -744,7 +833,11 @@
           "width": 1066,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "QF2181",
@@ -770,7 +863,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF9123",
@@ -795,7 +891,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF3202",
@@ -821,7 +920,11 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "QF3206",
@@ -846,7 +949,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF2157",
@@ -871,7 +977,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF1935",
@@ -897,7 +1006,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF1858",
@@ -923,7 +1035,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF6353-1",
@@ -952,7 +1067,11 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "M/L",
+        "XL/XXL"
+      ]
     },
     {
       "code": "QF1735",
@@ -978,7 +1097,11 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "QF3201",
@@ -1004,7 +1127,11 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "QF2112",
@@ -1029,7 +1156,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "QF3151",
@@ -1054,7 +1184,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "AJ-FOTO-001",
@@ -1105,7 +1238,10 @@
           "width": 1600,
           "height": 1171
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BR8043",
@@ -1130,7 +1266,10 @@
           "width": 1279,
           "height": 1706
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "AJ-FOTO-002",
@@ -1182,7 +1321,10 @@
           "width": 799,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "AJ-FOTO-003",
@@ -1233,7 +1375,10 @@
           "width": 1131,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "P1595",
@@ -1260,7 +1405,10 @@
           "width": 832,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "OY92",
@@ -1321,7 +1469,10 @@
           "width": 1152,
           "height": 2048
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "AJ-FOTO-004",
@@ -1374,7 +1525,10 @@
           "width": 1023,
           "height": 1537
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "P1522",
@@ -1400,7 +1554,10 @@
           "width": 756,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BR8044-1",
@@ -1426,7 +1583,10 @@
           "width": 1279,
           "height": 1706
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "P1619",
@@ -1460,7 +1620,10 @@
           "width": 1152,
           "height": 2048
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-86968",
@@ -1495,7 +1658,10 @@
           "width": 1152,
           "height": 2048
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "AJ-FOTO-005",
@@ -1546,7 +1712,10 @@
           "width": 758,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "B87061",
@@ -1572,7 +1741,10 @@
           "width": 761,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "G6882",
@@ -1623,7 +1795,10 @@
           "width": 1145,
           "height": 1374
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BR8042",
@@ -1648,7 +1823,10 @@
           "width": 1536,
           "height": 2048
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "B-86647",
@@ -1673,7 +1851,10 @@
           "width": 800,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "DL533",
@@ -1698,7 +1879,10 @@
           "width": 1439,
           "height": 1093
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BR8065",
@@ -1723,7 +1907,10 @@
           "width": 1086,
           "height": 1448
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "A-87048",
@@ -1749,7 +1936,10 @@
           "width": 799,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "G6897",
@@ -1773,7 +1963,10 @@
           "width": 1054,
           "height": 1080
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "G6883",
@@ -1800,7 +1993,10 @@
           "width": 1600,
           "height": 1101
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "BR8046",
@@ -1826,7 +2022,10 @@
           "width": 1279,
           "height": 1919
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "B-87134",
@@ -1851,7 +2050,10 @@
           "width": 1254,
           "height": 1254
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "OY78",
@@ -1903,7 +2105,10 @@
           "width": 1254,
           "height": 1254
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "B86814",
@@ -1930,7 +2135,10 @@
           "width": 761,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "JK9436AB",
@@ -1981,7 +2189,11 @@
           "width": 1040,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "HJD7230",
@@ -2006,7 +2218,11 @@
           "width": 1512,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "HJD7225",
@@ -2031,7 +2247,11 @@
           "width": 1600,
           "height": 1500
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "HJD7250",
@@ -2056,7 +2276,11 @@
           "width": 1067,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ]
     },
     {
       "code": "AJ-FOTO-006",
@@ -3438,7 +3662,10 @@
           "width": 1600,
           "height": 1077
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "SJ7017",
@@ -3464,7 +3691,11 @@
           "width": 1200,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "M/L"
+      ]
     },
     {
       "code": "B1020AB",
@@ -3489,7 +3720,11 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "M/L"
+      ]
     },
     {
       "code": "MY1091",
@@ -3515,7 +3750,10 @@
           "width": 1200,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "CR510",
@@ -3539,7 +3777,10 @@
           "width": 1080,
           "height": 1872
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "2991",
@@ -3671,7 +3912,10 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "LM3035AB",
@@ -3695,7 +3939,11 @@
           "width": 1600,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "M/L"
+      ]
     },
     {
       "code": "CR520",
@@ -3722,7 +3970,10 @@
           "width": 1080,
           "height": 1773
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "2319",
@@ -3748,7 +3999,10 @@
           "width": 2048,
           "height": 1192
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "DH176",
@@ -3828,7 +4082,10 @@
           "width": 1080,
           "height": 1818
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "MY9140AB",
@@ -3852,7 +4109,10 @@
           "width": 1200,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "FG2316",
@@ -3878,7 +4138,10 @@
           "width": 2048,
           "height": 1372
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ]
     },
     {
       "code": "CR380",
@@ -3954,7 +4217,11 @@
           "width": 1199,
           "height": 1600
         }
-      }
+      },
+      "sizes": [
+        "S/M",
+        "M/L"
+      ]
     },
     {
       "code": "AJ-FOTO-055",
@@ -4094,6 +4361,9 @@
       },
       "aiImages": [
         "assets/B2008-studio.png"
+      ],
+      "sizes": [
+        "TU"
       ]
     },
     {
@@ -4124,6 +4394,10 @@
       },
       "aiImages": [
         "assets/LM6062-studio.png"
+      ],
+      "sizes": [
+        "S/M",
+        "M/L"
       ]
     },
     {
@@ -4155,6 +4429,9 @@
       },
       "aiImages": [
         "assets/MY1007-studio.png"
+      ],
+      "sizes": [
+        "TU"
       ]
     },
     {
@@ -4183,6 +4460,11 @@
       },
       "aiImages": [
         "assets/CR2672-studio.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "XXL/XXXL"
       ]
     },
     {
@@ -4211,6 +4493,11 @@
       },
       "aiImages": [
         "assets/CR2673-studio.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL",
+        "XXL/XXXL"
       ]
     },
     {
@@ -4242,6 +4529,10 @@
       },
       "aiImages": [
         "assets/XX9001-studio.png"
+      ],
+      "sizes": [
+        "M/L",
+        "L/XL"
       ]
     }
   ],
