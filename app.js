@@ -14,6 +14,7 @@ function photo(p,src=p.image,mode='detail'){
  img.alt=p.name+' · '+p.code+((p.aiImages||[]).includes(src)?' · Vizualizare AI':'');img.decoding='async';img.loading=mode==='detail'?'eager':'lazy';
  if(media){
   img.width=media.width;img.height=media.height;
+  if(media.frame){img.classList.add('studio-frame');img.style.objectFit='cover';img.style.objectPosition=media.frame==='right'?'right center':'left center';img.style.aspectRatio=media.width+' / '+media.height;img.alt+=' · '+(media.frameLabel||(media.frame==='right'?'Cadru suplimentar':'Vedere generală'));}
   if(mode==='thumb'){img.src=media.small;}
   else if(mode==='card'){img.src=media.card;img.srcset=media.small+' 360w, '+media.card+' 640w';img.sizes='(max-width:700px) calc((100vw - 34px)/2), (max-width:1240px) calc((100vw - 96px)/3), 380px';}
   else{img.src=media.detail;img.srcset=media.card+' 640w, '+media.detail+' 1200w';img.sizes='(max-width:700px) 90vw, 540px';}
@@ -24,6 +25,7 @@ function sizeText(p){return (p.sizes||[]).map(size=>size==='TU'?'Talie universal
 function info(p,parent){
  parent.append(el('p',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('h2',p.name),el('p',p.colors.join(' · '),'colors'));
  if(p.sizes?.length)parent.append(el('p','Mărimi: '+sizeText(p),'sizes'));
+ if(p.description)parent.append(el('p',p.description,'product-description'));
  parent.append(el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'));
 }
 function detail(p){
@@ -98,7 +100,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].focus({preventScroll:true});
 }
-fetch('catalog.json?v=39').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=40').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';renderCategories();render()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});

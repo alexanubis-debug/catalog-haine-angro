@@ -37,3 +37,9 @@ Import WhatsApp 18.57.24–28 (30 fotografii): 22 fotografii de produse existent
 BWT6220: denumirile culorilor corectate după fotografie în Crem, Bej, Maro, Negru. Nu interpretați denumirea de furnizor KAKI drept o variantă verde; fotografia materialului este referința de culoare.
 
 Mărimile transcrise din sursele originale sunt în `sizes`. TU se afișează „Talie universală (TU)”; combinațiile S/M, M/L, L/XL, XL/XXL și XXL/XXXL se păstrează exact și nu se despart în mărimi individuale. Nu completați mărimi neconfirmate sau cantități de stoc din tabelele de ambalare. Mărimile apar în card și în detalii. BWT6220 folosește retușuri ale fotografiilor originale, fără reconstrucția croielii sau recolorare.
+
+Refacere fotografii 2026-11-07: 93 modele cu prezentări de furnizor au galerii curate cu două cadre. BWT6220 păstrează cele două retușuri ale originalelor; 92 alte galerii sunt actualizate după comparație vizuală cu sursele. Sunt păstrate croiala, nuanțele fotografice și variantele existente; „Khaki” nu autorizează recolorarea în verde. Originalele rămân pe disc. Prețurile, etichetele NEW și categoriile rămân neschimbate.
+
+Pentru galeriile cu două cadre într-un singur fișier, `studioPair` indică sursa, iar `images` folosește fragmentele `#left` și `#right`. `media.frame` selectează jumătatea prin object-fit/object-position, cu dimensiunile logice ale unui cadru. Optimizatorul exportă la lățime dublă, păstrând rezoluția fiecărei jumătăți. `media.frameLabel` poate descrie o vedere specifică. Nu eliminați fragmentele când construiți galeria.
+
+AJ-FOTO-054: fotografia principală arată bluza cu decolteu în V peste rochia plisată; al doilea cadru arată rochia fără bluză, conform celor două vederi originale. Descrierea precizează setul din două piese. Mărimea TU, lizibilă în sursă, a fost adăugată; în total 87 produse au mărimi verificate.

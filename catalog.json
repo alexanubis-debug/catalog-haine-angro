@@ -14,18 +14,36 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/DR207AB.jpg",
+      "image": "assets/DR207AB-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/DR207AB.jpg": {
-          "small": "assets/optimized/DR207AB-small.webp",
-          "card": "assets/optimized/DR207AB-card.webp",
-          "detail": "assets/optimized/DR207AB-detail.webp",
-          "width": 800,
-          "height": 1600
+        "assets/DR207AB-studio-pair.png#left": {
+          "small": "assets/optimized/DR207AB-studio-pair-small.webp",
+          "card": "assets/optimized/DR207AB-studio-pair-card.webp",
+          "detail": "assets/optimized/DR207AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DR207AB-studio-pair.png#right": {
+          "small": "assets/optimized/DR207AB-studio-pair-small.webp",
+          "card": "assets/optimized/DR207AB-studio-pair-card.webp",
+          "detail": "assets/optimized/DR207AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DR207AB-studio-pair.png",
+      "images": [
+        "assets/DR207AB-studio-pair.png#left",
+        "assets/DR207AB-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/DR207AB-studio-pair.png#left",
+        "assets/DR207AB-studio-pair.png#right"
+      ]
     },
     {
       "code": "A-86952",
@@ -38,20 +56,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-86952.jpg",
+      "image": "assets/A-86952-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-86952.jpg": {
-          "small": "assets/optimized/A-86952-small.webp",
-          "card": "assets/optimized/A-86952-card.webp",
-          "detail": "assets/optimized/A-86952-detail.webp",
-          "width": 1254,
-          "height": 1254
+        "assets/A-86952-studio-pair.png#left": {
+          "small": "assets/optimized/A-86952-studio-pair-small.webp",
+          "card": "assets/optimized/A-86952-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86952-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-86952-studio-pair.png#right": {
+          "small": "assets/optimized/A-86952-studio-pair-small.webp",
+          "card": "assets/optimized/A-86952-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86952-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-86952-studio-pair.png",
+      "images": [
+        "assets/A-86952-studio-pair.png#left",
+        "assets/A-86952-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-86952-studio-pair.png#left",
+        "assets/A-86952-studio-pair.png#right"
       ]
     },
     {
@@ -64,20 +100,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-87098.jpg",
+      "image": "assets/A-87098-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-87098.jpg": {
-          "small": "assets/optimized/A-87098-small.webp",
-          "card": "assets/optimized/A-87098-card.webp",
-          "detail": "assets/optimized/A-87098-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/A-87098-studio-pair.png#left": {
+          "small": "assets/optimized/A-87098-studio-pair-small.webp",
+          "card": "assets/optimized/A-87098-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87098-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87098-studio-pair.png#right": {
+          "small": "assets/optimized/A-87098-studio-pair-small.webp",
+          "card": "assets/optimized/A-87098-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87098-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87098-studio-pair.png",
+      "images": [
+        "assets/A-87098-studio-pair.png#left",
+        "assets/A-87098-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-87098-studio-pair.png#left",
+        "assets/A-87098-studio-pair.png#right"
       ]
     },
     {
@@ -91,20 +145,35 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-8386.jpg",
+      "image": "assets/A-8386-studio-front.png",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-8386.jpg": {
-          "small": "assets/optimized/A-8386-small.webp",
-          "card": "assets/optimized/A-8386-card.webp",
-          "detail": "assets/optimized/A-8386-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/A-8386-studio-front.png": {
+          "small": "assets/optimized/A-8386-studio-front-small.webp",
+          "card": "assets/optimized/A-8386-studio-front-card.webp",
+          "detail": "assets/optimized/A-8386-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/A-8386-studio-angle.png": {
+          "small": "assets/optimized/A-8386-studio-angle-small.webp",
+          "card": "assets/optimized/A-8386-studio-angle-card.webp",
+          "detail": "assets/optimized/A-8386-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "TU"
+      ],
+      "images": [
+        "assets/A-8386-studio-front.png",
+        "assets/A-8386-studio-angle.png"
+      ],
+      "aiImages": [
+        "assets/A-8386-studio-front.png",
+        "assets/A-8386-studio-angle.png"
       ]
     },
     {
@@ -117,20 +186,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-87030.jpg",
+      "image": "assets/A-87030-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-87030.jpg": {
-          "small": "assets/optimized/A-87030-small.webp",
-          "card": "assets/optimized/A-87030-card.webp",
-          "detail": "assets/optimized/A-87030-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/A-87030-studio-pair.png#left": {
+          "small": "assets/optimized/A-87030-studio-pair-small.webp",
+          "card": "assets/optimized/A-87030-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87030-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87030-studio-pair.png#right": {
+          "small": "assets/optimized/A-87030-studio-pair-small.webp",
+          "card": "assets/optimized/A-87030-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87030-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87030-studio-pair.png",
+      "images": [
+        "assets/A-87030-studio-pair.png#left",
+        "assets/A-87030-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-87030-studio-pair.png#left",
+        "assets/A-87030-studio-pair.png#right"
       ]
     },
     {
@@ -144,20 +231,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/P1559.jpg",
+      "image": "assets/P1559-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/P1559.jpg": {
-          "small": "assets/optimized/P1559-small.webp",
-          "card": "assets/optimized/P1559-card.webp",
-          "detail": "assets/optimized/P1559-detail.webp",
-          "width": 630,
-          "height": 1600
+        "assets/P1559-studio-pair.png#left": {
+          "small": "assets/optimized/P1559-studio-pair-small.webp",
+          "card": "assets/optimized/P1559-studio-pair-card.webp",
+          "detail": "assets/optimized/P1559-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/P1559-studio-pair.png#right": {
+          "small": "assets/optimized/P1559-studio-pair-small.webp",
+          "card": "assets/optimized/P1559-studio-pair-card.webp",
+          "detail": "assets/optimized/P1559-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/P1559-studio-pair.png",
+      "images": [
+        "assets/P1559-studio-pair.png#left",
+        "assets/P1559-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/P1559-studio-pair.png#left",
+        "assets/P1559-studio-pair.png#right"
       ]
     },
     {
@@ -171,20 +276,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-87267.jpg",
+      "image": "assets/A-87267-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-87267.jpg": {
-          "small": "assets/optimized/A-87267-small.webp",
-          "card": "assets/optimized/A-87267-card.webp",
-          "detail": "assets/optimized/A-87267-detail.webp",
-          "width": 1254,
-          "height": 1254
+        "assets/A-87267-studio-pair.png#left": {
+          "small": "assets/optimized/A-87267-studio-pair-small.webp",
+          "card": "assets/optimized/A-87267-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87267-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87267-studio-pair.png#right": {
+          "small": "assets/optimized/A-87267-studio-pair-small.webp",
+          "card": "assets/optimized/A-87267-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87267-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87267-studio-pair.png",
+      "images": [
+        "assets/A-87267-studio-pair.png#left",
+        "assets/A-87267-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-87267-studio-pair.png#left",
+        "assets/A-87267-studio-pair.png#right"
       ]
     },
     {
@@ -196,20 +319,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-86913.jpg",
+      "image": "assets/A-86913-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-86913.jpg": {
-          "small": "assets/optimized/A-86913-small.webp",
-          "card": "assets/optimized/A-86913-card.webp",
-          "detail": "assets/optimized/A-86913-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/A-86913-studio-pair.png#left": {
+          "small": "assets/optimized/A-86913-studio-pair-small.webp",
+          "card": "assets/optimized/A-86913-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86913-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-86913-studio-pair.png#right": {
+          "small": "assets/optimized/A-86913-studio-pair-small.webp",
+          "card": "assets/optimized/A-86913-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86913-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-86913-studio-pair.png",
+      "images": [
+        "assets/A-86913-studio-pair.png#left",
+        "assets/A-86913-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-86913-studio-pair.png#left",
+        "assets/A-86913-studio-pair.png#right"
       ]
     },
     {
@@ -221,20 +362,38 @@
         "Coffee / Camel"
       ],
       "price": 125,
-      "image": "assets/A-8572.jpg",
+      "image": "assets/A-8572-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-8572.jpg": {
-          "small": "assets/optimized/A-8572-small.webp",
-          "card": "assets/optimized/A-8572-card.webp",
-          "detail": "assets/optimized/A-8572-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/A-8572-studio-pair.png#left": {
+          "small": "assets/optimized/A-8572-studio-pair-small.webp",
+          "card": "assets/optimized/A-8572-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8572-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-8572-studio-pair.png#right": {
+          "small": "assets/optimized/A-8572-studio-pair-small.webp",
+          "card": "assets/optimized/A-8572-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8572-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-8572-studio-pair.png",
+      "images": [
+        "assets/A-8572-studio-pair.png#left",
+        "assets/A-8572-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-8572-studio-pair.png#left",
+        "assets/A-8572-studio-pair.png#right"
       ]
     },
     {
@@ -247,20 +406,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-86979.jpg",
+      "image": "assets/A-86979-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-86979.jpg": {
-          "small": "assets/optimized/A-86979-small.webp",
-          "card": "assets/optimized/A-86979-card.webp",
-          "detail": "assets/optimized/A-86979-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/A-86979-studio-pair.png#left": {
+          "small": "assets/optimized/A-86979-studio-pair-small.webp",
+          "card": "assets/optimized/A-86979-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86979-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-86979-studio-pair.png#right": {
+          "small": "assets/optimized/A-86979-studio-pair-small.webp",
+          "card": "assets/optimized/A-86979-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86979-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-86979-studio-pair.png",
+      "images": [
+        "assets/A-86979-studio-pair.png#left",
+        "assets/A-86979-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-86979-studio-pair.png#left",
+        "assets/A-86979-studio-pair.png#right"
       ]
     },
     {
@@ -311,20 +488,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-8207.jpg",
+      "image": "assets/A-8207-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-8207.jpg": {
-          "small": "assets/optimized/A-8207-small.webp",
-          "card": "assets/optimized/A-8207-card.webp",
-          "detail": "assets/optimized/A-8207-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/A-8207-studio-pair.png#left": {
+          "small": "assets/optimized/A-8207-studio-pair-small.webp",
+          "card": "assets/optimized/A-8207-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8207-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-8207-studio-pair.png#right": {
+          "small": "assets/optimized/A-8207-studio-pair-small.webp",
+          "card": "assets/optimized/A-8207-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8207-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-8207-studio-pair.png",
+      "images": [
+        "assets/A-8207-studio-pair.png#left",
+        "assets/A-8207-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-8207-studio-pair.png#left",
+        "assets/A-8207-studio-pair.png#right"
       ]
     },
     {
@@ -336,20 +531,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A8256.jpg",
+      "image": "assets/A8256-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A8256.jpg": {
-          "small": "assets/optimized/A8256-small.webp",
-          "card": "assets/optimized/A8256-card.webp",
-          "detail": "assets/optimized/A8256-detail.webp",
-          "width": 761,
-          "height": 1600
+        "assets/A8256-studio-pair.png#left": {
+          "small": "assets/optimized/A8256-studio-pair-small.webp",
+          "card": "assets/optimized/A8256-studio-pair-card.webp",
+          "detail": "assets/optimized/A8256-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A8256-studio-pair.png#right": {
+          "small": "assets/optimized/A8256-studio-pair-small.webp",
+          "card": "assets/optimized/A8256-studio-pair-card.webp",
+          "detail": "assets/optimized/A8256-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A8256-studio-pair.png",
+      "images": [
+        "assets/A8256-studio-pair.png#left",
+        "assets/A8256-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A8256-studio-pair.png#left",
+        "assets/A8256-studio-pair.png#right"
       ]
     },
     {
@@ -362,20 +575,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-8588.jpg",
+      "image": "assets/A-8588-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-8588.jpg": {
-          "small": "assets/optimized/A-8588-small.webp",
-          "card": "assets/optimized/A-8588-card.webp",
-          "detail": "assets/optimized/A-8588-detail.webp",
-          "width": 1254,
-          "height": 1254
+        "assets/A-8588-studio-pair.png#left": {
+          "small": "assets/optimized/A-8588-studio-pair-small.webp",
+          "card": "assets/optimized/A-8588-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8588-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-8588-studio-pair.png#right": {
+          "small": "assets/optimized/A-8588-studio-pair-small.webp",
+          "card": "assets/optimized/A-8588-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8588-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-8588-studio-pair.png",
+      "images": [
+        "assets/A-8588-studio-pair.png#left",
+        "assets/A-8588-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-8588-studio-pair.png#left",
+        "assets/A-8588-studio-pair.png#right"
       ]
     },
     {
@@ -389,20 +620,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A86546.jpg",
+      "image": "assets/A86546-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A86546.jpg": {
-          "small": "assets/optimized/A86546-small.webp",
-          "card": "assets/optimized/A86546-card.webp",
-          "detail": "assets/optimized/A86546-detail.webp",
-          "width": 1600,
-          "height": 1101
+        "assets/A86546-studio-pair.png#left": {
+          "small": "assets/optimized/A86546-studio-pair-small.webp",
+          "card": "assets/optimized/A86546-studio-pair-card.webp",
+          "detail": "assets/optimized/A86546-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A86546-studio-pair.png#right": {
+          "small": "assets/optimized/A86546-studio-pair-small.webp",
+          "card": "assets/optimized/A86546-studio-pair-card.webp",
+          "detail": "assets/optimized/A86546-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A86546-studio-pair.png",
+      "images": [
+        "assets/A86546-studio-pair.png#left",
+        "assets/A86546-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A86546-studio-pair.png#left",
+        "assets/A86546-studio-pair.png#right"
       ]
     },
     {
@@ -415,20 +664,38 @@
         "Negru"
       ],
       "price": 125,
-      "image": "assets/A-8526.jpg",
+      "image": "assets/A-8526-studio-pair.png#left",
       "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
-        "assets/A-8526.jpg": {
-          "small": "assets/optimized/A-8526-small.webp",
-          "card": "assets/optimized/A-8526-card.webp",
-          "detail": "assets/optimized/A-8526-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/A-8526-studio-pair.png#left": {
+          "small": "assets/optimized/A-8526-studio-pair-small.webp",
+          "card": "assets/optimized/A-8526-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8526-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-8526-studio-pair.png#right": {
+          "small": "assets/optimized/A-8526-studio-pair-small.webp",
+          "card": "assets/optimized/A-8526-studio-pair-card.webp",
+          "detail": "assets/optimized/A-8526-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-8526-studio-pair.png",
+      "images": [
+        "assets/A-8526-studio-pair.png#left",
+        "assets/A-8526-studio-pair.png#right"
+      ],
+      "aiImages": [
+        "assets/A-8526-studio-pair.png#left",
+        "assets/A-8526-studio-pair.png#right"
       ]
     },
     {
@@ -440,31 +707,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWY6520.jpg",
+      "image": "assets/BWY6520-studio-pair.png#left",
       "images": [
-        "assets/BWY6520.jpg",
-        "assets/BWY6520-2.jpg"
+        "assets/BWY6520-studio-pair.png#left",
+        "assets/BWY6520-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/BWY6520.jpg": {
-          "small": "assets/optimized/BWY6520-small.webp",
-          "card": "assets/optimized/BWY6520-card.webp",
-          "detail": "assets/optimized/BWY6520-detail.webp",
-          "width": 1080,
-          "height": 1350
+        "assets/BWY6520-studio-pair.png#left": {
+          "small": "assets/optimized/BWY6520-studio-pair-small.webp",
+          "card": "assets/optimized/BWY6520-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY6520-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWY6520-2.jpg": {
-          "small": "assets/optimized/BWY6520-2-small.webp",
-          "card": "assets/optimized/BWY6520-2-card.webp",
-          "detail": "assets/optimized/BWY6520-2-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/BWY6520-studio-pair.png#right": {
+          "small": "assets/optimized/BWY6520-studio-pair-small.webp",
+          "card": "assets/optimized/BWY6520-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY6520-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWY6520-studio-pair.png",
+      "aiImages": [
+        "assets/BWY6520-studio-pair.png#left",
+        "assets/BWY6520-studio-pair.png#right"
       ]
     },
     {
@@ -476,31 +750,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWC96620.jpg",
+      "image": "assets/BWC96620-studio-pair.png#left",
       "images": [
-        "assets/BWC96620.jpg",
-        "assets/BWC96620-2.jpg"
+        "assets/BWC96620-studio-pair.png#left",
+        "assets/BWC96620-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/BWC96620.jpg": {
-          "small": "assets/optimized/BWC96620-small.webp",
-          "card": "assets/optimized/BWC96620-card.webp",
-          "detail": "assets/optimized/BWC96620-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96620-studio-pair.png#left": {
+          "small": "assets/optimized/BWC96620-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96620-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96620-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWC96620-2.jpg": {
-          "small": "assets/optimized/BWC96620-2-small.webp",
-          "card": "assets/optimized/BWC96620-2-card.webp",
-          "detail": "assets/optimized/BWC96620-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96620-studio-pair.png#right": {
+          "small": "assets/optimized/BWC96620-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96620-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96620-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWC96620-studio-pair.png",
+      "aiImages": [
+        "assets/BWC96620-studio-pair.png#left",
+        "assets/BWC96620-studio-pair.png#right"
       ]
     },
     {
@@ -513,31 +794,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWC96826.jpg",
+      "image": "assets/BWC96826-studio-pair.png#left",
       "images": [
-        "assets/BWC96826.jpg",
-        "assets/BWC96826-2.jpg"
+        "assets/BWC96826-studio-pair.png#left",
+        "assets/BWC96826-studio-pair.png#right"
       ],
       "category": "Rochii",
       "media": {
-        "assets/BWC96826.jpg": {
-          "small": "assets/optimized/BWC96826-small.webp",
-          "card": "assets/optimized/BWC96826-card.webp",
-          "detail": "assets/optimized/BWC96826-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96826-studio-pair.png#left": {
+          "small": "assets/optimized/BWC96826-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96826-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96826-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWC96826-2.jpg": {
-          "small": "assets/optimized/BWC96826-2-small.webp",
-          "card": "assets/optimized/BWC96826-2-card.webp",
-          "detail": "assets/optimized/BWC96826-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96826-studio-pair.png#right": {
+          "small": "assets/optimized/BWC96826-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96826-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96826-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWC96826-studio-pair.png",
+      "aiImages": [
+        "assets/BWC96826-studio-pair.png#left",
+        "assets/BWC96826-studio-pair.png#right"
       ]
     },
     {
@@ -550,31 +838,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWC96836ABC.jpg",
+      "image": "assets/BWC96836ABC-studio-pair.png#left",
       "images": [
-        "assets/BWC96836ABC.jpg",
-        "assets/BWC96836ABC-2.jpg"
+        "assets/BWC96836ABC-studio-pair.png#left",
+        "assets/BWC96836ABC-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/BWC96836ABC.jpg": {
-          "small": "assets/optimized/BWC96836ABC-small.webp",
-          "card": "assets/optimized/BWC96836ABC-card.webp",
-          "detail": "assets/optimized/BWC96836ABC-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96836ABC-studio-pair.png#left": {
+          "small": "assets/optimized/BWC96836ABC-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96836ABC-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96836ABC-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWC96836ABC-2.jpg": {
-          "small": "assets/optimized/BWC96836ABC-2-small.webp",
-          "card": "assets/optimized/BWC96836ABC-2-card.webp",
-          "detail": "assets/optimized/BWC96836ABC-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96836ABC-studio-pair.png#right": {
+          "small": "assets/optimized/BWC96836ABC-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96836ABC-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96836ABC-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWC96836ABC-studio-pair.png",
+      "aiImages": [
+        "assets/BWC96836ABC-studio-pair.png#left",
+        "assets/BWC96836ABC-studio-pair.png#right"
       ]
     },
     {
@@ -587,31 +882,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWY36971.jpg",
+      "image": "assets/BWY36971-studio-pair.png#left",
       "images": [
-        "assets/BWY36971.jpg",
-        "assets/BWY36971-2.jpg"
+        "assets/BWY36971-studio-pair.png#left",
+        "assets/BWY36971-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/BWY36971.jpg": {
-          "small": "assets/optimized/BWY36971-small.webp",
-          "card": "assets/optimized/BWY36971-card.webp",
-          "detail": "assets/optimized/BWY36971-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY36971-studio-pair.png#left": {
+          "small": "assets/optimized/BWY36971-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36971-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36971-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWY36971-2.jpg": {
-          "small": "assets/optimized/BWY36971-2-small.webp",
-          "card": "assets/optimized/BWY36971-2-card.webp",
-          "detail": "assets/optimized/BWY36971-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY36971-studio-pair.png#right": {
+          "small": "assets/optimized/BWY36971-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36971-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36971-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWY36971-studio-pair.png",
+      "aiImages": [
+        "assets/BWY36971-studio-pair.png#left",
+        "assets/BWY36971-studio-pair.png#right"
       ]
     },
     {
@@ -624,31 +926,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWC96886AB.jpg",
+      "image": "assets/BWC96886AB-studio-front.png",
       "images": [
-        "assets/BWC96886AB.jpg",
-        "assets/BWC96886AB-2.jpg"
+        "assets/BWC96886AB-studio-front.png",
+        "assets/BWC96886AB-studio-angle.png"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/BWC96886AB.jpg": {
-          "small": "assets/optimized/BWC96886AB-small.webp",
-          "card": "assets/optimized/BWC96886AB-card.webp",
-          "detail": "assets/optimized/BWC96886AB-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96886AB-studio-front.png": {
+          "small": "assets/optimized/BWC96886AB-studio-front-small.webp",
+          "card": "assets/optimized/BWC96886AB-studio-front-card.webp",
+          "detail": "assets/optimized/BWC96886AB-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
         },
-        "assets/BWC96886AB-2.jpg": {
-          "small": "assets/optimized/BWC96886AB-2-small.webp",
-          "card": "assets/optimized/BWC96886AB-2-card.webp",
-          "detail": "assets/optimized/BWC96886AB-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96886AB-studio-angle.png": {
+          "small": "assets/optimized/BWC96886AB-studio-angle-small.webp",
+          "card": "assets/optimized/BWC96886AB-studio-angle-card.webp",
+          "detail": "assets/optimized/BWC96886AB-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "aiImages": [
+        "assets/BWC96886AB-studio-front.png",
+        "assets/BWC96886AB-studio-angle.png"
       ]
     },
     {
@@ -701,31 +1007,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWY36695ABC.jpg",
+      "image": "assets/BWY36695ABC-studio-pair.png#left",
       "images": [
-        "assets/BWY36695ABC.jpg",
-        "assets/BWY36695ABC-2.jpg"
+        "assets/BWY36695ABC-studio-pair.png#left",
+        "assets/BWY36695ABC-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/BWY36695ABC.jpg": {
-          "small": "assets/optimized/BWY36695ABC-small.webp",
-          "card": "assets/optimized/BWY36695ABC-card.webp",
-          "detail": "assets/optimized/BWY36695ABC-detail.webp",
-          "width": 1000,
-          "height": 1500
+        "assets/BWY36695ABC-studio-pair.png#left": {
+          "small": "assets/optimized/BWY36695ABC-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36695ABC-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36695ABC-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWY36695ABC-2.jpg": {
-          "small": "assets/optimized/BWY36695ABC-2-small.webp",
-          "card": "assets/optimized/BWY36695ABC-2-card.webp",
-          "detail": "assets/optimized/BWY36695ABC-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY36695ABC-studio-pair.png#right": {
+          "small": "assets/optimized/BWY36695ABC-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36695ABC-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36695ABC-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWY36695ABC-studio-pair.png",
+      "aiImages": [
+        "assets/BWY36695ABC-studio-pair.png#left",
+        "assets/BWY36695ABC-studio-pair.png#right"
       ]
     },
     {
@@ -738,31 +1051,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWY6378.jpg",
+      "image": "assets/BWY6378-studio-pair.png#left",
       "images": [
-        "assets/BWY6378.jpg",
-        "assets/BWY6378-2.jpg"
+        "assets/BWY6378-studio-pair.png#left",
+        "assets/BWY6378-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/BWY6378.jpg": {
-          "small": "assets/optimized/BWY6378-small.webp",
-          "card": "assets/optimized/BWY6378-card.webp",
-          "detail": "assets/optimized/BWY6378-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY6378-studio-pair.png#left": {
+          "small": "assets/optimized/BWY6378-studio-pair-small.webp",
+          "card": "assets/optimized/BWY6378-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY6378-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWY6378-2.jpg": {
-          "small": "assets/optimized/BWY6378-2-small.webp",
-          "card": "assets/optimized/BWY6378-2-card.webp",
-          "detail": "assets/optimized/BWY6378-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY6378-studio-pair.png#right": {
+          "small": "assets/optimized/BWY6378-studio-pair-small.webp",
+          "card": "assets/optimized/BWY6378-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY6378-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWY6378-studio-pair.png",
+      "aiImages": [
+        "assets/BWY6378-studio-pair.png#left",
+        "assets/BWY6378-studio-pair.png#right"
       ]
     },
     {
@@ -775,31 +1095,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWC96707.jpg",
+      "image": "assets/BWC96707-studio-pair.png#left",
       "images": [
-        "assets/BWC96707.jpg",
-        "assets/BWC96707-2.jpg"
+        "assets/BWC96707-studio-pair.png#left",
+        "assets/BWC96707-studio-pair.png#right"
       ],
       "category": "Veste și jachete",
       "media": {
-        "assets/BWC96707.jpg": {
-          "small": "assets/optimized/BWC96707-small.webp",
-          "card": "assets/optimized/BWC96707-card.webp",
-          "detail": "assets/optimized/BWC96707-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96707-studio-pair.png#left": {
+          "small": "assets/optimized/BWC96707-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96707-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96707-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWC96707-2.jpg": {
-          "small": "assets/optimized/BWC96707-2-small.webp",
-          "card": "assets/optimized/BWC96707-2-card.webp",
-          "detail": "assets/optimized/BWC96707-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWC96707-studio-pair.png#right": {
+          "small": "assets/optimized/BWC96707-studio-pair-small.webp",
+          "card": "assets/optimized/BWC96707-studio-pair-card.webp",
+          "detail": "assets/optimized/BWC96707-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWC96707-studio-pair.png",
+      "aiImages": [
+        "assets/BWC96707-studio-pair.png#left",
+        "assets/BWC96707-studio-pair.png#right"
       ]
     },
     {
@@ -812,31 +1139,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/BWY36372.jpg",
+      "image": "assets/BWY36372-studio-pair.png#left",
       "images": [
-        "assets/BWY36372.jpg",
-        "assets/BWY36372-2.jpg"
+        "assets/BWY36372-studio-pair.png#left",
+        "assets/BWY36372-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/BWY36372.jpg": {
-          "small": "assets/optimized/BWY36372-small.webp",
-          "card": "assets/optimized/BWY36372-card.webp",
-          "detail": "assets/optimized/BWY36372-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY36372-studio-pair.png#left": {
+          "small": "assets/optimized/BWY36372-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36372-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36372-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/BWY36372-2.jpg": {
-          "small": "assets/optimized/BWY36372-2-small.webp",
-          "card": "assets/optimized/BWY36372-2-card.webp",
-          "detail": "assets/optimized/BWY36372-2-detail.webp",
-          "width": 1066,
-          "height": 1600
+        "assets/BWY36372-studio-pair.png#right": {
+          "small": "assets/optimized/BWY36372-studio-pair-small.webp",
+          "card": "assets/optimized/BWY36372-studio-pair-card.webp",
+          "detail": "assets/optimized/BWY36372-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/BWY36372-studio-pair.png",
+      "aiImages": [
+        "assets/BWY36372-studio-pair.png#left",
+        "assets/BWY36372-studio-pair.png#right"
       ]
     },
     {
@@ -850,22 +1184,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF2181.jpg",
+      "image": "assets/QF2181-studio-pair.png#left",
       "images": [
-        "assets/QF2181.jpg"
+        "assets/QF2181-studio-pair.png#left",
+        "assets/QF2181-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF2181.jpg": {
-          "small": "assets/optimized/QF2181-small.webp",
-          "card": "assets/optimized/QF2181-card.webp",
-          "detail": "assets/optimized/QF2181-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF2181-studio-pair.png#left": {
+          "small": "assets/optimized/QF2181-studio-pair-small.webp",
+          "card": "assets/optimized/QF2181-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2181-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF2181-studio-pair.png#right": {
+          "small": "assets/optimized/QF2181-studio-pair-small.webp",
+          "card": "assets/optimized/QF2181-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2181-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF2181-studio-pair.png",
+      "aiImages": [
+        "assets/QF2181-studio-pair.png#left",
+        "assets/QF2181-studio-pair.png#right"
       ]
     },
     {
@@ -878,22 +1227,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF9123.jpg",
+      "image": "assets/QF9123-studio-pair.png#left",
       "images": [
-        "assets/QF9123.jpg"
+        "assets/QF9123-studio-pair.png#left",
+        "assets/QF9123-studio-pair.png#right"
       ],
       "category": "Fuste",
       "media": {
-        "assets/QF9123.jpg": {
-          "small": "assets/optimized/QF9123-small.webp",
-          "card": "assets/optimized/QF9123-card.webp",
-          "detail": "assets/optimized/QF9123-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF9123-studio-pair.png#left": {
+          "small": "assets/optimized/QF9123-studio-pair-small.webp",
+          "card": "assets/optimized/QF9123-studio-pair-card.webp",
+          "detail": "assets/optimized/QF9123-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF9123-studio-pair.png#right": {
+          "small": "assets/optimized/QF9123-studio-pair-small.webp",
+          "card": "assets/optimized/QF9123-studio-pair-card.webp",
+          "detail": "assets/optimized/QF9123-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF9123-studio-pair.png",
+      "aiImages": [
+        "assets/QF9123-studio-pair.png#left",
+        "assets/QF9123-studio-pair.png#right"
       ]
     },
     {
@@ -907,23 +1271,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF3202.jpg",
+      "image": "assets/QF3202-studio-pair.png#left",
       "images": [
-        "assets/QF3202.jpg"
+        "assets/QF3202-studio-pair.png#left",
+        "assets/QF3202-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF3202.jpg": {
-          "small": "assets/optimized/QF3202-small.webp",
-          "card": "assets/optimized/QF3202-card.webp",
-          "detail": "assets/optimized/QF3202-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF3202-studio-pair.png#left": {
+          "small": "assets/optimized/QF3202-studio-pair-small.webp",
+          "card": "assets/optimized/QF3202-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3202-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF3202-studio-pair.png#right": {
+          "small": "assets/optimized/QF3202-studio-pair-small.webp",
+          "card": "assets/optimized/QF3202-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3202-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/QF3202-studio-pair.png",
+      "aiImages": [
+        "assets/QF3202-studio-pair.png#left",
+        "assets/QF3202-studio-pair.png#right"
       ]
     },
     {
@@ -936,22 +1315,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF3206.jpg",
+      "image": "assets/QF3206-studio-pair.png#left",
       "images": [
-        "assets/QF3206.jpg"
+        "assets/QF3206-studio-pair.png#left",
+        "assets/QF3206-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF3206.jpg": {
-          "small": "assets/optimized/QF3206-small.webp",
-          "card": "assets/optimized/QF3206-card.webp",
-          "detail": "assets/optimized/QF3206-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF3206-studio-pair.png#left": {
+          "small": "assets/optimized/QF3206-studio-pair-small.webp",
+          "card": "assets/optimized/QF3206-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3206-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF3206-studio-pair.png#right": {
+          "small": "assets/optimized/QF3206-studio-pair-small.webp",
+          "card": "assets/optimized/QF3206-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3206-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF3206-studio-pair.png",
+      "aiImages": [
+        "assets/QF3206-studio-pair.png#left",
+        "assets/QF3206-studio-pair.png#right"
       ]
     },
     {
@@ -964,22 +1358,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF2157.jpg",
+      "image": "assets/QF2157-studio-pair.png#left",
       "images": [
-        "assets/QF2157.jpg"
+        "assets/QF2157-studio-pair.png#left",
+        "assets/QF2157-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF2157.jpg": {
-          "small": "assets/optimized/QF2157-small.webp",
-          "card": "assets/optimized/QF2157-card.webp",
-          "detail": "assets/optimized/QF2157-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF2157-studio-pair.png#left": {
+          "small": "assets/optimized/QF2157-studio-pair-small.webp",
+          "card": "assets/optimized/QF2157-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2157-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF2157-studio-pair.png#right": {
+          "small": "assets/optimized/QF2157-studio-pair-small.webp",
+          "card": "assets/optimized/QF2157-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2157-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF2157-studio-pair.png",
+      "aiImages": [
+        "assets/QF2157-studio-pair.png#left",
+        "assets/QF2157-studio-pair.png#right"
       ]
     },
     {
@@ -993,22 +1402,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF1935.jpg",
+      "image": "assets/QF1935-studio-pair.png#left",
       "images": [
-        "assets/QF1935.jpg"
+        "assets/QF1935-studio-pair.png#left",
+        "assets/QF1935-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF1935.jpg": {
-          "small": "assets/optimized/QF1935-small.webp",
-          "card": "assets/optimized/QF1935-card.webp",
-          "detail": "assets/optimized/QF1935-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF1935-studio-pair.png#left": {
+          "small": "assets/optimized/QF1935-studio-pair-small.webp",
+          "card": "assets/optimized/QF1935-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1935-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF1935-studio-pair.png#right": {
+          "small": "assets/optimized/QF1935-studio-pair-small.webp",
+          "card": "assets/optimized/QF1935-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1935-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF1935-studio-pair.png",
+      "aiImages": [
+        "assets/QF1935-studio-pair.png#left",
+        "assets/QF1935-studio-pair.png#right"
       ]
     },
     {
@@ -1022,22 +1446,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF1858.jpg",
+      "image": "assets/QF1858-studio-pair.png#left",
       "images": [
-        "assets/QF1858.jpg"
+        "assets/QF1858-studio-pair.png#left",
+        "assets/QF1858-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF1858.jpg": {
-          "small": "assets/optimized/QF1858-small.webp",
-          "card": "assets/optimized/QF1858-card.webp",
-          "detail": "assets/optimized/QF1858-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF1858-studio-pair.png#left": {
+          "small": "assets/optimized/QF1858-studio-pair-small.webp",
+          "card": "assets/optimized/QF1858-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1858-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF1858-studio-pair.png#right": {
+          "small": "assets/optimized/QF1858-studio-pair-small.webp",
+          "card": "assets/optimized/QF1858-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1858-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF1858-studio-pair.png",
+      "aiImages": [
+        "assets/QF1858-studio-pair.png#left",
+        "assets/QF1858-studio-pair.png#right"
       ]
     },
     {
@@ -1054,23 +1493,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF6353-1.jpg",
+      "image": "assets/QF6353-1-studio-pair.png#left",
       "images": [
-        "assets/QF6353-1.jpg"
+        "assets/QF6353-1-studio-pair.png#left",
+        "assets/QF6353-1-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF6353-1.jpg": {
-          "small": "assets/optimized/QF6353-1-small.webp",
-          "card": "assets/optimized/QF6353-1-card.webp",
-          "detail": "assets/optimized/QF6353-1-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF6353-1-studio-pair.png#left": {
+          "small": "assets/optimized/QF6353-1-studio-pair-small.webp",
+          "card": "assets/optimized/QF6353-1-studio-pair-card.webp",
+          "detail": "assets/optimized/QF6353-1-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF6353-1-studio-pair.png#right": {
+          "small": "assets/optimized/QF6353-1-studio-pair-small.webp",
+          "card": "assets/optimized/QF6353-1-studio-pair-card.webp",
+          "detail": "assets/optimized/QF6353-1-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "M/L",
         "XL/XXL"
+      ],
+      "studioPair": "assets/QF6353-1-studio-pair.png",
+      "aiImages": [
+        "assets/QF6353-1-studio-pair.png#left",
+        "assets/QF6353-1-studio-pair.png#right"
       ]
     },
     {
@@ -1084,23 +1538,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF1735.jpg",
+      "image": "assets/QF1735-studio-pair.png#left",
       "images": [
-        "assets/QF1735.jpg"
+        "assets/QF1735-studio-pair.png#left",
+        "assets/QF1735-studio-pair.png#right"
       ],
       "category": "Pantaloni și jeans",
       "media": {
-        "assets/QF1735.jpg": {
-          "small": "assets/optimized/QF1735-small.webp",
-          "card": "assets/optimized/QF1735-card.webp",
-          "detail": "assets/optimized/QF1735-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF1735-studio-pair.png#left": {
+          "small": "assets/optimized/QF1735-studio-pair-small.webp",
+          "card": "assets/optimized/QF1735-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1735-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF1735-studio-pair.png#right": {
+          "small": "assets/optimized/QF1735-studio-pair-small.webp",
+          "card": "assets/optimized/QF1735-studio-pair-card.webp",
+          "detail": "assets/optimized/QF1735-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/QF1735-studio-pair.png",
+      "aiImages": [
+        "assets/QF1735-studio-pair.png#left",
+        "assets/QF1735-studio-pair.png#right"
       ]
     },
     {
@@ -1114,23 +1583,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF3201.jpg",
+      "image": "assets/QF3201-studio-pair.png#left",
       "images": [
-        "assets/QF3201.jpg"
+        "assets/QF3201-studio-pair.png#left",
+        "assets/QF3201-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF3201.jpg": {
-          "small": "assets/optimized/QF3201-small.webp",
-          "card": "assets/optimized/QF3201-card.webp",
-          "detail": "assets/optimized/QF3201-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF3201-studio-pair.png#left": {
+          "small": "assets/optimized/QF3201-studio-pair-small.webp",
+          "card": "assets/optimized/QF3201-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3201-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF3201-studio-pair.png#right": {
+          "small": "assets/optimized/QF3201-studio-pair-small.webp",
+          "card": "assets/optimized/QF3201-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3201-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/QF3201-studio-pair.png",
+      "aiImages": [
+        "assets/QF3201-studio-pair.png#left",
+        "assets/QF3201-studio-pair.png#right"
       ]
     },
     {
@@ -1143,22 +1627,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF2112.jpg",
+      "image": "assets/QF2112-studio-pair.png#left",
       "images": [
-        "assets/QF2112.jpg"
+        "assets/QF2112-studio-pair.png#left",
+        "assets/QF2112-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF2112.jpg": {
-          "small": "assets/optimized/QF2112-small.webp",
-          "card": "assets/optimized/QF2112-card.webp",
-          "detail": "assets/optimized/QF2112-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF2112-studio-pair.png#left": {
+          "small": "assets/optimized/QF2112-studio-pair-small.webp",
+          "card": "assets/optimized/QF2112-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2112-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF2112-studio-pair.png#right": {
+          "small": "assets/optimized/QF2112-studio-pair-small.webp",
+          "card": "assets/optimized/QF2112-studio-pair-card.webp",
+          "detail": "assets/optimized/QF2112-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF2112-studio-pair.png",
+      "aiImages": [
+        "assets/QF2112-studio-pair.png#left",
+        "assets/QF2112-studio-pair.png#right"
       ]
     },
     {
@@ -1171,22 +1670,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/QF3151.jpg",
+      "image": "assets/QF3151-studio-pair.png#left",
       "images": [
-        "assets/QF3151.jpg"
+        "assets/QF3151-studio-pair.png#left",
+        "assets/QF3151-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/QF3151.jpg": {
-          "small": "assets/optimized/QF3151-small.webp",
-          "card": "assets/optimized/QF3151-card.webp",
-          "detail": "assets/optimized/QF3151-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/QF3151-studio-pair.png#left": {
+          "small": "assets/optimized/QF3151-studio-pair-small.webp",
+          "card": "assets/optimized/QF3151-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3151-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/QF3151-studio-pair.png#right": {
+          "small": "assets/optimized/QF3151-studio-pair-small.webp",
+          "card": "assets/optimized/QF3151-studio-pair-card.webp",
+          "detail": "assets/optimized/QF3151-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/QF3151-studio-pair.png",
+      "aiImages": [
+        "assets/QF3151-studio-pair.png#left",
+        "assets/QF3151-studio-pair.png#right"
       ]
     },
     {
@@ -1225,22 +1739,37 @@
         "Crem"
       ],
       "price": null,
-      "image": "assets/B-86497.jpg",
+      "image": "assets/B-86497-studio-pair.png#left",
       "images": [
-        "assets/B-86497.jpg"
+        "assets/B-86497-studio-pair.png#left",
+        "assets/B-86497-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/B-86497.jpg": {
-          "small": "assets/optimized/B-86497-small.webp",
-          "card": "assets/optimized/B-86497-card.webp",
-          "detail": "assets/optimized/B-86497-detail.webp",
-          "width": 1600,
-          "height": 1171
+        "assets/B-86497-studio-pair.png#left": {
+          "small": "assets/optimized/B-86497-studio-pair-small.webp",
+          "card": "assets/optimized/B-86497-studio-pair-card.webp",
+          "detail": "assets/optimized/B-86497-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B-86497-studio-pair.png#right": {
+          "small": "assets/optimized/B-86497-studio-pair-small.webp",
+          "card": "assets/optimized/B-86497-studio-pair-card.webp",
+          "detail": "assets/optimized/B-86497-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B-86497-studio-pair.png",
+      "aiImages": [
+        "assets/B-86497-studio-pair.png#left",
+        "assets/B-86497-studio-pair.png#right"
       ]
     },
     {
@@ -1253,22 +1782,37 @@
         "Mov"
       ],
       "price": null,
-      "image": "assets/BR8043.jpg",
+      "image": "assets/BR8043-studio-pair.png#left",
       "images": [
-        "assets/BR8043.jpg"
+        "assets/BR8043-studio-pair.png#left",
+        "assets/BR8043-studio-pair.png#right"
       ],
       "category": "Rochii",
       "media": {
-        "assets/BR8043.jpg": {
-          "small": "assets/optimized/BR8043-small.webp",
-          "card": "assets/optimized/BR8043-card.webp",
-          "detail": "assets/optimized/BR8043-detail.webp",
-          "width": 1279,
-          "height": 1706
+        "assets/BR8043-studio-pair.png#left": {
+          "small": "assets/optimized/BR8043-studio-pair-small.webp",
+          "card": "assets/optimized/BR8043-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8043-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/BR8043-studio-pair.png#right": {
+          "small": "assets/optimized/BR8043-studio-pair-small.webp",
+          "card": "assets/optimized/BR8043-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8043-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/BR8043-studio-pair.png",
+      "aiImages": [
+        "assets/BR8043-studio-pair.png#left",
+        "assets/BR8043-studio-pair.png#right"
       ]
     },
     {
@@ -1308,22 +1852,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A-87302.jpg",
+      "image": "assets/A-87302-studio-pair.png#left",
       "images": [
-        "assets/A-87302.jpg"
+        "assets/A-87302-studio-pair.png#left",
+        "assets/A-87302-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/A-87302.jpg": {
-          "small": "assets/optimized/A-87302-small.webp",
-          "card": "assets/optimized/A-87302-card.webp",
-          "detail": "assets/optimized/A-87302-detail.webp",
-          "width": 799,
-          "height": 1600
+        "assets/A-87302-studio-pair.png#left": {
+          "small": "assets/optimized/A-87302-studio-pair-small.webp",
+          "card": "assets/optimized/A-87302-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87302-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87302-studio-pair.png#right": {
+          "small": "assets/optimized/A-87302-studio-pair-small.webp",
+          "card": "assets/optimized/A-87302-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87302-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87302-studio-pair.png",
+      "aiImages": [
+        "assets/A-87302-studio-pair.png#left",
+        "assets/A-87302-studio-pair.png#right"
       ]
     },
     {
@@ -1362,22 +1921,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A86970.jpg",
+      "image": "assets/A86970-studio-pair.png#left",
       "images": [
-        "assets/A86970.jpg"
+        "assets/A86970-studio-pair.png#left",
+        "assets/A86970-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/A86970.jpg": {
-          "small": "assets/optimized/A86970-small.webp",
-          "card": "assets/optimized/A86970-card.webp",
-          "detail": "assets/optimized/A86970-detail.webp",
-          "width": 1131,
-          "height": 1600
+        "assets/A86970-studio-pair.png#left": {
+          "small": "assets/optimized/A86970-studio-pair-small.webp",
+          "card": "assets/optimized/A86970-studio-pair-card.webp",
+          "detail": "assets/optimized/A86970-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A86970-studio-pair.png#right": {
+          "small": "assets/optimized/A86970-studio-pair-small.webp",
+          "card": "assets/optimized/A86970-studio-pair-card.webp",
+          "detail": "assets/optimized/A86970-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A86970-studio-pair.png",
+      "aiImages": [
+        "assets/A86970-studio-pair.png#left",
+        "assets/A86970-studio-pair.png#right"
       ]
     },
     {
@@ -1392,22 +1966,37 @@
         "Gri închis"
       ],
       "price": null,
-      "image": "assets/P1595.jpg",
+      "image": "assets/P1595-studio-pair.png#left",
       "images": [
-        "assets/P1595.jpg"
+        "assets/P1595-studio-pair.png#left",
+        "assets/P1595-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/P1595.jpg": {
-          "small": "assets/optimized/P1595-small.webp",
-          "card": "assets/optimized/P1595-card.webp",
-          "detail": "assets/optimized/P1595-detail.webp",
-          "width": 832,
-          "height": 1600
+        "assets/P1595-studio-pair.png#left": {
+          "small": "assets/optimized/P1595-studio-pair-small.webp",
+          "card": "assets/optimized/P1595-studio-pair-card.webp",
+          "detail": "assets/optimized/P1595-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/P1595-studio-pair.png#right": {
+          "small": "assets/optimized/P1595-studio-pair-small.webp",
+          "card": "assets/optimized/P1595-studio-pair-card.webp",
+          "detail": "assets/optimized/P1595-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/P1595-studio-pair.png",
+      "aiImages": [
+        "assets/P1595-studio-pair.png#left",
+        "assets/P1595-studio-pair.png#right"
       ]
     },
     {
@@ -1421,20 +2010,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/OY92.jpg",
+      "image": "assets/OY92-studio-pair.png#left",
       "images": [
-        "assets/OY92.jpg"
+        "assets/OY92-studio-pair.png#left",
+        "assets/OY92-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/OY92.jpg": {
-          "small": "assets/optimized/OY92-small.webp",
-          "card": "assets/optimized/OY92-card.webp",
-          "detail": "assets/optimized/OY92-detail.webp",
-          "width": 1356,
-          "height": 2048
+        "assets/OY92-studio-pair.png#left": {
+          "small": "assets/optimized/OY92-studio-pair-small.webp",
+          "card": "assets/optimized/OY92-studio-pair-card.webp",
+          "detail": "assets/optimized/OY92-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/OY92-studio-pair.png#right": {
+          "small": "assets/optimized/OY92-studio-pair-small.webp",
+          "card": "assets/optimized/OY92-studio-pair-card.webp",
+          "detail": "assets/optimized/OY92-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/OY92-studio-pair.png",
+      "aiImages": [
+        "assets/OY92-studio-pair.png#left",
+        "assets/OY92-studio-pair.png#right"
+      ]
     },
     {
       "code": "C6907",
@@ -1448,30 +2052,37 @@
         "Gri închis"
       ],
       "price": null,
-      "image": "assets/C6907.jpg",
+      "image": "assets/C6907-studio-pair.png#left",
       "images": [
-        "assets/C6907.jpg",
-        "assets/C6907-2.jpg"
+        "assets/C6907-studio-pair.png#left",
+        "assets/C6907-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/C6907.jpg": {
-          "small": "assets/optimized/C6907-small.webp",
-          "card": "assets/optimized/C6907-card.webp",
-          "detail": "assets/optimized/C6907-detail.webp",
-          "width": 1600,
-          "height": 887
+        "assets/C6907-studio-pair.png#left": {
+          "small": "assets/optimized/C6907-studio-pair-small.webp",
+          "card": "assets/optimized/C6907-studio-pair-card.webp",
+          "detail": "assets/optimized/C6907-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/C6907-2.jpg": {
-          "small": "assets/optimized/C6907-2-small.webp",
-          "card": "assets/optimized/C6907-2-card.webp",
-          "detail": "assets/optimized/C6907-2-detail.webp",
-          "width": 1152,
-          "height": 2048
+        "assets/C6907-studio-pair.png#right": {
+          "small": "assets/optimized/C6907-studio-pair-small.webp",
+          "card": "assets/optimized/C6907-studio-pair-card.webp",
+          "detail": "assets/optimized/C6907-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/C6907-studio-pair.png",
+      "aiImages": [
+        "assets/C6907-studio-pair.png#left",
+        "assets/C6907-studio-pair.png#right"
       ]
     },
     {
@@ -1512,22 +2123,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A-87234.jpg",
+      "image": "assets/A-87234-studio-pair.png#left",
       "images": [
-        "assets/A-87234.jpg"
+        "assets/A-87234-studio-pair.png#left",
+        "assets/A-87234-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/A-87234.jpg": {
-          "small": "assets/optimized/A-87234-small.webp",
-          "card": "assets/optimized/A-87234-card.webp",
-          "detail": "assets/optimized/A-87234-detail.webp",
-          "width": 1023,
-          "height": 1537
+        "assets/A-87234-studio-pair.png#left": {
+          "small": "assets/optimized/A-87234-studio-pair-small.webp",
+          "card": "assets/optimized/A-87234-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87234-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87234-studio-pair.png#right": {
+          "small": "assets/optimized/A-87234-studio-pair-small.webp",
+          "card": "assets/optimized/A-87234-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87234-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87234-studio-pair.png",
+      "aiImages": [
+        "assets/A-87234-studio-pair.png#left",
+        "assets/A-87234-studio-pair.png#right"
       ]
     },
     {
@@ -1541,22 +2167,37 @@
         "Gri închis"
       ],
       "price": null,
-      "image": "assets/P1522.jpg",
+      "image": "assets/P1522-studio-pair.png#left",
       "images": [
-        "assets/P1522.jpg"
+        "assets/P1522-studio-pair.png#left",
+        "assets/P1522-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/P1522.jpg": {
-          "small": "assets/optimized/P1522-small.webp",
-          "card": "assets/optimized/P1522-card.webp",
-          "detail": "assets/optimized/P1522-detail.webp",
-          "width": 756,
-          "height": 1600
+        "assets/P1522-studio-pair.png#left": {
+          "small": "assets/optimized/P1522-studio-pair-small.webp",
+          "card": "assets/optimized/P1522-studio-pair-card.webp",
+          "detail": "assets/optimized/P1522-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/P1522-studio-pair.png#right": {
+          "small": "assets/optimized/P1522-studio-pair-small.webp",
+          "card": "assets/optimized/P1522-studio-pair-card.webp",
+          "detail": "assets/optimized/P1522-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/P1522-studio-pair.png",
+      "aiImages": [
+        "assets/P1522-studio-pair.png#left",
+        "assets/P1522-studio-pair.png#right"
       ]
     },
     {
@@ -1570,22 +2211,37 @@
         "Mov"
       ],
       "price": null,
-      "image": "assets/BR8044-1.jpg",
+      "image": "assets/BR8044-1-studio-pair.png#left",
       "images": [
-        "assets/BR8044-1.jpg"
+        "assets/BR8044-1-studio-pair.png#left",
+        "assets/BR8044-1-studio-pair.png#right"
       ],
       "category": "Rochii",
       "media": {
-        "assets/BR8044-1.jpg": {
-          "small": "assets/optimized/BR8044-1-small.webp",
-          "card": "assets/optimized/BR8044-1-card.webp",
-          "detail": "assets/optimized/BR8044-1-detail.webp",
-          "width": 1279,
-          "height": 1706
+        "assets/BR8044-1-studio-pair.png#left": {
+          "small": "assets/optimized/BR8044-1-studio-pair-small.webp",
+          "card": "assets/optimized/BR8044-1-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8044-1-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/BR8044-1-studio-pair.png#right": {
+          "small": "assets/optimized/BR8044-1-studio-pair-small.webp",
+          "card": "assets/optimized/BR8044-1-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8044-1-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/BR8044-1-studio-pair.png",
+      "aiImages": [
+        "assets/BR8044-1-studio-pair.png#left",
+        "assets/BR8044-1-studio-pair.png#right"
       ]
     },
     {
@@ -1599,30 +2255,37 @@
         "Gri închis"
       ],
       "price": null,
-      "image": "assets/P1619.jpg",
+      "image": "assets/P1619-studio-pair.png#left",
       "images": [
-        "assets/P1619.jpg",
-        "assets/P1619-2.jpg"
+        "assets/P1619-studio-pair.png#left",
+        "assets/P1619-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/P1619.jpg": {
-          "small": "assets/optimized/P1619-small.webp",
-          "card": "assets/optimized/P1619-card.webp",
-          "detail": "assets/optimized/P1619-detail.webp",
-          "width": 790,
-          "height": 1600
+        "assets/P1619-studio-pair.png#left": {
+          "small": "assets/optimized/P1619-studio-pair-small.webp",
+          "card": "assets/optimized/P1619-studio-pair-card.webp",
+          "detail": "assets/optimized/P1619-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/P1619-2.jpg": {
-          "small": "assets/optimized/P1619-2-small.webp",
-          "card": "assets/optimized/P1619-2-card.webp",
-          "detail": "assets/optimized/P1619-2-detail.webp",
-          "width": 1152,
-          "height": 2048
+        "assets/P1619-studio-pair.png#right": {
+          "small": "assets/optimized/P1619-studio-pair-small.webp",
+          "card": "assets/optimized/P1619-studio-pair-card.webp",
+          "detail": "assets/optimized/P1619-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/P1619-studio-pair.png",
+      "aiImages": [
+        "assets/P1619-studio-pair.png#left",
+        "assets/P1619-studio-pair.png#right"
       ]
     },
     {
@@ -1637,30 +2300,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A-86968.jpg",
+      "image": "assets/A-86968-studio-pair.png#left",
       "images": [
-        "assets/A-86968.jpg",
-        "assets/A-86968-2.jpg"
+        "assets/A-86968-studio-pair.png#left",
+        "assets/A-86968-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/A-86968.jpg": {
-          "small": "assets/optimized/A-86968-small.webp",
-          "card": "assets/optimized/A-86968-card.webp",
-          "detail": "assets/optimized/A-86968-detail.webp",
-          "width": 800,
-          "height": 1600
+        "assets/A-86968-studio-pair.png#left": {
+          "small": "assets/optimized/A-86968-studio-pair-small.webp",
+          "card": "assets/optimized/A-86968-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86968-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
         },
-        "assets/A-86968-2.jpg": {
-          "small": "assets/optimized/A-86968-2-small.webp",
-          "card": "assets/optimized/A-86968-2-card.webp",
-          "detail": "assets/optimized/A-86968-2-detail.webp",
-          "width": 1152,
-          "height": 2048
+        "assets/A-86968-studio-pair.png#right": {
+          "small": "assets/optimized/A-86968-studio-pair-small.webp",
+          "card": "assets/optimized/A-86968-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86968-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-86968-studio-pair.png",
+      "aiImages": [
+        "assets/A-86968-studio-pair.png#left",
+        "assets/A-86968-studio-pair.png#right"
       ]
     },
     {
@@ -1699,22 +2369,37 @@
         "Camel"
       ],
       "price": null,
-      "image": "assets/A86568.jpg",
+      "image": "assets/A86568-studio-pair.png#left",
       "images": [
-        "assets/A86568.jpg"
+        "assets/A86568-studio-pair.png#left",
+        "assets/A86568-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/A86568.jpg": {
-          "small": "assets/optimized/A86568-small.webp",
-          "card": "assets/optimized/A86568-card.webp",
-          "detail": "assets/optimized/A86568-detail.webp",
-          "width": 758,
-          "height": 1600
+        "assets/A86568-studio-pair.png#left": {
+          "small": "assets/optimized/A86568-studio-pair-small.webp",
+          "card": "assets/optimized/A86568-studio-pair-card.webp",
+          "detail": "assets/optimized/A86568-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A86568-studio-pair.png#right": {
+          "small": "assets/optimized/A86568-studio-pair-small.webp",
+          "card": "assets/optimized/A86568-studio-pair-card.webp",
+          "detail": "assets/optimized/A86568-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A86568-studio-pair.png",
+      "aiImages": [
+        "assets/A86568-studio-pair.png#left",
+        "assets/A86568-studio-pair.png#right"
       ]
     },
     {
@@ -1728,22 +2413,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/B87061.jpg",
+      "image": "assets/B87061-studio-pair.png#left",
       "images": [
-        "assets/B87061.jpg"
+        "assets/B87061-studio-pair.png#left",
+        "assets/B87061-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/B87061.jpg": {
-          "small": "assets/optimized/B87061-small.webp",
-          "card": "assets/optimized/B87061-card.webp",
-          "detail": "assets/optimized/B87061-detail.webp",
-          "width": 761,
-          "height": 1600
+        "assets/B87061-studio-pair.png#left": {
+          "small": "assets/optimized/B87061-studio-pair-small.webp",
+          "card": "assets/optimized/B87061-studio-pair-card.webp",
+          "detail": "assets/optimized/B87061-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B87061-studio-pair.png#right": {
+          "small": "assets/optimized/B87061-studio-pair-small.webp",
+          "card": "assets/optimized/B87061-studio-pair-card.webp",
+          "detail": "assets/optimized/B87061-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B87061-studio-pair.png",
+      "aiImages": [
+        "assets/B87061-studio-pair.png#left",
+        "assets/B87061-studio-pair.png#right"
       ]
     },
     {
@@ -1757,20 +2457,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/G6882.jpg",
+      "image": "assets/G6882-studio-pair.png#left",
       "images": [
-        "assets/G6882.jpg"
+        "assets/G6882-studio-pair.png#left",
+        "assets/G6882-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/G6882.jpg": {
-          "small": "assets/optimized/G6882-small.webp",
-          "card": "assets/optimized/G6882-card.webp",
-          "detail": "assets/optimized/G6882-detail.webp",
-          "width": 787,
-          "height": 1600
+        "assets/G6882-studio-pair.png#left": {
+          "small": "assets/optimized/G6882-studio-pair-small.webp",
+          "card": "assets/optimized/G6882-studio-pair-card.webp",
+          "detail": "assets/optimized/G6882-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/G6882-studio-pair.png#right": {
+          "small": "assets/optimized/G6882-studio-pair-small.webp",
+          "card": "assets/optimized/G6882-studio-pair-card.webp",
+          "detail": "assets/optimized/G6882-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/G6882-studio-pair.png",
+      "aiImages": [
+        "assets/G6882-studio-pair.png#left",
+        "assets/G6882-studio-pair.png#right"
+      ]
     },
     {
       "code": "AL-2251",
@@ -1782,22 +2497,37 @@
         "Bej"
       ],
       "price": null,
-      "image": "assets/AL-2251.jpg",
+      "image": "assets/AL-2251-studio-pair.png#left",
       "images": [
-        "assets/AL-2251.jpg"
+        "assets/AL-2251-studio-pair.png#left",
+        "assets/AL-2251-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/AL-2251.jpg": {
-          "small": "assets/optimized/AL-2251-small.webp",
-          "card": "assets/optimized/AL-2251-card.webp",
-          "detail": "assets/optimized/AL-2251-detail.webp",
-          "width": 1145,
-          "height": 1374
+        "assets/AL-2251-studio-pair.png#left": {
+          "small": "assets/optimized/AL-2251-studio-pair-small.webp",
+          "card": "assets/optimized/AL-2251-studio-pair-card.webp",
+          "detail": "assets/optimized/AL-2251-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/AL-2251-studio-pair.png#right": {
+          "small": "assets/optimized/AL-2251-studio-pair-small.webp",
+          "card": "assets/optimized/AL-2251-studio-pair-card.webp",
+          "detail": "assets/optimized/AL-2251-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/AL-2251-studio-pair.png",
+      "aiImages": [
+        "assets/AL-2251-studio-pair.png#left",
+        "assets/AL-2251-studio-pair.png#right"
       ]
     },
     {
@@ -1810,22 +2540,37 @@
         "Mov"
       ],
       "price": null,
-      "image": "assets/BR8042.jpg",
+      "image": "assets/BR8042-studio-pair.png#left",
       "images": [
-        "assets/BR8042.jpg"
+        "assets/BR8042-studio-pair.png#left",
+        "assets/BR8042-studio-pair.png#right"
       ],
       "category": "Rochii",
       "media": {
-        "assets/BR8042.jpg": {
-          "small": "assets/optimized/BR8042-small.webp",
-          "card": "assets/optimized/BR8042-card.webp",
-          "detail": "assets/optimized/BR8042-detail.webp",
-          "width": 1536,
-          "height": 2048
+        "assets/BR8042-studio-pair.png#left": {
+          "small": "assets/optimized/BR8042-studio-pair-small.webp",
+          "card": "assets/optimized/BR8042-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8042-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/BR8042-studio-pair.png#right": {
+          "small": "assets/optimized/BR8042-studio-pair-small.webp",
+          "card": "assets/optimized/BR8042-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8042-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/BR8042-studio-pair.png",
+      "aiImages": [
+        "assets/BR8042-studio-pair.png#left",
+        "assets/BR8042-studio-pair.png#right"
       ]
     },
     {
@@ -1838,22 +2583,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/B-86647.jpg",
+      "image": "assets/B-86647-studio-pair.png#left",
       "images": [
-        "assets/B-86647.jpg"
+        "assets/B-86647-studio-pair.png#left",
+        "assets/B-86647-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/B-86647.jpg": {
-          "small": "assets/optimized/B-86647-small.webp",
-          "card": "assets/optimized/B-86647-card.webp",
-          "detail": "assets/optimized/B-86647-detail.webp",
-          "width": 800,
-          "height": 1600
+        "assets/B-86647-studio-pair.png#left": {
+          "small": "assets/optimized/B-86647-studio-pair-small.webp",
+          "card": "assets/optimized/B-86647-studio-pair-card.webp",
+          "detail": "assets/optimized/B-86647-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B-86647-studio-pair.png#right": {
+          "small": "assets/optimized/B-86647-studio-pair-small.webp",
+          "card": "assets/optimized/B-86647-studio-pair-card.webp",
+          "detail": "assets/optimized/B-86647-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B-86647-studio-pair.png",
+      "aiImages": [
+        "assets/B-86647-studio-pair.png#left",
+        "assets/B-86647-studio-pair.png#right"
       ]
     },
     {
@@ -1866,22 +2626,37 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/DL533.jpg",
+      "image": "assets/DL533-studio-pair.png#left",
       "images": [
-        "assets/DL533.jpg"
+        "assets/DL533-studio-pair.png#left",
+        "assets/DL533-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/DL533.jpg": {
-          "small": "assets/optimized/DL533-small.webp",
-          "card": "assets/optimized/DL533-card.webp",
-          "detail": "assets/optimized/DL533-detail.webp",
-          "width": 1439,
-          "height": 1093
+        "assets/DL533-studio-pair.png#left": {
+          "small": "assets/optimized/DL533-studio-pair-small.webp",
+          "card": "assets/optimized/DL533-studio-pair-card.webp",
+          "detail": "assets/optimized/DL533-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DL533-studio-pair.png#right": {
+          "small": "assets/optimized/DL533-studio-pair-small.webp",
+          "card": "assets/optimized/DL533-studio-pair-card.webp",
+          "detail": "assets/optimized/DL533-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/DL533-studio-pair.png",
+      "aiImages": [
+        "assets/DL533-studio-pair.png#left",
+        "assets/DL533-studio-pair.png#right"
       ]
     },
     {
@@ -1894,22 +2669,37 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/BR8065.jpg",
+      "image": "assets/BR8065-studio-pair.png#left",
       "images": [
-        "assets/BR8065.jpg"
+        "assets/BR8065-studio-pair.png#left",
+        "assets/BR8065-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/BR8065.jpg": {
-          "small": "assets/optimized/BR8065-small.webp",
-          "card": "assets/optimized/BR8065-card.webp",
-          "detail": "assets/optimized/BR8065-detail.webp",
-          "width": 1086,
-          "height": 1448
+        "assets/BR8065-studio-pair.png#left": {
+          "small": "assets/optimized/BR8065-studio-pair-small.webp",
+          "card": "assets/optimized/BR8065-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8065-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/BR8065-studio-pair.png#right": {
+          "small": "assets/optimized/BR8065-studio-pair-small.webp",
+          "card": "assets/optimized/BR8065-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8065-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/BR8065-studio-pair.png",
+      "aiImages": [
+        "assets/BR8065-studio-pair.png#left",
+        "assets/BR8065-studio-pair.png#right"
       ]
     },
     {
@@ -1923,22 +2713,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A-87048.jpg",
+      "image": "assets/A-87048-studio-pair.png#left",
       "images": [
-        "assets/A-87048.jpg"
+        "assets/A-87048-studio-pair.png#left",
+        "assets/A-87048-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/A-87048.jpg": {
-          "small": "assets/optimized/A-87048-small.webp",
-          "card": "assets/optimized/A-87048-card.webp",
-          "detail": "assets/optimized/A-87048-detail.webp",
-          "width": 799,
-          "height": 1600
+        "assets/A-87048-studio-pair.png#left": {
+          "small": "assets/optimized/A-87048-studio-pair-small.webp",
+          "card": "assets/optimized/A-87048-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87048-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-87048-studio-pair.png#right": {
+          "small": "assets/optimized/A-87048-studio-pair-small.webp",
+          "card": "assets/optimized/A-87048-studio-pair-card.webp",
+          "detail": "assets/optimized/A-87048-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-87048-studio-pair.png",
+      "aiImages": [
+        "assets/A-87048-studio-pair.png#left",
+        "assets/A-87048-studio-pair.png#right"
       ]
     },
     {
@@ -1950,22 +2755,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/G6897.jpg",
+      "image": "assets/G6897-studio-pair.png#left",
       "images": [
-        "assets/G6897.jpg"
+        "assets/G6897-studio-pair.png#left",
+        "assets/G6897-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/G6897.jpg": {
-          "small": "assets/optimized/G6897-small.webp",
-          "card": "assets/optimized/G6897-card.webp",
-          "detail": "assets/optimized/G6897-detail.webp",
-          "width": 1054,
-          "height": 1080
+        "assets/G6897-studio-pair.png#left": {
+          "small": "assets/optimized/G6897-studio-pair-small.webp",
+          "card": "assets/optimized/G6897-studio-pair-card.webp",
+          "detail": "assets/optimized/G6897-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/G6897-studio-pair.png#right": {
+          "small": "assets/optimized/G6897-studio-pair-small.webp",
+          "card": "assets/optimized/G6897-studio-pair-card.webp",
+          "detail": "assets/optimized/G6897-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/G6897-studio-pair.png",
+      "aiImages": [
+        "assets/G6897-studio-pair.png#left",
+        "assets/G6897-studio-pair.png#right"
       ]
     },
     {
@@ -1980,22 +2800,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/G6883.jpg",
+      "image": "assets/G6883-studio-pair.png#left",
       "images": [
-        "assets/G6883.jpg"
+        "assets/G6883-studio-pair.png#left",
+        "assets/G6883-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/G6883.jpg": {
-          "small": "assets/optimized/G6883-small.webp",
-          "card": "assets/optimized/G6883-card.webp",
-          "detail": "assets/optimized/G6883-detail.webp",
-          "width": 1600,
-          "height": 1101
+        "assets/G6883-studio-pair.png#left": {
+          "small": "assets/optimized/G6883-studio-pair-small.webp",
+          "card": "assets/optimized/G6883-studio-pair-card.webp",
+          "detail": "assets/optimized/G6883-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/G6883-studio-pair.png#right": {
+          "small": "assets/optimized/G6883-studio-pair-small.webp",
+          "card": "assets/optimized/G6883-studio-pair-card.webp",
+          "detail": "assets/optimized/G6883-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/G6883-studio-pair.png",
+      "aiImages": [
+        "assets/G6883-studio-pair.png#left",
+        "assets/G6883-studio-pair.png#right"
       ]
     },
     {
@@ -2009,22 +2844,37 @@
         "Khaki"
       ],
       "price": null,
-      "image": "assets/BR8046.jpg",
+      "image": "assets/BR8046-studio-pair.png#left",
       "images": [
-        "assets/BR8046.jpg"
+        "assets/BR8046-studio-pair.png#left",
+        "assets/BR8046-studio-pair.png#right"
       ],
       "category": "Rochii",
       "media": {
-        "assets/BR8046.jpg": {
-          "small": "assets/optimized/BR8046-small.webp",
-          "card": "assets/optimized/BR8046-card.webp",
-          "detail": "assets/optimized/BR8046-detail.webp",
-          "width": 1279,
-          "height": 1919
+        "assets/BR8046-studio-pair.png#left": {
+          "small": "assets/optimized/BR8046-studio-pair-small.webp",
+          "card": "assets/optimized/BR8046-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8046-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/BR8046-studio-pair.png#right": {
+          "small": "assets/optimized/BR8046-studio-pair-small.webp",
+          "card": "assets/optimized/BR8046-studio-pair-card.webp",
+          "detail": "assets/optimized/BR8046-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/BR8046-studio-pair.png",
+      "aiImages": [
+        "assets/BR8046-studio-pair.png#left",
+        "assets/BR8046-studio-pair.png#right"
       ]
     },
     {
@@ -2037,22 +2887,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/B-87134.jpg",
+      "image": "assets/B-87134-studio-pair.png#left",
       "images": [
-        "assets/B-87134.jpg"
+        "assets/B-87134-studio-pair.png#left",
+        "assets/B-87134-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/B-87134.jpg": {
-          "small": "assets/optimized/B-87134-small.webp",
-          "card": "assets/optimized/B-87134-card.webp",
-          "detail": "assets/optimized/B-87134-detail.webp",
-          "width": 1254,
-          "height": 1254
+        "assets/B-87134-studio-pair.png#left": {
+          "small": "assets/optimized/B-87134-studio-pair-small.webp",
+          "card": "assets/optimized/B-87134-studio-pair-card.webp",
+          "detail": "assets/optimized/B-87134-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B-87134-studio-pair.png#right": {
+          "small": "assets/optimized/B-87134-studio-pair-small.webp",
+          "card": "assets/optimized/B-87134-studio-pair-card.webp",
+          "detail": "assets/optimized/B-87134-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B-87134-studio-pair.png",
+      "aiImages": [
+        "assets/B-87134-studio-pair.png#left",
+        "assets/B-87134-studio-pair.png#right"
       ]
     },
     {
@@ -2067,20 +2932,35 @@
         "Lila"
       ],
       "price": null,
-      "image": "assets/OY78.jpg",
+      "image": "assets/OY78-studio-pair.png#left",
       "images": [
-        "assets/OY78.jpg"
+        "assets/OY78-studio-pair.png#left",
+        "assets/OY78-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/OY78.jpg": {
-          "small": "assets/optimized/OY78-small.webp",
-          "card": "assets/optimized/OY78-card.webp",
-          "detail": "assets/optimized/OY78-detail.webp",
-          "width": 1366,
-          "height": 2048
+        "assets/OY78-studio-pair.png#left": {
+          "small": "assets/optimized/OY78-studio-pair-small.webp",
+          "card": "assets/optimized/OY78-studio-pair-card.webp",
+          "detail": "assets/optimized/OY78-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/OY78-studio-pair.png#right": {
+          "small": "assets/optimized/OY78-studio-pair-small.webp",
+          "card": "assets/optimized/OY78-studio-pair-card.webp",
+          "detail": "assets/optimized/OY78-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/OY78-studio-pair.png",
+      "aiImages": [
+        "assets/OY78-studio-pair.png#left",
+        "assets/OY78-studio-pair.png#right"
+      ]
     },
     {
       "code": "A-86424",
@@ -2092,22 +2972,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/A-86424.jpg",
+      "image": "assets/A-86424-studio-pair.png#left",
       "images": [
-        "assets/A-86424.jpg"
+        "assets/A-86424-studio-pair.png#left",
+        "assets/A-86424-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/A-86424.jpg": {
-          "small": "assets/optimized/A-86424-small.webp",
-          "card": "assets/optimized/A-86424-card.webp",
-          "detail": "assets/optimized/A-86424-detail.webp",
-          "width": 1254,
-          "height": 1254
+        "assets/A-86424-studio-pair.png#left": {
+          "small": "assets/optimized/A-86424-studio-pair-small.webp",
+          "card": "assets/optimized/A-86424-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86424-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/A-86424-studio-pair.png#right": {
+          "small": "assets/optimized/A-86424-studio-pair-small.webp",
+          "card": "assets/optimized/A-86424-studio-pair-card.webp",
+          "detail": "assets/optimized/A-86424-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/A-86424-studio-pair.png",
+      "aiImages": [
+        "assets/A-86424-studio-pair.png#left",
+        "assets/A-86424-studio-pair.png#right"
       ]
     },
     {
@@ -2122,22 +3017,37 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/B86814.jpg",
+      "image": "assets/B86814-studio-pair.png#left",
       "images": [
-        "assets/B86814.jpg"
+        "assets/B86814-studio-pair.png#left",
+        "assets/B86814-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/B86814.jpg": {
-          "small": "assets/optimized/B86814-small.webp",
-          "card": "assets/optimized/B86814-card.webp",
-          "detail": "assets/optimized/B86814-detail.webp",
-          "width": 761,
-          "height": 1600
+        "assets/B86814-studio-pair.png#left": {
+          "small": "assets/optimized/B86814-studio-pair-small.webp",
+          "card": "assets/optimized/B86814-studio-pair-card.webp",
+          "detail": "assets/optimized/B86814-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B86814-studio-pair.png#right": {
+          "small": "assets/optimized/B86814-studio-pair-small.webp",
+          "card": "assets/optimized/B86814-studio-pair-card.webp",
+          "detail": "assets/optimized/B86814-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B86814-studio-pair.png",
+      "aiImages": [
+        "assets/B86814-studio-pair.png#left",
+        "assets/B86814-studio-pair.png#right"
       ]
     },
     {
@@ -2151,20 +3061,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/JK9436AB.jpg",
+      "image": "assets/JK9436AB-studio-pair.png#left",
       "images": [
-        "assets/JK9436AB.jpg"
+        "assets/JK9436AB-studio-pair.png#left",
+        "assets/JK9436AB-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/JK9436AB.jpg": {
-          "small": "assets/optimized/JK9436AB-small.webp",
-          "card": "assets/optimized/JK9436AB-card.webp",
-          "detail": "assets/optimized/JK9436AB-detail.webp",
-          "width": 915,
-          "height": 1600
+        "assets/JK9436AB-studio-pair.png#left": {
+          "small": "assets/optimized/JK9436AB-studio-pair-small.webp",
+          "card": "assets/optimized/JK9436AB-studio-pair-card.webp",
+          "detail": "assets/optimized/JK9436AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/JK9436AB-studio-pair.png#right": {
+          "small": "assets/optimized/JK9436AB-studio-pair-small.webp",
+          "card": "assets/optimized/JK9436AB-studio-pair-card.webp",
+          "detail": "assets/optimized/JK9436AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/JK9436AB-studio-pair.png",
+      "aiImages": [
+        "assets/JK9436AB-studio-pair.png#left",
+        "assets/JK9436AB-studio-pair.png#right"
+      ]
     },
     {
       "code": "055",
@@ -2176,23 +3101,38 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/055.jpg",
+      "image": "assets/055-studio-pair.png#left",
       "images": [
-        "assets/055.jpg"
+        "assets/055-studio-pair.png#left",
+        "assets/055-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/055.jpg": {
-          "small": "assets/optimized/055-small.webp",
-          "card": "assets/optimized/055-card.webp",
-          "detail": "assets/optimized/055-detail.webp",
-          "width": 1040,
-          "height": 1600
+        "assets/055-studio-pair.png#left": {
+          "small": "assets/optimized/055-studio-pair-small.webp",
+          "card": "assets/optimized/055-studio-pair-card.webp",
+          "detail": "assets/optimized/055-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/055-studio-pair.png#right": {
+          "small": "assets/optimized/055-studio-pair-small.webp",
+          "card": "assets/optimized/055-studio-pair-card.webp",
+          "detail": "assets/optimized/055-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/055-studio-pair.png",
+      "aiImages": [
+        "assets/055-studio-pair.png#left",
+        "assets/055-studio-pair.png#right"
       ]
     },
     {
@@ -2205,23 +3145,38 @@
         "Khaki"
       ],
       "price": null,
-      "image": "assets/HJD7230.jpg",
+      "image": "assets/HJD7230-studio-pair.png#left",
       "images": [
-        "assets/HJD7230.jpg"
+        "assets/HJD7230-studio-pair.png#left",
+        "assets/HJD7230-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/HJD7230.jpg": {
-          "small": "assets/optimized/HJD7230-small.webp",
-          "card": "assets/optimized/HJD7230-card.webp",
-          "detail": "assets/optimized/HJD7230-detail.webp",
-          "width": 1512,
-          "height": 1600
+        "assets/HJD7230-studio-pair.png#left": {
+          "small": "assets/optimized/HJD7230-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7230-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7230-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/HJD7230-studio-pair.png#right": {
+          "small": "assets/optimized/HJD7230-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7230-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7230-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/HJD7230-studio-pair.png",
+      "aiImages": [
+        "assets/HJD7230-studio-pair.png#left",
+        "assets/HJD7230-studio-pair.png#right"
       ]
     },
     {
@@ -2234,23 +3189,38 @@
         "Khaki"
       ],
       "price": null,
-      "image": "assets/HJD7225.jpg",
+      "image": "assets/HJD7225-studio-pair.png#left",
       "images": [
-        "assets/HJD7225.jpg"
+        "assets/HJD7225-studio-pair.png#left",
+        "assets/HJD7225-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/HJD7225.jpg": {
-          "small": "assets/optimized/HJD7225-small.webp",
-          "card": "assets/optimized/HJD7225-card.webp",
-          "detail": "assets/optimized/HJD7225-detail.webp",
-          "width": 1600,
-          "height": 1500
+        "assets/HJD7225-studio-pair.png#left": {
+          "small": "assets/optimized/HJD7225-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7225-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7225-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/HJD7225-studio-pair.png#right": {
+          "small": "assets/optimized/HJD7225-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7225-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7225-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/HJD7225-studio-pair.png",
+      "aiImages": [
+        "assets/HJD7225-studio-pair.png#left",
+        "assets/HJD7225-studio-pair.png#right"
       ]
     },
     {
@@ -2263,23 +3233,38 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/HJD7250.jpg",
+      "image": "assets/HJD7250-studio-pair.png#left",
       "images": [
-        "assets/HJD7250.jpg"
+        "assets/HJD7250-studio-pair.png#left",
+        "assets/HJD7250-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/HJD7250.jpg": {
-          "small": "assets/optimized/HJD7250-small.webp",
-          "card": "assets/optimized/HJD7250-card.webp",
-          "detail": "assets/optimized/HJD7250-detail.webp",
-          "width": 1067,
-          "height": 1600
+        "assets/HJD7250-studio-pair.png#left": {
+          "small": "assets/optimized/HJD7250-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7250-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7250-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/HJD7250-studio-pair.png#right": {
+          "small": "assets/optimized/HJD7250-studio-pair-small.webp",
+          "card": "assets/optimized/HJD7250-studio-pair-card.webp",
+          "detail": "assets/optimized/HJD7250-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "L/XL"
+      ],
+      "studioPair": "assets/HJD7250-studio-pair.png",
+      "aiImages": [
+        "assets/HJD7250-studio-pair.png#left",
+        "assets/HJD7250-studio-pair.png#right"
       ]
     },
     {
@@ -3570,20 +4555,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/DH305.jpg",
+      "image": "assets/DH305-studio-pair.png#left",
       "images": [
-        "assets/DH305.jpg"
+        "assets/DH305-studio-pair.png#left",
+        "assets/DH305-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/DH305.jpg": {
-          "small": "assets/optimized/DH305-small.webp",
-          "card": "assets/optimized/DH305-card.webp",
-          "detail": "assets/optimized/DH305-detail.webp",
-          "width": 1079,
-          "height": 1920
+        "assets/DH305-studio-pair.png#left": {
+          "small": "assets/optimized/DH305-studio-pair-small.webp",
+          "card": "assets/optimized/DH305-studio-pair-card.webp",
+          "detail": "assets/optimized/DH305-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DH305-studio-pair.png#right": {
+          "small": "assets/optimized/DH305-studio-pair-small.webp",
+          "card": "assets/optimized/DH305-studio-pair-card.webp",
+          "detail": "assets/optimized/DH305-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DH305-studio-pair.png",
+      "aiImages": [
+        "assets/DH305-studio-pair.png#left",
+        "assets/DH305-studio-pair.png#right"
+      ]
     },
     {
       "code": "DH273",
@@ -3598,20 +4598,35 @@
         "Albastru închis"
       ],
       "price": null,
-      "image": "assets/DH273.jpg",
+      "image": "assets/DH273-studio-pair.png#left",
       "images": [
-        "assets/DH273.jpg"
+        "assets/DH273-studio-pair.png#left",
+        "assets/DH273-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/DH273.jpg": {
-          "small": "assets/optimized/DH273-small.webp",
-          "card": "assets/optimized/DH273-card.webp",
-          "detail": "assets/optimized/DH273-detail.webp",
-          "width": 1080,
-          "height": 1972
+        "assets/DH273-studio-pair.png#left": {
+          "small": "assets/optimized/DH273-studio-pair-small.webp",
+          "card": "assets/optimized/DH273-studio-pair-card.webp",
+          "detail": "assets/optimized/DH273-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DH273-studio-pair.png#right": {
+          "small": "assets/optimized/DH273-studio-pair-small.webp",
+          "card": "assets/optimized/DH273-studio-pair-card.webp",
+          "detail": "assets/optimized/DH273-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DH273-studio-pair.png",
+      "aiImages": [
+        "assets/DH273-studio-pair.png#left",
+        "assets/DH273-studio-pair.png#right"
+      ]
     },
     {
       "code": "YL0046AB",
@@ -3623,20 +4638,35 @@
         "Negru / Bej"
       ],
       "price": null,
-      "image": "assets/YL0046AB.jpg",
+      "image": "assets/YL0046AB-studio-pair.png#left",
       "images": [
-        "assets/YL0046AB.jpg"
+        "assets/YL0046AB-studio-pair.png#left",
+        "assets/YL0046AB-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/YL0046AB.jpg": {
-          "small": "assets/optimized/YL0046AB-small.webp",
-          "card": "assets/optimized/YL0046AB-card.webp",
-          "detail": "assets/optimized/YL0046AB-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/YL0046AB-studio-pair.png#left": {
+          "small": "assets/optimized/YL0046AB-studio-pair-small.webp",
+          "card": "assets/optimized/YL0046AB-studio-pair-card.webp",
+          "detail": "assets/optimized/YL0046AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/YL0046AB-studio-pair.png#right": {
+          "small": "assets/optimized/YL0046AB-studio-pair-small.webp",
+          "card": "assets/optimized/YL0046AB-studio-pair-card.webp",
+          "detail": "assets/optimized/YL0046AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/YL0046AB-studio-pair.png",
+      "aiImages": [
+        "assets/YL0046AB-studio-pair.png#left",
+        "assets/YL0046AB-studio-pair.png#right"
+      ]
     },
     {
       "code": "FG2186",
@@ -3649,22 +4679,34 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/FG2186.jpg",
+      "image": "assets/FG2186-studio-front.png",
       "images": [
-        "assets/FG2186.jpg"
+        "assets/FG2186-studio-front.png",
+        "assets/FG2186-studio-angle.png"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/FG2186.jpg": {
-          "small": "assets/optimized/FG2186-small.webp",
-          "card": "assets/optimized/FG2186-card.webp",
-          "detail": "assets/optimized/FG2186-detail.webp",
-          "width": 1600,
-          "height": 1077
+        "assets/FG2186-studio-front.png": {
+          "small": "assets/optimized/FG2186-studio-front-small.webp",
+          "card": "assets/optimized/FG2186-studio-front-card.webp",
+          "detail": "assets/optimized/FG2186-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/FG2186-studio-angle.png": {
+          "small": "assets/optimized/FG2186-studio-angle-small.webp",
+          "card": "assets/optimized/FG2186-studio-angle-card.webp",
+          "detail": "assets/optimized/FG2186-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "TU"
+      ],
+      "aiImages": [
+        "assets/FG2186-studio-front.png",
+        "assets/FG2186-studio-angle.png"
       ]
     },
     {
@@ -3678,23 +4720,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/SJ7017.jpg",
+      "image": "assets/SJ7017-studio-pair.png#left",
       "images": [
-        "assets/SJ7017.jpg"
+        "assets/SJ7017-studio-pair.png#left",
+        "assets/SJ7017-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/SJ7017.jpg": {
-          "small": "assets/optimized/SJ7017-small.webp",
-          "card": "assets/optimized/SJ7017-card.webp",
-          "detail": "assets/optimized/SJ7017-detail.webp",
-          "width": 1200,
-          "height": 1600
+        "assets/SJ7017-studio-pair.png#left": {
+          "small": "assets/optimized/SJ7017-studio-pair-small.webp",
+          "card": "assets/optimized/SJ7017-studio-pair-card.webp",
+          "detail": "assets/optimized/SJ7017-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/SJ7017-studio-pair.png#right": {
+          "small": "assets/optimized/SJ7017-studio-pair-small.webp",
+          "card": "assets/optimized/SJ7017-studio-pair-card.webp",
+          "detail": "assets/optimized/SJ7017-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "M/L"
+      ],
+      "studioPair": "assets/SJ7017-studio-pair.png",
+      "aiImages": [
+        "assets/SJ7017-studio-pair.png#left",
+        "assets/SJ7017-studio-pair.png#right"
       ]
     },
     {
@@ -3707,23 +4764,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/B1020AB.jpg",
+      "image": "assets/B1020AB-studio-pair.png#left",
       "images": [
-        "assets/B1020AB.jpg"
+        "assets/B1020AB-studio-pair.png#left",
+        "assets/B1020AB-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/B1020AB.jpg": {
-          "small": "assets/optimized/B1020AB-small.webp",
-          "card": "assets/optimized/B1020AB-card.webp",
-          "detail": "assets/optimized/B1020AB-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/B1020AB-studio-pair.png#left": {
+          "small": "assets/optimized/B1020AB-studio-pair-small.webp",
+          "card": "assets/optimized/B1020AB-studio-pair-card.webp",
+          "detail": "assets/optimized/B1020AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B1020AB-studio-pair.png#right": {
+          "small": "assets/optimized/B1020AB-studio-pair-small.webp",
+          "card": "assets/optimized/B1020AB-studio-pair-card.webp",
+          "detail": "assets/optimized/B1020AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "M/L"
+      ],
+      "studioPair": "assets/B1020AB-studio-pair.png",
+      "aiImages": [
+        "assets/B1020AB-studio-pair.png#left",
+        "assets/B1020AB-studio-pair.png#right"
       ]
     },
     {
@@ -3737,22 +4809,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/MY1091.jpg",
+      "image": "assets/MY1091-studio-pair.png#left",
       "images": [
-        "assets/MY1091.jpg"
+        "assets/MY1091-studio-pair.png#left",
+        "assets/MY1091-studio-pair.png#right"
       ],
       "category": "Bluze și tricouri",
       "media": {
-        "assets/MY1091.jpg": {
-          "small": "assets/optimized/MY1091-small.webp",
-          "card": "assets/optimized/MY1091-card.webp",
-          "detail": "assets/optimized/MY1091-detail.webp",
-          "width": 1200,
-          "height": 1600
+        "assets/MY1091-studio-pair.png#left": {
+          "small": "assets/optimized/MY1091-studio-pair-small.webp",
+          "card": "assets/optimized/MY1091-studio-pair-card.webp",
+          "detail": "assets/optimized/MY1091-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/MY1091-studio-pair.png#right": {
+          "small": "assets/optimized/MY1091-studio-pair-small.webp",
+          "card": "assets/optimized/MY1091-studio-pair-card.webp",
+          "detail": "assets/optimized/MY1091-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/MY1091-studio-pair.png",
+      "aiImages": [
+        "assets/MY1091-studio-pair.png#left",
+        "assets/MY1091-studio-pair.png#right"
       ]
     },
     {
@@ -3764,22 +4851,37 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/CR510.jpg",
+      "image": "assets/CR510-studio-pair.png#left",
       "images": [
-        "assets/CR510.jpg"
+        "assets/CR510-studio-pair.png#left",
+        "assets/CR510-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/CR510.jpg": {
-          "small": "assets/optimized/CR510-small.webp",
-          "card": "assets/optimized/CR510-card.webp",
-          "detail": "assets/optimized/CR510-detail.webp",
-          "width": 1080,
-          "height": 1872
+        "assets/CR510-studio-pair.png#left": {
+          "small": "assets/optimized/CR510-studio-pair-small.webp",
+          "card": "assets/optimized/CR510-studio-pair-card.webp",
+          "detail": "assets/optimized/CR510-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/CR510-studio-pair.png#right": {
+          "small": "assets/optimized/CR510-studio-pair-small.webp",
+          "card": "assets/optimized/CR510-studio-pair-card.webp",
+          "detail": "assets/optimized/CR510-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/CR510-studio-pair.png",
+      "aiImages": [
+        "assets/CR510-studio-pair.png#left",
+        "assets/CR510-studio-pair.png#right"
       ]
     },
     {
@@ -3822,20 +4924,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/FM113.jpg",
+      "image": "assets/FM113-studio-pair.png#left",
       "images": [
-        "assets/FM113.jpg"
+        "assets/FM113-studio-pair.png#left",
+        "assets/FM113-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/FM113.jpg": {
-          "small": "assets/optimized/FM113-small.webp",
-          "card": "assets/optimized/FM113-card.webp",
-          "detail": "assets/optimized/FM113-detail.webp",
-          "width": 2048,
-          "height": 1552
+        "assets/FM113-studio-pair.png#left": {
+          "small": "assets/optimized/FM113-studio-pair-small.webp",
+          "card": "assets/optimized/FM113-studio-pair-card.webp",
+          "detail": "assets/optimized/FM113-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/FM113-studio-pair.png#right": {
+          "small": "assets/optimized/FM113-studio-pair-small.webp",
+          "card": "assets/optimized/FM113-studio-pair-card.webp",
+          "detail": "assets/optimized/FM113-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/FM113-studio-pair.png",
+      "aiImages": [
+        "assets/FM113-studio-pair.png#left",
+        "assets/FM113-studio-pair.png#right"
+      ]
     },
     {
       "code": "AJ-FOTO-054",
@@ -3848,21 +4965,42 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-054.jpg",
+      "image": "assets/AJ-FOTO-054-studio-pair.png#left",
       "images": [
-        "assets/AJ-FOTO-054.jpg"
+        "assets/AJ-FOTO-054-studio-pair.png#left",
+        "assets/AJ-FOTO-054-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "internalCode": true,
       "media": {
-        "assets/AJ-FOTO-054.jpg": {
-          "small": "assets/optimized/AJ-FOTO-054-small.webp",
-          "card": "assets/optimized/AJ-FOTO-054-card.webp",
-          "detail": "assets/optimized/AJ-FOTO-054-detail.webp",
-          "width": 2048,
-          "height": 1134
+        "assets/AJ-FOTO-054-studio-pair.png#left": {
+          "small": "assets/optimized/AJ-FOTO-054-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-054-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-054-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left",
+          "frameLabel": "Set complet: bluză și rochie"
+        },
+        "assets/AJ-FOTO-054-studio-pair.png#right": {
+          "small": "assets/optimized/AJ-FOTO-054-studio-pair-small.webp",
+          "card": "assets/optimized/AJ-FOTO-054-studio-pair-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-054-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right",
+          "frameLabel": "Rochia purtată fără bluză"
         }
-      }
+      },
+      "sizes": [
+        "TU"
+      ],
+      "studioPair": "assets/AJ-FOTO-054-studio-pair.png",
+      "aiImages": [
+        "assets/AJ-FOTO-054-studio-pair.png#left",
+        "assets/AJ-FOTO-054-studio-pair.png#right"
+      ],
+      "description": "Set din două piese: rochie fără mâneci, cu partea de jos plisată, și bluză separată cu decolteu în V."
     },
     {
       "code": "DH251",
@@ -3874,20 +5012,35 @@
         "Albastru închis"
       ],
       "price": null,
-      "image": "assets/DH251.jpg",
+      "image": "assets/DH251-studio-pair.png#left",
       "images": [
-        "assets/DH251.jpg"
+        "assets/DH251-studio-pair.png#left",
+        "assets/DH251-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/DH251.jpg": {
-          "small": "assets/optimized/DH251-small.webp",
-          "card": "assets/optimized/DH251-card.webp",
-          "detail": "assets/optimized/DH251-detail.webp",
-          "width": 1080,
-          "height": 1763
+        "assets/DH251-studio-pair.png#left": {
+          "small": "assets/optimized/DH251-studio-pair-small.webp",
+          "card": "assets/optimized/DH251-studio-pair-card.webp",
+          "detail": "assets/optimized/DH251-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DH251-studio-pair.png#right": {
+          "small": "assets/optimized/DH251-studio-pair-small.webp",
+          "card": "assets/optimized/DH251-studio-pair-card.webp",
+          "detail": "assets/optimized/DH251-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DH251-studio-pair.png",
+      "aiImages": [
+        "assets/DH251-studio-pair.png#left",
+        "assets/DH251-studio-pair.png#right"
+      ]
     },
     {
       "code": "B1021AB",
@@ -3899,22 +5052,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/B1021AB.jpg",
+      "image": "assets/B1021AB-studio-pair.png#left",
       "images": [
-        "assets/B1021AB.jpg"
+        "assets/B1021AB-studio-pair.png#left",
+        "assets/B1021AB-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/B1021AB.jpg": {
-          "small": "assets/optimized/B1021AB-small.webp",
-          "card": "assets/optimized/B1021AB-card.webp",
-          "detail": "assets/optimized/B1021AB-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/B1021AB-studio-pair.png#left": {
+          "small": "assets/optimized/B1021AB-studio-pair-small.webp",
+          "card": "assets/optimized/B1021AB-studio-pair-card.webp",
+          "detail": "assets/optimized/B1021AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/B1021AB-studio-pair.png#right": {
+          "small": "assets/optimized/B1021AB-studio-pair-small.webp",
+          "card": "assets/optimized/B1021AB-studio-pair-card.webp",
+          "detail": "assets/optimized/B1021AB-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/B1021AB-studio-pair.png",
+      "aiImages": [
+        "assets/B1021AB-studio-pair.png#left",
+        "assets/B1021AB-studio-pair.png#right"
       ]
     },
     {
@@ -3926,23 +5094,35 @@
         "Negru / Alb"
       ],
       "price": null,
-      "image": "assets/LM3035AB.jpg",
+      "image": "assets/LM3035AB-studio-front.png",
       "images": [
-        "assets/LM3035AB.jpg"
+        "assets/LM3035AB-studio-front.png",
+        "assets/LM3035AB-studio-angle.png"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/LM3035AB.jpg": {
-          "small": "assets/optimized/LM3035AB-small.webp",
-          "card": "assets/optimized/LM3035AB-card.webp",
-          "detail": "assets/optimized/LM3035AB-detail.webp",
-          "width": 1600,
-          "height": 1600
+        "assets/LM3035AB-studio-front.png": {
+          "small": "assets/optimized/LM3035AB-studio-front-small.webp",
+          "card": "assets/optimized/LM3035AB-studio-front-card.webp",
+          "detail": "assets/optimized/LM3035AB-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/LM3035AB-studio-angle.png": {
+          "small": "assets/optimized/LM3035AB-studio-angle-small.webp",
+          "card": "assets/optimized/LM3035AB-studio-angle-card.webp",
+          "detail": "assets/optimized/LM3035AB-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "S/M",
         "M/L"
+      ],
+      "aiImages": [
+        "assets/LM3035AB-studio-front.png",
+        "assets/LM3035AB-studio-angle.png"
       ]
     },
     {
@@ -3957,22 +5137,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/CR520.jpg",
+      "image": "assets/CR520-studio-pair.png#left",
       "images": [
-        "assets/CR520.jpg"
+        "assets/CR520-studio-pair.png#left",
+        "assets/CR520-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/CR520.jpg": {
-          "small": "assets/optimized/CR520-small.webp",
-          "card": "assets/optimized/CR520-card.webp",
-          "detail": "assets/optimized/CR520-detail.webp",
-          "width": 1080,
-          "height": 1773
+        "assets/CR520-studio-pair.png#left": {
+          "small": "assets/optimized/CR520-studio-pair-small.webp",
+          "card": "assets/optimized/CR520-studio-pair-card.webp",
+          "detail": "assets/optimized/CR520-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/CR520-studio-pair.png#right": {
+          "small": "assets/optimized/CR520-studio-pair-small.webp",
+          "card": "assets/optimized/CR520-studio-pair-card.webp",
+          "detail": "assets/optimized/CR520-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/CR520-studio-pair.png",
+      "aiImages": [
+        "assets/CR520-studio-pair.png#left",
+        "assets/CR520-studio-pair.png#right"
       ]
     },
     {
@@ -3986,22 +5181,34 @@
         "Albastru închis"
       ],
       "price": null,
-      "image": "assets/2319.jpg",
+      "image": "assets/2319-studio-front.png",
       "images": [
-        "assets/2319.jpg"
+        "assets/2319-studio-front.png",
+        "assets/2319-studio-angle.png"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/2319.jpg": {
-          "small": "assets/optimized/2319-small.webp",
-          "card": "assets/optimized/2319-card.webp",
-          "detail": "assets/optimized/2319-detail.webp",
-          "width": 2048,
-          "height": 1192
+        "assets/2319-studio-front.png": {
+          "small": "assets/optimized/2319-studio-front-small.webp",
+          "card": "assets/optimized/2319-studio-front-card.webp",
+          "detail": "assets/optimized/2319-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/2319-studio-angle.png": {
+          "small": "assets/optimized/2319-studio-angle-small.webp",
+          "card": "assets/optimized/2319-studio-angle-card.webp",
+          "detail": "assets/optimized/2319-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "TU"
+      ],
+      "aiImages": [
+        "assets/2319-studio-front.png",
+        "assets/2319-studio-angle.png"
       ]
     },
     {
@@ -4015,20 +5222,35 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/DH176.jpg",
+      "image": "assets/DH176-studio-pair.png#left",
       "images": [
-        "assets/DH176.jpg"
+        "assets/DH176-studio-pair.png#left",
+        "assets/DH176-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/DH176.jpg": {
-          "small": "assets/optimized/DH176-small.webp",
-          "card": "assets/optimized/DH176-card.webp",
-          "detail": "assets/optimized/DH176-detail.webp",
-          "width": 1080,
-          "height": 1759
+        "assets/DH176-studio-pair.png#left": {
+          "small": "assets/optimized/DH176-studio-pair-small.webp",
+          "card": "assets/optimized/DH176-studio-pair-card.webp",
+          "detail": "assets/optimized/DH176-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DH176-studio-pair.png#right": {
+          "small": "assets/optimized/DH176-studio-pair-small.webp",
+          "card": "assets/optimized/DH176-studio-pair-card.webp",
+          "detail": "assets/optimized/DH176-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DH176-studio-pair.png",
+      "aiImages": [
+        "assets/DH176-studio-pair.png#left",
+        "assets/DH176-studio-pair.png#right"
+      ]
     },
     {
       "code": "9882",
@@ -4069,22 +5291,37 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/CR385.jpg",
+      "image": "assets/CR385-studio-pair.png#left",
       "images": [
-        "assets/CR385.jpg"
+        "assets/CR385-studio-pair.png#left",
+        "assets/CR385-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/CR385.jpg": {
-          "small": "assets/optimized/CR385-small.webp",
-          "card": "assets/optimized/CR385-card.webp",
-          "detail": "assets/optimized/CR385-detail.webp",
-          "width": 1080,
-          "height": 1818
+        "assets/CR385-studio-pair.png#left": {
+          "small": "assets/optimized/CR385-studio-pair-small.webp",
+          "card": "assets/optimized/CR385-studio-pair-card.webp",
+          "detail": "assets/optimized/CR385-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/CR385-studio-pair.png#right": {
+          "small": "assets/optimized/CR385-studio-pair-small.webp",
+          "card": "assets/optimized/CR385-studio-pair-card.webp",
+          "detail": "assets/optimized/CR385-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/CR385-studio-pair.png",
+      "aiImages": [
+        "assets/CR385-studio-pair.png#left",
+        "assets/CR385-studio-pair.png#right"
       ]
     },
     {
@@ -4096,22 +5333,34 @@
         "Negru / Alb"
       ],
       "price": null,
-      "image": "assets/MY9140AB.jpg",
+      "image": "assets/MY9140AB-studio-front.png",
       "images": [
-        "assets/MY9140AB.jpg"
+        "assets/MY9140AB-studio-front.png",
+        "assets/MY9140AB-studio-angle.png"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/MY9140AB.jpg": {
-          "small": "assets/optimized/MY9140AB-small.webp",
-          "card": "assets/optimized/MY9140AB-card.webp",
-          "detail": "assets/optimized/MY9140AB-detail.webp",
-          "width": 1200,
-          "height": 1600
+        "assets/MY9140AB-studio-front.png": {
+          "small": "assets/optimized/MY9140AB-studio-front-small.webp",
+          "card": "assets/optimized/MY9140AB-studio-front-card.webp",
+          "detail": "assets/optimized/MY9140AB-studio-front-detail.webp",
+          "width": 1086,
+          "height": 1448
+        },
+        "assets/MY9140AB-studio-angle.png": {
+          "small": "assets/optimized/MY9140AB-studio-angle-small.webp",
+          "card": "assets/optimized/MY9140AB-studio-angle-card.webp",
+          "detail": "assets/optimized/MY9140AB-studio-angle-detail.webp",
+          "width": 1086,
+          "height": 1448
         }
       },
       "sizes": [
         "TU"
+      ],
+      "aiImages": [
+        "assets/MY9140AB-studio-front.png",
+        "assets/MY9140AB-studio-angle.png"
       ]
     },
     {
@@ -4125,22 +5374,37 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/FG2316.jpg",
+      "image": "assets/FG2316-studio-pair.png#left",
       "images": [
-        "assets/FG2316.jpg"
+        "assets/FG2316-studio-pair.png#left",
+        "assets/FG2316-studio-pair.png#right"
       ],
       "category": "Compleuri",
       "media": {
-        "assets/FG2316.jpg": {
-          "small": "assets/optimized/FG2316-small.webp",
-          "card": "assets/optimized/FG2316-card.webp",
-          "detail": "assets/optimized/FG2316-detail.webp",
-          "width": 2048,
-          "height": 1372
+        "assets/FG2316-studio-pair.png#left": {
+          "small": "assets/optimized/FG2316-studio-pair-small.webp",
+          "card": "assets/optimized/FG2316-studio-pair-card.webp",
+          "detail": "assets/optimized/FG2316-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/FG2316-studio-pair.png#right": {
+          "small": "assets/optimized/FG2316-studio-pair-small.webp",
+          "card": "assets/optimized/FG2316-studio-pair-card.webp",
+          "detail": "assets/optimized/FG2316-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "TU"
+      ],
+      "studioPair": "assets/FG2316-studio-pair.png",
+      "aiImages": [
+        "assets/FG2316-studio-pair.png#left",
+        "assets/FG2316-studio-pair.png#right"
       ]
     },
     {
@@ -4153,20 +5417,35 @@
         "Coffee"
       ],
       "price": null,
-      "image": "assets/CR380.jpg",
+      "image": "assets/CR380-studio-pair.png#left",
       "images": [
-        "assets/CR380.jpg"
+        "assets/CR380-studio-pair.png#left",
+        "assets/CR380-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/CR380.jpg": {
-          "small": "assets/optimized/CR380-small.webp",
-          "card": "assets/optimized/CR380-card.webp",
-          "detail": "assets/optimized/CR380-detail.webp",
-          "width": 1080,
-          "height": 1858
+        "assets/CR380-studio-pair.png#left": {
+          "small": "assets/optimized/CR380-studio-pair-small.webp",
+          "card": "assets/optimized/CR380-studio-pair-card.webp",
+          "detail": "assets/optimized/CR380-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/CR380-studio-pair.png#right": {
+          "small": "assets/optimized/CR380-studio-pair-small.webp",
+          "card": "assets/optimized/CR380-studio-pair-card.webp",
+          "detail": "assets/optimized/CR380-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/CR380-studio-pair.png",
+      "aiImages": [
+        "assets/CR380-studio-pair.png#left",
+        "assets/CR380-studio-pair.png#right"
+      ]
     },
     {
       "code": "DH269",
@@ -4178,20 +5457,35 @@
         "Verde"
       ],
       "price": null,
-      "image": "assets/DH269.jpg",
+      "image": "assets/DH269-studio-pair.png#left",
       "images": [
-        "assets/DH269.jpg"
+        "assets/DH269-studio-pair.png#left",
+        "assets/DH269-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/DH269.jpg": {
-          "small": "assets/optimized/DH269-small.webp",
-          "card": "assets/optimized/DH269-card.webp",
-          "detail": "assets/optimized/DH269-detail.webp",
-          "width": 1058,
-          "height": 2048
+        "assets/DH269-studio-pair.png#left": {
+          "small": "assets/optimized/DH269-studio-pair-small.webp",
+          "card": "assets/optimized/DH269-studio-pair-card.webp",
+          "detail": "assets/optimized/DH269-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/DH269-studio-pair.png#right": {
+          "small": "assets/optimized/DH269-studio-pair-small.webp",
+          "card": "assets/optimized/DH269-studio-pair-card.webp",
+          "detail": "assets/optimized/DH269-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
-      }
+      },
+      "studioPair": "assets/DH269-studio-pair.png",
+      "aiImages": [
+        "assets/DH269-studio-pair.png#left",
+        "assets/DH269-studio-pair.png#right"
+      ]
     },
     {
       "code": "SJ7003",
@@ -4204,23 +5498,38 @@
         "Negru"
       ],
       "price": null,
-      "image": "assets/SJ7003.jpg",
+      "image": "assets/SJ7003-studio-pair.png#left",
       "images": [
-        "assets/SJ7003.jpg"
+        "assets/SJ7003-studio-pair.png#left",
+        "assets/SJ7003-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/SJ7003.jpg": {
-          "small": "assets/optimized/SJ7003-small.webp",
-          "card": "assets/optimized/SJ7003-card.webp",
-          "detail": "assets/optimized/SJ7003-detail.webp",
-          "width": 1199,
-          "height": 1600
+        "assets/SJ7003-studio-pair.png#left": {
+          "small": "assets/optimized/SJ7003-studio-pair-small.webp",
+          "card": "assets/optimized/SJ7003-studio-pair-card.webp",
+          "detail": "assets/optimized/SJ7003-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "left"
+        },
+        "assets/SJ7003-studio-pair.png#right": {
+          "small": "assets/optimized/SJ7003-studio-pair-small.webp",
+          "card": "assets/optimized/SJ7003-studio-pair-card.webp",
+          "detail": "assets/optimized/SJ7003-studio-pair-detail.webp",
+          "width": 768,
+          "height": 1024,
+          "frame": "right"
         }
       },
       "sizes": [
         "S/M",
         "M/L"
+      ],
+      "studioPair": "assets/SJ7003-studio-pair.png",
+      "aiImages": [
+        "assets/SJ7003-studio-pair.png#left",
+        "assets/SJ7003-studio-pair.png#right"
       ]
     },
     {
