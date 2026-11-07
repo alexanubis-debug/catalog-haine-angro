@@ -43,3 +43,5 @@ Refacere fotografii 2026-11-07: 93 modele cu prezentări de furnizor au galerii 
 Pentru galeriile cu două cadre într-un singur fișier, `studioPair` indică sursa, iar `images` folosește fragmentele `#left` și `#right`. `media.frame` selectează jumătatea prin object-fit/object-position, cu dimensiunile logice ale unui cadru. Optimizatorul exportă la lățime dublă, păstrând rezoluția fiecărei jumătăți. `media.frameLabel` poate descrie o vedere specifică. Nu eliminați fragmentele când construiți galeria.
 
 AJ-FOTO-054: fotografia principală arată bluza cu decolteu în V peste rochia plisată; al doilea cadru arată rochia fără bluză, conform celor două vederi originale. Descrierea precizează setul din două piese. Mărimea TU, lizibilă în sursă, a fost adăugată; în total 87 produse au mărimi verificate.
+
+Corecție C6907: prezentarea în care cardiganul era ținut în mâini a fost înlocuită cu două cadre de studio bazate pe fotografia originală cu produsul purtat pe model. Sunt păstrate cele șase variante, buzunarele în formă de inimă, dantela și șnururile, precum și TU.

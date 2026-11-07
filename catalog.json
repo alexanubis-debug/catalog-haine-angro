@@ -2052,37 +2052,39 @@
         "Gri închis"
       ],
       "price": null,
-      "image": "assets/C6907-studio-pair.png#left",
+      "image": "assets/C6907-worn-studio-pair.png#left",
       "images": [
-        "assets/C6907-studio-pair.png#left",
-        "assets/C6907-studio-pair.png#right"
+        "assets/C6907-worn-studio-pair.png#left",
+        "assets/C6907-worn-studio-pair.png#right"
       ],
       "category": "Pulovere și cardigane",
       "media": {
-        "assets/C6907-studio-pair.png#left": {
-          "small": "assets/optimized/C6907-studio-pair-small.webp",
-          "card": "assets/optimized/C6907-studio-pair-card.webp",
-          "detail": "assets/optimized/C6907-studio-pair-detail.webp",
+        "assets/C6907-worn-studio-pair.png#left": {
+          "small": "assets/optimized/C6907-worn-studio-pair-small.webp",
+          "card": "assets/optimized/C6907-worn-studio-pair-card.webp",
+          "detail": "assets/optimized/C6907-worn-studio-pair-detail.webp",
           "width": 768,
           "height": 1024,
-          "frame": "left"
+          "frame": "left",
+          "frameLabel": "Cardigan purtat pe model"
         },
-        "assets/C6907-studio-pair.png#right": {
-          "small": "assets/optimized/C6907-studio-pair-small.webp",
-          "card": "assets/optimized/C6907-studio-pair-card.webp",
-          "detail": "assets/optimized/C6907-studio-pair-detail.webp",
+        "assets/C6907-worn-studio-pair.png#right": {
+          "small": "assets/optimized/C6907-worn-studio-pair-small.webp",
+          "card": "assets/optimized/C6907-worn-studio-pair-card.webp",
+          "detail": "assets/optimized/C6907-worn-studio-pair-detail.webp",
           "width": 768,
           "height": 1024,
-          "frame": "right"
+          "frame": "right",
+          "frameLabel": "Detalii: buzunare inimă și șnururi"
         }
       },
       "sizes": [
         "TU"
       ],
-      "studioPair": "assets/C6907-studio-pair.png",
+      "studioPair": "assets/C6907-worn-studio-pair.png",
       "aiImages": [
-        "assets/C6907-studio-pair.png#left",
-        "assets/C6907-studio-pair.png#right"
+        "assets/C6907-worn-studio-pair.png#left",
+        "assets/C6907-worn-studio-pair.png#right"
       ]
     },
     {
