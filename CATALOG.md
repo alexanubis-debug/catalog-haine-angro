@@ -80,3 +80,6 @@ Vizualizatorul încarcă originalul într-un element img dedicat, fără trecere
 
 ### v52 — revenire la afișarea v48
 La cererea utilizatorului, restaurate punctual funcțiile și stilurile vizualizatorului din v48 (05b845b). Zoom exclusiv +, Încadrare/Închide și protecțiile anti-zoom păstrate. Filtrele, tema, căutarea cu sugestii și restul catalogului păstrate. Fotografii/date nemodificate.
+
+### v53 — iconiță și surse originale în toate detaliile
+La cererea utilizatorului, bara Mărește fotografia este înlocuită de o iconiță de lupă pe poză, fără cerc de mărire. Toate fotografiile din detaliile produselor și vizualizator folosesc sursa originală, fără WebP comprimat sau srcset; cardurile/miniaturile păstrează exporturile rapide. În zoom se redimensionează rasterul la dimensiunea finală, iar limita se adaptează cadrului nativ (maximum 4×, fără depășirea dimensiunilor CSS ale sursei). Datele naturale se citesc după încărcare; + este disponibil după încărcarea originalului. Aspectul preferat al vizualizatorului și protecțiile anti-zoom accidental se păstrează. Audit complet: 266 cadre/174 fișiere/163 modele; 184 cadre au 768×1024 px, 79 au 1086×1448 px, trei alte dimensiuni. 265 cadre au fișiere identice cu sursele generate păstrate. Nu au fost modificate/regenerate imagini sau date comerciale; detaliile lipsă necesită surse mai bune.

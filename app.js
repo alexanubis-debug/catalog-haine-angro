@@ -17,7 +17,7 @@ function photo(p,src=p.image,mode='detail'){
   if(media.frame){img.classList.add('studio-frame');img.style.objectFit='cover';img.style.objectPosition=media.frame==='right'?'right center':'left center';img.style.aspectRatio=media.width+' / '+media.height;img.alt+=' · '+(media.frameLabel||(media.frame==='right'?'Cadru suplimentar':'Vedere generală'));}
   if(mode==='thumb'){img.src=media.small;}
   else if(mode==='card'){img.src=media.card;img.srcset=media.small+' 360w, '+media.card+' 640w';img.sizes='(max-width:700px) calc((100vw - 34px)/2), (max-width:1240px) calc((100vw - 96px)/3), 380px';}
-  else{img.src=media.detail;img.srcset=media.card+' 640w, '+media.detail+' 1200w';img.sizes='(max-width:700px) 90vw, 540px';}
+  else{img.src=src.split('#')[0];img.fetchPriority='high';}
  }else{img.src=src;}
  img.onerror=()=>{img.onerror=null;if(media&&img.getAttribute('src')!==src){img.removeAttribute('srcset');img.removeAttribute('sizes');img.src=src;return;}const box=el('div',null,'photo missing');box.append(el('strong',p.code),el('small','Fotografie indisponibilă'));img.replaceWith(box);};return img;
 }
@@ -52,7 +52,7 @@ function detail(p,{fromRoute=false}={}){
   position.textContent='1 / '+images.length;gallery.append(arrows,position);
   gallery.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();showImage(currentIndex+(event.key==='ArrowRight'?1:-1));}});
  }
- const enlarge=el('button','+ Mărește fotografia','photo-enlarge');enlarge.type='button';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,images[currentIndex]);gallery.append(enlarge);
+ const enlarge=el('button',null,'photo-enlarge');enlarge.innerHTML='<svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M10.5 7.5v6m-3-3h6"/></svg>';enlarge.type='button';enlarge.setAttribute('aria-label','Mărește fotografia');enlarge.title='Mărește fotografia';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,images[currentIndex]);gallery.append(enlarge);
  if(images.length>1){images.forEach((source,index)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(index+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(index===0));thumb.append(photo(p,source,'thumb'));thumb.onclick=()=>showImage(index);thumbnails.append(thumb);});gallery.append(thumbnails);}
  if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}
  c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
@@ -249,31 +249,38 @@ $('#selectionSend').onclick=()=>{const products=selectedProducts();if(products.l
 function galleryPhoto(product,source){const img=photo(product,source);img.classList.add('zoomable-photo');return img;}
 const photoViewer=$('#photoViewer'),photoStage=$('#photoStage'),photoFrame=$('#photoFrame');
 let viewerProduct,viewerImages=[],viewerIndex=0,viewerScale=1,viewerX=0,viewerY=0,viewerWidth=0,viewerHeight=0;
+let viewerSourceWidth=1200,viewerSourceHeight=1600,viewerMaxScale=1,viewerReady=false;
 const viewerPointers=new Map();let viewerSwipe;
 function fitPhotoViewer(){
  if(!photoViewer.open||!viewerProduct)return;
  const viewport=window.visualViewport;photoViewer.style.width=(viewport?.width||innerWidth)+'px';photoViewer.style.height=(viewport?.height||innerHeight)+'px';photoViewer.style.left=(viewport?.offsetLeft||0)+'px';photoViewer.style.top=(viewport?.offsetTop||0)+'px';
- const source=viewerImages[viewerIndex],meta=viewerProduct.media?.[source],width=meta?.width||1200,height=meta?.height||1600;
+ const width=viewerSourceWidth,height=viewerSourceHeight;
  const fit=Math.min((photoStage.clientWidth-24)/width,(photoStage.clientHeight-24)/height,1);
- viewerWidth=width*fit;viewerHeight=height*fit;photoFrame.style.width=viewerWidth+'px';photoFrame.style.height=viewerHeight+'px';resetPhotoZoom();
+ viewerWidth=width*fit;viewerHeight=height*fit;viewerMaxScale=Math.max(1,Math.min(4,1/fit));resetPhotoZoom();
 }
 function applyPhotoZoom(){
  const maxX=Math.max(0,(viewerWidth*viewerScale-photoStage.clientWidth)/2),maxY=Math.max(0,(viewerHeight*viewerScale-photoStage.clientHeight)/2);
  viewerX=Math.max(-maxX,Math.min(maxX,viewerX));viewerY=Math.max(-maxY,Math.min(maxY,viewerY));
- photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px) scale('+viewerScale+')';
- $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=viewerScale>=4;
+ photoFrame.style.width=viewerWidth*viewerScale+'px';photoFrame.style.height=viewerHeight*viewerScale+'px';photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px)';
+ $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=!viewerReady||viewerScale>=viewerMaxScale-.001;
  photoStage.classList.toggle('is-zoomed',viewerScale>1);
+ $('.photo-viewer-tip').textContent=!viewerReady?'Se încarcă fotografia originală…':viewerScale>=viewerMaxScale?'Rezoluția maximă disponibilă.'+(viewerScale>1?' Trage pentru detalii.':''):viewerScale>1?'Trage fotografia pentru detalii.':'Apasă + pentru mărire. Glisează pentru alte fotografii.';
 }
 function zoomPhoto(value,clientX,clientY){
- const next=Math.max(1,Math.min(4,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
+ if(!viewerReady)return;
+ const next=Math.max(1,Math.min(viewerMaxScale,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
  viewerX=x-(x-viewerX)*ratio;viewerY=y-(y-viewerY)*ratio;viewerScale=next;applyPhotoZoom();
 }
 function resetPhotoZoom(){viewerScale=1;viewerX=0;viewerY=0;applyPhotoZoom();}
 function loadViewerPhoto(){
- const source=viewerImages[viewerIndex],image=photo(viewerProduct,source);image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=source.split('#')[0];image.loading='eager';image.draggable=false;
+ const source=viewerImages[viewerIndex],meta=viewerProduct.media?.[source],image=el('img',null,'photo');image.alt=viewerProduct.name+' · '+viewerProduct.code+((viewerProduct.aiImages||[]).includes(source)?' · Vizualizare AI':'');image.decoding='async';image.loading='eager';image.draggable=false;image.fetchPriority='high';
+ if(meta?.frame){image.classList.add('studio-frame');image.style.objectFit='cover';image.style.objectPosition=meta.frame==='right'?'right center':'left center';}
+ viewerReady=false;viewerSourceWidth=meta?.width||1200;viewerSourceHeight=meta?.height||1600;
+ function ready(){if(viewerReady||photoFrame.firstElementChild!==image||!photoViewer.open||!image.naturalWidth)return;viewerSourceWidth=image.naturalWidth/(meta?.frame?2:1);viewerSourceHeight=image.naturalHeight;viewerReady=true;fitPhotoViewer();}
+ image.onload=ready;image.onerror=()=>{if(photoFrame.firstElementChild!==image)return;viewerReady=false;photoFrame.replaceChildren(el('div','Fotografie indisponibilă','photo missing'));$('#photoZoomIn').disabled=true;$('.photo-viewer-tip').textContent='Fotografia nu s-a încărcat. Încearcă alt cadru.';};
  photoFrame.replaceChildren(image);$('#photoViewerCode').textContent=viewerProduct.code;$('#photoViewerName').textContent=viewerProduct.name;
  $('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerImages.length<2;$('#photoNext').disabled=viewerImages.length<2;
- viewerPointers.clear();fitPhotoViewer();
+ viewerPointers.clear();fitPhotoViewer();image.src=source.split('#')[0];if(image.complete)ready();
 }
 function openPhotoViewer(product,source){
  viewerProduct=product;viewerImages=[...new Set([...(product.images||[product.image]),...(product.colorVariantsImage?[product.colorVariantsImage]:[])])];if(!viewerImages.includes(source))viewerImages.push(source);viewerIndex=viewerImages.indexOf(source);
