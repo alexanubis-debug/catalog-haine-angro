@@ -74,3 +74,6 @@ Butonul de mărire este acum o iconiță discretă suprapusă pe fotografie. Viz
 
 ### v50 — fără lupă circulară
 Utilizatorul a respins lupa circulară. Eliminat cercul și modul Lupă; păstrate iconița pe fotografie, comenzile grupate, mărirea întregii fotografii doar din +, deplasarea după zoom și revenirea Încadrare/Închide.
+
+### v51 — claritate la zoom
+Vizualizatorul încarcă originalul într-un element img dedicat, fără trecere prin srcset sau miniaturi. Imaginea este redimensionată la dimensiunea finală, fără scale pe un strat raster micșorat. Mărirea maximă este adaptată rezoluției efective a sursei (maximum 4×, fără depășirea dimensiunilor native CSS); sursele sprite folosesc lățimea cadrului. Dimensiunile reale se verifică după încărcare, inclusiv pentru produse fără metadate. La limită apare Rezoluția maximă a fotografiei. Nu sunt regenerate sau alterate produse/culori/texturi.

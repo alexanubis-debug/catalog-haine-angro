@@ -249,34 +249,41 @@ $('#selectionSend').onclick=()=>{const products=selectedProducts();if(products.l
 function galleryPhoto(product,source){const img=photo(product,source);img.classList.add('zoomable-photo');return img;}
 const photoViewer=$('#photoViewer'),photoStage=$('#photoStage'),photoFrame=$('#photoFrame');
 let viewerProduct,viewerImages=[],viewerIndex=0,viewerScale=1,viewerX=0,viewerY=0,viewerWidth=0,viewerHeight=0;
+let viewerSourceWidth=1200,viewerSourceHeight=1600,viewerMaxScale=1;
 const viewerPointers=new Map();let viewerSwipe;
-function updateViewerTip(){$('.photo-viewer-tip').textContent=viewerScale>1?'Trage fotografia pentru detalii.':'Apasă + pentru mărire. Glisează pentru alte fotografii.';}
+function updateViewerTip(){$('.photo-viewer-tip').textContent=viewerScale>=viewerMaxScale?'Rezoluția maximă a fotografiei.'+(viewerScale>1?' Trage pentru detalii.':''):viewerScale>1?'Trage fotografia pentru detalii.':'Apasă + pentru mărire. Glisează pentru alte fotografii.';}
 function fitPhotoViewer(){
  if(!photoViewer.open||!viewerProduct)return;
  const viewport=window.visualViewport;photoViewer.style.width=(viewport?.width||innerWidth)+'px';photoViewer.style.height=(viewport?.height||innerHeight)+'px';photoViewer.style.left=(viewport?.offsetLeft||0)+'px';photoViewer.style.top=(viewport?.offsetTop||0)+'px';
- const source=viewerImages[viewerIndex],meta=viewerProduct.media?.[source],width=meta?.width||1200,height=meta?.height||1600;
+ const width=viewerSourceWidth,height=viewerSourceHeight;
  const fit=Math.min((photoStage.clientWidth-24)/width,(photoStage.clientHeight-24)/height,1);
- viewerWidth=width*fit;viewerHeight=height*fit;photoFrame.style.width=viewerWidth+'px';photoFrame.style.height=viewerHeight+'px';resetPhotoZoom();
+ viewerWidth=width*fit;viewerHeight=height*fit;viewerMaxScale=Math.max(1,Math.min(4,1/fit));resetPhotoZoom();
 }
 function applyPhotoZoom(){
  const maxX=Math.max(0,(viewerWidth*viewerScale-photoStage.clientWidth)/2),maxY=Math.max(0,(viewerHeight*viewerScale-photoStage.clientHeight)/2);
  viewerX=Math.max(-maxX,Math.min(maxX,viewerX));viewerY=Math.max(-maxY,Math.min(maxY,viewerY));
- photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px) scale('+viewerScale+')';
- $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=viewerScale>=4;
+ // Resize the raster at its target size instead of magnifying a downsampled compositor layer.
+ photoFrame.style.width=viewerWidth*viewerScale+'px';photoFrame.style.height=viewerHeight*viewerScale+'px';photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px)';
+ $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=viewerScale>=viewerMaxScale-.001;
  photoStage.classList.toggle('is-zoomed',viewerScale>1);
  updateViewerTip();
 }
 function zoomPhoto(value,clientX,clientY){
 
- const next=Math.max(1,Math.min(4,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
+ const next=Math.max(1,Math.min(viewerMaxScale,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
  viewerX=x-(x-viewerX)*ratio;viewerY=y-(y-viewerY)*ratio;viewerScale=next;applyPhotoZoom();
 }
 function resetPhotoZoom(){viewerScale=1;viewerX=0;viewerY=0;applyPhotoZoom();}
 function loadViewerPhoto(){
- const source=viewerImages[viewerIndex],image=photo(viewerProduct,source);image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=source.split('#')[0];image.loading='eager';image.draggable=false;
+ const source=viewerImages[viewerIndex],meta=viewerProduct.media?.[source],image=el('img',null,'photo');image.alt=viewerProduct.name+' · '+viewerProduct.code+((viewerProduct.aiImages||[]).includes(source)?' · Vizualizare AI':'');image.decoding='async';image.loading='eager';image.draggable=false;
+ if(meta?.frame){image.classList.add('studio-frame');image.style.objectFit='cover';image.style.objectPosition=meta.frame==='right'?'right center':'left center';}
+ viewerSourceWidth=meta?.width||1200;viewerSourceHeight=meta?.height||1600;
+ function sourceReady(){if(photoFrame.firstElementChild!==image||!photoViewer.open)return;const width=image.naturalWidth/(meta?.frame?2:1),height=image.naturalHeight;if(width>0&&height>0&&(width!==viewerSourceWidth||height!==viewerSourceHeight)){viewerSourceWidth=width;viewerSourceHeight=height;fitPhotoViewer();}}
+ image.addEventListener('load',sourceReady);
+ image.onerror=()=>{if(photoFrame.firstElementChild!==image)return;const error=el('div','Fotografie indisponibilă','photo missing');photoFrame.replaceChildren(error);$('#photoZoomIn').disabled=true;$('.photo-viewer-tip').textContent='Încearcă altă fotografie sau revino la produs.';};
  photoFrame.replaceChildren(image);$('#photoViewerCode').textContent=viewerProduct.code;$('#photoViewerName').textContent=viewerProduct.name;
  photoViewer.classList.toggle('single-photo',viewerImages.length<2);$('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerImages.length<2;$('#photoNext').disabled=viewerImages.length<2;
- viewerPointers.clear();fitPhotoViewer();
+ viewerPointers.clear();fitPhotoViewer();image.src=source.split('#')[0];if(image.complete)sourceReady();
 }
 function openPhotoViewer(product,source){
  viewerProduct=product;viewerImages=[...new Set([...(product.images||[product.image]),...(product.colorVariantsImage?[product.colorVariantsImage]:[])])];if(!viewerImages.includes(source))viewerImages.push(source);viewerIndex=viewerImages.indexOf(source);
