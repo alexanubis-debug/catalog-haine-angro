@@ -77,3 +77,6 @@ Utilizatorul a respins lupa circulară. Eliminat cercul și modul Lupă; păstra
 
 ### v51 — claritate la zoom
 Vizualizatorul încarcă originalul într-un element img dedicat, fără trecere prin srcset sau miniaturi. Imaginea este redimensionată la dimensiunea finală, fără scale pe un strat raster micșorat. Mărirea maximă este adaptată rezoluției efective a sursei (maximum 4×, fără depășirea dimensiunilor native CSS); sursele sprite folosesc lățimea cadrului. Dimensiunile reale se verifică după încărcare, inclusiv pentru produse fără metadate. La limită apare Rezoluția maximă a fotografiei. Nu sunt regenerate sau alterate produse/culori/texturi.
+
+### v52 — revenire la afișarea v48
+La cererea utilizatorului, restaurate punctual funcțiile și stilurile vizualizatorului din v48 (05b845b). Zoom exclusiv +, Încadrare/Închide și protecțiile anti-zoom păstrate. Filtrele, tema, căutarea cu sugestii și restul catalogului păstrate. Fotografii/date nemodificate.
