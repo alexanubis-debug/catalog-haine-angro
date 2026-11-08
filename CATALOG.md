@@ -62,3 +62,6 @@ Tema albă/neagră se alege din butonul de lângă Contactează-ne la desktop la
 
 ### v46 — buton temă în antet pe mobil
 Pe mobil/tabletă sub 1100 px, tema albă/neagră este imediat după lupă și înaintea meniului. Un singur buton este vizibil. Pe telefoane înguste, titlul catalogului ocupă un rând propriu, păstrând controale de 44 px și logo lizibil. Desktopul și alegerea persistentă a temei rămân.
+
+### v47 — linkuri directe și sugestii de căutare
+Fiecare model poate fi deschis din `?produs=COD`, inclusiv după reîncărcare, și are buton de copiere a linkului în detalii, cu variantă de copiere manuală dacă clipboardul este indisponibil. URL-ul și titlul urmează produsul deschis; linkul necunoscut afișează un mesaj util. Căutarea afișează până la șase sugestii cu miniatură, nume, cod și preț, plus acces la toate rezultatele. Se păstrează filtrele/categoria; căutarea recunoaște diacriticele și formele fără diacritice. Navigare prin taste și atingere, compatibilă cu ambele teme. Aspectul cardurilor și datele produselor rămân.
