@@ -3273,15 +3273,20 @@
       "code": "AJ-FOTO-006",
       "name": "Pantaloni bufanți cu buline",
       "colors": [
-        "Negru / Auriu"
+        "Negru / Auriu",
+        "Maro / Bej"
       ],
       "price": null,
-      "image": "assets/AJ-FOTO-006-studio-ai.png",
+      "image": "assets/AJ-FOTO-006-brown-studio-front.png",
       "images": [
+        "assets/AJ-FOTO-006-brown-studio-front.png",
+        "assets/AJ-FOTO-006-brown-studio-detail.png",
         "assets/AJ-FOTO-006-studio-ai.png"
       ],
       "aiImages": [
-        "assets/AJ-FOTO-006-studio-ai.png"
+        "assets/AJ-FOTO-006-studio-ai.png",
+        "assets/AJ-FOTO-006-brown-studio-front.png",
+        "assets/AJ-FOTO-006-brown-studio-detail.png"
       ],
       "internalCode": true,
       "category": "Pantaloni și jeans",
@@ -3292,8 +3297,23 @@
           "detail": "assets/optimized/AJ-FOTO-006-studio-ai-detail.webp",
           "width": 1086,
           "height": 1448
+        },
+        "assets/AJ-FOTO-006-brown-studio-front.png": {
+          "small": "assets/optimized/AJ-FOTO-006-brown-studio-front-small.webp",
+          "card": "assets/optimized/AJ-FOTO-006-brown-studio-front-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-006-brown-studio-front-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-006-brown-studio-detail.png": {
+          "small": "assets/optimized/AJ-FOTO-006-brown-studio-detail-small.webp",
+          "card": "assets/optimized/AJ-FOTO-006-brown-studio-detail-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-006-brown-studio-detail-detail.webp",
+          "width": 1024,
+          "height": 1536
         }
-      }
+      },
+      "isNew": true
     },
     {
       "code": "AJ-FOTO-007",
