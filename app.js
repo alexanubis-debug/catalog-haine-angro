@@ -57,12 +57,10 @@ function detail(p,{fromRoute=false}={}){
  if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}
  c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
  if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link);}
- const share=el('div',null,'product-share'),copy=el('button','Copiază linkul produsului'),status=el('p',null,'share-status'),fallback=el('input');copy.type='button';status.setAttribute('role','status');fallback.type='url';fallback.readOnly=true;fallback.hidden=true;fallback.setAttribute('aria-label','Link direct către '+p.code);fallback.value=productURL(p);copy.onclick=async()=>{try{await navigator.clipboard.writeText(productURL(p));status.textContent='Link copiat. Îl poți trimite mai departe.';fallback.hidden=true;}catch{status.textContent='Selectează și copiază linkul:';fallback.hidden=false;fallback.focus();fallback.select();}};share.append(copy,status,fallback);description.append(share);
  description.querySelector('h2').id='productTitle';$('#detail').dataset.code=p.code;if(!$('#detail').open)$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
  document.title=p.name+' · '+p.code+' · AJ Paris Fashion';
  if(!fromRoute&&new URL(location.href).searchParams.get('produs')!==p.code){const url=new URL(location.href);url.searchParams.set('produs',p.code);history.pushState(null,'',url);}
 }
-function productURL(p){const url=new URL(location.pathname,location.origin);url.searchParams.set('produs',p.code);return url.href;}
 function syncProductRoute(){
  if(!catalog)return;
  const code=new URL(location.href).searchParams.get('produs'),product=catalog.products.find(p=>p.code===code);

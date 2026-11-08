@@ -65,3 +65,6 @@ Pe mobil/tabletă sub 1100 px, tema albă/neagră este imediat după lupă și �
 
 ### v47 — linkuri directe și sugestii de căutare
 Fiecare model poate fi deschis din `?produs=COD`, inclusiv după reîncărcare, și are buton de copiere a linkului în detalii, cu variantă de copiere manuală dacă clipboardul este indisponibil. URL-ul și titlul urmează produsul deschis; linkul necunoscut afișează un mesaj util. Căutarea afișează până la șase sugestii cu miniatură, nume, cod și preț, plus acces la toate rezultatele. Se păstrează filtrele/categoria; căutarea recunoaște diacriticele și formele fără diacritice. Navigare prin taste și atingere, compatibilă cu ambele teme. Aspectul cardurilor și datele produselor rămân.
+
+### v48 — eliminare copiere link
+La cererea utilizatorului, butonul Copiază linkul produsului și interfața de copiere manuală au fost eliminate. Căutarea cu sugestii și deschiderea produselor prin linkurile existente rămân active.
