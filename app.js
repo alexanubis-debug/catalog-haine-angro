@@ -52,7 +52,7 @@ function detail(p,{fromRoute=false}={}){
   position.textContent='1 / '+images.length;gallery.append(arrows,position);
   gallery.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();showImage(currentIndex+(event.key==='ArrowRight'?1:-1));}});
  }
- const enlarge=el('button','+ Mărește fotografia','photo-enlarge');enlarge.type='button';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,images[currentIndex]);gallery.append(enlarge);
+ const enlarge=el('button',null,'photo-enlarge');enlarge.innerHTML='<svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M10.5 7.5v6m-3-3h6"/></svg>';enlarge.type='button';enlarge.setAttribute('aria-label','Mărește fotografia');enlarge.title='Mărește fotografia';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,images[currentIndex]);gallery.append(enlarge);
  if(images.length>1){images.forEach((source,index)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(index+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(index===0));thumb.append(photo(p,source,'thumb'));thumb.onclick=()=>showImage(index);thumbnails.append(thumb);});gallery.append(thumbnails);}
  if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}
  c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
@@ -250,6 +250,26 @@ function galleryPhoto(product,source){const img=photo(product,source);img.classL
 const photoViewer=$('#photoViewer'),photoStage=$('#photoStage'),photoFrame=$('#photoFrame');
 let viewerProduct,viewerImages=[],viewerIndex=0,viewerScale=1,viewerX=0,viewerY=0,viewerWidth=0,viewerHeight=0;
 const viewerPointers=new Map();let viewerSwipe;
+const photoLens=$('#photoLens'),lensToggle=$('#photoLensToggle');let lensActive=false,lensPoint;
+function updateViewerTip(){$('.photo-viewer-tip').textContent=lensActive?'Deplasează lupa pe fotografie pentru detalii.':viewerScale>1?'Trage fotografia pentru detalii.':'Folosește lupa pentru detalii sau + pentru mărire.';}
+function deactivateLens(){lensActive=false;photoLens.hidden=true;photoLens.replaceChildren();photoStage.classList.remove('has-lens');lensToggle.setAttribute('aria-pressed','false');updateViewerTip();}
+function moveLens(clientX,clientY,touch=false){
+ if(!lensActive)return;
+ const image=photoFrame.querySelector('img');if(!image){photoLens.hidden=true;return;}
+ const rect=image.getBoundingClientRect(),stage=photoStage.getBoundingClientRect();
+ if(clientX<rect.left||clientX>rect.right||clientY<rect.top||clientY>rect.bottom){photoLens.hidden=true;return;}
+ lensPoint={x:clientX,y:clientY};photoLens.hidden=false;const diameter=photoLens.offsetWidth,radius=diameter/2,factor=2.5;
+ const left=Math.max(4,Math.min(stage.width-diameter-4,clientX-stage.left-radius)),top=Math.max(4,Math.min(stage.height-diameter-4,clientY-stage.top-radius-(touch?radius+28:0)));
+ photoLens.style.left=left+'px';photoLens.style.top=top+'px';
+ const zoomed=photoLens.firstElementChild;zoomed.style.width=rect.width*factor+'px';zoomed.style.height=rect.height*factor+'px';zoomed.style.left=radius-(clientX-rect.left)*factor+'px';zoomed.style.top=radius-(clientY-rect.top)*factor+'px';
+}
+function activateLens(){
+ resetPhotoZoom();const image=photoFrame.querySelector('img');if(!image)return;
+ lensActive=true;const copy=image.cloneNode();copy.removeAttribute('id');copy.alt='';copy.draggable=false;copy.style.objectFit=getComputedStyle(image).objectFit;copy.style.objectPosition=getComputedStyle(image).objectPosition;photoLens.replaceChildren(copy);lensToggle.setAttribute('aria-pressed','true');photoStage.classList.add('has-lens');updateViewerTip();
+ const rect=image.getBoundingClientRect();moveLens(rect.left+rect.width/2,rect.top+rect.height*.4);
+}
+lensToggle.onclick=()=>{if(lensActive)deactivateLens();else activateLens();};
+photoStage.addEventListener('pointerleave',event=>{if(event.pointerType==='mouse')photoLens.hidden=true;});
 function fitPhotoViewer(){
  if(!photoViewer.open||!viewerProduct)return;
  const viewport=window.visualViewport;photoViewer.style.width=(viewport?.width||innerWidth)+'px';photoViewer.style.height=(viewport?.height||innerHeight)+'px';photoViewer.style.left=(viewport?.offsetLeft||0)+'px';photoViewer.style.top=(viewport?.offsetTop||0)+'px';
@@ -263,38 +283,41 @@ function applyPhotoZoom(){
  photoFrame.style.transform='translate('+viewerX+'px,'+viewerY+'px) scale('+viewerScale+')';
  $('#photoZoomLevel').textContent=Number(viewerScale.toFixed(1))+'×';$('#photoZoomOut').disabled=viewerScale<=1;$('#photoZoomIn').disabled=viewerScale>=4;
  photoStage.classList.toggle('is-zoomed',viewerScale>1);
+ updateViewerTip();
 }
 function zoomPhoto(value,clientX,clientY){
+ deactivateLens();
  const next=Math.max(1,Math.min(4,value)),rect=photoStage.getBoundingClientRect(),x=clientX===undefined?0:clientX-rect.left-rect.width/2,y=clientY===undefined?0:clientY-rect.top-rect.height/2,ratio=next/viewerScale;
  viewerX=x-(x-viewerX)*ratio;viewerY=y-(y-viewerY)*ratio;viewerScale=next;applyPhotoZoom();
 }
-function resetPhotoZoom(){viewerScale=1;viewerX=0;viewerY=0;applyPhotoZoom();}
+function resetPhotoZoom(){deactivateLens();viewerScale=1;viewerX=0;viewerY=0;applyPhotoZoom();}
 function loadViewerPhoto(){
  const source=viewerImages[viewerIndex],image=photo(viewerProduct,source);image.removeAttribute('srcset');image.removeAttribute('sizes');image.src=source.split('#')[0];image.loading='eager';image.draggable=false;
  photoFrame.replaceChildren(image);$('#photoViewerCode').textContent=viewerProduct.code;$('#photoViewerName').textContent=viewerProduct.name;
- $('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerImages.length<2;$('#photoNext').disabled=viewerImages.length<2;
+ photoViewer.classList.toggle('single-photo',viewerImages.length<2);$('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerImages.length<2;$('#photoNext').disabled=viewerImages.length<2;
  viewerPointers.clear();fitPhotoViewer();
 }
 function openPhotoViewer(product,source){
  viewerProduct=product;viewerImages=[...new Set([...(product.images||[product.image]),...(product.colorVariantsImage?[product.colorVariantsImage]:[])])];if(!viewerImages.includes(source))viewerImages.push(source);viewerIndex=viewerImages.indexOf(source);
- photoViewer.showModal();document.body.style.overflow='hidden';loadViewerPhoto();
+ photoViewer.showModal();document.body.style.overflow='hidden';loadViewerPhoto();if(matchMedia('(hover:hover) and (pointer:fine)').matches)activateLens();
 }
 $('#photoViewerClose').onclick=()=>photoViewer.close();
-photoViewer.addEventListener('close',()=>{viewerPointers.clear();viewerSwipe=null;photoFrame.replaceChildren();document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';$('#detail .photo-enlarge')?.focus({preventScroll:true});});
+ photoViewer.addEventListener('close',()=>{deactivateLens();viewerPointers.clear();viewerSwipe=null;photoFrame.replaceChildren();document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';$('#detail .photo-enlarge')?.focus({preventScroll:true});});
 $('#photoZoomIn').onclick=()=>zoomPhoto(viewerScale+.5);$('#photoZoomOut').onclick=()=>zoomPhoto(viewerScale-.5);$('#photoReset').onclick=resetPhotoZoom;
 function stepViewerPhoto(direction){if(viewerImages.length>1){viewerIndex=(viewerIndex+direction+viewerImages.length)%viewerImages.length;loadViewerPhoto();}}
 $('#photoPrevious').onclick=()=>stepViewerPhoto(-1);$('#photoNext').onclick=()=>stepViewerPhoto(1);
 photoStage.addEventListener('wheel',event=>{event.preventDefault();if(viewerScale>1){viewerX-=event.deltaX;viewerY-=event.deltaY;applyPhotoZoom();}},{passive:false});
 photoStage.addEventListener('dblclick',event=>event.preventDefault());
-photoStage.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&event.button!==0)return;if(viewerPointers.size===0)viewerSwipe={id:event.pointerId,x:event.clientX,y:event.clientY,scale:viewerScale,pinched:false};else if(viewerSwipe)viewerSwipe.pinched=true;viewerPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});photoStage.setPointerCapture(event.pointerId);});
+photoStage.addEventListener('pointerdown',event=>{if(event.pointerType==='mouse'&&event.button!==0)return;if(lensActive){viewerSwipe=null;moveLens(event.clientX,event.clientY,event.pointerType!=='mouse');photoStage.setPointerCapture(event.pointerId);return;}if(viewerPointers.size===0)viewerSwipe={id:event.pointerId,x:event.clientX,y:event.clientY,scale:viewerScale,pinched:false};else if(viewerSwipe)viewerSwipe.pinched=true;viewerPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});photoStage.setPointerCapture(event.pointerId);});
 photoStage.addEventListener('pointermove',event=>{
+ if(lensActive){if(event.isPrimary)moveLens(event.clientX,event.clientY,event.pointerType!=='mouse');return;}
  if(!viewerPointers.has(event.pointerId))return;
  const before=[...viewerPointers.values()],old=viewerPointers.get(event.pointerId);viewerPointers.set(event.pointerId,{x:event.clientX,y:event.clientY});const after=[...viewerPointers.values()];
  if(after.length===1){viewerX+=event.clientX-old.x;viewerY+=event.clientY-old.y;applyPhotoZoom();}
 
 });
 for(const type of ['pointerup','pointercancel','lostpointercapture'])photoStage.addEventListener(type,event=>viewerPointers.delete(event.pointerId));
-photoStage.addEventListener('keydown',event=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)){event.preventDefault();viewerX+=event.key==='ArrowLeft'?45:event.key==='ArrowRight'?-45:0;viewerY+=event.key==='ArrowUp'?45:event.key==='ArrowDown'?-45:0;applyPhotoZoom();}else if(event.key==='Home'){event.preventDefault();resetPhotoZoom();}});
+photoStage.addEventListener('keydown',event=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(event.key)){event.preventDefault();if(lensActive&&lensPoint){const r=photoFrame.getBoundingClientRect();moveLens(Math.max(r.left,Math.min(r.right,lensPoint.x+(event.key==='ArrowLeft'?-24:event.key==='ArrowRight'?24:0))),Math.max(r.top,Math.min(r.bottom,lensPoint.y+(event.key==='ArrowUp'?-24:event.key==='ArrowDown'?24:0))));return;}viewerX+=event.key==='ArrowLeft'?45:event.key==='ArrowRight'?-45:0;viewerY+=event.key==='ArrowUp'?45:event.key==='ArrowDown'?-45:0;applyPhotoZoom();}else if(event.key==='Home'){event.preventDefault();resetPhotoZoom();}});
 window.addEventListener('resize',fitPhotoViewer);
 window.visualViewport?.addEventListener('resize',fitPhotoViewer);
 window.visualViewport?.addEventListener('scroll',()=>{if(photoViewer.open){photoViewer.style.left=window.visualViewport.offsetLeft+'px';photoViewer.style.top=window.visualViewport.offsetTop+'px';}});

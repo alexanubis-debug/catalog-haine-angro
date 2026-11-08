@@ -233,3 +233,23 @@ html[data-theme="dark"] .photo-viewer-tip{background:#211c28}
 .search-all{display:block;width:100%;min-height:44px;padding:12px;border:0;border-top:1px solid var(--line);background:transparent;color:var(--purple);font:inherit;font-size:14px;font-weight:600;cursor:pointer}.suggestion-empty{font-size:14px;line-height:1.5;padding:8px 12px}
 #productRouteStatus{padding:14px;background:#f5f2fc;border-radius:12px;line-height:1.5;font-size:14px}
 html[data-theme="dark"] .search-suggestions{background:#211c28;color:#f1ebf7}html[data-theme="dark"] .search-suggestion:hover,html[data-theme="dark"] .search-suggestion:focus-visible{background:#34243f}html[data-theme="dark"] #productRouteStatus{background:#34243f}
+
+/* Deliberate magnifier with persistent, compact viewer controls. */
+.gallery>.photo-enlarge{grid-area:1/1;align-self:end;justify-self:end;z-index:2;display:inline-flex;align-items:center;justify-content:center;width:46px;height:46px;min-height:46px;margin:12px;padding:0;border-radius:50%;border:1px solid #ffffffbb;background:#fffffff2;color:#24212a;box-shadow:0 3px 14px #0002;backdrop-filter:blur(8px);cursor:pointer}
+.gallery>.zoomable-photo{cursor:default}
+.photo-lens{position:absolute;pointer-events:none;width:210px;height:210px;border:3px solid white;border-radius:50%;overflow:hidden;background:#eee9e2;box-shadow:0 8px 32px #0004,0 0 0 1px #0002;z-index:2}
+.photo-lens[hidden]{display:none}.photo-lens>.photo{position:absolute;max-width:none;max-height:none;margin:0;border-radius:0;user-select:none}
+.photo-lens::after{content:'';position:absolute;inset:0;border-radius:50%;box-shadow:inset 0 0 0 1px #0001;pointer-events:none}.photo-stage.has-lens{cursor:crosshair}
+#photoViewer .photo-viewer-header{padding:14px 22px;border-bottom:0}#photoViewerCode{font-size:11px;letter-spacing:.8px}#photoViewerName{font-size:14px;line-height:1.4;margin-top:4px}
+#photoViewer button{border-radius:50%;min-width:44px;min-height:44px;padding:10px;display:inline-flex;align-items:center;justify-content:center;gap:7px}
+#photoViewer #photoViewerClose{border-radius:28px;padding:10px 16px;background:transparent}
+#photoViewer .photo-viewer-controls{gap:16px;border:0;background:transparent;padding:12px 16px 6px;flex-wrap:wrap}
+#photoViewer .photo-viewer-controls>div{gap:4px;padding:3px;border:1px solid var(--line);background:#fff;border-radius:30px}
+#photoViewer .photo-viewer-controls>div button{border:0;background:transparent}
+#photoViewer #photoLensToggle,#photoViewer #photoReset{border-radius:28px;padding:12px 16px;min-height:50px}
+#photoViewer #photoLensToggle[aria-pressed="true"]{background:#19191d;color:white;border-color:#19191d}
+#photoViewer .photo-viewer-tip{background:transparent;font-size:12px;color:#6a626e;padding-bottom:calc(12px + env(safe-area-inset-bottom,0px))}
+#photoViewer.single-photo .photo-navigation{display:none}
+html[data-theme="dark"] #photoViewer .photo-viewer-controls>div{background:#211c28}html[data-theme="dark"] #photoViewer .photo-viewer-controls>div button{background:transparent}html[data-theme="dark"] #photoViewer .photo-viewer-tip{color:#cdbedb}html[data-theme="dark"] #photoViewer #photoLensToggle[aria-pressed="true"]{background:#e8dbf5;color:#21162b;border-color:#e8dbf5}
+@media(max-width:700px){.photo-lens{width:160px;height:160px}#photoViewer .photo-viewer-header{padding:10px 12px}#photoViewer .photo-viewer-controls{gap:8px;padding:8px 8px 6px}#photoViewer #photoLensToggle,#photoViewer #photoReset{padding:10px 12px;min-height:46px}#photoViewer .photo-viewer-tip{font-size:11px}}
+@media(max-width:360px){#photoViewer .photo-viewer-controls{gap:6px}#photoViewer #photoLensToggle,#photoViewer #photoReset{padding:10px}#photoViewer #photoLensToggle span{display:none}}
