@@ -71,3 +71,6 @@ La cererea utilizatorului, butonul Copiază linkul produsului și interfața de 
 
 ### v49 — lupă pentru detalii
 Butonul de mărire este acum o iconiță discretă suprapusă pe fotografie. Vizualizatorul include lupă circulară 2,5× pe sursa originală, urmărind mouse-ul sau zona atinsă/trasă pe mobil. Pe desktop cu mouse, intrarea prin iconița de lupă activează direct lupa; pe mobil se activează din butonul Lupă. Comenzile sunt grupate și Închide rămâne accesibil; + păstrează zoomul întregii imagini, − și Încadrare îl reduc. Lupa și zoomul întreg sunt moduri separate. Cadrele sprite și object-fit/poziția originale se păstrează; nu se modifică fotografii sau date. Glisarea schimbă cadrul când lupa este oprită și imaginea încadrată; cu lupa activă explorează detaliul. Dublul clic/pinch/rotița nu declanșează mărire.
+
+### v50 — fără lupă circulară
+Utilizatorul a respins lupa circulară. Eliminat cercul și modul Lupă; păstrate iconița pe fotografie, comenzile grupate, mărirea întregii fotografii doar din +, deplasarea după zoom și revenirea Încadrare/Închide.
