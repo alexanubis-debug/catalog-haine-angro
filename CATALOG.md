@@ -86,3 +86,6 @@ La cererea utilizatorului, bara Mărește fotografia este înlocuită de o iconi
 
 ### v54 — pantaloni maro cu buline, fără vestă
 Trei fotografii ale aceleiași ținute: fără copii binare în catalog/surse. Conform clarificării utilizatorului, se importă numai pantalonii. Croiala și buzunarele corespund modelului AJ-FOTO-006 existent: adăugată varianta Maro / Bej, două cadre studio 1024×1536 (general/detaliu), păstrată fotografia Negru / Auriu. Un singur cod și număr de produse neschimbat. Produs marcat NEW pentru varianta nouă, preț necunoscut și mărimi neconfirmate neschimbate. Nicio vestă, piesă de styling, pălărie, geantă sau încălțăminte adăugată în ofertă. Cadrele finale păstrează talia elastică simplă, buzunarele mari și tivurile; panglica etichetei nu este prezentată drept șnur. Originalele și auditul sunt păstrate în afara site-ului.
+
+### v55 — pantaloni numai maro
+Utilizatorul confirmă că deține doar maro. AJ-FOTO-006 afișează exclusiv culoarea Maro și cele două cadre studio maro; eliminată din galerie și opțiuni fotografia variantei închise. Prețul, mărimile și NEW păstrate.
