@@ -6084,6 +6084,861 @@
           "frameLabel": "Detalii ale modelului original"
         }
       }
+    },
+    {
+      "code": "AC19726",
+      "name": "Pulover cu guler alungit și strasuri",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Gri deschis",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19726-studio-20261123.png",
+      "images": [
+        "assets/AC19726-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19726-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19726-studio-20261123.png": {
+          "small": "assets/optimized/AC19726-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19726-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19726-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19728",
+      "name": "Pulover cu guler și aplicații florale",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Gri deschis",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19728-studio-20261123.png",
+      "images": [
+        "assets/AC19728-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19728-studio-20261123.png"
+      ],
+      "media": {
+        "assets/AC19728-studio-20261123.png": {
+          "small": "assets/optimized/AC19728-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19728-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19728-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19723",
+      "name": "Pulover cu guler și flori din strasuri",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Gri deschis",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19723-studio-20261123.png",
+      "images": [
+        "assets/AC19723-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19723-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19723-studio-20261123.png": {
+          "small": "assets/optimized/AC19723-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19723-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19723-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "YM919",
+      "name": "Bluză cu perle la decolteu",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Negru",
+        "Bej",
+        "Maro mocha",
+        "Coffee",
+        "Roșu"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/YM919-studio-20261123.png",
+      "images": [
+        "assets/YM919-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/YM919-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/YM919-studio-20261123.png": {
+          "small": "assets/optimized/YM919-studio-20261123-small.webp",
+          "card": "assets/optimized/YM919-studio-20261123-card.webp",
+          "detail": "assets/optimized/YM919-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19687",
+      "name": "Cardigan cu guler în dungi și nasturi decorativi",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Roz",
+        "Albastru deschis",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19687-studio-20261123.png",
+      "images": [
+        "assets/AC19687-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19687-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19687-studio-20261123.png": {
+          "small": "assets/optimized/AC19687-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19687-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19687-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2218-B",
+      "name": "Compleu cu glugă și șnur împletit",
+      "category": "Compleuri",
+      "colors": [
+        "Crem",
+        "Gri taupe",
+        "Gri",
+        "Albastru închis"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2218-B-studio-20261123.png",
+      "images": [
+        "assets/W2218-B-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2218-B-studio-20261123.png"
+      ],
+      "media": {
+        "assets/W2218-B-studio-20261123.png": {
+          "small": "assets/optimized/W2218-B-studio-20261123-small.webp",
+          "card": "assets/optimized/W2218-B-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2218-B-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19722",
+      "name": "Pulover cu guler și broderie din strasuri",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Gri deschis",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19722-studio-20261123.png",
+      "images": [
+        "assets/AC19722-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19722-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19722-studio-20261123.png": {
+          "small": "assets/optimized/AC19722-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19722-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19722-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19691",
+      "name": "Pulover cu guler brodat",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Roz",
+        "Albastru deschis",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19691-studio-20261123.png",
+      "images": [
+        "assets/AC19691-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19691-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19691-studio-20261123.png": {
+          "small": "assets/optimized/AC19691-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19691-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19691-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2595AB",
+      "name": "Compleu cu clape și nasturi decorativi",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Crem",
+        "Maro tobacco"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2595AB-studio-20261123.png",
+      "images": [
+        "assets/W2595AB-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2595AB-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2595AB-studio-20261123.png": {
+          "small": "assets/optimized/W2595AB-studio-20261123-small.webp",
+          "card": "assets/optimized/W2595AB-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2595AB-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2296AB",
+      "name": "Compleu cu fustă midi și aplicație pufoasă",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Gri",
+        "Khaki",
+        "Coffee"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2296AB-studio-20261123.png",
+      "images": [
+        "assets/W2296AB-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2296AB-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2296AB-studio-20261123.png": {
+          "small": "assets/optimized/W2296AB-studio-20261123-small.webp",
+          "card": "assets/optimized/W2296AB-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2296AB-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "C-111",
+      "name": "Cardigan cu mânecă scurtă și guler",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Gri închis",
+        "Camel melanj",
+        "Coffee",
+        "Alb",
+        "Khaki melanj",
+        "Roz"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/C-111-studio-20261123.png",
+      "images": [
+        "assets/C-111-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/C-111-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/C-111-studio-20261123.png": {
+          "small": "assets/optimized/C-111-studio-20261123-small.webp",
+          "card": "assets/optimized/C-111-studio-20261123-card.webp",
+          "detail": "assets/optimized/C-111-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2553AB",
+      "name": "Compleu cu cardigan și cusături contrastante",
+      "category": "Compleuri",
+      "colors": [
+        "Gri",
+        "Crem",
+        "Maro tobacco",
+        "Khaki",
+        "Bordo"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2553AB-studio-20261123.png",
+      "images": [
+        "assets/W2553AB-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2553AB-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2553AB-studio-20261123.png": {
+          "small": "assets/optimized/W2553AB-studio-20261123-small.webp",
+          "card": "assets/optimized/W2553AB-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2553AB-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "J529",
+      "name": "Pulover cu guler înalt și inele decorative",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Negru",
+        "Crem",
+        "Khaki",
+        "Bordo",
+        "Bej",
+        "Gri"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/J529-studio-20261123.png",
+      "images": [
+        "assets/J529-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/J529-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/J529-studio-20261123.png": {
+          "small": "assets/optimized/J529-studio-20261123-small.webp",
+          "card": "assets/optimized/J529-studio-20261123-card.webp",
+          "detail": "assets/optimized/J529-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19690",
+      "name": "Pulover cu guler din dantelă și strasuri",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Roz",
+        "Albastru deschis",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19690-studio-20261123.png",
+      "images": [
+        "assets/AC19690-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19690-studio-20261123.png"
+      ],
+      "media": {
+        "assets/AC19690-studio-20261123.png": {
+          "small": "assets/optimized/AC19690-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19690-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19690-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19721",
+      "name": "Pulover cu guler și perle decorative",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19721-studio-20261123.png",
+      "images": [
+        "assets/AC19721-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19721-studio-20261123.png"
+      ],
+      "media": {
+        "assets/AC19721-studio-20261123.png": {
+          "small": "assets/optimized/AC19721-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19721-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19721-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19686",
+      "name": "Pulover cu torsade și guler decorativ",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Bej",
+        "Roz",
+        "Albastru deschis",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19686-studio-20261123.png",
+      "images": [
+        "assets/AC19686-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19686-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19686-studio-20261123.png": {
+          "small": "assets/optimized/AC19686-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19686-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19686-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AC19730",
+      "name": "Pulover cu guler și strasuri florale",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Crem",
+        "Gri deschis",
+        "Bordo",
+        "Coffee",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/AC19730-studio-20261123.png",
+      "images": [
+        "assets/AC19730-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/AC19730-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/AC19730-studio-20261123.png": {
+          "small": "assets/optimized/AC19730-studio-20261123-small.webp",
+          "card": "assets/optimized/AC19730-studio-20261123-card.webp",
+          "detail": "assets/optimized/AC19730-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "J293",
+      "name": "Compleu cu torsade și cardigan cu guler",
+      "category": "Compleuri",
+      "colors": [
+        "Bej",
+        "Coffee",
+        "Crem",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/J293-studio-20261123.png",
+      "images": [
+        "assets/J293-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/J293-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/J293-studio-20261123.png": {
+          "small": "assets/optimized/J293-studio-20261123-small.webp",
+          "card": "assets/optimized/J293-studio-20261123-card.webp",
+          "detail": "assets/optimized/J293-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "J566",
+      "name": "Compleu cu cardigan și pantaloni largi",
+      "category": "Compleuri",
+      "colors": [
+        "Khaki",
+        "Gri",
+        "Coffee",
+        "Crem",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/J566-studio-20261123.png",
+      "images": [
+        "assets/J566-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/J566-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "description": "Compleu format din cardigan și pantaloni.",
+      "media": {
+        "assets/J566-studio-20261123.png": {
+          "small": "assets/optimized/J566-studio-20261123-small.webp",
+          "card": "assets/optimized/J566-studio-20261123-card.webp",
+          "detail": "assets/optimized/J566-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2625AB",
+      "name": "Compleu cu bluză cu mânecă scurtă și pantaloni",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Maro tobacco",
+        "Khaki"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2625AB-studio-20261123.png",
+      "images": [
+        "assets/W2625AB-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2625AB-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2625AB-studio-20261123.png": {
+          "small": "assets/optimized/W2625AB-studio-20261123-small.webp",
+          "card": "assets/optimized/W2625AB-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2625AB-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "QQ8335",
+      "name": "Compleu cu bluză polo și pantaloni largi",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Khaki",
+        "Crem",
+        "Maro"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/QQ8335-studio-20261123.png",
+      "images": [
+        "assets/QQ8335-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/QQ8335-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/QQ8335-studio-20261123.png": {
+          "small": "assets/optimized/QQ8335-studio-20261123-small.webp",
+          "card": "assets/optimized/QQ8335-studio-20261123-card.webp",
+          "detail": "assets/optimized/QQ8335-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2273",
+      "name": "Compleu cu bluză asimetrică și pantaloni",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Gri",
+        "Khaki",
+        "Coffee"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2273-studio-20261123.png",
+      "images": [
+        "assets/W2273-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2273-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2273-studio-20261123.png": {
+          "small": "assets/optimized/W2273-studio-20261123-small.webp",
+          "card": "assets/optimized/W2273-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2273-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2279AB-B",
+      "name": "Compleu cu guler polo și pantaloni",
+      "category": "Compleuri",
+      "colors": [
+        "Crem",
+        "Bordo",
+        "Gri taupe",
+        "Gri albăstrui",
+        "Albastru închis"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2279AB-B-studio-20261123.png",
+      "images": [
+        "assets/W2279AB-B-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2279AB-B-studio-20261123.png"
+      ],
+      "media": {
+        "assets/W2279AB-B-studio-20261123.png": {
+          "small": "assets/optimized/W2279AB-B-studio-20261123-small.webp",
+          "card": "assets/optimized/W2279AB-B-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2279AB-B-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "C-154",
+      "name": "Pulover cu romburi și decolteu în V",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Coffee",
+        "Bordo",
+        "Bej ovăz",
+        "Coffee închis",
+        "Albastru",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/C-154-studio-20261123.png",
+      "images": [
+        "assets/C-154-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/C-154-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "media": {
+        "assets/C-154-studio-20261123.png": {
+          "small": "assets/optimized/C-154-studio-20261123-small.webp",
+          "card": "assets/optimized/C-154-studio-20261123-card.webp",
+          "detail": "assets/optimized/C-154-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "W2623AB",
+      "name": "Compleu cu hanorac cu fermoar și pantaloni",
+      "category": "Compleuri",
+      "colors": [
+        "Negru",
+        "Coffee",
+        "Maro tobacco",
+        "Khaki"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/W2623AB-studio-20261123.png",
+      "images": [
+        "assets/W2623AB-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/W2623AB-studio-20261123.png"
+      ],
+      "sizes": [
+        "TU"
+      ],
+      "media": {
+        "assets/W2623AB-studio-20261123.png": {
+          "small": "assets/optimized/W2623AB-studio-20261123-small.webp",
+          "card": "assets/optimized/W2623AB-studio-20261123-card.webp",
+          "detail": "assets/optimized/W2623AB-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "J315A",
+      "name": "Pantaloni largi cu șnur în talie",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Bej",
+        "Crem",
+        "Coffee",
+        "Bordo",
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "image": "assets/J315A-studio-20261123.png",
+      "images": [
+        "assets/J315A-studio-20261123.png"
+      ],
+      "aiImages": [
+        "assets/J315A-studio-20261123.png"
+      ],
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "description": "Pantaloni cu talie elastică și șnur. Topul din fotografie este folosit pentru prezentare.",
+      "media": {
+        "assets/J315A-studio-20261123.png": {
+          "small": "assets/optimized/J315A-studio-20261123-small.webp",
+          "card": "assets/optimized/J315A-studio-20261123-card.webp",
+          "detail": "assets/optimized/J315A-studio-20261123-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
     }
   ],
   "whatsappContacts": [
