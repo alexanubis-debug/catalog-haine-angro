@@ -1,12 +1,18 @@
 const $=s=>document.querySelector(s);let catalog;let selectedCategory="";const PAGE_SIZE=12;const PREVIEW_SIZE=6;const NEW_CATEGORY='__new';const CATEGORIES=['Compleuri','Bluze și tricouri','Pulovere și cardigane','Pantaloni și jeans','Rochii','Fuste','Veste și jachete'];let visibleCount=PAGE_SIZE;
-// Shuffle once per visit, then put NEW items first; navigation reuses this order.
+// New arrivals expire 14 days after their first catalog addition.
+const NEW_WINDOW_MS=14*24*60*60*1000;
+function isNewProduct(product,now=Date.now()){
+ const added=Date.parse(product.addedAt);
+ return product.isNew!==false&&Number.isFinite(added)&&added<=now&&now-added<NEW_WINDOW_MS;
+}
+// Shuffle once per visit, then put recent items first; navigation reuses this order.
 function discoveryOrder(products){
  const shuffled=[...products];
  for(let i=shuffled.length-1;i>0;i--){
   const j=Math.floor(Math.random()*(i+1));
   [shuffled[i],shuffled[j]]=[shuffled[j],shuffled[i]];
  }
- return [...shuffled.filter(product=>product.isNew),...shuffled.filter(product=>!product.isNew)];
+ return [...shuffled.filter(product=>isNewProduct(product)),...shuffled.filter(product=>!isNewProduct(product))];
 }
 function el(tag,text,cls){const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n}
 function photo(p,src=p.image,mode='detail'){
@@ -54,7 +60,7 @@ function detail(p,{fromRoute=false}={}){
  const enlarge=el('button',null,'photo-enlarge');enlarge.innerHTML='<svg viewBox="0 0 24 24" width="23" height="23" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5M10.5 7.5v6m-3-3h6"/></svg>';enlarge.type='button';enlarge.setAttribute('aria-label','Mărește fotografia');enlarge.title='Mărește fotografia';enlarge.setAttribute('aria-haspopup','dialog');enlarge.setAttribute('aria-controls','photoViewer');enlarge.onclick=()=>openPhotoViewer(p,images[currentIndex]);gallery.append(enlarge);
  if(images.length>1){images.forEach((source,index)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(index+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(index===0));thumb.append(photo(p,source,'thumb'));thumb.onclick=()=>showImage(index);thumbnails.append(thumb);});gallery.append(thumbnails);}
  if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}
- c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
+ c.replaceChildren(gallery,description);if(isNewProduct(p))description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
  if(catalog.whatsapp){const link=el('a','Cere preț pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent(priceInquiryMessage(p));link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link);}
  description.querySelector('h2').id='productTitle';$('#detail').dataset.code=p.code;if(!$('#detail').open)$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
  document.title=p.name+' · '+p.code+' · AJ Paris Fashion';
@@ -96,7 +102,7 @@ function productCard(p,priority=false){
  const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
  bottom.append(el('span','Cere preț','details-label'),arrow);
  body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length===1?'1 culoare':p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
- if(p.isNew)card.append(el('span','NEW','new-badge'));
+ if(isNewProduct(p))card.append(el('span','NEW','new-badge'));
  const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
  card.append(image,body);card.onclick=()=>detail(p);const tile=el('div',null,'product-tile');tile.append(card,selectionControl(p));return tile;
 }
@@ -110,15 +116,15 @@ function renderOverview(products){
   const more=el('button','Vezi toate ('+total+') →','view-collection');more.type='button';more.setAttribute('aria-label',category===NEW_CATEGORY?'Vezi toate noutățile':'Vezi toate: '+title);more.onclick=()=>openCollection(category);
   block.append(header,grid,more);$('#products').append(block);
  }
- const newProducts=products.filter(product=>product.isNew);
+ const newProducts=products.filter(product=>isNewProduct(product));
  if(newProducts.length)section('Noutăți',NEW_CATEGORY,newProducts,newProducts.length);
  for(const category of CATEGORIES){
   const members=products.filter(product=>product.category===category);
-  if(members.length)section(category,category,members.filter(product=>!product.isNew),members.length);
+  if(members.length)section(category,category,members.filter(product=>!isNewProduct(product)),members.length);
  }
 }
 function searchText(value){return String(value).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('ro').trim();}
-function searchProducts(){const query=searchText($('#search').value);return catalog.products.filter(p=>(!selectedCategory||(selectedCategory===NEW_CATEGORY?p.isNew:p.category===selectedCategory))&&searchText(p.code+' '+p.name+' '+p.colors.join(' ')).includes(query)&&matchesFilters(p));}
+function searchProducts(){const query=searchText($('#search').value);return catalog.products.filter(p=>(!selectedCategory||(selectedCategory===NEW_CATEGORY?isNewProduct(p):p.category===selectedCategory))&&searchText(p.code+' '+p.name+' '+p.colors.join(' ')).includes(query)&&matchesFilters(p));}
 function hideSuggestions(){$('#searchSuggestions').hidden=true;}
 function updateSuggestions(){
  const panel=$('#searchSuggestions'),query=searchText($('#search').value);panel.replaceChildren();
@@ -154,7 +160,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=60').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=61').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
@@ -339,7 +345,7 @@ function matchesFilters(product){
  const f=filterValues();
  if(f.size&&!(product.sizes||[]).includes(f.size))return false;
  if(f.color&&!product.colors.includes(f.color))return false;
- if(f.newOnly&&!product.isNew)return false;
+ if(f.newOnly&&!isNewProduct(product))return false;
  return true;
 }
 function syncFilterSummary(){

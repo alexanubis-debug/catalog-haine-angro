@@ -1,5 +1,11 @@
 # Catalog angro
 
+### v61 — fotografii naturale și noutăți pentru 14 zile
+
+Lotul din cele două arhive primite pe 25 noiembrie conține 27 fotografii: două cadre repetate ale acelorași produse au fost excluse din generare, iar două perechi de variante pe culori sunt grupate. Rezultatul este 23 de produse noi (AJ-FOTO-073–095), cu 25 fotografii AI în stilul aprobat: lumină naturală lângă fereastră, poziții relaxate și haine purtate pe corp. Nu se preiau culori din pachete sigilate, mărimi neconfirmate sau prețuri. Variantele Maro taupe/Gri antracit ale hanoracului și bluzei cu Minnie sunt în aceleași galerii. Fotografiile originale și auditul importului rămân în afara site-ului.
+
+`addedAt` este data primei adăugări a produsului în catalog, în ISO 8601 cu fus orar. Pentru produsele existente, data provine din prima apariție a codului în istoricul Git, nu din data schimbării fotografiei. La importuri viitoare se setează o singură dată, fără resetare la retușuri. `isNewProduct()` stabilește consecvent etichetele NEW, prioritatea, secțiunea și filtrul Noutăți: vârsta trebuie să fie mai mică de 14 zile și data să nu fie în viitor. La 14 zile produsul rămâne în categoria sa și pierde automat statutul de noutate. Datele lipsă/invalide nu produc NEW; `isNew:false` poate dezactiva explicit eticheta. Sumele rămân absente; cererile de preț prin WhatsApp sunt păstrate.
+
 Site static, fără dependențe. Din acest director rulează `python3 -m http.server 8000` pentru dezvoltare. Publicarea necesită un serviciu de găzduire statică; fișierele locale nu reprezintă o adresă publică.
 
 Produsele sunt în `catalog.json`. Completează prețul numeric, unitatea explicită `priceUnit`, numele afacerii, numărul WhatsApp în format internațional și comanda minimă. Prețurile necunoscute rămân `null`. Culorile sunt transcrise din fotografii și trebuie confirmate de comerciant. Nu sunt declarate stocuri ori cantități minime pe baza etichetelor furnizorului.
