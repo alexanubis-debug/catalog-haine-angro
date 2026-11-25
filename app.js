@@ -31,7 +31,6 @@ function info(p,parent){
  else{const ask=el('button','Întreabă pe WhatsApp');ask.type='button';ask.onclick=()=>openWhatsApp(p,'Bună! Ce mărimi sunt disponibile pentru modelul '+p.code+'?');sizeValues.append(ask);}
  sizes.append(sizeValues);facts.append(sizes);parent.append(facts);
  if(p.description)parent.append(el('p',p.description,'product-description'));
- const price=el('div',null,'price-panel');price.append(el('span','Preț','price-label'),el('p',p.price===null?'Cere preț':p.price+' lei + TVA','price'));parent.append(price);
 }
 function detail(p,{fromRoute=false}={}){
  hideSuggestions();
@@ -95,7 +94,7 @@ function openCollection(category){
 function productCard(p,priority=false){
  const card=el('button',null,'product');card.type='button';card.dataset.code=p.code;card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
  const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
- bottom.append(el('span',p.price===null?'Cere preț':p.price+' lei + TVA','price'),arrow);
+ bottom.append(el('span','Vezi detalii','details-label'),arrow);
  body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length===1?'1 culoare':p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
  if(p.isNew)card.append(el('span','NEW','new-badge'));
  const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
@@ -127,7 +126,7 @@ function updateSuggestions(){
  const products=searchProducts().sort((a,b)=>{const rank=p=>searchText(p.code)===query?0:searchText(p.code).startsWith(query)?1:2;return rank(a)-rank(b);});
  if(!products.length)panel.append(el('p','Niciun produs găsit. Încearcă alt cod sau altă culoare.','suggestion-empty'));
  else{
-  const list=el('ul');for(const p of products.slice(0,6)){const item=el('li'),button=el('button',null,'search-suggestion'),text=el('span');button.type='button';button.dataset.code=p.code;text.append(el('strong',p.name),el('small',p.code+' · '+(p.price===null?'Cere preț':p.price+' lei + TVA')));button.append(photo(p,p.image,'thumb'),text);button.onclick=()=>detail(p);item.append(button);list.append(item);}panel.append(list);
+  const list=el('ul');for(const p of products.slice(0,6)){const item=el('li'),button=el('button',null,'search-suggestion'),text=el('span');button.type='button';button.dataset.code=p.code;text.append(el('strong',p.name),el('small',p.code));button.append(photo(p,p.image,'thumb'),text);button.onclick=()=>detail(p);item.append(button);list.append(item);}panel.append(list);
   const all=el('button','Vezi toate rezultatele ('+products.length+')','search-all');all.type='button';all.onclick=()=>{hideSuggestions();$('#collectionTitle').focus({preventScroll:true});$('#collectionTitle').scrollIntoView({block:'center',behavior:'instant'});};panel.append(all);
  }
  panel.hidden=false;
@@ -155,7 +154,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=58').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=59').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
@@ -331,40 +330,27 @@ function validateRequest(){
 }
 function selectionMessage(products){
  const lines=products.map(product=>'- '+product.code+'\n'+requestLines(product).map((line,index)=>'  Varianta '+(index+1)+': culoare '+(line.color||'de confirmat')+'; mărime '+(line.size?(line.size==='TU'?'Talie universală (TU)':line.size).replace(/[\r\n\t]+/g,' '):'de confirmat')+'; cantitate dorită '+(line.quantity?String(Number(line.quantity)):'de precizat')).join('\n'));
- return 'Bună! Mă interesează următoarele modele pentru angro:\n'+lines.join('\n')+'\nÎmi confirmați disponibilitatea variantelor și cantităților solicitate, prețurile și condițiile pentru angro?';
+ return 'Bună! Mă interesează următoarele modele pentru angro:\n'+lines.join('\n')+'\nÎmi confirmați disponibilitatea variantelor și cantităților solicitate, precum și condițiile pentru angro?';
 }
-function filterValues(){return {size:$('#filterSize').value,color:$('#filterColor').value,price:$('#filterPrice').value,min:$('#filterMin').value,max:$('#filterMax').value,newOnly:$('#filterNew').checked};}
-function filtersActive(){const f=filterValues();return !!(f.size||f.color||f.price!=='all'||f.min||f.max||f.newOnly);}
-function filterProblem(f){
- if(f.price==='unknown')return '';
- if(!$('#filterMin').validity.valid||!$('#filterMax').validity.valid)return 'Introdu prețuri pozitive sau zero.';
- if(f.min!==''&&f.max!==''&&Number(f.min)>Number(f.max))return 'Prețul maxim trebuie să fie cel puțin egal cu prețul minim.';
- return '';
-}
+function filterValues(){return {size:$('#filterSize').value,color:$('#filterColor').value,newOnly:$('#filterNew').checked};}
+function filtersActive(){const f=filterValues();return !!(f.size||f.color||f.newOnly);}
 function matchesFilters(product){
- const f=filterValues();if(filterProblem(f))return false;
+ const f=filterValues();
  if(f.size&&!(product.sizes||[]).includes(f.size))return false;
  if(f.color&&!product.colors.includes(f.color))return false;
  if(f.newOnly&&!product.isNew)return false;
- if(f.price==='unknown')return product.price===null;
- if(f.price==='known'&&product.price===null)return false;
- if(f.min!==''&&(product.price===null||product.price<Number(f.min)))return false;
- if(f.max!==''&&(product.price===null||product.price>Number(f.max)))return false;
  return true;
 }
 function syncFilterSummary(){
  const f=filterValues(),parts=[];if(f.size)parts.push('Mărime: '+(f.size==='TU'?'Talie universală (TU)':f.size));if(f.color)parts.push('Culoare: '+f.color);
- if(f.price==='unknown')parts.push('Cere preț');else if(f.min||f.max)parts.push('Preț: '+(f.min||'0')+' – '+(f.max||'oricare')+' lei + TVA');else if(f.price==='known')parts.push('Cu preț afișat');
- if(f.newOnly)parts.push('Doar noutăți');$('#filterCount').textContent=parts.length?'('+parts.length+')':'';$('#activeFilters').hidden=!parts.length;$('#filterSummary').textContent=parts.join(' · ');$('#priceRange').hidden=f.price==='unknown';
- const problem=filterProblem(f);$('#filterError').hidden=!problem;$('#filterError').textContent=problem;
+ if(f.newOnly)parts.push('Doar noutăți');$('#filterCount').textContent=parts.length?'('+parts.length+')':'';$('#activeFilters').hidden=!parts.length;$('#filterSummary').textContent=parts.join(' · ');
 }
 function initFilters(){
  const sort=values=>[...new Set(values)].sort((a,b)=>a.localeCompare(b,'ro',{numeric:true}));
  for(const [id,values] of [['#filterSize',sort(catalog.products.flatMap(p=>p.sizes||[]))],['#filterColor',sort(catalog.products.flatMap(p=>p.colors))]])for(const value of values){const option=el('option',value==='TU'?'Talie universală (TU)':value);option.value=value;$(id).append(option);}
 }
-for(const id of ['#filterSize','#filterColor','#filterPrice','#filterNew'])$(id).addEventListener('change',()=>render());
-for(const id of ['#filterMin','#filterMax'])$(id).addEventListener('input',()=>render());
-$('#clearFilters').onclick=()=>{$('#filterSize').value='';$('#filterColor').value='';$('#filterPrice').value='all';$('#filterMin').value='';$('#filterMax').value='';$('#filterNew').checked=false;render();$('#filterPanel summary').focus({preventScroll:true});};
+for(const id of ['#filterSize','#filterColor','#filterNew'])$(id).addEventListener('change',()=>render());
+$('#clearFilters').onclick=()=>{$('#filterSize').value='';$('#filterColor').value='';$('#filterNew').checked=false;render();$('#filterPanel summary').focus({preventScroll:true});};
 
 photoStage.addEventListener('pointerup',event=>{
  const gesture=viewerSwipe;if(!gesture||gesture.id!==event.pointerId)return;viewerSwipe=null;

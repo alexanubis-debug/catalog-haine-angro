@@ -13,9 +13,7 @@
         "Camel",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/DR207AB-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/DR207AB-studio-pair.png#left": {
@@ -55,9 +53,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-86952-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-86952-studio-pair.png#left": {
@@ -99,9 +95,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-87098-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-87098-studio-pair.png#left": {
@@ -144,9 +138,7 @@
         "Mov",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-8386-studio-front.png",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-8386-studio-front.png": {
@@ -185,9 +177,7 @@
         "Maro",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-87030-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-87030-studio-pair.png#left": {
@@ -230,9 +220,7 @@
         "Camel",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/P1559-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/P1559-studio-pair.png#left": {
@@ -275,9 +263,7 @@
         "Khaki",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-87267-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-87267-studio-pair.png#left": {
@@ -318,9 +304,7 @@
         "Crem",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-86913-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-86913-studio-pair.png#left": {
@@ -361,9 +345,7 @@
         "Negru / Gri",
         "Coffee / Camel"
       ],
-      "price": 125,
       "image": "assets/A-8572-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-8572-studio-pair.png#left": {
@@ -405,9 +387,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-86979-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-86979-studio-pair.png#left": {
@@ -450,9 +430,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A86547-clean-model.png",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A86547-clean-model.png": {
@@ -487,9 +465,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-8207-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-8207-studio-pair.png#left": {
@@ -530,9 +506,7 @@
         "Crem",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A8256-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A8256-studio-pair.png#left": {
@@ -574,9 +548,7 @@
         "Roșu",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-8588-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-8588-studio-pair.png#left": {
@@ -619,9 +591,7 @@
         "Verde",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A86546-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A86546-studio-pair.png#left": {
@@ -663,9 +633,7 @@
         "Gri",
         "Negru"
       ],
-      "price": 125,
       "image": "assets/A-8526-studio-pair.png#left",
-      "priceUnit": "lei / compleu",
       "category": "Compleuri",
       "media": {
         "assets/A-8526-studio-pair.png#left": {
@@ -706,7 +674,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWY6520-studio-pair.png#left",
       "images": [
         "assets/BWY6520-studio-pair.png#left",
@@ -749,7 +716,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWC96620-studio-pair.png#left",
       "images": [
         "assets/BWC96620-studio-pair.png#left",
@@ -793,7 +759,6 @@
         "Albastru închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWC96826-studio-pair.png#left",
       "images": [
         "assets/BWC96826-studio-pair.png#left",
@@ -837,7 +802,6 @@
         "Khaki închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWC96836ABC-studio-pair.png#left",
       "images": [
         "assets/BWC96836ABC-studio-pair.png#left",
@@ -881,7 +845,6 @@
         "Albastru",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWY36971-studio-pair.png#left",
       "images": [
         "assets/BWY36971-studio-pair.png#left",
@@ -925,7 +888,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWC96886AB-studio-front.png",
       "images": [
         "assets/BWC96886AB-studio-front.png",
@@ -966,7 +928,6 @@
         "Maro",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWT6220-retouched-front.png",
       "images": [
         "assets/BWT6220-retouched-front.png",
@@ -1006,7 +967,6 @@
         "Albastru",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWY36695ABC-studio-pair.png#left",
       "images": [
         "assets/BWY36695ABC-studio-pair.png#left",
@@ -1050,7 +1010,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWY6378-studio-pair.png#left",
       "images": [
         "assets/BWY6378-studio-pair.png#left",
@@ -1094,7 +1053,6 @@
         "Bej",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWC96707-studio-pair.png#left",
       "images": [
         "assets/BWC96707-studio-pair.png#left",
@@ -1138,7 +1096,6 @@
         "Khaki",
         "Negru"
       ],
-      "price": null,
       "image": "assets/BWY36372-studio-pair.png#left",
       "images": [
         "assets/BWY36372-studio-pair.png#left",
@@ -1183,7 +1140,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF2181-studio-pair.png#left",
       "images": [
         "assets/QF2181-studio-pair.png#left",
@@ -1226,7 +1182,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF9123-studio-pair.png#left",
       "images": [
         "assets/QF9123-studio-pair.png#left",
@@ -1270,7 +1225,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF3202-studio-pair.png#left",
       "images": [
         "assets/QF3202-studio-pair.png#left",
@@ -1314,7 +1268,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF3206-studio-pair.png#left",
       "images": [
         "assets/QF3206-studio-pair.png#left",
@@ -1357,7 +1310,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF2157-studio-pair.png#left",
       "images": [
         "assets/QF2157-studio-pair.png#left",
@@ -1401,7 +1353,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF1935-studio-pair.png#left",
       "images": [
         "assets/QF1935-studio-pair.png#left",
@@ -1445,7 +1396,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF1858-studio-pair.png#left",
       "images": [
         "assets/QF1858-studio-pair.png#left",
@@ -1492,7 +1442,6 @@
         "Alb",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF6353-1-studio-pair.png#left",
       "images": [
         "assets/QF6353-1-studio-pair.png#left",
@@ -1537,7 +1486,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF1735-studio-pair.png#left",
       "images": [
         "assets/QF1735-studio-pair.png#left",
@@ -1582,7 +1530,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF3201-studio-pair.png#left",
       "images": [
         "assets/QF3201-studio-pair.png#left",
@@ -1626,7 +1573,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF2112-studio-pair.png#left",
       "images": [
         "assets/QF2112-studio-pair.png#left",
@@ -1669,7 +1615,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/QF3151-studio-pair.png#left",
       "images": [
         "assets/QF3151-studio-pair.png#left",
@@ -1709,7 +1654,6 @@
       "colors": [
         "Crem"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-001-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-001-studio-ai.png"
@@ -1738,7 +1682,6 @@
         "Gri",
         "Crem"
       ],
-      "price": null,
       "image": "assets/B-86497-studio-pair.png#left",
       "images": [
         "assets/B-86497-studio-pair.png#left",
@@ -1781,7 +1724,6 @@
         "Coffee",
         "Mov"
       ],
-      "price": null,
       "image": "assets/BR8043-studio-pair.png#left",
       "images": [
         "assets/BR8043-studio-pair.png#left",
@@ -1821,7 +1763,6 @@
       "colors": [
         "Roz"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-002-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-002-studio-ai.png"
@@ -1851,7 +1792,6 @@
         "Alb",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A-87302-studio-pair.png#left",
       "images": [
         "assets/A-87302-studio-pair.png#left",
@@ -1891,7 +1831,6 @@
       "colors": [
         "Negru / Galben"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-003-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-003-studio-ai.png"
@@ -1920,7 +1859,6 @@
         "Roz",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A86970-studio-pair.png#left",
       "images": [
         "assets/A86970-studio-pair.png#left",
@@ -1965,7 +1903,6 @@
         "Alb",
         "Gri închis"
       ],
-      "price": null,
       "image": "assets/P1595-studio-pair.png#left",
       "images": [
         "assets/P1595-studio-pair.png#left",
@@ -2009,7 +1946,6 @@
         "Crem",
         "Negru"
       ],
-      "price": null,
       "image": "assets/OY92-studio-pair.png#left",
       "images": [
         "assets/OY92-studio-pair.png#left",
@@ -2051,7 +1987,6 @@
         "Roz",
         "Gri închis"
       ],
-      "price": null,
       "image": "assets/C6907-worn-studio-pair.png#left",
       "images": [
         "assets/C6907-worn-studio-pair.png#left",
@@ -2094,7 +2029,6 @@
         "Bej",
         "Bordo"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-004-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-004-studio-ai.png"
@@ -2124,7 +2058,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A-87234-studio-pair.png#left",
       "images": [
         "assets/A-87234-studio-pair.png#left",
@@ -2168,7 +2101,6 @@
         "Alb",
         "Gri închis"
       ],
-      "price": null,
       "image": "assets/P1522-studio-pair.png#left",
       "images": [
         "assets/P1522-studio-pair.png#left",
@@ -2212,7 +2144,6 @@
         "Crem",
         "Mov"
       ],
-      "price": null,
       "image": "assets/BR8044-1-studio-pair.png#left",
       "images": [
         "assets/BR8044-1-studio-pair.png#left",
@@ -2256,7 +2187,6 @@
         "Bej",
         "Gri închis"
       ],
-      "price": null,
       "image": "assets/P1619-studio-pair.png#left",
       "images": [
         "assets/P1619-studio-pair.png#left",
@@ -2301,7 +2231,6 @@
         "Galben",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A-86968-studio-pair.png#left",
       "images": [
         "assets/A-86968-studio-pair.png#left",
@@ -2341,7 +2270,6 @@
       "colors": [
         "Roz"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-005-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-005-studio-ai.png"
@@ -2370,7 +2298,6 @@
         "Negru",
         "Camel"
       ],
-      "price": null,
       "image": "assets/A86568-studio-pair.png#left",
       "images": [
         "assets/A86568-studio-pair.png#left",
@@ -2414,7 +2341,6 @@
         "Roz",
         "Negru"
       ],
-      "price": null,
       "image": "assets/B87061-studio-pair.png#left",
       "images": [
         "assets/B87061-studio-pair.png#left",
@@ -2458,7 +2384,6 @@
         "Verde",
         "Negru"
       ],
-      "price": null,
       "image": "assets/G6882-studio-pair.png#left",
       "images": [
         "assets/G6882-studio-pair.png#left",
@@ -2498,7 +2423,6 @@
         "Coffee",
         "Bej"
       ],
-      "price": null,
       "image": "assets/AL-2251-studio-pair.png#left",
       "images": [
         "assets/AL-2251-studio-pair.png#left",
@@ -2541,7 +2465,6 @@
         "Coffee",
         "Mov"
       ],
-      "price": null,
       "image": "assets/BR8042-studio-pair.png#left",
       "images": [
         "assets/BR8042-studio-pair.png#left",
@@ -2584,7 +2507,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/B-86647-studio-pair.png#left",
       "images": [
         "assets/B-86647-studio-pair.png#left",
@@ -2627,7 +2549,6 @@
         "Gri",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/DL533-studio-pair.png#left",
       "images": [
         "assets/DL533-studio-pair.png#left",
@@ -2670,7 +2591,6 @@
         "Mov",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/BR8065-studio-pair.png#left",
       "images": [
         "assets/BR8065-studio-pair.png#left",
@@ -2714,7 +2634,6 @@
         "Albastru închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A-87048-studio-pair.png#left",
       "images": [
         "assets/A-87048-studio-pair.png#left",
@@ -2756,7 +2675,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/G6897-studio-pair.png#left",
       "images": [
         "assets/G6897-studio-pair.png#left",
@@ -2801,7 +2719,6 @@
         "Alb",
         "Negru"
       ],
-      "price": null,
       "image": "assets/G6883-studio-pair.png#left",
       "images": [
         "assets/G6883-studio-pair.png#left",
@@ -2845,7 +2762,6 @@
         "Mov",
         "Khaki"
       ],
-      "price": null,
       "image": "assets/BR8046-studio-pair.png#left",
       "images": [
         "assets/BR8046-studio-pair.png#left",
@@ -2888,7 +2804,6 @@
         "Roz",
         "Negru"
       ],
-      "price": null,
       "image": "assets/B-87134-studio-pair.png#left",
       "images": [
         "assets/B-87134-studio-pair.png#left",
@@ -2933,7 +2848,6 @@
         "Gri",
         "Lila"
       ],
-      "price": null,
       "image": "assets/OY78-studio-pair.png#left",
       "images": [
         "assets/OY78-studio-pair.png#left",
@@ -2973,7 +2887,6 @@
         "Roșu",
         "Negru"
       ],
-      "price": null,
       "image": "assets/A-86424-studio-pair.png#left",
       "images": [
         "assets/A-86424-studio-pair.png#left",
@@ -3018,7 +2931,6 @@
         "Galben",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/B86814-studio-pair.png#left",
       "images": [
         "assets/B86814-studio-pair.png#left",
@@ -3062,7 +2974,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/JK9436AB-studio-pair.png#left",
       "images": [
         "assets/JK9436AB-studio-pair.png#left",
@@ -3102,7 +3013,6 @@
         "Crem",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/055-studio-pair.png#left",
       "images": [
         "assets/055-studio-pair.png#left",
@@ -3146,7 +3056,6 @@
         "Gri",
         "Khaki"
       ],
-      "price": null,
       "image": "assets/HJD7230-studio-pair.png#left",
       "images": [
         "assets/HJD7230-studio-pair.png#left",
@@ -3190,7 +3099,6 @@
         "Gri",
         "Khaki"
       ],
-      "price": null,
       "image": "assets/HJD7225-studio-pair.png#left",
       "images": [
         "assets/HJD7225-studio-pair.png#left",
@@ -3234,7 +3142,6 @@
         "Gri",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/HJD7250-studio-pair.png#left",
       "images": [
         "assets/HJD7250-studio-pair.png#left",
@@ -3275,7 +3182,6 @@
       "colors": [
         "Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-006-brown-studio-front.png",
       "images": [
         "assets/AJ-FOTO-006-brown-studio-front.png",
@@ -3311,7 +3217,6 @@
       "colors": [
         "Negru / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-007-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-007-studio-ai.png"
@@ -3337,7 +3242,6 @@
       "colors": [
         "Bej"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-008-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-008-studio-ai.png"
@@ -3364,7 +3268,6 @@
         "Negru",
         "Verde"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-009-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-009-studio-ai.png"
@@ -3392,7 +3295,6 @@
         "Albastru deschis",
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-010-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-010-studio-ai.png"
@@ -3419,7 +3321,6 @@
         "Maro",
         "Crem"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-011-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-011-studio-ai.png"
@@ -3445,7 +3346,6 @@
       "colors": [
         "Albastru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-012-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-012-studio-ai.png"
@@ -3471,7 +3371,6 @@
       "colors": [
         "Negru / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-013-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-013-studio-ai.png"
@@ -3498,7 +3397,6 @@
         "Bej",
         "Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-014-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-014-studio-ai.png"
@@ -3525,7 +3423,6 @@
         "Crem",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-015-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-015-studio-ai.png"
@@ -3553,7 +3450,6 @@
         "Negru",
         "Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-016-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-016-studio-ai.png"
@@ -3579,7 +3475,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-017-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-017-studio-ai.png"
@@ -3606,7 +3501,6 @@
         "Bordo",
         "Gri"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-018-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-018-studio-ai.png"
@@ -3632,7 +3526,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-019-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-019-studio-ai.png"
@@ -3658,7 +3551,6 @@
       "colors": [
         "Gri închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-020-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-020-studio-ai.png"
@@ -3684,7 +3576,6 @@
       "colors": [
         "Gri închis / Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-021-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-021-studio-ai.png"
@@ -3710,7 +3601,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-022-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-022-studio-ai.png"
@@ -3738,7 +3628,6 @@
         "Maro",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-023-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-023-studio-ai.png"
@@ -3765,7 +3654,6 @@
         "Crem",
         "Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-024-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-024-studio-ai.png"
@@ -3791,7 +3679,6 @@
       "colors": [
         "Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-025-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-025-studio-ai.png"
@@ -3817,7 +3704,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-026-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-026-studio-ai.png"
@@ -3843,7 +3729,6 @@
       "colors": [
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-027-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-027-studio-ai.png"
@@ -3870,7 +3755,6 @@
         "Negru",
         "Crem"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-028-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-028-studio-ai.png"
@@ -3896,7 +3780,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-029-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-029-studio-ai.png"
@@ -3922,7 +3805,6 @@
       "colors": [
         "Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-030-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-030-studio-ai.png"
@@ -3948,7 +3830,6 @@
       "colors": [
         "Crem"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-031-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-031-studio-ai.png"
@@ -3975,7 +3856,6 @@
         "Bordo",
         "Gri"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-032-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-032-studio-ai.png"
@@ -4001,7 +3881,6 @@
       "colors": [
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-033-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-033-studio-ai.png"
@@ -4029,7 +3908,6 @@
         "Gri",
         "Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-034-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-034-studio-ai.png"
@@ -4056,7 +3934,6 @@
         "Crem",
         "Gri"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-035-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-035-studio-ai.png"
@@ -4082,7 +3959,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-036-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-036-studio-ai.png"
@@ -4109,7 +3985,6 @@
         "Negru",
         "Gri"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-037-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-037-studio-ai.png"
@@ -4135,7 +4010,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-038-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-038-studio-ai.png"
@@ -4164,7 +4038,6 @@
         "Maro",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-039-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-039-studio-ai.png"
@@ -4190,7 +4063,6 @@
       "colors": [
         "Gri închis / Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-040-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-040-studio-ai.png"
@@ -4216,7 +4088,6 @@
       "colors": [
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-041-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-041-studio-ai.png"
@@ -4245,7 +4116,6 @@
         "Negru",
         "Bordo"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-042-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-042-studio-ai.png"
@@ -4271,7 +4141,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-043-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-043-studio-ai.png"
@@ -4297,7 +4166,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-044-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-044-studio-ai.png"
@@ -4325,7 +4193,6 @@
         "Muștar",
         "Alb"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-045-import-185939-studio-pair.png#left",
       "images": [
         "assets/AJ-FOTO-045-import-185939-studio-pair.png#left",
@@ -4365,7 +4232,6 @@
       "colors": [
         "Crem"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-046-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-046-studio-ai.png"
@@ -4392,7 +4258,6 @@
         "Bordo",
         "Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-047-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-047-studio-ai.png"
@@ -4418,7 +4283,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-048-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-048-studio-ai.png"
@@ -4444,7 +4308,6 @@
       "colors": [
         "Gri închis / Multicolor"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-049-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-049-studio-ai.png"
@@ -4472,7 +4335,6 @@
         "Bordo",
         "Maro"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-050-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-050-studio-ai.png"
@@ -4499,7 +4361,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-051-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-051-studio-ai.png"
@@ -4526,7 +4387,6 @@
         "Crem",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-052-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-052-studio-ai.png"
@@ -4552,7 +4412,6 @@
       "colors": [
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-053-studio-ai.png",
       "images": [
         "assets/AJ-FOTO-053-studio-ai.png"
@@ -4581,7 +4440,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/DH305-studio-pair.png#left",
       "images": [
         "assets/DH305-studio-pair.png#left",
@@ -4624,7 +4482,6 @@
         "Bordo",
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/DH273-studio-pair.png#left",
       "images": [
         "assets/DH273-studio-pair.png#left",
@@ -4664,7 +4521,6 @@
         "Gri / Negru",
         "Negru / Bej"
       ],
-      "price": null,
       "image": "assets/YL0046AB-studio-pair.png#left",
       "images": [
         "assets/YL0046AB-studio-pair.png#left",
@@ -4705,7 +4561,6 @@
         "Bej",
         "Negru"
       ],
-      "price": null,
       "image": "assets/FG2186-studio-front.png",
       "images": [
         "assets/FG2186-studio-front.png",
@@ -4746,7 +4601,6 @@
         "Gri închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/SJ7017-studio-pair.png#left",
       "images": [
         "assets/SJ7017-studio-pair.png#left",
@@ -4790,7 +4644,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/B1020AB-studio-pair.png#left",
       "images": [
         "assets/B1020AB-studio-pair.png#left",
@@ -4835,7 +4688,6 @@
         "Gri închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/MY1091-studio-pair.png#left",
       "images": [
         "assets/MY1091-studio-pair.png#left",
@@ -4877,7 +4729,6 @@
         "Gri",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/CR510-studio-pair.png#left",
       "images": [
         "assets/CR510-studio-pair.png#left",
@@ -4921,7 +4772,6 @@
         "Camel",
         "Maro"
       ],
-      "price": null,
       "image": "assets/2991-studio-ai.png",
       "images": [
         "assets/2991-studio-ai.png"
@@ -4950,7 +4800,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/FM113-studio-pair.png#left",
       "images": [
         "assets/FM113-studio-pair.png#left",
@@ -4991,7 +4840,6 @@
         "Bej",
         "Negru"
       ],
-      "price": null,
       "image": "assets/AJ-FOTO-054-studio-pair.png#left",
       "images": [
         "assets/AJ-FOTO-054-studio-pair.png#left",
@@ -5038,7 +4886,6 @@
         "Coffee",
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/DH251-studio-pair.png#left",
       "images": [
         "assets/DH251-studio-pair.png#left",
@@ -5078,7 +4925,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "image": "assets/B1021AB-studio-pair.png#left",
       "images": [
         "assets/B1021AB-studio-pair.png#left",
@@ -5120,7 +4966,6 @@
         "Negru / Bej",
         "Negru / Alb"
       ],
-      "price": null,
       "image": "assets/LM3035AB-studio-front.png",
       "images": [
         "assets/LM3035AB-studio-front.png",
@@ -5163,7 +5008,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "image": "assets/CR520-studio-pair.png#left",
       "images": [
         "assets/CR520-studio-pair.png#left",
@@ -5207,7 +5051,6 @@
         "Bordo",
         "Albastru închis"
       ],
-      "price": null,
       "image": "assets/2319-studio-front.png",
       "images": [
         "assets/2319-studio-front.png",
@@ -5248,7 +5091,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "image": "assets/DH176-studio-pair.png#left",
       "images": [
         "assets/DH176-studio-pair.png#left",
@@ -5289,7 +5131,6 @@
         "Khaki",
         "Muștar"
       ],
-      "price": null,
       "image": "assets/9882-studio-ai.png",
       "images": [
         "assets/9882-studio-ai.png"
@@ -5317,7 +5158,6 @@
         "Verde",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/CR385-studio-pair.png#left",
       "images": [
         "assets/CR385-studio-pair.png#left",
@@ -5359,7 +5199,6 @@
         "Coffee / Alb",
         "Negru / Alb"
       ],
-      "price": null,
       "image": "assets/MY9140AB-studio-front.png",
       "images": [
         "assets/MY9140AB-studio-front.png",
@@ -5400,7 +5239,6 @@
         "Verde",
         "Negru"
       ],
-      "price": null,
       "image": "assets/FG2316-studio-pair.png#left",
       "images": [
         "assets/FG2316-studio-pair.png#left",
@@ -5443,7 +5281,6 @@
         "Verde",
         "Coffee"
       ],
-      "price": null,
       "image": "assets/CR380-studio-pair.png#left",
       "images": [
         "assets/CR380-studio-pair.png#left",
@@ -5483,7 +5320,6 @@
         "Alb",
         "Verde"
       ],
-      "price": null,
       "image": "assets/DH269-studio-pair.png#left",
       "images": [
         "assets/DH269-studio-pair.png#left",
@@ -5524,7 +5360,6 @@
         "Gri închis",
         "Negru"
       ],
-      "price": null,
       "image": "assets/SJ7003-studio-pair.png#left",
       "images": [
         "assets/SJ7003-studio-pair.png#left",
@@ -5567,8 +5402,6 @@
         "Crem",
         "Camel"
       ],
-      "price": 220,
-      "priceUnit": "lei / palton",
       "category": "Veste și jachete",
       "image": "assets/AJ-FOTO-055-cream-front.png",
       "images": [
@@ -5623,7 +5456,6 @@
         "Bleu deschis",
         "Indigo"
       ],
-      "price": null,
       "category": "Rochii",
       "image": "assets/AJ-FOTO-056-studio.png",
       "images": [
@@ -5650,7 +5482,6 @@
       "colors": [
         "Albastru"
       ],
-      "price": null,
       "category": "Veste și jachete",
       "image": "assets/AJ-FOTO-057.jpg",
       "images": [
@@ -5679,7 +5510,6 @@
         "Bleumarin",
         "Negru"
       ],
-      "price": null,
       "category": "Pulovere și cardigane",
       "image": "assets/B2008-studio.png",
       "images": [
@@ -5712,7 +5542,6 @@
         "Gri",
         "Negru"
       ],
-      "price": null,
       "category": "Rochii",
       "image": "assets/LM6062-studio.png",
       "images": [
@@ -5747,7 +5576,6 @@
         "Maro",
         "Negru"
       ],
-      "price": null,
       "category": "Pulovere și cardigane",
       "image": "assets/MY1007-studio.png",
       "images": [
@@ -5778,7 +5606,6 @@
         "Maro",
         "Galben"
       ],
-      "price": null,
       "category": "Bluze și tricouri",
       "image": "assets/CR2672-studio.png",
       "images": [
@@ -5811,7 +5638,6 @@
         "Albastru",
         "Galben"
       ],
-      "price": null,
       "category": "Bluze și tricouri",
       "image": "assets/CR2673-studio.png",
       "images": [
@@ -5847,7 +5673,6 @@
         "Gri închis",
         "Negru"
       ],
-      "price": null,
       "category": "Pulovere și cardigane",
       "image": "assets/XX9001-studio.png",
       "images": [
@@ -5878,7 +5703,6 @@
         "Crem",
         "Roșu cărămiziu"
       ],
-      "price": null,
       "category": "Rochii",
       "internalCode": true,
       "isNew": true,
@@ -5921,7 +5745,6 @@
         "Roz",
         "Crem"
       ],
-      "price": null,
       "category": "Rochii",
       "internalCode": true,
       "isNew": true,
@@ -5964,7 +5787,6 @@
         "Roz",
         "Crem"
       ],
-      "price": null,
       "category": "Rochii",
       "internalCode": true,
       "isNew": true,
@@ -6007,7 +5829,6 @@
         "Crem",
         "Maro"
       ],
-      "price": null,
       "category": "Rochii",
       "internalCode": true,
       "isNew": true,
@@ -6050,7 +5871,6 @@
         "Roz",
         "Bej deschis"
       ],
-      "price": null,
       "category": "Rochii",
       "internalCode": true,
       "isNew": true,
@@ -6096,7 +5916,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19726-studio-20261123.png",
       "images": [
@@ -6130,7 +5949,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19728-studio-20261123.png",
       "images": [
@@ -6160,7 +5978,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19723-studio-20261123.png",
       "images": [
@@ -6194,7 +6011,6 @@
         "Coffee",
         "Roșu"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/YM919-studio-20261123.png",
       "images": [
@@ -6229,7 +6045,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19687-studio-20261123.png",
       "images": [
@@ -6262,7 +6077,6 @@
         "Gri",
         "Albastru închis"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2218-B-studio-20261123.png",
       "images": [
@@ -6292,7 +6106,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19722-studio-20261123.png",
       "images": [
@@ -6327,7 +6140,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19691-studio-20261123.png",
       "images": [
@@ -6360,7 +6172,6 @@
         "Crem",
         "Maro tobacco"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2595AB-studio-20261123.png",
       "images": [
@@ -6392,7 +6203,6 @@
         "Khaki",
         "Coffee"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2296AB-studio-20261123.png",
       "images": [
@@ -6426,7 +6236,6 @@
         "Khaki melanj",
         "Roz"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/C-111-studio-20261123.png",
       "images": [
@@ -6460,7 +6269,6 @@
         "Khaki",
         "Bordo"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2553AB-studio-20261123.png",
       "images": [
@@ -6494,7 +6302,6 @@
         "Bej",
         "Gri"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/J529-studio-20261123.png",
       "images": [
@@ -6528,7 +6335,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19690-studio-20261123.png",
       "images": [
@@ -6558,7 +6364,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19721-studio-20261123.png",
       "images": [
@@ -6589,7 +6394,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19686-studio-20261123.png",
       "images": [
@@ -6623,7 +6427,6 @@
         "Coffee",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/AC19730-studio-20261123.png",
       "images": [
@@ -6656,7 +6459,6 @@
         "Crem",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/J293-studio-20261123.png",
       "images": [
@@ -6689,7 +6491,6 @@
         "Crem",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/J566-studio-20261123.png",
       "images": [
@@ -6722,7 +6523,6 @@
         "Maro tobacco",
         "Khaki"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2625AB-studio-20261123.png",
       "images": [
@@ -6754,7 +6554,6 @@
         "Crem",
         "Maro"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/QQ8335-studio-20261123.png",
       "images": [
@@ -6786,7 +6585,6 @@
         "Khaki",
         "Coffee"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2273-studio-20261123.png",
       "images": [
@@ -6819,7 +6617,6 @@
         "Gri albăstrui",
         "Albastru închis"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2279AB-B-studio-20261123.png",
       "images": [
@@ -6850,7 +6647,6 @@
         "Albastru",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/C-154-studio-20261123.png",
       "images": [
@@ -6883,7 +6679,6 @@
         "Maro tobacco",
         "Khaki"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/W2623AB-studio-20261123.png",
       "images": [
@@ -6916,7 +6711,6 @@
         "Bordo",
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "image": "assets/J315A-studio-20261123.png",
       "images": [
@@ -6948,7 +6742,6 @@
         "Bleumarin / Bej",
         "Maro / Crem"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-063-studio-20261125-main.png",
@@ -6984,7 +6777,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-064-studio-20261125-main.png",
@@ -7022,7 +6814,6 @@
       "colors": [
         "Negru / Alb"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-065-studio-20261125-main.png",
@@ -7059,7 +6850,6 @@
         "Mov prună",
         "Maro"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-066-studio-20261125-main.png",
@@ -7095,7 +6885,6 @@
       "colors": [
         "Maro / Galben"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-067-studio-20261125-main.png",
@@ -7131,7 +6920,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-068-studio-20261125-main.png",
@@ -7168,7 +6956,6 @@
         "Maro / Gri",
         "Bordo / Bleumarin"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-069-studio-20261125-main.png",
@@ -7204,7 +6991,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-070-studio-20261125-main.png",
@@ -7240,7 +7026,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-071-studio-20261125-main.png",
@@ -7276,7 +7061,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/AJ-FOTO-072-studio-20261125-main.png",
@@ -7315,7 +7099,6 @@
       "colors": [
         "Gri antracit / Gri deschis"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MS001-corrected-20261125-first.png",
@@ -7351,7 +7134,6 @@
       "colors": [
         "Gri"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA9616-studio-20261125-main.png",
@@ -7389,7 +7171,6 @@
       "colors": [
         "Roșu"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA3263-studio-20261125-main.png",
@@ -7424,7 +7205,6 @@
       "colors": [
         "Gri antracit"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA85150-3-studio-20261125-main.png",
@@ -7462,7 +7242,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA99129-1-studio-20261125-main.png",
@@ -7500,7 +7279,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA8387-corrected-20261125-first.png"
@@ -7529,7 +7307,6 @@
         "Gri antracit",
         "Maro"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA3603-1-corrected-20261125-first.png",
@@ -7568,7 +7345,6 @@
         "Maro închis",
         "Gri antracit"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA1377-studio-20261125-main.png",
@@ -7606,7 +7382,6 @@
       "colors": [
         "Negru"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/E9515-studio-20261125-main.png",
@@ -7644,7 +7419,6 @@
       "colors": [
         "Bej / Maro"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA20162-corrected-20261125-first.png",
@@ -7680,7 +7454,6 @@
         "Maro închis",
         "Bleumarin"
       ],
-      "price": null,
       "isNew": true,
       "images": [
         "assets/MA66758-1-studio-20261125-main.png",
