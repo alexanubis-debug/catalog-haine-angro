@@ -7310,7 +7310,7 @@
     },
     {
       "code": "MS001",
-      "name": "Hanorac cu fermoar și șnururi late",
+      "name": "Hanorac oversize cu fermoar și șnururi late",
       "category": "Bluze și tricouri",
       "colors": [
         "Gri antracit / Gri deschis"
@@ -7318,30 +7318,31 @@
       "price": null,
       "isNew": true,
       "images": [
-        "assets/MS001-studio-20261125-main.png",
-        "assets/MS001-studio-20261125-second.png"
+        "assets/MS001-corrected-20261125-first.png",
+        "assets/MS001-corrected-20261125-second.png"
       ],
       "aiImages": [
-        "assets/MS001-studio-20261125-main.png",
-        "assets/MS001-studio-20261125-second.png"
+        "assets/MS001-corrected-20261125-first.png",
+        "assets/MS001-corrected-20261125-second.png"
       ],
-      "image": "assets/MS001-studio-20261125-main.png",
+      "image": "assets/MS001-corrected-20261125-first.png",
       "media": {
-        "assets/MS001-studio-20261125-main.png": {
-          "small": "assets/optimized/MS001-studio-20261125-main-small.webp",
-          "card": "assets/optimized/MS001-studio-20261125-main-card.webp",
-          "detail": "assets/optimized/MS001-studio-20261125-main-detail.webp",
+        "assets/MS001-corrected-20261125-first.png": {
+          "small": "assets/optimized/MS001-corrected-20261125-first-small.webp",
+          "card": "assets/optimized/MS001-corrected-20261125-first-card.webp",
+          "detail": "assets/optimized/MS001-corrected-20261125-first-detail.webp",
           "width": 1024,
           "height": 1536
         },
-        "assets/MS001-studio-20261125-second.png": {
-          "small": "assets/optimized/MS001-studio-20261125-second-small.webp",
-          "card": "assets/optimized/MS001-studio-20261125-second-card.webp",
-          "detail": "assets/optimized/MS001-studio-20261125-second-detail.webp",
+        "assets/MS001-corrected-20261125-second.png": {
+          "small": "assets/optimized/MS001-corrected-20261125-second-small.webp",
+          "card": "assets/optimized/MS001-corrected-20261125-second-card.webp",
+          "detail": "assets/optimized/MS001-corrected-20261125-second-detail.webp",
           "width": 1024,
           "height": 1536
         }
-      }
+      },
+      "description": "Croială oversize, cu volum lejer și umeri căzuți."
     },
     {
       "code": "MA9616",
@@ -7494,36 +7495,26 @@
     },
     {
       "code": "MA8387",
-      "name": "Pantaloni cu textură lucioasă și talie elastică",
-      "category": "Pantaloni și jeans",
+      "name": "Fustă cu textură lucioasă și talie elastică",
+      "category": "Fuste",
       "colors": [
         "Negru"
       ],
       "price": null,
       "isNew": true,
       "images": [
-        "assets/MA8387-studio-20261125-main.png",
-        "assets/MA8387-studio-20261125-second.png"
+        "assets/MA8387-corrected-20261125-first.png"
       ],
       "aiImages": [
-        "assets/MA8387-studio-20261125-main.png",
-        "assets/MA8387-studio-20261125-second.png"
+        "assets/MA8387-corrected-20261125-first.png"
       ],
-      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
-      "image": "assets/MA8387-studio-20261125-main.png",
+      "description": "Fustă cu croială evazată, talie elastică și cusături verticale.",
+      "image": "assets/MA8387-corrected-20261125-first.png",
       "media": {
-        "assets/MA8387-studio-20261125-main.png": {
-          "small": "assets/optimized/MA8387-studio-20261125-main-small.webp",
-          "card": "assets/optimized/MA8387-studio-20261125-main-card.webp",
-          "detail": "assets/optimized/MA8387-studio-20261125-main-detail.webp",
-          "width": 1024,
-          "height": 1536,
-          "cardFit": "contain"
-        },
-        "assets/MA8387-studio-20261125-second.png": {
-          "small": "assets/optimized/MA8387-studio-20261125-second-small.webp",
-          "card": "assets/optimized/MA8387-studio-20261125-second-card.webp",
-          "detail": "assets/optimized/MA8387-studio-20261125-second-detail.webp",
+        "assets/MA8387-corrected-20261125-first.png": {
+          "small": "assets/optimized/MA8387-corrected-20261125-first-small.webp",
+          "card": "assets/optimized/MA8387-corrected-20261125-first-card.webp",
+          "detail": "assets/optimized/MA8387-corrected-20261125-first-detail.webp",
           "width": 1024,
           "height": 1536,
           "cardFit": "contain"
@@ -7541,29 +7532,31 @@
       "price": null,
       "isNew": true,
       "images": [
-        "assets/MA3603-1-studio-20261125-main.png",
-        "assets/MA3603-1-studio-20261125-second.png"
+        "assets/MA3603-1-corrected-20261125-first.png",
+        "assets/MA3603-1-corrected-20261125-second.png"
       ],
       "aiImages": [
-        "assets/MA3603-1-studio-20261125-main.png",
-        "assets/MA3603-1-studio-20261125-second.png"
+        "assets/MA3603-1-corrected-20261125-first.png",
+        "assets/MA3603-1-corrected-20261125-second.png"
       ],
       "description": "Jachetă cu manșete în carouri. Topul și pantalonii sunt folosiți pentru prezentare.",
-      "image": "assets/MA3603-1-studio-20261125-main.png",
+      "image": "assets/MA3603-1-corrected-20261125-first.png",
       "media": {
-        "assets/MA3603-1-studio-20261125-main.png": {
-          "small": "assets/optimized/MA3603-1-studio-20261125-main-small.webp",
-          "card": "assets/optimized/MA3603-1-studio-20261125-main-card.webp",
-          "detail": "assets/optimized/MA3603-1-studio-20261125-main-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/MA3603-1-corrected-20261125-first.png": {
+          "small": "assets/optimized/MA3603-1-corrected-20261125-first-small.webp",
+          "card": "assets/optimized/MA3603-1-corrected-20261125-first-card.webp",
+          "detail": "assets/optimized/MA3603-1-corrected-20261125-first-detail.webp",
+          "width": 1130,
+          "height": 1392,
+          "cardFit": "contain"
         },
-        "assets/MA3603-1-studio-20261125-second.png": {
-          "small": "assets/optimized/MA3603-1-studio-20261125-second-small.webp",
-          "card": "assets/optimized/MA3603-1-studio-20261125-second-card.webp",
-          "detail": "assets/optimized/MA3603-1-studio-20261125-second-detail.webp",
+        "assets/MA3603-1-corrected-20261125-second.png": {
+          "small": "assets/optimized/MA3603-1-corrected-20261125-second-small.webp",
+          "card": "assets/optimized/MA3603-1-corrected-20261125-second-card.webp",
+          "detail": "assets/optimized/MA3603-1-corrected-20261125-second-detail.webp",
           "width": 1024,
-          "height": 1536
+          "height": 1536,
+          "cardFit": "contain"
         }
       }
     },
@@ -7654,28 +7647,28 @@
       "price": null,
       "isNew": true,
       "images": [
-        "assets/MA20162-studio-20261125-main.png",
-        "assets/MA20162-studio-20261125-second.png"
+        "assets/MA20162-corrected-20261125-first.png",
+        "assets/MA20162-corrected-20261125-second.png"
       ],
       "aiImages": [
-        "assets/MA20162-studio-20261125-main.png",
-        "assets/MA20162-studio-20261125-second.png"
+        "assets/MA20162-corrected-20261125-first.png",
+        "assets/MA20162-corrected-20261125-second.png"
       ],
-      "image": "assets/MA20162-studio-20261125-main.png",
+      "image": "assets/MA20162-corrected-20261125-first.png",
       "media": {
-        "assets/MA20162-studio-20261125-main.png": {
-          "small": "assets/optimized/MA20162-studio-20261125-main-small.webp",
-          "card": "assets/optimized/MA20162-studio-20261125-main-card.webp",
-          "detail": "assets/optimized/MA20162-studio-20261125-main-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/MA20162-corrected-20261125-first.png": {
+          "small": "assets/optimized/MA20162-corrected-20261125-first-small.webp",
+          "card": "assets/optimized/MA20162-corrected-20261125-first-card.webp",
+          "detail": "assets/optimized/MA20162-corrected-20261125-first-detail.webp",
+          "width": 1089,
+          "height": 1444
         },
-        "assets/MA20162-studio-20261125-second.png": {
-          "small": "assets/optimized/MA20162-studio-20261125-second-small.webp",
-          "card": "assets/optimized/MA20162-studio-20261125-second-card.webp",
-          "detail": "assets/optimized/MA20162-studio-20261125-second-detail.webp",
-          "width": 1024,
-          "height": 1536
+        "assets/MA20162-corrected-20261125-second.png": {
+          "small": "assets/optimized/MA20162-corrected-20261125-second-small.webp",
+          "card": "assets/optimized/MA20162-corrected-20261125-second-card.webp",
+          "detail": "assets/optimized/MA20162-corrected-20261125-second-detail.webp",
+          "width": 1064,
+          "height": 1478
         }
       }
     },
