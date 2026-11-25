@@ -55,7 +55,7 @@ function detail(p,{fromRoute=false}={}){
  if(images.length>1){images.forEach((source,index)=>{const thumb=el('button');thumb.type='button';thumb.setAttribute('aria-label','Fotografia '+(index+1)+' pentru '+p.code);thumb.setAttribute('aria-pressed',String(index===0));thumb.append(photo(p,source,'thumb'));thumb.onclick=()=>showImage(index);thumbnails.append(thumb);});gallery.append(thumbnails);}
  if(p.colorVariantsImage){const variants=galleryPhoto(p,p.colorVariantsImage);variants.classList.add('color-variants');variants.alt='Variante de culoare pentru '+p.name+' · '+p.code;gallery.append(variants);}
  c.replaceChildren(gallery,description);if(p.isNew)description.append(el('span','NEW','new-badge'));info(p,description);description.append(selectionControl(p),el('p','Vânzare exclusiv angro.','wholesale'));
- if(catalog.whatsapp){const link=el('a','Întreabă pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent('Bună! Mă interesează modelul '+p.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?');link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link);}
+ if(catalog.whatsapp){const link=el('a','Cere preț pe WhatsApp','contact');link.href='https://wa.me/'+catalog.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent(priceInquiryMessage(p));link.target='_blank';link.rel='noopener';link.setAttribute('aria-haspopup','dialog');link.onclick=event=>{event.preventDefault();openWhatsApp(p);};description.append(link);}
  description.querySelector('h2').id='productTitle';$('#detail').dataset.code=p.code;if(!$('#detail').open)$('#detail').showModal();$('#detail').scrollTop=0;document.body.style.overflow='hidden';
  document.title=p.name+' · '+p.code+' · AJ Paris Fashion';
  if(!fromRoute&&new URL(location.href).searchParams.get('produs')!==p.code){const url=new URL(location.href);url.searchParams.set('produs',p.code);history.pushState(null,'',url);}
@@ -94,7 +94,7 @@ function openCollection(category){
 function productCard(p,priority=false){
  const card=el('button',null,'product');card.type='button';card.dataset.code=p.code;card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
  const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
- bottom.append(el('span','Vezi detalii','details-label'),arrow);
+ bottom.append(el('span','Cere preț','details-label'),arrow);
  body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length===1?'1 culoare':p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
  if(p.isNew)card.append(el('span','NEW','new-badge'));
  const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
@@ -154,7 +154,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=59').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=60').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
@@ -164,8 +164,9 @@ dialog.addEventListener('click',event=>{if(event.target===dialog){const r=dialog
 dialog.addEventListener('close',()=>{if(dialog.open)return;document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';document.title=catalog.name+' · Catalog';const url=new URL(location.href);if(url.searchParams.get('produs')===dialog.dataset.code){url.searchParams.delete('produs');history.replaceState(null,'',url);}});
 
 const whatsappDialog=$('#whatsappDialog');
+function priceInquiryMessage(product){return 'Bună! Aș dori prețul pentru modelul '+product.code+' – '+product.name+'. Îmi confirmați și disponibilitatea și condițiile pentru angro?';}
 function openWhatsApp(product,customMessage){
- const message=customMessage||(Array.isArray(product)?selectionMessage(product):product?'Bună! Mă interesează modelul '+product.code+'. Îmi confirmați disponibilitatea și condițiile pentru angro?':'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.');
+ const message=customMessage||(Array.isArray(product)?selectionMessage(product):product?priceInquiryMessage(product):'Bună! Mă interesează produsele din catalogul AJ Paris Fashion.');
  whatsappDialog.querySelectorAll('.contact-list a').forEach(link=>{link.href='https://wa.me/'+link.dataset.phone+'?text='+encodeURIComponent(message);});
  whatsappDialog.querySelector('.contact-intro').textContent=Array.isArray(product)?'Trimite selecția de '+product.length+' '+(product.length===1?'model':'modele')+' persoanei cu care vrei să vorbești.':'Alege persoana cu care vrei să vorbești.';
  whatsappDialog.showModal();document.body.style.overflow='hidden';
@@ -330,7 +331,7 @@ function validateRequest(){
 }
 function selectionMessage(products){
  const lines=products.map(product=>'- '+product.code+'\n'+requestLines(product).map((line,index)=>'  Varianta '+(index+1)+': culoare '+(line.color||'de confirmat')+'; mărime '+(line.size?(line.size==='TU'?'Talie universală (TU)':line.size).replace(/[\r\n\t]+/g,' '):'de confirmat')+'; cantitate dorită '+(line.quantity?String(Number(line.quantity)):'de precizat')).join('\n'));
- return 'Bună! Mă interesează următoarele modele pentru angro:\n'+lines.join('\n')+'\nÎmi confirmați disponibilitatea variantelor și cantităților solicitate, precum și condițiile pentru angro?';
+ return 'Bună! Mă interesează următoarele modele pentru angro:\n'+lines.join('\n')+'\nÎmi comunicați prețurile și îmi confirmați disponibilitatea variantelor și cantităților solicitate, precum și condițiile pentru angro?';
 }
 function filterValues(){return {size:$('#filterSize').value,color:$('#filterColor').value,newOnly:$('#filterNew').checked};}
 function filtersActive(){const f=filterValues();return !!(f.size||f.color||f.newOnly);}
