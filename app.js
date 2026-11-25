@@ -16,7 +16,7 @@ function photo(p,src=p.image,mode='detail'){
   img.width=media.width;img.height=media.height;
   if(media.frame){img.classList.add('studio-frame');img.style.objectFit='cover';img.style.objectPosition=media.frame==='right'?'right center':'left center';img.style.aspectRatio=media.width+' / '+media.height;img.alt+=' · '+(media.frameLabel||(media.frame==='right'?'Cadru suplimentar':'Vedere generală'));}
   if(mode==='thumb'){img.src=media.small;}
-  else if(mode==='card'){img.src=media.card;img.srcset=media.small+' 360w, '+media.card+' 640w';img.sizes='(max-width:700px) calc((100vw - 34px)/2), (max-width:1240px) calc((100vw - 96px)/3), 380px';}
+  else if(mode==='card'){img.src=media.card;img.srcset=media.small+' 360w, '+media.card+' 640w';img.sizes='(max-width:700px) calc((100vw - 34px)/2), (max-width:1240px) calc((100vw - 96px)/3), 380px';if(media.cardFit==='contain')img.style.objectFit='contain';}
   else{img.src=src.split('#')[0];img.fetchPriority='high';}
  }else{img.src=src;}
  img.onerror=()=>{img.onerror=null;if(media&&img.getAttribute('src')!==src){img.removeAttribute('srcset');img.removeAttribute('sizes');img.src=src;return;}const box=el('div',null,'photo missing');box.append(el('strong',p.code),el('small','Fotografie indisponibilă'));img.replaceWith(box);};return img;
@@ -96,7 +96,7 @@ function productCard(p,priority=false){
  const card=el('button',null,'product');card.type='button';card.dataset.code=p.code;card.setAttribute('aria-label','Deschide '+p.name+' '+p.code);
  const body=el('span',null,'card-info'),bottom=el('span',null,'card-bottom'),arrow=el('span',null,'arrow');arrow.setAttribute('aria-hidden','true');arrow.innerHTML='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>';
  bottom.append(el('span',p.price===null?'Cere preț':p.price+' lei + TVA','price'),arrow);
- body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
+ body.append(el('span',(p.internalCode?'Cod intern: ':'')+p.code,'code'),el('span',p.name,'name'),el('span',p.colors.length===1?'1 culoare':p.colors.length+' culori','color-count'));if(p.sizes?.length)body.append(el('span',(p.sizes.includes('TU')?'':'Mărimi: ')+sizeText(p),'card-sizes'));body.append(bottom);
  if(p.isNew)card.append(el('span','NEW','new-badge'));
  const image=photo(p,p.image,'card');if(priority){image.loading='eager';image.fetchPriority='high';}
  card.append(image,body);card.onclick=()=>detail(p);const tile=el('div',null,'product-tile');tile.append(card,selectionControl(p));return tile;
@@ -155,7 +155,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=56').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=57').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});

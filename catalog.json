@@ -6939,6 +6939,784 @@
           "height": 1536
         }
       }
+    },
+    {
+      "code": "AJ-FOTO-063",
+      "name": "Bluză în carouri cu decolteu în V",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Bleumarin / Bej",
+        "Maro / Crem"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-063-studio-20261125-main.png",
+        "assets/AJ-FOTO-063-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-063-studio-20261125-main.png",
+        "assets/AJ-FOTO-063-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-063-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-063-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-063-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-063-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-063-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-063-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-063-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-063-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-063-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-064",
+      "name": "Rochie lungă cu motiv floral și fundă la guler",
+      "category": "Rochii",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-064-studio-20261125-main.png",
+        "assets/AJ-FOTO-064-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-064-studio-20261125-main.png",
+        "assets/AJ-FOTO-064-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-064-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-064-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-064-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-064-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-064-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-064-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-064-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-064-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-064-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-065",
+      "name": "Cămașă cu buline mici și mâneci încrețite",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Negru / Alb"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-065-studio-20261125-main.png",
+        "assets/AJ-FOTO-065-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-065-studio-20261125-main.png",
+        "assets/AJ-FOTO-065-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-065-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-065-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-065-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-065-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-065-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-065-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-065-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-065-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-065-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-066",
+      "name": "Cardigan cu decolteu în V și margini dantelate",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Mov prună",
+        "Maro"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-066-studio-20261125-main.png",
+        "assets/AJ-FOTO-066-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-066-studio-20261125-main.png",
+        "assets/AJ-FOTO-066-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-066-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-066-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-066-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-066-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-066-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-066-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-066-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-066-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-066-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-067",
+      "name": "Jachetă cu fermoar și borduri contrastante",
+      "category": "Veste și jachete",
+      "colors": [
+        "Maro / Galben"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-067-studio-20261125-main.png",
+        "assets/AJ-FOTO-067-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-067-studio-20261125-main.png",
+        "assets/AJ-FOTO-067-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-067-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-067-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-067-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-067-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-067-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-067-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-067-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-067-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-067-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-068",
+      "name": "Bluză cu motiv floral și manșete evazate",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-068-studio-20261125-main.png",
+        "assets/AJ-FOTO-068-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-068-studio-20261125-main.png",
+        "assets/AJ-FOTO-068-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-068-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-068-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-068-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-068-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-068-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-068-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-068-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-068-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-068-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-069",
+      "name": "Cămașă în carouri cu broderii florale",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Maro / Gri",
+        "Bordo / Bleumarin"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-069-studio-20261125-main.png",
+        "assets/AJ-FOTO-069-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-069-studio-20261125-main.png",
+        "assets/AJ-FOTO-069-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-069-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-069-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-069-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-069-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-069-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-069-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-069-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-069-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-069-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-070",
+      "name": "Bluză cu guler înalt și motiv animalier",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-070-studio-20261125-main.png",
+        "assets/AJ-FOTO-070-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-070-studio-20261125-main.png",
+        "assets/AJ-FOTO-070-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-070-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-070-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-070-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-070-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-070-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-070-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-070-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-070-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-070-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-071",
+      "name": "Bluză cu motiv floral și guler încrețit",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-071-studio-20261125-main.png",
+        "assets/AJ-FOTO-071-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-071-studio-20261125-main.png",
+        "assets/AJ-FOTO-071-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "image": "assets/AJ-FOTO-071-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-071-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-071-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-071-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-071-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/AJ-FOTO-071-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-071-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-071-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-071-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-072",
+      "name": "Pantaloni largi cu motiv animalier",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/AJ-FOTO-072-studio-20261125-main.png",
+        "assets/AJ-FOTO-072-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-072-studio-20261125-main.png",
+        "assets/AJ-FOTO-072-studio-20261125-second.png"
+      ],
+      "internalCode": true,
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/AJ-FOTO-072-studio-20261125-main.png",
+      "media": {
+        "assets/AJ-FOTO-072-studio-20261125-main.png": {
+          "small": "assets/optimized/AJ-FOTO-072-studio-20261125-main-small.webp",
+          "card": "assets/optimized/AJ-FOTO-072-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-072-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-072-studio-20261125-second.png": {
+          "small": "assets/optimized/AJ-FOTO-072-studio-20261125-second-small.webp",
+          "card": "assets/optimized/AJ-FOTO-072-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-072-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MS001",
+      "name": "Hanorac cu fermoar și șnururi late",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Gri antracit / Gri deschis"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MS001-studio-20261125-main.png",
+        "assets/MS001-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MS001-studio-20261125-main.png",
+        "assets/MS001-studio-20261125-second.png"
+      ],
+      "image": "assets/MS001-studio-20261125-main.png",
+      "media": {
+        "assets/MS001-studio-20261125-main.png": {
+          "small": "assets/optimized/MS001-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MS001-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MS001-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/MS001-studio-20261125-second.png": {
+          "small": "assets/optimized/MS001-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MS001-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MS001-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "MA9616",
+      "name": "Pantaloni largi cu cordon în dungi",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Gri"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA9616-studio-20261125-main.png",
+        "assets/MA9616-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA9616-studio-20261125-main.png",
+        "assets/MA9616-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA9616-studio-20261125-main.png",
+      "media": {
+        "assets/MA9616-studio-20261125-main.png": {
+          "small": "assets/optimized/MA9616-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA9616-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA9616-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA9616-studio-20261125-second.png": {
+          "small": "assets/optimized/MA9616-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA9616-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA9616-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MA3263",
+      "name": "Bluză cu tiv din dantelă",
+      "category": "Bluze și tricouri",
+      "colors": [
+        "Roșu"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA3263-studio-20261125-main.png",
+        "assets/MA3263-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA3263-studio-20261125-main.png",
+        "assets/MA3263-studio-20261125-second.png"
+      ],
+      "image": "assets/MA3263-studio-20261125-main.png",
+      "media": {
+        "assets/MA3263-studio-20261125-main.png": {
+          "small": "assets/optimized/MA3263-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA3263-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA3263-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/MA3263-studio-20261125-second.png": {
+          "small": "assets/optimized/MA3263-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA3263-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA3263-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "MA85150-3",
+      "name": "Pantaloni largi cu talie elastică și șnur",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Gri antracit"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA85150-3-studio-20261125-main.png",
+        "assets/MA85150-3-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA85150-3-studio-20261125-main.png",
+        "assets/MA85150-3-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA85150-3-studio-20261125-main.png",
+      "media": {
+        "assets/MA85150-3-studio-20261125-main.png": {
+          "small": "assets/optimized/MA85150-3-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA85150-3-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA85150-3-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA85150-3-studio-20261125-second.png": {
+          "small": "assets/optimized/MA85150-3-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA85150-3-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA85150-3-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MA99129-1",
+      "name": "Pantaloni palazzo cu pliuri",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA99129-1-studio-20261125-main.png",
+        "assets/MA99129-1-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA99129-1-studio-20261125-main.png",
+        "assets/MA99129-1-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA99129-1-studio-20261125-main.png",
+      "media": {
+        "assets/MA99129-1-studio-20261125-main.png": {
+          "small": "assets/optimized/MA99129-1-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA99129-1-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA99129-1-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA99129-1-studio-20261125-second.png": {
+          "small": "assets/optimized/MA99129-1-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA99129-1-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA99129-1-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MA8387",
+      "name": "Pantaloni cu textură lucioasă și talie elastică",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA8387-studio-20261125-main.png",
+        "assets/MA8387-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA8387-studio-20261125-main.png",
+        "assets/MA8387-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA8387-studio-20261125-main.png",
+      "media": {
+        "assets/MA8387-studio-20261125-main.png": {
+          "small": "assets/optimized/MA8387-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA8387-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA8387-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA8387-studio-20261125-second.png": {
+          "small": "assets/optimized/MA8387-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA8387-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA8387-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MA3603-1",
+      "name": "Jachetă cu manșete în carouri",
+      "category": "Veste și jachete",
+      "colors": [
+        "Gri antracit",
+        "Maro"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA3603-1-studio-20261125-main.png",
+        "assets/MA3603-1-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA3603-1-studio-20261125-main.png",
+        "assets/MA3603-1-studio-20261125-second.png"
+      ],
+      "description": "Jachetă cu manșete în carouri. Topul și pantalonii sunt folosiți pentru prezentare.",
+      "image": "assets/MA3603-1-studio-20261125-main.png",
+      "media": {
+        "assets/MA3603-1-studio-20261125-main.png": {
+          "small": "assets/optimized/MA3603-1-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA3603-1-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA3603-1-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/MA3603-1-studio-20261125-second.png": {
+          "small": "assets/optimized/MA3603-1-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA3603-1-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA3603-1-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "MA1377",
+      "name": "Pantaloni cu croială amplă și pense",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Maro închis",
+        "Gri antracit"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA1377-studio-20261125-main.png",
+        "assets/MA1377-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA1377-studio-20261125-main.png",
+        "assets/MA1377-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA1377-studio-20261125-main.png",
+      "media": {
+        "assets/MA1377-studio-20261125-main.png": {
+          "small": "assets/optimized/MA1377-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA1377-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA1377-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA1377-studio-20261125-second.png": {
+          "small": "assets/optimized/MA1377-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA1377-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA1377-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "E9515",
+      "name": "Pantaloni cu textură lucioasă și cusături decorative",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Negru"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/E9515-studio-20261125-main.png",
+        "assets/E9515-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/E9515-studio-20261125-main.png",
+        "assets/E9515-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/E9515-studio-20261125-main.png",
+      "media": {
+        "assets/E9515-studio-20261125-main.png": {
+          "small": "assets/optimized/E9515-studio-20261125-main-small.webp",
+          "card": "assets/optimized/E9515-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/E9515-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/E9515-studio-20261125-second.png": {
+          "small": "assets/optimized/E9515-studio-20261125-second-small.webp",
+          "card": "assets/optimized/E9515-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/E9515-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "MA20162",
+      "name": "Cardigan cu fermoar și borduri contrastante",
+      "category": "Pulovere și cardigane",
+      "colors": [
+        "Bej / Maro"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA20162-studio-20261125-main.png",
+        "assets/MA20162-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA20162-studio-20261125-main.png",
+        "assets/MA20162-studio-20261125-second.png"
+      ],
+      "image": "assets/MA20162-studio-20261125-main.png",
+      "media": {
+        "assets/MA20162-studio-20261125-main.png": {
+          "small": "assets/optimized/MA20162-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA20162-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA20162-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536
+        },
+        "assets/MA20162-studio-20261125-second.png": {
+          "small": "assets/optimized/MA20162-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA20162-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA20162-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536
+        }
+      }
+    },
+    {
+      "code": "MA66758-1",
+      "name": "Pantaloni largi cu șnur și tiv evazat",
+      "category": "Pantaloni și jeans",
+      "colors": [
+        "Maro închis",
+        "Bleumarin"
+      ],
+      "price": null,
+      "isNew": true,
+      "images": [
+        "assets/MA66758-1-studio-20261125-main.png",
+        "assets/MA66758-1-studio-20261125-second.png"
+      ],
+      "aiImages": [
+        "assets/MA66758-1-studio-20261125-main.png",
+        "assets/MA66758-1-studio-20261125-second.png"
+      ],
+      "description": "Produsul prezentat este pantalonul. Celelalte piese și accesoriile sunt folosite pentru prezentarea ținutei.",
+      "image": "assets/MA66758-1-studio-20261125-main.png",
+      "media": {
+        "assets/MA66758-1-studio-20261125-main.png": {
+          "small": "assets/optimized/MA66758-1-studio-20261125-main-small.webp",
+          "card": "assets/optimized/MA66758-1-studio-20261125-main-card.webp",
+          "detail": "assets/optimized/MA66758-1-studio-20261125-main-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        },
+        "assets/MA66758-1-studio-20261125-second.png": {
+          "small": "assets/optimized/MA66758-1-studio-20261125-second-small.webp",
+          "card": "assets/optimized/MA66758-1-studio-20261125-second-card.webp",
+          "detail": "assets/optimized/MA66758-1-studio-20261125-second-detail.webp",
+          "width": 1024,
+          "height": 1536,
+          "cardFit": "contain"
+        }
+      }
     }
   ],
   "whatsappContacts": [
