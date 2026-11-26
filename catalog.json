@@ -8432,6 +8432,996 @@
       "sourceHashes": [
         "9fc2dc466948037b1c456c96e05dc139c7e1d7c442431077be21aee0945a321b"
       ]
+    },
+    {
+      "code": "AJ-FOTO-096",
+      "internalCode": true,
+      "name": "Jachetă lungă cu glugă și buzunare florale",
+      "colors": [
+        "Roz",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-096-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-096-original-1.jpg",
+        "assets/AJ-FOTO-096-original-2.jpg",
+        "assets/AJ-FOTO-096-original-3.jpg",
+        "assets/AJ-FOTO-096-original-4.jpg",
+        "assets/AJ-FOTO-096-original-5.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "1aef5aa2fbeddab2b2188fad7cf2c8a1bec12a3dd056418013c2de8ab3ba44ee",
+        "2be3cb7943345c31293dfa8ced8d9de3abb1c0f6863e6a30b7f8612be3a202cd",
+        "3183225ac8251c1aba5a911a7e6e275d79a9b828f206a9efc66752b986ef7650",
+        "3dba0af3362b4ced8e9b43e1d8895f3c76230635599ccd6f8c29a8da38e683d2",
+        "3e51005a29ad6d5ec7ec073f32deeb1b36d87d230966f12ae3ff6ef7110387b3",
+        "4692155dce2e82b65f38bc27251ae37ebebd5309f1e74f779b64113427c9d845",
+        "5e7cd9335a2c4818a54829baf09688a4fa9d41168848a99318844be3e864cdeb",
+        "617ddca4b2a2bee0ca42d93c99846de7cf2ad357537fcf92988dcdd4c0c9d717",
+        "6ac6d2ae827cdcaf20854185506171d3463d746c642e6f6ce9dd65d043c0bb3f",
+        "6b9c1bd46ada02ecc336ab41da6d1db3b56673d3d5800b3432a4ce665f2ec0a6",
+        "70ef2c3fc8bce90561c9f9402cd9bb58d6aa78ef683e2c0f00b819ad2f959384",
+        "789d8c1879ee9af0070aa3df3cd6235823c86f6970ec1a099aca8d0a8a4f6ce0",
+        "7cc2a273c74e662336c5751afda1663bafcd1e9d20cbae1855ec4492f62e1490",
+        "8c1171f8d8c4c6403557e0a490f078cfa71afaadfd832ee4f32e7cfdaa6e2289",
+        "95ddb8b50c229c6bc54af3a51927bc57e89567c8999088b0ce4555961f142fe1",
+        "9ff0d2c87e33383cf8b5aa36b1707dc49a545d1651634a8dd0e98d2c392a4b36",
+        "a366d7064184f0d0912203db18dff60c782feb6ec62e8b40471e4e02e2df1041",
+        "a7fa495e05dbd268c13b63eadec9f5415bff0b340d4bf5653b21224f63ef02d9",
+        "b4ab2248d273e5e09ace1a2c3fc5f4b950f261cd1acfe9c83653f3ff6d57b9e1",
+        "cda3d4b9f431136d0c21961208fe5f95362063bac006f31dd1cf18959a876866",
+        "db47cf849acebd3c6301cd6331147be6816c6f0b90f8a4de63f03565ee7c278a",
+        "f41ff961c9eed49b9bc20144d11b188f6e2ef6992f1b846d388fa526d76b2d26",
+        "fb8cae00a4ac058cfe540e71be3fe2997c33c8894ef273ed415818f91b078d3e"
+      ],
+      "media": {
+        "assets/AJ-FOTO-096-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-096-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-096-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-096-original-1-detail.webp",
+          "width": 1138,
+          "height": 1763,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-096-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-096-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-096-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-096-original-2-detail.webp",
+          "width": 1111,
+          "height": 1317,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-096-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-096-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-096-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-096-original-3-detail.webp",
+          "width": 1276,
+          "height": 1702,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-096-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-096-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-096-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-096-original-4-detail.webp",
+          "width": 854,
+          "height": 1331,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-096-original-5.jpg": {
+          "small": "assets/optimized/AJ-FOTO-096-original-5-small.webp",
+          "card": "assets/optimized/AJ-FOTO-096-original-5-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-096-original-5-detail.webp",
+          "width": 1280,
+          "height": 1780,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-097",
+      "internalCode": true,
+      "name": "Jachetă lungă cu glugă și buzunare cu margini pufoase",
+      "colors": [
+        "Verde deschis",
+        "Lila",
+        "Roșu"
+      ],
+      "image": "assets/AJ-FOTO-097-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-097-original-1.jpg",
+        "assets/AJ-FOTO-097-original-2.jpg",
+        "assets/AJ-FOTO-097-original-3.jpg",
+        "assets/AJ-FOTO-097-original-4.jpg",
+        "assets/AJ-FOTO-097-original-5.jpg",
+        "assets/AJ-FOTO-097-original-6.jpg",
+        "assets/AJ-FOTO-097-original-7.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "0a7aa61f94f709d3c302ccf7c2f2ea714c209e229764082b66e32dc003fc0d8d",
+        "17c16c2a6f8b761c3cb004052af93bf9a97bce58a46259d14c78804c399fe1d8",
+        "193bac3a1914dd67adf5f4cf281b3133fab3751276bfe715d5a0cffff9513d94",
+        "25db9ac03b418ef5fb0f673399bd7460cc67a7b1a73fb61524630a57f59df024",
+        "2c70c9843eb4dde80e3025998d5d2b7656a1785e1e3861ed63fd64d29f8bd272",
+        "32e4fa3f71d7d7c2552f86014f8747064956b757083603d2c4a3e79735efc1f4",
+        "3b310d4d2415d82fc49190d723524c84c4a9bb6ecdfe33414321784dea77b247",
+        "3fd16e92df4abe0f24ea5ac78f4d32ccb85e97d11d0589afb2336fc5935bf861",
+        "5009802d3f8855c506827e9d38d52d2e8d4a739c89413e33545fcd17d54000ba",
+        "6f6c26b4d9ec680d26567135cf98764a1c4ff8a1c907cf30d45e268474f6f3b0",
+        "7c9728e865a5548b9264f534eba6325d7aecb3a7187c3216bbe5941fad60e981",
+        "8d4a68d1e8a92270c62d217b195995f565a642696229dde3592c8d69746178e6",
+        "9683f10c898b79e89271f7a03b4c2a54683cd2b3ae4e1ce53b7a8a4506d9160d",
+        "a11b310084501adb3a878664da05534d1d1e7176bdf9ecfbb1b27fe99c67900f",
+        "b2974c82f867a4336ed516ec2f619c0b43cd0c54c2fbb0b750001867f259b37b",
+        "bfdacf35110c5a1fc7acb7b4a9b0188c69de64e97301dceb8b34dbb1c9c1331c",
+        "cbe5d100ff836304dbd78022c744b1bd6812e6d0e3b56ec5f5a12dd260db06ea",
+        "d62c60e02d1d10640820eff9e8997a7bf34851f9f705587cbc08ca4fbe33a75f",
+        "d8477e37cf19193baaa26f13791b00a982e494b0da7cf1a00a165e391a0553cb",
+        "db65322e58e2a7109765552713766d1507f0a61891cd57c875161d57b8e4c88b"
+      ],
+      "media": {
+        "assets/AJ-FOTO-097-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-1-detail.webp",
+          "width": 1440,
+          "height": 1921,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-2-detail.webp",
+          "width": 1440,
+          "height": 1921,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-3-detail.webp",
+          "width": 1440,
+          "height": 1921,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-4-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-5.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-5-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-5-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-5-detail.webp",
+          "width": 1440,
+          "height": 1919,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-6.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-6-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-6-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-6-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-097-original-7.jpg": {
+          "small": "assets/optimized/AJ-FOTO-097-original-7-small.webp",
+          "card": "assets/optimized/AJ-FOTO-097-original-7-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-097-original-7-detail.webp",
+          "width": 1440,
+          "height": 2009,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-098",
+      "internalCode": true,
+      "name": "Jachetă matlasată cu plastron și detalii din dantelă",
+      "colors": [
+        "Galben pal",
+        "Roz",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-098-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-098-original-1.jpg",
+        "assets/AJ-FOTO-098-original-2.jpg",
+        "assets/AJ-FOTO-098-original-3.jpg",
+        "assets/AJ-FOTO-098-original-4.jpg",
+        "assets/AJ-FOTO-098-original-5.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "058139f0005f9483b2745ee1531a59e4678a98243b3ef02c0165575d032d6a66",
+        "0a4ef3353d5fe479d1f0f985973c596bd6a3e7cc1177c7ae93be4cd027ec6b71",
+        "178d5019086dd691538efa29a5cad80bfe9b006734527605a8b9e76d1e238877",
+        "22758aafd9df0234a802f8ecab956fd1b62d62180bb723bb626dd6bad1210a10",
+        "506c461459595d3fe22122efd9f9bf8af55aa4838387d2a1efe6e053b3c9c820",
+        "7c5c4c2249ad0a5f09a5616e4e32d1e8c5be69c01520f95babc20046c2626469",
+        "84c27857bc60d7438adeb5b32d682c0984d732baca62098c4c85b6f4963c1f2f",
+        "8747501e785cb4768dbc8086409159e53548aad2bdd0dc7ff383f7a432c9c03d",
+        "a313fc72f68981414d2accade7219658ce64d69d61de0af3b954faeb6609e12c",
+        "b29b9a61f9e4f5df5ee98edf8687832f9b43118e151c9f43b8bdb6dd2ad1b818",
+        "de39564da52b4dc017d169d5e4c4e0db04172347942bdae7be3d575f6a3519e5",
+        "dfa88584bc4b854a7512a71d49dd817b508a4b9829c7b4a47fd3f90d4a273615",
+        "e5dd634bef85ab8c78c53a5796a0876e8a8bd6d78f84d596203eff38b41e26bc",
+        "e73365b44637d0d281088ef333aefb25d4ab7b65ff7746d8c49102f5bc4d8acb",
+        "efa44d69a50ad3399b1530adbf949038f1ab55ed06306d6f32b77fd596d50535"
+      ],
+      "media": {
+        "assets/AJ-FOTO-098-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-098-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-098-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-098-original-1-detail.webp",
+          "width": 1276,
+          "height": 1702,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-098-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-098-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-098-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-098-original-2-detail.webp",
+          "width": 1276,
+          "height": 1702,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-098-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-098-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-098-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-098-original-3-detail.webp",
+          "width": 958,
+          "height": 1278,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-098-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-098-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-098-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-098-original-4-detail.webp",
+          "width": 1284,
+          "height": 1712,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-098-original-5.jpg": {
+          "small": "assets/optimized/AJ-FOTO-098-original-5-small.webp",
+          "card": "assets/optimized/AJ-FOTO-098-original-5-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-098-original-5-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-099",
+      "internalCode": true,
+      "name": "Jachetă cu buzunare și borduri din dantelă",
+      "colors": [
+        "Crem",
+        "Gri-albăstrui floral"
+      ],
+      "image": "assets/AJ-FOTO-099-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-099-original-1.jpg",
+        "assets/AJ-FOTO-099-original-2.jpg",
+        "assets/AJ-FOTO-099-original-3.jpg",
+        "assets/AJ-FOTO-099-original-4.jpg",
+        "assets/AJ-FOTO-099-original-5.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "5833f66ecdae59dac8ad1e01895090b11ee2062fa0ff4e7c5d3ae2c33f8b6c69",
+        "720989b7ae469562581f31ed6d8e77205664b51cedf4accc30b2bf096f09c955",
+        "73aba1c2c25c31e8c16d436fec3033f96a2d2023db9ef0046badc6eb10f178e5",
+        "783acc362482831749e1ae1b2984fd9b79cfef23aed553848c017a0c570795e9",
+        "7d32d51e5799f7de58f19d06cbe05a5d8406d9061730d2fc6582e65e5bc11eba",
+        "89be3ed2b2704fcef8649b02b62a4c93543f9a36194dfd54a262010d3e845a96",
+        "9ed4dc6710ccd9e648fe2622f9915a4ea0e8be65d6768f211c4f711fb99b801e",
+        "caf57edf3ec00759607d8cbabcfaa19da8d7871542f93893fa7e0c2db0a4b00b",
+        "cfae80082ca3d0d332f3d59ee6b3bcc1588af111a12d35791c267e154f8107c9",
+        "db7ac5e5b4dacbfdfe79465fcf58a4a1b5c85060542b0cc3cca4a2226d3782b3"
+      ],
+      "media": {
+        "assets/AJ-FOTO-099-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-099-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-099-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-099-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-099-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-099-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-099-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-099-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-099-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-099-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-099-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-099-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-099-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-099-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-099-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-099-original-4-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-099-original-5.jpg": {
+          "small": "assets/optimized/AJ-FOTO-099-original-5-small.webp",
+          "card": "assets/optimized/AJ-FOTO-099-original-5-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-099-original-5-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-100",
+      "internalCode": true,
+      "name": "Cardigan cu motive nordice și flori aplicate",
+      "colors": [
+        "Crem",
+        "Gri",
+        "Maro",
+        "Albastru"
+      ],
+      "image": "assets/AJ-FOTO-100-original-1.jpg",
+      "category": "Pulovere și cardigane",
+      "images": [
+        "assets/AJ-FOTO-100-original-1.jpg",
+        "assets/AJ-FOTO-100-original-2.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "705e84d629a2188b8964a9984049e16c78072bfa81d1a4371fd7f0771b6b7bbb",
+        "7b1de17dfa2f7dbdb3a57cb40415b6ea25826f35da04be83ac777d5229de7bde"
+      ],
+      "media": {
+        "assets/AJ-FOTO-100-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-100-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-100-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-100-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-100-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-100-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-100-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-100-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-101",
+      "internalCode": true,
+      "name": "Jachetă florală cu nasturi mari și tiv cu volan",
+      "colors": [
+        "Gri deschis floral",
+        "Negru floral"
+      ],
+      "image": "assets/AJ-FOTO-101-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-101-original-1.jpg",
+        "assets/AJ-FOTO-101-original-2.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "02a03b536f8775e4ce35fc4bc1c1e0b31b9be9df9db47ad7df352a1344b7c5e0",
+        "48ab7349d836352873905f9d35c3c4bac345d5a5b39b1015ea50bf655acee037",
+        "849f866b6cfdbdb4247fcc65fe8cf514d202131a70cac89cbb2c408ce1a0f7c4",
+        "ea6568f20855d2a5e7cd7727d643203ad0a57521c5f9c126e27abbe7beb51478"
+      ],
+      "media": {
+        "assets/AJ-FOTO-101-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-101-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-101-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-101-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-101-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-101-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-101-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-101-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-102",
+      "internalCode": true,
+      "name": "Jachetă cu rozete și buzunar în carouri",
+      "colors": [
+        "Maro",
+        "Gri deschis",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-102-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-102-original-1.jpg",
+        "assets/AJ-FOTO-102-original-2.jpg",
+        "assets/AJ-FOTO-102-original-3.jpg",
+        "assets/AJ-FOTO-102-original-4.jpg",
+        "assets/AJ-FOTO-102-original-5.jpg",
+        "assets/AJ-FOTO-102-original-6.jpg",
+        "assets/AJ-FOTO-102-original-7.jpg",
+        "assets/AJ-FOTO-102-original-8.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "00c8244aeaa580e26d8f7f003ffee00f08f71a7d941f6972ec54b333f571129f",
+        "06e58d7f563bc71720d477b788bf85b0efa313586e16809f4e68338229daa0f4",
+        "0c640ad68bf5396e7bb789cb8a29e9d0f8902f46f16f2989941d52b548c12ce0",
+        "17a835f9bc736201e8b590a37be8bfa5898caaf13a52451b8db782cbc19c6f93",
+        "2d343d49a69a533b4039bd2c887c49380ec380356a5729c2d1296f75a7db7d3e",
+        "38942336bc9b278f25a50432059c6713cd5d5b573e4e41d7e36f40fc09c16a0c",
+        "3c1dbdd9831dfafd2a7d92aaaae2c1b5e6cc7560cbc419574756a4cf3c271200",
+        "3d60dca875fd80ffacf58c40cac383249772064f23f26d8cd81dcbba7ea5d2ee",
+        "413e3f324fc0c37574f75a228488069d2a9cf34217a61c8d8ec6e1efb69691d0",
+        "42a78237fe914b50bc9f4552867be438b731e21858e510eb04ac83ecff5cfda3",
+        "463aaadb0d0722f6c39c59df1280fa19d31dd1b9f53fe2799bf21ab077b06049",
+        "497f5986823b22eea570c38c320c8097565aa2d9886de120a27b17dae2bc4b84",
+        "542f1be87fd12506372df61de9561acccf83b3c9546def8ba8c3d925877acd92",
+        "56c99e7860c43c3f0566eb7f5ce91207544c197940fa32f400d624818add7308",
+        "5c089c514f963c8e82da9d3ab7162bd8be9b4ab9e135bad6c9d95d9640b5f996",
+        "5d5012fb2fcfec8f2fbbe2a94ee96bf73e1b66cab7d33e34a484154353a0828e",
+        "7148c693cf01e93f6632f475c9df7eea02523768ddb8c113764a46c19bac6c8e",
+        "769802efe47323cc5b0dd3eefd7cf8083b56743d6d090e1addd59b3ec1e2d3b8",
+        "7a3713d4000d69cd43b280fe67d132c764501a8a947b876789cf7fe634fc17ce",
+        "84774241f31ea8df784575ed2b2342008df1dd0c6366006eae8f53504e4083b4",
+        "8af074739a901024d6b6dec4072943ad411afed63d73b0a1cfaf38a4964b4b9d",
+        "9cb42936202684a8893b4ab7671f1e95d16115bc83d983726d222972727a305a",
+        "a175789fe492be7849621d0afbc187d37184114f1c5c108dd4196fb957911dcb",
+        "b518ab3962b18ccd6eb95d854ce318a6a5a1bdb6c73aeb0e1bf12161795cb9a7",
+        "b7bef174d6c3780efdd58784a86d643f7ff9c80a04a0ea4e88be38a6c1b60181",
+        "c2ca6ea45479daaadfef1b2c67a05d09179970452a93daac1122a14e42c9ea8c",
+        "e23dd2e05797c993edc90bc0f8db81fa346cf2f8b78dabac14410fcee06edeb2",
+        "fac6f5e2ec6276d1c22cf5d9c883ff7f3dc6ee55531c2d48fa09d6fb90a812bf"
+      ],
+      "media": {
+        "assets/AJ-FOTO-102-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-1-detail.webp",
+          "width": 1440,
+          "height": 2001,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-4-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-5.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-5-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-5-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-5-detail.webp",
+          "width": 1440,
+          "height": 1964,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-6.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-6-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-6-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-6-detail.webp",
+          "width": 1440,
+          "height": 2009,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-7.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-7-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-7-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-7-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-102-original-8.jpg": {
+          "small": "assets/optimized/AJ-FOTO-102-original-8-small.webp",
+          "card": "assets/optimized/AJ-FOTO-102-original-8-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-102-original-8-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-103",
+      "internalCode": true,
+      "name": "Jachetă cu imprimeu floral fin și borduri contrastante",
+      "colors": [
+        "Negru floral",
+        "Maro floral",
+        "Crem floral"
+      ],
+      "image": "assets/AJ-FOTO-103-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-103-original-1.jpg",
+        "assets/AJ-FOTO-103-original-2.jpg",
+        "assets/AJ-FOTO-103-original-3.jpg",
+        "assets/AJ-FOTO-103-original-4.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "0bfb64f1d26a5ec5e00973b29f6fe32867d2b203fd532c4282338e60c36cd486",
+        "25052dce7e11005bf8f1cf84dc9164da25a18ef67fed3a6bc74c249a574afb33",
+        "471c4ef911374a9a34e2aed4b3facb9e52aabb975e0c6258813f210d870ac72e",
+        "49351c04a2530d89546802335b59f38aa1ac8efa62e0b881e2f5933abed37a99",
+        "8215d3dfda49ebfbebfd4ee577e531fb9f6f6af82b099b0543d1f36424dc7725",
+        "b6dd8a920ef577b603d07784c2c245833f0654782129769520087797c80f066d",
+        "bd5b066613702da4ea48c9ab9c39084f29c055f3a899921a1d2a9a493a3dccf0",
+        "c15a10b0096b12706587d8d378ee24948972af9cb1b6b0418f0e8f718d80e5bc",
+        "e2dd9b5894e9e901da9a3099b69c8f5f4229d5027cf0386662bb89555643e3d1",
+        "e6fc4eb7c5b72192d2f892cf2ed0de894376608d54569dfdd9dd29364c5239b9",
+        "faaf93ed7560816140a7609b4acd213aed029c8f64e5d9f1ac90c2671dc65dbe"
+      ],
+      "media": {
+        "assets/AJ-FOTO-103-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-103-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-103-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-103-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-103-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-103-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-103-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-103-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-103-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-103-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-103-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-103-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-103-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-103-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-103-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-103-original-4-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-104",
+      "internalCode": true,
+      "name": "Jachetă matlasată cu guler rotunjit din dantelă",
+      "colors": [
+        "Maro",
+        "Roz",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-104-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-104-original-1.jpg",
+        "assets/AJ-FOTO-104-original-2.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "096bb8f0fc0bd1fb5606bf03be89e8e0f1306bbe144bd78b25542be6d17020c1",
+        "a04b1583155f2b1fe07f5c9b7bfb1c88d45f2660fc580fb05b70db8ceb966212",
+        "b328882a777a6dd7df773989110805e8b8df90ec2eecc47f4bccfeeb92d2dc2e"
+      ],
+      "media": {
+        "assets/AJ-FOTO-104-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-104-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-104-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-104-original-1-detail.webp",
+          "width": 1276,
+          "height": 1702,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-104-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-104-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-104-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-104-original-2-detail.webp",
+          "width": 958,
+          "height": 1278,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-105",
+      "internalCode": true,
+      "name": "Jachetă lungă cu guler brodat și buzunare",
+      "colors": [
+        "Galben pal",
+        "Roșu",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-105-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-105-original-1.jpg",
+        "assets/AJ-FOTO-105-original-2.jpg",
+        "assets/AJ-FOTO-105-original-3.jpg",
+        "assets/AJ-FOTO-105-original-4.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "20f0d59269b867dfbb60fa6aa2da2a9dab4aab02d42ccb9e90e5f679a6596c93",
+        "36fcf7660e9beeaa6dc4b610049bc30d18f2c8e998fbf3e38e2c4c6cffb95567",
+        "490fe8b3b018dc6a5dc2b5c9b6c4f53973880ff5ea8fa56b50a969e616b7f94e",
+        "827402acd7bff36cd545a71f2d78f4a1a24a7a255d3241c33ce523374e28bd08",
+        "9697ec6cd1c2f91852752fa158cc8f2d407e55d76405d9712e5fc9738186e355",
+        "989596e3555593a8008d40a93b991d67f4ec9b6ba3aae0bbe7899e7b009fbdb1",
+        "e43d3907f1f512b0e23dc9c29c9a15ddaadae4694ad73d5a97ef35e3ecd9fbc2",
+        "e4ccbd3a961ba23235a33c1db5efb2bb40c2e57018925589be93c52735ee3daf",
+        "f0f7f96828288459c0f367075203a0387a6122f938bc503b013b8f373b51eaee",
+        "f781404caf059d2a2b722f8535f86175f9b769dd9a5f47b5759c2f0ffdcceb3e"
+      ],
+      "media": {
+        "assets/AJ-FOTO-105-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-105-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-105-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-105-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-105-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-105-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-105-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-105-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-105-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-105-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-105-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-105-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-105-original-4.jpg": {
+          "small": "assets/optimized/AJ-FOTO-105-original-4-small.webp",
+          "card": "assets/optimized/AJ-FOTO-105-original-4-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-105-original-4-detail.webp",
+          "width": 1440,
+          "height": 2002,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-106",
+      "internalCode": true,
+      "name": "Vestă cu buzunare și aplicații ilustrate",
+      "colors": [
+        "Roșu",
+        "Maro taupe",
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-106-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-106-original-1.jpg",
+        "assets/AJ-FOTO-106-original-2.jpg",
+        "assets/AJ-FOTO-106-original-3.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "784fecf58b96bbab4bc978b80445a41c21408b46e478711c2fcb01b456868b6c",
+        "c1c3a1cd5f9486b8c1ae1e3fc0e6c08d2d9830a01a4233336a0361d04617c067",
+        "d8fcd0257c4b13508d0e86c87a4e6c214a42f4d10ece953223d419377d8adf6c",
+        "f05a402bbcf83bcad7af5b16212fc5a2a4f1163b2df797322ff0785f06d8a4d0"
+      ],
+      "description": "Vestă fără mâneci, cu nasturi, buzunare și aplicații ilustrate.",
+      "media": {
+        "assets/AJ-FOTO-106-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-106-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-106-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-106-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-106-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-106-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-106-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-106-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-106-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-106-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-106-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-106-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-107",
+      "internalCode": true,
+      "name": "Jachetă cu guler floral și buzunare patchwork",
+      "colors": [
+        "Crem",
+        "Maro taupe",
+        "Lila"
+      ],
+      "image": "assets/AJ-FOTO-107-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-107-original-1.jpg",
+        "assets/AJ-FOTO-107-original-2.jpg",
+        "assets/AJ-FOTO-107-original-3.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "55a6380bb5d183471079ed029e3aedbfbec79d17c38212cc57bdd9a75c0ebbc3",
+        "587897bca660df8550836cf52d9a038a0dc27f53b3ee5e9ac7e6579734554e51",
+        "6c9a6792e3ed139f785a689a7a5faac7b64fe5d599851106e80e30896e369a1c",
+        "aacc113c9c137b6286d60f21786607e7b033b11da397df0929979417c1f2fe5a",
+        "de345fd0c5d2b13c24d1f204c95e1a185628ec8ee28ca86c6ad157e32fc24963"
+      ],
+      "media": {
+        "assets/AJ-FOTO-107-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-107-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-107-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-107-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-107-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-107-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-107-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-107-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-107-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-107-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-107-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-107-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-108",
+      "internalCode": true,
+      "name": "Jachetă cu închideri decorative și tiv din dantelă",
+      "colors": [
+        "Crem",
+        "Galben pal",
+        "Roșu"
+      ],
+      "image": "assets/AJ-FOTO-108-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-108-original-1.jpg",
+        "assets/AJ-FOTO-108-original-2.jpg",
+        "assets/AJ-FOTO-108-original-3.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "0e822094d56f9b0946c14579ae631958c602025b7147a3d7ed5dd787fafe9564",
+        "4da9a3f0e54f87d877cdf1ec04d561943b49ecb5d0efb1cb53778f6ef0ae0023",
+        "6ae7265b85e56b1b65a71ea6f574c6eb578228db53907aced240d694bbc29154",
+        "8d9d8afd1dbec38ad09cdcdbfd56c9b069ab5c54947158de851ccab09118e3f1",
+        "a6abf6421e888ee0db30d18470fcf305de6a22b55c159675368c3174f05505c9",
+        "b8362c68b6784423934f5fad3b84dec0607646b506dc38058cc4c6164fa6e16c"
+      ],
+      "media": {
+        "assets/AJ-FOTO-108-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-108-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-108-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-108-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-108-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-108-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-108-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-108-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-108-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-108-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-108-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-108-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-109",
+      "internalCode": true,
+      "name": "Jachetă florală cu glugă și inserții de dantelă",
+      "colors": [
+        "Gri floral"
+      ],
+      "image": "assets/AJ-FOTO-109-isolated-original.png",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-109-isolated-original.png"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "529a6d7dd56be2ca9f4f07386bca9d28180a8050942ebe3909c8c4e5fcb0e83b"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-109-isolated-original.png"
+      ],
+      "media": {
+        "assets/AJ-FOTO-109-isolated-original.png": {
+          "small": "assets/optimized/AJ-FOTO-109-isolated-original-small.webp",
+          "card": "assets/optimized/AJ-FOTO-109-isolated-original-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-109-isolated-original-detail.webp",
+          "width": 1086,
+          "height": 1448,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-110",
+      "internalCode": true,
+      "name": "Jachetă matlasată cu glugă și inserții de dantelă",
+      "colors": [
+        "Crem"
+      ],
+      "image": "assets/AJ-FOTO-110-isolated-original.png",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-110-isolated-original.png"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "529a6d7dd56be2ca9f4f07386bca9d28180a8050942ebe3909c8c4e5fcb0e83b"
+      ],
+      "aiImages": [
+        "assets/AJ-FOTO-110-isolated-original.png"
+      ],
+      "media": {
+        "assets/AJ-FOTO-110-isolated-original.png": {
+          "small": "assets/optimized/AJ-FOTO-110-isolated-original-small.webp",
+          "card": "assets/optimized/AJ-FOTO-110-isolated-original-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-110-isolated-original-detail.webp",
+          "width": 1086,
+          "height": 1448,
+          "cardFit": "contain"
+        }
+      }
+    },
+    {
+      "code": "AJ-FOTO-111",
+      "internalCode": true,
+      "name": "Jachetă cu imprimeu delicat și buzunare cu volănaș",
+      "colors": [
+        "Crem floral",
+        "Maro floral",
+        "Gri-albăstrui floral"
+      ],
+      "image": "assets/AJ-FOTO-111-original-1.jpg",
+      "category": "Veste și jachete",
+      "images": [
+        "assets/AJ-FOTO-111-original-1.jpg",
+        "assets/AJ-FOTO-111-original-2.jpg",
+        "assets/AJ-FOTO-111-original-3.jpg"
+      ],
+      "isNew": true,
+      "addedAt": "2026-11-26T16:58:37Z",
+      "sourceHashes": [
+        "58e8fc694178d3b507f31ab28b92c3126f7d7058f86d130586ab71a5e04af2c8",
+        "64c61b247f66650246897a825cd6a202e4e7c2131c6db6285595c89c4b90b4ef",
+        "a02f36d5234961763e64ad610c926ef1376a8d3b4273dc3aadc37496c64c882b",
+        "d09614eeb7c5dddedd2b9d96a7823d106fafeb8233a1840b51f2859637530db0"
+      ],
+      "media": {
+        "assets/AJ-FOTO-111-original-1.jpg": {
+          "small": "assets/optimized/AJ-FOTO-111-original-1-small.webp",
+          "card": "assets/optimized/AJ-FOTO-111-original-1-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-111-original-1-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-111-original-2.jpg": {
+          "small": "assets/optimized/AJ-FOTO-111-original-2-small.webp",
+          "card": "assets/optimized/AJ-FOTO-111-original-2-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-111-original-2-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        },
+        "assets/AJ-FOTO-111-original-3.jpg": {
+          "small": "assets/optimized/AJ-FOTO-111-original-3-small.webp",
+          "card": "assets/optimized/AJ-FOTO-111-original-3-card.webp",
+          "detail": "assets/optimized/AJ-FOTO-111-original-3-detail.webp",
+          "width": 1440,
+          "height": 1920,
+          "cardFit": "contain"
+        }
+      }
     }
   ],
   "whatsappContacts": [

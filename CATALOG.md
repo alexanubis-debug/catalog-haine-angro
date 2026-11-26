@@ -1,5 +1,13 @@
 # Catalog angro
 
+### v62 — import cu fotografii originale, 26 noiembrie 2026
+
+Cele patru arhive conțin 152 fotografii, dintre care șase copii binare identice. Toate cadrele sunt inventariate și grupate în 16 modele noi, AJ-FOTO-096–111; variantele pe culori și detaliile aceluiași model nu creează produse distincte. Nu au fost găsite copii binare în sursele și fotografiile existente; modelele au fost comparate vizual cu jachetele existente. Catalogul conține acum 249 modele.
+
+Galeriile noi au 58 imagini: 56 fotografii originale copiate fără modificarea octeților și două izolări AI ale fiecărei jachete din fotografia comună cu două persoane (AJ-FOTO-109 și AJ-FOTO-110), marcate în `aiImages`. Cele două jachete au construcții și materiale vizibil diferite și rămân produse distincte. Originalul comun și toate cadrele suplimentare rămân în auditul privat. Nu sunt regenerate în studio fotografiile deja potrivite; galeriile includ cadre generale, detalii și variante de culoare. Cadrele aproape identice sunt păstrate în arhiva privată, fără a încărca inutil galeria publică.
+
+`sourceHashes` păstrează amprentele surselor fiecărui model pentru importuri ulterioare. Sursa comună cu două produse este asociată explicit ambelor coduri. Mărimile, compozițiile și prețurile neconfirmate nu sunt inventate. Cardiganul cu flori este în Pulovere și cardigane; jachetele și vesta sunt în Veste și jachete. Vesta este singura piesă oferită de AJ-FOTO-106, fără interpretarea celorlalte haine din fotografie drept compleu. Produsele noi au data reală `addedAt` și respectă expirarea NEW după 14 zile. Cele 233 de produse existente, inclusiv galeriile, culorile și datele de adăugare, sunt păstrate integral.
+
 ### v61 — fotografii naturale și noutăți pentru 14 zile
 
 Lotul din cele două arhive primite pe 25 noiembrie conține 27 fotografii: două cadre repetate ale acelorași produse au fost excluse din generare, iar două perechi de variante pe culori sunt grupate. Rezultatul este 23 de produse noi (AJ-FOTO-073–095), cu 25 fotografii AI în stilul aprobat: lumină naturală lângă fereastră, poziții relaxate și haine purtate pe corp. Nu se preiau culori din pachete sigilate, mărimi neconfirmate sau prețuri. Variantele Maro taupe/Gri antracit ale hanoracului și bluzei cu Minnie sunt în aceleași galerii. Fotografiile originale și auditul importului rămân în afara site-ului.
