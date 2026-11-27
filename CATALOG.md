@@ -1,3 +1,8 @@
+## 2026-11-27 · v71 · Fotografii mai mari în fișa comenzii
+
+- Miniaturi mărite de la 62 la 92 px pe telefon (84 px pe ecrane foarte înguste), respectiv de la 76 la 112 px pe desktop. Coloana fotografiei se adaptează pentru a păstra lizibile culorile, mărimile și cantitățile.
+- Originalele și mărirea la apăsare se păstrează. Dimensiunile compacte pentru tipărire rămân aceleași.
+
 ## 2026-11-27 · v70 · Fișă de comandă partajată
 
 - Pagina linkului de comandă arată un rezumat, produse grupate pe cod, totaluri de bucăți pe model și tabel poză / culoare / mărime / cantitate. Fără prețuri numerice.
