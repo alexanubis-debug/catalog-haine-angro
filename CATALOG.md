@@ -1,5 +1,13 @@
 # Catalog angro
 
+### v66 — cantități direct pe culori și linkuri în întrebările WhatsApp
+
+Contactul este corectat în Alina în toate ferestrele; numerele rămân neschimbate. Întrebările despre preț includ codul, numele și linkul direct ?produs=COD. Același link se adaugă și mesajelor personalizate despre mărimi, fără dublare și fără parametri de verificare/filtrare preluați din adresă. Selecțiile trimise ca text includ linkul fiecărui produs.
+
+Comanda afișează toate culorile existente ale modelului, fiecare lângă un câmp de cantitate. Nu mai există dropdown-uri de culoare, Adaugă variantă sau Elimină variantă. Clienta completează numai culorile dorite; câmpurile goale și zero nu intră în PDF. Fiecare produs selectat trebuie să aibă cel puțin o cantitate pozitivă. Cantitățile negative, fracționare sau prea mari nu generează PDF. Culorile comandate sunt evidențiate discret și selecția rămâne în browser la reîncărcare.
+
+`orderRequestLines()` elimină liniile goale/zero și grupează duplicatele aceleiași culori/mărimi fără pierderea cantităților. Cererile vechi sunt afișate prin totalul pe culoare; mărimile existente sunt păstrate în document până la editarea culorii. Pentru o cantitate veche fără culoare, clienta vede un mesaj și o transferă la culoarea dorită; culoarea nu este ghicită. PDF-ul și alegerea destinatarului continuă să se actualizeze automat și să invalideze fișierele depășite. Datele celor 249 produse și fotografiile rămân neschimbate.
+
 ### v65 — culoare/cantitate și alegerea contactului pentru PDF
 
 Selecția nu mai include câmpuri de mărime, fotografie sau date de contact. Se alege culoarea doar când există mai multe variante; culoarea unică este afișată simplu și păstrată în comandă. Cantitățile rămân obligatorii și pozitive, iar culorile multiple trebuie alese. Mărimile și galeriile produselor din catalog nu se modifică; detaliile existente ale cererilor sunt păstrate, fără inventarea unor mărimi noi. Adăugarea altei culori apare doar pentru modele cu mai multe culori.

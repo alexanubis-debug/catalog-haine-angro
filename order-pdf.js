@@ -17,7 +17,7 @@
  function schedule(){
   clearTimeout(timer);
   if(!document.querySelector('#selectionDialog').open||!selectedProducts().length)return;
-  const rows=rowsForOrder();if(rows.some(r=>!Number.isSafeInteger(r.quantity)||r.quantity<1))return;
+  const rows=rowsForOrder();if(selectedProducts().some(p=>!orderRequestLines(p).length)||rows.some(r=>!Number.isSafeInteger(r.quantity)||r.quantity<1)||[...document.querySelectorAll('#selectionList input')].some(i=>!i.validity.valid))return;
   timer=setTimeout(()=>prepare(false),450);
  }
  window.invalidateOrderPdf=()=>{clearPrepared();schedule();};
@@ -44,7 +44,7 @@
  }
  function dateParts(date){return Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Bucharest',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(date).filter(p=>p.type!=='literal').map(p=>[p.type,p.value]));}
  function rowsForOrder(){
-  const rows=[];for(const product of selectedProducts())for(const line of requestLines(product))rows.push({product,source:line.image||product.image,color:line.color||'De confirmat',size:line.size?(line.size==='TU'?'Talie universală (TU)':line.size):'De confirmat',quantity:Number(line.quantity)});return rows;
+  const rows=[];for(const product of selectedProducts())for(const line of orderRequestLines(product))rows.push({product,source:line.image||product.image,color:line.color||'De confirmat',size:line.size?(line.size==='TU'?'Talie universală (TU)':line.size):'De confirmat',quantity:Number(line.quantity)});return rows;
  }
  async function makePdf(rows,person,id,created){
   const fonts=await loadAssets(),images=new Map();
@@ -101,9 +101,11 @@
  async function prepare(interactive){
   if(!selectedProducts().length)return false;
   if(interactive&&!validateRequest())return false;
-  const missingColor=[...document.querySelectorAll('#selectionList [data-request-field="color"]')].find(input=>!input.value);
-  if(missingColor){if(interactive){missingColor.setCustomValidity('Alege culoarea dorită.');missingColor.reportValidity();missingColor.focus();}return false;}
+  const missingProduct=selectedProducts().find(product=>!orderRequestLines(product).length);
+  if(missingProduct){if(interactive){const input=[...document.querySelectorAll('#selectionList [data-request-field="quantity"]')].find(i=>i.dataset.requestCode===missingProduct.code);if(input){input.setCustomValidity('Completează cantitatea la cel puțin o culoare.');input.reportValidity();input.focus();}}return false;}
   const rows=rowsForOrder();
+  const missingColor=rows.find(row=>row.product.colors.length&&!row.product.colors.includes(row.color));
+  if(missingColor){if(interactive){status.textContent='Introdu cantitatea la culoarea dorită pentru '+missingColor.product.code+'.';document.querySelector('#selectionList [data-request-code="'+missingColor.product.code+'"]').focus();}return false;}
   if(rows.some(row=>!Number.isSafeInteger(row.quantity)||row.quantity<1)){
    if(interactive){const input=[...document.querySelectorAll('#selectionList [data-request-field="quantity"]')].find(i=>!i.value||!Number.isSafeInteger(Number(i.value))||Number(i.value)<1);if(input){input.setCustomValidity('Completează cantitatea dorită.');input.reportValidity();input.focus();}}
    return false;
