@@ -1,3 +1,8 @@
+## 2026-11-27 · v73 · Corecție logo 03 din referința aprobată
+
+- Înlocuire a recreării tipografice cu imaginea variantei 03, pregătită pe fundal transparent din planșa reatașată de utilizator. Fără alt font sau redesenare prin fonturi.
+- Imagine inclusă într-un SVG autonom pentru integrarea existentă în antet, meniul mobil, fișa comenzii și PDF. Nu sunt necesare fonturi externe pentru logo.
+
 ## 2026-11-27 · v72 · Logo varianta 03
 
 - Identitatea aprobată: AJ PARIS cu litere serif, linie fină și FASHION, în format SVG cu contururi pentru afișare clară la orice dimensiune. Bodoni Moda, licență SIL OFL inclusă în assets/licenses.

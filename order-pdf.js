@@ -33,7 +33,7 @@
   const rows=[];for(const product of selectedProducts())for(const line of orderRequestLines(product))rows.push({product,source:line.image||product.image,color:line.color||'De confirmat',size:line.size?(line.size==='TU'?'Talie universală (TU)':line.size):'De confirmat',quantity:Number(line.quantity)});return rows;
  }
  async function makePdf(rows,person,id,created){
-  const fonts=await loadAssets(),images=new Map(),logoImage=await readImage('assets/ajparis-wordmark.svg?v=72');
+  const fonts=await loadAssets(),images=new Map(),logoImage=await readImage('assets/ajparis-wordmark.svg?v=73');
   const logoCanvas=document.createElement('canvas');logoCanvas.width=1200;logoCanvas.height=Math.round(1200*logoImage.naturalHeight/logoImage.naturalWidth);logoCanvas.getContext('2d').drawImage(logoImage,0,0,logoCanvas.width,logoCanvas.height);const logo=logoCanvas.toDataURL('image/png');
   // Limit simultaneous decoding to keep large mobile selections responsive.
   const unique=[...new Map(rows.map(row=>[row.source,row])).values()];let cursor=0;
