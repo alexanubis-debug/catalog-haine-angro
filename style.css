@@ -256,3 +256,6 @@ html[data-theme="dark"] .order-customer-fields input,html[data-theme="dark"] .or
 
 /* Open the full product gallery directly from a selected item's thumbnail. */
 #selectionList .selection-photo{position:relative;display:block;width:52px;height:70px;min-height:70px;padding:0;border-radius:6px;overflow:hidden;cursor:zoom-in;color:#24212a;background:#f5f2f8}#selectionList .selection-photo .photo{display:block}#selectionList .selection-photo-icon{position:absolute;right:2px;bottom:2px;display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:#fffffff2;color:#24212a;font:20px/1 system-ui;box-shadow:0 1px 5px #0003}#selectionList .selection-photo:focus-visible{outline:2px solid var(--purple);outline-offset:3px}
+
+/* Logo 03: complete outlined serif identity, including Fashion. */
+.brand .wordmark-logo{width:168px;height:auto}.site-header .brand{min-width:168px}.menu-header .brand .wordmark-logo{width:174px;height:auto}@media(max-width:700px){.site-header .brand{min-width:132px}.brand .wordmark-logo{width:132px;height:auto}}@media(max-width:350px){.site-header .brand{min-width:118px}.brand .wordmark-logo{width:118px}}

@@ -1,3 +1,8 @@
+## 2026-11-27 · v72 · Logo varianta 03
+
+- Identitatea aprobată: AJ PARIS cu litere serif, linie fină și FASHION, în format SVG cu contururi pentru afișare clară la orice dimensiune. Bodoni Moda, licență SIL OFL inclusă în assets/licenses.
+- Înlocuire în antetul catalogului, meniul mobil, fișa comenzii și PDF-ul opțional; eliminarea subtitlului Fashion duplicat. Contrast pentru tema albă și neagră; dimensiuni adaptate la ecrane mici.
+
 ## 2026-11-27 · v71 · Fotografii mai mari în fișa comenzii
 
 - Miniaturi mărite de la 62 la 92 px pe telefon (84 px pe ecrane foarte înguste), respectiv de la 76 la 112 px pe desktop. Coloana fotografiei se adaptează pentru a păstra lizibile culorile, mărimile și cantitățile.

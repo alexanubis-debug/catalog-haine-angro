@@ -33,7 +33,8 @@
   const rows=[];for(const product of selectedProducts())for(const line of orderRequestLines(product))rows.push({product,source:line.image||product.image,color:line.color||'De confirmat',size:line.size?(line.size==='TU'?'Talie universală (TU)':line.size):'De confirmat',quantity:Number(line.quantity)});return rows;
  }
  async function makePdf(rows,person,id,created){
-  const fonts=await loadAssets(),images=new Map();
+  const fonts=await loadAssets(),images=new Map(),logoImage=await readImage('assets/ajparis-wordmark.svg?v=72');
+  const logoCanvas=document.createElement('canvas');logoCanvas.width=1200;logoCanvas.height=Math.round(1200*logoImage.naturalHeight/logoImage.naturalWidth);logoCanvas.getContext('2d').drawImage(logoImage,0,0,logoCanvas.width,logoCanvas.height);const logo=logoCanvas.toDataURL('image/png');
   // Limit simultaneous decoding to keep large mobile selections responsive.
   const unique=[...new Map(rows.map(row=>[row.source,row])).values()];let cursor=0;
   await Promise.all(Array.from({length:Math.min(3,unique.length)},async()=>{while(cursor<unique.length){const row=unique[cursor++];images.set(row.source,await thumbnail(row.product,row.source));}}));
@@ -46,7 +47,7 @@
   const lines=(value,w,size=9)=>{doc.setFont('AJ','normal');doc.setFontSize(size);return doc.splitTextToSize(String(value),w);};
   let y=0;
   function pageHeader(first){
-   text('ajparis',margin,22,25,true);text('f a s h i o n',margin+2,29,8);doc.setDrawColor(115,87,190);doc.setLineWidth(0.55);doc.line(margin,34,right,34);
+   doc.addImage(logo,'PNG',margin,10,52,52*logoCanvas.height/logoCanvas.width);doc.setDrawColor(115,87,190);doc.setLineWidth(0.55);doc.line(margin,34,right,34);
    text(first?'COMANDĂ CLIENT':'COMANDĂ CLIENT · continuare',margin,44,17,true);doc.setFont('AJ','normal');doc.setFontSize(8);text(id,right-doc.getTextWidth(id),52,8);text('Data: '+day,margin,52,8);
    if(first){
     let rowY=61;
