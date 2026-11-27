@@ -1,5 +1,11 @@
 # Catalog angro
 
+### v64 — comandă simplificată, PDF pregătit automat
+
+În Selecția ta, câmpurile principale sunt culoarea și cantitatea. Mărimile confirmate rămân vizibile; o singură culoare sau mărime confirmată se poate completa implicit pentru o variantă nouă. Nu sunt inventate cantități sau TU pentru produse fără mărimi. Mărimea solicitată neconfirmată și alegerea altei fotografii sunt în Alte detalii (opțional). Numele, telefonul, livrarea și observațiile sunt toate opționale și grupate într-o secțiune închisă. În PDF, datele clientului lipsă nu sunt inventate; identificarea din conversația WhatsApp rămâne în afara documentului.
+
+Fonturile sunt preîncărcate când se deschide selecția. După completarea cantităților valide, PDF-ul se pregătește automat, cu o scurtă întârziere după editare. Butonul principal partajează direct fișierul deja pregătit, păstrând gestul explicit necesar pe telefon. Dacă pregătirea nu s-a terminat, același buton o finalizează și cere apăsarea pentru partajare. Nu se deschide automat nicio aplicație și nu se trimite nimic la editarea cantității. Fără partajare nativă a fișierelor, butonul devine Descarcă comanda PDF, cu instrucțiune de atașare în WhatsApp. Descărcarea și trimiterea doar ca text rămân în Alte opțiuni. Orice schimbare invalidează imediat fișierul anterior și programează refacerea lui; rezultatele depășite sunt ignorate.
+
 ### v63 — comandă PDF cu fotografii și coduri
 
 În Selecția ta, clienta poate crea un PDF A4 cu fotografii mici, cod/nume, culoare, mărime, cantitate, căsuțe pentru verificare și totalul bucăților. Sunt necesare numele/firma, telefonul și o cantitate întreagă pozitivă pentru fiecare variantă; adresa și observațiile sunt opționale. Culorile și mărimile nealese rămân De confirmat, fără presupunerea TU. Nu sunt introduse prețuri. Fiecare variantă are un selector opțional al fotografiei, folosind exclusiv imaginile din galeria produsului; implicit este fotografia principală. Imaginile sprite sunt încadrate corect pe jumătatea selectată.
