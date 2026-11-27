@@ -160,7 +160,7 @@ function render(append=false){
  $('#loadMore').hidden=remaining===0;$('#loadMore').textContent='Vezi încă '+Math.min(PAGE_SIZE,remaining)+' produse →';$('#pageStatus').textContent=products.length?'Afișate '+shown+' din '+products.length+' produse':'';
  if(append&&remaining===0&&batch.length)$('#products').children[start].querySelector('.product')?.focus({preventScroll:true});
 }
-fetch('catalog.json?v=62').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
+fetch('catalog.json?v=63').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{catalog={...data,products:discoveryOrder(data.products)};document.title=data.name+' · Catalog';initFilters();restoreSelection();renderCategories();render();updateSelection();syncProductRoute()}).catch(()=>{$('#products').textContent='Catalogul nu s-a putut încărca. Reîncarcă pagina.'});
 $('#backToCollections').onclick=()=>openCollection('');
 $('#search').addEventListener('input',()=>render());$('#sort').addEventListener('change',()=>render());
 $('#loadMore').addEventListener('click',()=>{visibleCount+=PAGE_SIZE;render(true);});
@@ -214,10 +214,11 @@ $('#desktopContact').onclick=()=>openWhatsApp();
 const selectedCodes=new Set(),requestDetails=new Map();
 function cleanRequestLine(product,line={}){
  const quantity=String(line?.quantity??'');
- return {color:product.colors.includes(line?.color)?line.color:'',size:product.sizes?.length?(product.sizes.includes(line?.size)?line.size:''):String(line?.size??'').replace(/[\r\n\t]+/g,' ').slice(0,40),quantity:quantity&&Number.isSafeInteger(Number(quantity))&&Number(quantity)>0?String(Number(quantity)):''};
+ return {image:[product.image,...(product.images||[])].includes(line?.image)?line.image:product.image,color:product.colors.includes(line?.color)?line.color:'',size:product.sizes?.length?(product.sizes.includes(line?.size)?line.size:''):String(line?.size??'').replace(/[\r\n\t]+/g,' ').slice(0,40),quantity:quantity&&Number.isSafeInteger(Number(quantity))&&Number(quantity)>0?String(Number(quantity)):''};
 }
 function requestLines(product){if(!requestDetails.has(product.code))requestDetails.set(product.code,[cleanRequestLine(product)]);return requestDetails.get(product.code);}
 function persistSelection(){
+ window.invalidateOrderPdf?.();
  try{sessionStorage.setItem('ajparis-selection',JSON.stringify([...selectedCodes]));sessionStorage.setItem('ajparis-request-details',JSON.stringify(Object.fromEntries([...selectedCodes].map(code=>[code,requestDetails.get(code)||[]]))));}catch{}
 }
 function restoreSelection(){
@@ -316,6 +317,11 @@ function requestEditor(product){
  const editor=el('div',null,'request-editor'),lines=requestLines(product);
  lines.forEach((line,index)=>{
   const group=el('fieldset',null,'request-line');group.dataset.code=product.code;group.dataset.variant=String(index);group.append(el('legend','Varianta '+(index+1)));
+  const imagePicker=el('details',null,'request-image-picker'),imageSummary=el('summary','Fotografie pentru PDF'),imageChoices=el('div',null,'request-image-choices');
+  for(const [imageIndex,source] of [...new Set([product.image,...(product.images||[])])].entries()){
+   const button=el('button');button.type='button';button.setAttribute('aria-label','Alege fotografia '+(imageIndex+1)+' pentru '+product.code+', varianta '+(index+1));button.setAttribute('aria-pressed',String((line.image||product.image)===source));button.append(photo(product,source,'thumb'));button.onclick=()=>{line.image=source;imageChoices.querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));persistSelection();};imageChoices.append(button);
+  }
+  imagePicker.append(imageSummary,imageChoices);group.append(imagePicker);
   function field(title,name,input){const label=el('label',title);input.dataset.requestField=name;input.dataset.requestCode=product.code;input.dataset.variant=String(index);input.setAttribute('aria-label',title+' pentru '+product.code+', varianta '+(index+1));input.value=line[name];label.append(input);group.append(label);input.addEventListener('input',()=>{line[name]=input.value;input.setCustomValidity('');persistSelection();});return input;}
   function select(values,format=value=>value){const input=el('select'),placeholder=el('option','De confirmat');placeholder.value='';input.append(placeholder,...values.map(value=>{const option=el('option',format(value));option.value=value;return option;}));return input;}
   field('Culoare','color',select(product.colors));

@@ -1,5 +1,13 @@
 # Catalog angro
 
+### v63 — comandă PDF cu fotografii și coduri
+
+În Selecția ta, clienta poate crea un PDF A4 cu fotografii mici, cod/nume, culoare, mărime, cantitate, căsuțe pentru verificare și totalul bucăților. Sunt necesare numele/firma, telefonul și o cantitate întreagă pozitivă pentru fiecare variantă; adresa și observațiile sunt opționale. Culorile și mărimile nealese rămân De confirmat, fără presupunerea TU. Nu sunt introduse prețuri. Fiecare variantă are un selector opțional al fotografiei, folosind exclusiv imaginile din galeria produsului; implicit este fotografia principală. Imaginile sprite sunt încadrate corect pe jumătatea selectată.
+
+Documentul este generat în browser, prin jsPDF 4.2.1 și fonturi DejaVu locale pentru diacritice, încărcate doar la prima creare. Fotografiile sunt exportate ca miniaturi JPEG, fără a încărca documentul cu originale de mari dimensiuni; paginile suplimentare repetă antetul tabelului, iar subsolul arată numărul paginii. Fiecare comandă are un identificator aleator unic și data din Europe/Bucharest. Datele de contact sunt păstrate în câmpurile paginii, fără transmitere automată sau salvare pe server.
+
+După pregătire, fișierul poate fi descărcat sau partajat prin Web Share cu fișiere, la o apăsare separată care păstrează activarea cerută de Safari/iPhone. Clienta alege aplicația și destinatarul și confirmă trimiterea acolo; interfața nu pretinde că expedierea a fost confirmată. Dacă partajarea fișierelor lipsește, clienta descarcă PDF-ul și îl atașează în WhatsApp. Butonul anterior rămâne explicit Trimite selecția ca text pe WhatsApp; un link wa.me nu atașează automat PDF-uri. Modificarea datelor, selecției, cantităților sau fotografiei invalidează documentul pregătit; un rezultat generat dintr-o selecție depășită este ignorat. Erorile de încărcare împiedică generarea unui PDF incomplet și permit reîncercarea.
+
 ### v62 — import cu fotografii originale, 26 noiembrie 2026
 
 Cele patru arhive conțin 152 fotografii, dintre care șase copii binare identice. Toate cadrele sunt inventariate și grupate în 16 modele noi, AJ-FOTO-096–111; variantele pe culori și detaliile aceluiași model nu creează produse distincte. Nu au fost găsite copii binare în sursele și fotografiile existente; modelele au fost comparate vizual cu jachetele existente. Catalogul conține acum 249 modele.
