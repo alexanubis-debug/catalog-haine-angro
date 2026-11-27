@@ -1,5 +1,11 @@
 # Catalog angro
 
+### v67 — WhatsApp pe Mac/calculator fără meniul de partajare al sistemului
+
+Meniul Web Share de pe macOS poate accepta PDF-uri fără să ofere WhatsApp ca destinație. De aceea, partajarea nativă este folosită doar pe telefoane/tablete compatibile (inclusiv iPad cu identificare desktop). Pe calculator, alegerea Alinei, Andei sau Cristinei inițiază descărcarea PDF-ului pregătit și deschide direct linkul WhatsApp al numărului ales, în aceeași acțiune explicită. PDF-ul nu este prezentat drept atașat automat: clienta îl atașează în conversație. Aceeași cale este disponibilă pe telefoanele fără partajare de fișiere.
+
+Butonul de descărcare și linkul către conversație rămân vizibile pentru reîncercare dacă browserul blochează deschiderea sau descărcarea. La anularea partajării pe telefon apar aceste alternative fără lansări automate după anulare. Alegerea altei persoane resetează mesajul de anulare și panoul vechi, evitând stările înșelătoare din spatele meniului de partajare. Nu se afirmă succesul expedierii și nu se trimit mesaje în testele automate.
+
 ### v66 — cantități direct pe culori și linkuri în întrebările WhatsApp
 
 Contactul este corectat în Alina în toate ferestrele; numerele rămân neschimbate. Întrebările despre preț includ codul, numele și linkul direct ?produs=COD. Același link se adaugă și mesajelor personalizate despre mărimi, fără dublare și fără parametri de verificare/filtrare preluați din adresă. Selecțiile trimise ca text includ linkul fiecărui produs.

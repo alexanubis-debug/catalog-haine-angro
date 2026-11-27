@@ -119,7 +119,9 @@
    if(job!==currentJob||snapshot()!==signature)return false;
    const file=new File([blob],'Comanda-'+orderId+'.pdf',{type:'application/pdf'});
    prepared=file;preparedSignature=signature;download.hidden=false;objectUrl=URL.createObjectURL(file);download.href=objectUrl;download.download=file.name;
-   canShare=false;try{canShare=typeof navigator.share==='function'&&!!navigator.canShare?.({files:[file]});}catch{}
+   // Desktop share sheets may accept PDFs but omit WhatsApp (notably macOS).
+   const mobileDevice=navigator.userAgentData?.mobile===true||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+   canShare=false;try{canShare=mobileDevice&&typeof navigator.share==='function'&&!!navigator.canShare?.({files:[file]});}catch{}
    ready.hidden=false;
    document.querySelector('#orderPdfHelp').textContent='';
    status.textContent=rows.reduce((n,r)=>n+r.quantity,0)+' bucăți · Comanda este gata.';
@@ -131,22 +133,25 @@
  function chooseRecipient(){
   if(!prepared||preparedSignature!==snapshot())return;
   fallback.hidden=true;
-  document.querySelector('#orderRecipientIntro').textContent=canShare?'Alege persoana, apoi WhatsApp și conversația ei din meniul telefonului.':'Alege persoana. Descarcă PDF-ul și atașează-l în conversația WhatsApp deschisă.';
+  document.querySelector('#orderRecipientIntro').textContent=canShare?'Alege persoana, apoi WhatsApp și conversația ei din meniul telefonului.':'Alege persoana: PDF-ul se descarcă și conversația WhatsApp se deschide. Atașează PDF-ul acolo.';
   recipientList.replaceChildren(...contacts.map(contact=>{const button=document.createElement('button');button.type='button';const name=document.createElement('strong'),phone=document.createElement('span');name.textContent=contact.name;phone.textContent=contact.display;button.append(name,phone);button.dataset.phone=contact.phone;button.onclick=()=>deliver(contact);return button;}));
   if(!recipientDialog.open)recipientDialog.showModal();document.body.style.overflow='hidden';
  }
  async function deliver(contact){
   if(!prepared)return;
   const file=prepared;
-  function manual(){
-   fallback.hidden=false;document.querySelector('#orderRecipientInstructions').textContent='Pentru '+contact.name+': descarcă PDF-ul, deschide conversația și atașează fișierul folosind agrafa sau + din WhatsApp.';
+  fallback.hidden=true;
+  document.querySelector('#orderRecipientIntro').textContent=canShare?'Alege WhatsApp și conversația cu '+contact.name+' în meniul telefonului.':'Atașează PDF-ul în conversația WhatsApp cu '+contact.name+'.';
+  function manual(openNow=false){
+   fallback.hidden=false;document.querySelector('#orderRecipientInstructions').textContent='Atașează fișierul „'+file.name+'” în conversația cu '+contact.name+', folosind agrafa sau + din WhatsApp. Dacă descărcarea sau conversația nu s-au deschis, folosește butoanele de mai jos.';
    const save=document.querySelector('#orderRecipientDownload');save.href=objectUrl;save.download=file.name;
    const link=document.querySelector('#orderRecipientWhatsApp');link.textContent='Deschide WhatsApp cu '+contact.name;link.href='https://wa.me/'+contact.phone+'?text='+encodeURIComponent('Bună, '+contact.name+'! Comanda mea AJ Paris: '+orderId+'. PDF-ul îl atașez în această conversație.');
+   if(openNow){window.open(link.href,'_blank','noopener,noreferrer');save.click();}
   }
-  if(!canShare){manual();return;}
+  if(!canShare){manual(true);return;}
   recipientList.querySelectorAll('button').forEach(b=>b.disabled=true);
   try{await navigator.share({files:[file],title:'Comandă pentru '+contact.name,text:'Comandă AJ Paris pentru '+contact.name+' · '+contact.display});if(prepared===file)document.querySelector('#orderRecipientIntro').textContent='Confirmă trimiterea PDF-ului către '+contact.name+' în WhatsApp.';}
-  catch(error){if(prepared===file){if(error.name==='AbortError')document.querySelector('#orderRecipientIntro').textContent='Trimitere anulată. Alege din nou persoana când ești gata.';else manual();}}
+  catch(error){if(prepared===file){manual();document.querySelector('#orderRecipientIntro').textContent=error.name==='AbortError'?'Partajare anulată. Poți folosi descărcarea și conversația WhatsApp de mai jos.':'Folosește descărcarea și conversația WhatsApp de mai jos pentru a trimite PDF-ul.';}}
   finally{recipientList.querySelectorAll('button').forEach(b=>b.disabled=false);}
  }
  create.addEventListener('click',async()=>{
