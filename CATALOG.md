@@ -1,3 +1,11 @@
+## 2026-11-27 · v68 · Comenzi prin link și culori compacte
+
+- Alegere culori prin butoane; cantitățile apar numai pentru culorile alese. Se păstrează selecțiile existente și imaginile originale.
+- Nume și telefon obligatorii; alegere Alina / Anda / Cristina deschide WhatsApp cu un link care conține întreaga comandă. Clientul confirmă trimiterea în WhatsApp. Nu se mai folosește meniul de partajare sau atașarea manuală a PDF-ului.
+- `comanda.html` citește local datele comprimate din fragmentul linkului și arată fotografii, coduri, culori, cantități și total. Funcționează fără sesiunea sau stocarea browserului clientului; câmpurile sunt validate și afișate ca text. Datele sunt accesibile oricui primește linkul.
+- PDF-ul rămâne opțional. Nu există registru comun / bază de date / autentificare pentru angajați; GitHub Pages servește numai fișiere statice. Linkurile nu reprezintă confirmări de disponibilitate sau facturi.
+- Verificare: flux complet la 1440 / 390 / 320 px, deschidere în context separat fără stocare, cele trei contacte, fotografii încărcate, PDF opțional, invalidare după editare, linkuri lipsă / deteriorate / supradimensionate. Fără trimitere de mesaje în teste.
+
 # Catalog angro
 
 ### v67 — WhatsApp pe Mac/calculator fără meniul de partajare al sistemului

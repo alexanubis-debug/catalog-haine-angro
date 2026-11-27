@@ -1,29 +1,15 @@
-// Prepare the current order automatically; the primary tap shares an existing file.
+// Orders travel as a self-contained link; no file attachment or external storage.
 (()=>{
- const create=document.querySelector('#orderPdfCreate'),ready=document.querySelector('#orderPdfReady'),status=document.querySelector('#orderPdfStatus'),download=document.querySelector('#orderPdfDownload');
- const fields=['Name','Phone','Address','Notes'];let prepared=null,objectUrl=null,job=0,orderId='',assetsPromise,timer,canShare=false,preparedSignature='';
- const recipientDialog=document.querySelector('#orderRecipientDialog'),recipientList=document.querySelector('#orderRecipientList'),fallback=document.querySelector('#orderRecipientFallback');
- const contacts=[...document.querySelectorAll('#whatsappDialog .contact-list a')].map(link=>({name:link.querySelector('strong').textContent,phone:link.dataset.phone,display:link.querySelector('span').textContent}));
- document.querySelector('#orderRecipientClose').onclick=()=>recipientDialog.close();
- recipientDialog.addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';create.disabled=false;});
- const customer=()=>Object.fromEntries(fields.map(key=>[key.toLowerCase(),document.querySelector('#orderCustomer'+key).value.trim()]));
- const snapshot=()=>JSON.stringify({customer:customer(),products:selectedProducts().map(p=>({code:p.code,lines:requestLines(p)}))});
- function clearPrepared(){
-  clearTimeout(timer);job++;prepared=null;preparedSignature='';ready.hidden=true;download.hidden=true;download.removeAttribute('href');
-  if(recipientDialog.open)recipientDialog.close();fallback.hidden=true;document.querySelector('#orderRecipientDownload').removeAttribute('href');document.querySelector('#orderRecipientWhatsApp').removeAttribute('href');
-  if(objectUrl){URL.revokeObjectURL(objectUrl);objectUrl=null;}
-  create.disabled=false;create.textContent='Trimite comanda';status.textContent='';
- }
- function schedule(){
-  clearTimeout(timer);
-  if(!document.querySelector('#selectionDialog').open||!selectedProducts().length)return;
-  const rows=rowsForOrder();if(selectedProducts().some(p=>!orderRequestLines(p).length)||rows.some(r=>!Number.isSafeInteger(r.quantity)||r.quantity<1)||[...document.querySelectorAll('#selectionList input')].some(i=>!i.validity.valid))return;
-  timer=setTimeout(()=>prepare(false),450);
- }
- window.invalidateOrderPdf=()=>{clearPrepared();schedule();};
- new MutationObserver(()=>{if(document.querySelector('#selectionDialog').open){loadAssets().catch(()=>{});clearPrepared();schedule();}else clearTimeout(timer);}).observe(document.querySelector('#selectionDialog'),{attributes:true,attributeFilter:['open']});
- for(const key of fields)document.querySelector('#orderCustomer'+key).addEventListener('input',window.invalidateOrderPdf);
- document.querySelector('#orderCustomerForm').addEventListener('submit',event=>event.preventDefault());
+ const $=s=>document.querySelector(s),create=$('#orderPdfCreate'),ready=$('#orderPdfReady'),status=$('#orderPdfStatus'),download=$('#orderPdfDownload'),dialog=$('#orderRecipientDialog'),list=$('#orderRecipientList');
+ let prepared=null,job=0,assetsPromise;
+ const contacts=[...document.querySelectorAll('#whatsappDialog .contact-list a')].map(a=>({name:a.querySelector('strong').textContent,phone:a.dataset.phone,display:a.querySelector('span').textContent}));
+ const customer=()=>({name:$('#orderCustomerName').value.trim(),phone:$('#orderCustomerPhone').value.trim(),address:'',notes:''});
+ function clear(){job++;prepared=null;ready.hidden=true;$('#orderLinkPreview').removeAttribute('href');status.textContent='';create.disabled=false;create.textContent='Trimite comanda';if(dialog.open)dialog.close();}
+ window.invalidateOrderPdf=clear;
+ $('#orderRecipientClose').onclick=()=>dialog.close();
+ dialog.addEventListener('close',()=>{document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';});
+ for(const id of ['Name','Phone'])$('#orderCustomer'+id).addEventListener('input',clear);
+ $('#orderCustomerForm').onsubmit=e=>e.preventDefault();
  function loadScript(){return new Promise((resolve,reject)=>{
   if(window.jspdf?.jsPDF){resolve();return;}
   const script=document.createElement('script');script.src='assets/vendor/jspdf-4.2.1.umd.min.js';script.onload=resolve;script.onerror=()=>{script.remove();reject(Error('Biblioteca PDF nu s-a încărcat. Reîncearcă.'));};document.head.append(script);
@@ -98,66 +84,32 @@
   for(let i=1;i<=pages;i++){doc.setPage(i);doc.setDrawColor(220,217,226);doc.line(margin,283,right,283);text('Document pentru verificarea comenzii · Nu este factură',margin,289,7);text(i+' / '+pages,186,289,7);}
   return doc.output('blob');
  }
- async function prepare(interactive){
-  if(!selectedProducts().length)return false;
-  if(interactive&&!validateRequest())return false;
-  const missingProduct=selectedProducts().find(product=>!orderRequestLines(product).length);
-  if(missingProduct){if(interactive){const input=[...document.querySelectorAll('#selectionList [data-request-field="quantity"]')].find(i=>i.dataset.requestCode===missingProduct.code);if(input){input.setCustomValidity('Completează cantitatea la cel puțin o culoare.');input.reportValidity();input.focus();}}return false;}
-  const rows=rowsForOrder();
-  const missingColor=rows.find(row=>row.product.colors.length&&!row.product.colors.includes(row.color));
-  if(missingColor){if(interactive){status.textContent='Introdu cantitatea la culoarea dorită pentru '+missingColor.product.code+'.';document.querySelector('#selectionList [data-request-code="'+missingColor.product.code+'"]').focus();}return false;}
-  if(rows.some(row=>!Number.isSafeInteger(row.quantity)||row.quantity<1)){
-   if(interactive){const input=[...document.querySelectorAll('#selectionList [data-request-field="quantity"]')].find(i=>!i.value||!Number.isSafeInteger(Number(i.value))||Number(i.value)<1);if(input){input.setCustomValidity('Completează cantitatea dorită.');input.reportValidity();input.focus();}}
-   return false;
-  }
-  if(!Number.isSafeInteger(rows.reduce((sum,row)=>sum+row.quantity,0))){status.textContent='Verifică totalul cantităților introduse.';return false;}
-  clearPrepared();const currentJob=++job,signature=snapshot(),person=customer(),created=new Date(),date=dateParts(created);
-  if(!orderId)orderId='AJ-'+date.year+date.month+date.day+'-'+crypto.randomUUID().slice(0,8).toUpperCase();
-  create.disabled=true;create.textContent='Se pregătește comanda…';status.textContent='';
+
+ async function prepare(){
+  clear();if(!selectedProducts().length||!validateRequest())return;
+  for(const p of selectedProducts())if(!orderRequestLines(p).length){status.textContent='Alege cel puțin o culoare și cantitatea pentru '+p.code+'.';return;}
+  const rows=rowsForOrder();if(rows.some(r=>!Number.isSafeInteger(r.quantity)||r.quantity<1||(r.product.colors.length&&!r.product.colors.includes(r.color)))){status.textContent='Verifică culorile și cantitățile selectate.';return;}
+  if(!Number.isSafeInteger(rows.reduce((n,r)=>n+r.quantity,0))){status.textContent='Verifică totalul cantităților.';return;}
+  if(!$('#orderCustomerForm').reportValidity())return;
+  if(!customer().name){status.textContent='Completează numele tău.';$('#orderCustomerName').focus();return;}
+  if(customer().phone.replace(/[^0-9]/g,'').length<7){status.textContent='Completează un număr de telefon valid.';$('#orderCustomerPhone').focus();return;}
+  const current=++job,person=customer(),created=new Date(),id='AJ-'+crypto.randomUUID().slice(0,8).toUpperCase();
+  create.disabled=true;create.textContent='Se pregătește linkul…';
   try{
-   const blob=await makePdf(rows,person,orderId,created);
-   if(job!==currentJob||snapshot()!==signature)return false;
-   const file=new File([blob],'Comanda-'+orderId+'.pdf',{type:'application/pdf'});
-   prepared=file;preparedSignature=signature;download.hidden=false;objectUrl=URL.createObjectURL(file);download.href=objectUrl;download.download=file.name;
-   // Desktop share sheets may accept PDFs but omit WhatsApp (notably macOS).
-   const mobileDevice=navigator.userAgentData?.mobile===true||/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
-   canShare=false;try{canShare=mobileDevice&&typeof navigator.share==='function'&&!!navigator.canShare?.({files:[file]});}catch{}
-   ready.hidden=false;
-   document.querySelector('#orderPdfHelp').textContent='';
-   status.textContent=rows.reduce((n,r)=>n+r.quantity,0)+' bucăți · Comanda este gata.';
-   create.textContent='Trimite comanda';
-   return true;
-  }catch(error){if(job===currentJob){status.textContent=error.message||'Comanda nu a putut fi pregătită. Reîncearcă.';create.textContent='Reîncearcă';}return false;}
-  finally{if(job===currentJob)create.disabled=false;}
+   const data={v:1,id,date:created.toISOString(),name:person.name,phone:person.phone,rows:rows.map(r=>[r.product.code,r.product.name,r.color,r.size,r.quantity,r.source,r.product.media?.[r.source]?.frame||''])};
+   const packed=await new Response(new Blob([JSON.stringify(data)]).stream().pipeThrough(new CompressionStream('deflate'))).arrayBuffer();
+   const encoded=base64(new Uint8Array(packed)).replaceAll('+','-').replaceAll('/','_').replace(/=+$/,'');
+   const url=new URL('comanda.html',location.href);url.hash='v1.'+encoded;
+   if(url.href.length>18000)throw Error('Comanda este prea mare pentru un singur link WhatsApp. Împarte selecția în două comenzi.');
+   if(current!==job)return;
+   prepared={url:url.href,rows,person,id,created};ready.hidden=false;$('#orderLinkPreview').href=url.href;status.textContent=rows.reduce((n,r)=>n+r.quantity,0)+' bucăți · Linkul comenzii este gata.';
+   $('#orderRecipientIntro').textContent='Alege persoana. WhatsApp se deschide cu linkul întregii comenzi; apasă Trimite în conversație.';
+   $('#orderRecipientFallback').hidden=true;
+   list.replaceChildren(...contacts.map(contact=>{const a=document.createElement('a');a.className='order-contact-link';a.target='_blank';a.rel='noopener noreferrer';const name=document.createElement('strong'),phone=document.createElement('span');name.textContent=contact.name;phone.textContent=contact.display;a.append(name,phone);a.href='https://wa.me/'+contact.phone+'?text='+encodeURIComponent('Bună, '+contact.name+'! Sunt '+person.name+' ('+person.phone+'). Comanda mea AJ Paris, '+id+':\n'+url.href+'\nTe rog să confirmi disponibilitatea.');return a;}));
+   dialog.showModal();document.body.style.overflow='hidden';
+  }catch(error){if(current===job)status.textContent=error.message||'Linkul nu a putut fi pregătit. Reîncearcă.';}
+  finally{if(current===job){create.disabled=false;create.textContent='Trimite comanda';}}
  }
- function chooseRecipient(){
-  if(!prepared||preparedSignature!==snapshot())return;
-  fallback.hidden=true;
-  document.querySelector('#orderRecipientIntro').textContent=canShare?'Alege persoana, apoi WhatsApp și conversația ei din meniul telefonului.':'Alege persoana: PDF-ul se descarcă și conversația WhatsApp se deschide. Atașează PDF-ul acolo.';
-  recipientList.replaceChildren(...contacts.map(contact=>{const button=document.createElement('button');button.type='button';const name=document.createElement('strong'),phone=document.createElement('span');name.textContent=contact.name;phone.textContent=contact.display;button.append(name,phone);button.dataset.phone=contact.phone;button.onclick=()=>deliver(contact);return button;}));
-  if(!recipientDialog.open)recipientDialog.showModal();document.body.style.overflow='hidden';
- }
- async function deliver(contact){
-  if(!prepared)return;
-  const file=prepared;
-  fallback.hidden=true;
-  document.querySelector('#orderRecipientIntro').textContent=canShare?'Alege WhatsApp și conversația cu '+contact.name+' în meniul telefonului.':'Atașează PDF-ul în conversația WhatsApp cu '+contact.name+'.';
-  function manual(openNow=false){
-   fallback.hidden=false;document.querySelector('#orderRecipientInstructions').textContent='Atașează fișierul „'+file.name+'” în conversația cu '+contact.name+', folosind agrafa sau + din WhatsApp. Dacă descărcarea sau conversația nu s-au deschis, folosește butoanele de mai jos.';
-   const save=document.querySelector('#orderRecipientDownload');save.href=objectUrl;save.download=file.name;
-   const link=document.querySelector('#orderRecipientWhatsApp');link.textContent='Deschide WhatsApp cu '+contact.name;link.href='https://wa.me/'+contact.phone+'?text='+encodeURIComponent('Bună, '+contact.name+'! Comanda mea AJ Paris: '+orderId+'. PDF-ul îl atașez în această conversație.');
-   if(openNow){window.open(link.href,'_blank','noopener,noreferrer');save.click();}
-  }
-  if(!canShare){manual(true);return;}
-  recipientList.querySelectorAll('button').forEach(b=>b.disabled=true);
-  try{await navigator.share({files:[file],title:'Comandă pentru '+contact.name,text:'Comandă AJ Paris pentru '+contact.name+' · '+contact.display});if(prepared===file)document.querySelector('#orderRecipientIntro').textContent='Confirmă trimiterea PDF-ului către '+contact.name+' în WhatsApp.';}
-  catch(error){if(prepared===file){manual();document.querySelector('#orderRecipientIntro').textContent=error.name==='AbortError'?'Partajare anulată. Poți folosi descărcarea și conversația WhatsApp de mai jos.':'Folosește descărcarea și conversația WhatsApp de mai jos pentru a trimite PDF-ul.';}}
-  finally{recipientList.querySelectorAll('button').forEach(b=>b.disabled=false);}
- }
- create.addEventListener('click',async()=>{
-  if(prepared&&preparedSignature===snapshot()){chooseRecipient();return;}
-  clearTimeout(timer);
-  const complete=await prepare(true);
-  if(complete)chooseRecipient();
- });
+ create.onclick=prepare;
+ download.onclick=async()=>{if(!prepared)return;const p=prepared;download.disabled=true;try{const blob=await makePdf(p.rows,p.person,p.id,p.created),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Comanda-'+p.id+'.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),30000);}catch(error){status.textContent=error.message;}finally{download.disabled=false;}};
 })();

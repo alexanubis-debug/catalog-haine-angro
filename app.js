@@ -327,28 +327,21 @@ function orderRequestLines(product){
  return [...groups.values(),...invalid].sort((a,b)=>product.colors.indexOf(a.color)-product.colors.indexOf(b.color));
 }
 function requestEditor(product){
- const editor=el('div',null,'request-editor color-order-editor'),grid=el('div',null,'color-quantity-grid');grid.setAttribute('role','group');grid.setAttribute('aria-label','Cantități pe culori pentru '+product.code);
- if(product.colors.length>1)editor.append(el('p','Completează cantitatea doar la culorile dorite.','color-order-hint'));
- const unassigned=requestLines(product).filter(line=>!line.color&&Number(line.quantity)>0);
- if(product.colors.length>1&&unassigned.length)editor.append(el('p','Cantitate anterioară fără culoare: '+unassigned.reduce((n,l)=>n+Number(l.quantity),0)+'. Introdu-o la culoarea dorită.','color-order-hint'));
- for(const color of product.colors.length?product.colors:['De confirmat']){
-  const matches=requestLines(product).filter(line=>line.color===color||(product.colors.length===1&&!line.color));
-  const values=matches.filter(l=>String(l.quantity??'').trim()),sum=values.reduce((n,l)=>n+Number(l.quantity),0);
-  const row=el('label',null,'color-quantity-row'),name=el('span',color),input=el('input');input.type='number';input.min='0';input.step='1';input.inputMode='numeric';input.placeholder='0';input.value=values.length&&sum!==0?String(sum):'';
-  input.dataset.requestField='quantity';input.dataset.requestCode=product.code;input.dataset.requestColor=color;input.setAttribute('aria-label','Cantitate '+color+' pentru '+product.code);row.classList.toggle('has-quantity',sum>0);row.append(name,input);grid.append(row);
-  input.addEventListener('input',()=>{
-   input.setCustomValidity('');
-   const previous=requestLines(product).filter(l=>l.color===color||(product.colors.length===1&&!l.color));
-   const retained=requestLines(product).filter(l=>l.color&&l.color!==color);
-   if(input.value&&Number(input.value)!==0){
-    const sameSize=previous.length&&previous.every(l=>l.size===previous[0].size),line=cleanRequestLine(product,{color:product.colors.length?color:'',size:sameSize?previous[0].size:undefined,image:previous[0]?.image});line.quantity=input.value;retained.push(line);
-   }
-   requestDetails.set(product.code,retained);row.classList.toggle('has-quantity',Number(input.value)>0);
-   const hint=editor.querySelector('.legacy-color-hint');if(hint)hint.remove();persistSelection();
-  });
+ const editor=el('div',null,'request-editor compact-color-editor'),options=el('div',null,'color-options'),quantities=el('div',null,'chosen-quantities');
+ options.setAttribute('role','group');options.setAttribute('aria-label','Alege culorile pentru '+product.code);
+ function draw(){
+  options.replaceChildren();quantities.replaceChildren();
+  for(const color of product.colors.length?product.colors:['De confirmat']){
+   const matches=requestLines(product).filter(l=>l.color===color||(product.colors.length<=1&&!l.color)),active=matches.length>0&&(matches.some(l=>l.quantity)||matches.some(l=>l.color));
+   const button=el('button',color,'color-option');button.type='button';button.setAttribute('aria-pressed',String(!!active));
+   button.onclick=()=>{const lines=requestLines(product).filter(l=>l.color!==color&&l.color);if(!active)lines.push(cleanRequestLine(product,{color:product.colors.length?color:'',quantity:'1'}));requestDetails.set(product.code,lines);persistSelection();draw();if(!active)quantities.querySelector('input[data-request-color="'+CSS.escape(color)+'"]')?.focus();};options.append(button);
+   if(!active)continue;
+   const row=el('label',null,'chosen-quantity'),input=el('input');input.type='number';input.min='1';input.step='1';input.inputMode='numeric';input.value=matches.reduce((n,l)=>n+Number(l.quantity||0),0)||'';input.placeholder='Cant.';input.dataset.requestField='quantity';input.dataset.requestCode=product.code;input.dataset.requestColor=color;input.setAttribute('aria-label','Cantitate '+color+' pentru '+product.code);
+   row.append(el('span',color),input);quantities.append(row);
+   input.oninput=()=>{input.setCustomValidity('');const lines=requestLines(product).filter(l=>l.color!==color&&l.color),line={...matches[0],color:product.colors.length?color:'',quantity:input.value};lines.push(line);requestDetails.set(product.code,lines);persistSelection();};
+  }
  }
- const legacy=editor.querySelectorAll('.color-order-hint');if(unassigned.length&&product.colors.length>1)legacy[legacy.length-1].classList.add('legacy-color-hint');
- editor.append(grid);return editor;
+ editor.append(el('p','Alege culorile, apoi cantitatea.','color-order-hint'),options,quantities);draw();return editor;
 }
 
 function validateRequest(){
