@@ -1,5 +1,13 @@
 # Catalog angro
 
+### v65 — culoare/cantitate și alegerea contactului pentru PDF
+
+Selecția nu mai include câmpuri de mărime, fotografie sau date de contact. Se alege culoarea doar când există mai multe variante; culoarea unică este afișată simplu și păstrată în comandă. Cantitățile rămân obligatorii și pozitive, iar culorile multiple trebuie alese. Mărimile și galeriile produselor din catalog nu se modifică; detaliile existente ale cererilor sunt păstrate, fără inventarea unor mărimi noi. Adăugarea altei culori apare doar pentru modele cu mai multe culori.
+
+Trimite comanda deschide o fereastră cu Alin, Anda și Cristina, folosind cele trei numere existente din catalog. Primul contact este redenumit Alin conform cererii, fără schimbarea numărului. Selectarea contactului inițiază partajarea PDF-ului real prin meniul telefonului, cu instrucțiunea de a alege WhatsApp și conversația persoanei selectate. Browserul nu poate impune destinatarul aplicației și interfața nu pretinde că îl poate selecta sau că mesajul s-a trimis automat. Utilizatorul a confirmat utilizarea aplicației WhatsApp obișnuite, fără API.
+
+Fără partajare nativă, alegerea persoanei afișează descărcarea PDF-ului și un link către conversația acelui număr, cu instrucțiune explicită de atașare manuală. Niciun link wa.me nu este prezentat drept atașare automată. Anularea sau eroarea nu raportează succes. Modificarea selecției închide alegerea destinatarului și invalidează fișierul și linkurile pregătite, pentru a preveni trimiterea unei comenzi vechi.
+
 ### v64 — comandă simplificată, PDF pregătit automat
 
 În Selecția ta, câmpurile principale sunt culoarea și cantitatea. Mărimile confirmate rămân vizibile; o singură culoare sau mărime confirmată se poate completa implicit pentru o variantă nouă. Nu sunt inventate cantități sau TU pentru produse fără mărimi. Mărimea solicitată neconfirmată și alegerea altei fotografii sunt în Alte detalii (opțional). Numele, telefonul, livrarea și observațiile sunt toate opționale și grupate într-o secțiune închisă. În PDF, datele clientului lipsă nu sunt inventate; identificarea din conversația WhatsApp rămâne în afara documentului.
