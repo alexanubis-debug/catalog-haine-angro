@@ -244,7 +244,9 @@ function updateSelection(){
 function renderSelection(){
  $('#selectionList').replaceChildren(...selectedProducts().map(product=>{
   const row=el('li'),text=el('div'),remove=el('button','Elimină');remove.type='button';remove.className='remove-product';remove.setAttribute('aria-label','Elimină '+product.code+' din selecție');
-  text.append(el('strong',product.code),el('span',product.name));row.append(photo(product,product.image,'thumb'),text,remove,requestEditor(product));
+  const preview=el('button',null,'selection-photo');preview.type='button';preview.setAttribute('aria-label','Vezi modelul și culorile: '+product.name+' · '+product.code);preview.title='Vezi modelul și culorile';preview.setAttribute('aria-haspopup','dialog');preview.setAttribute('aria-controls','photoViewer');
+  const icon=el('span','⌕','selection-photo-icon');icon.setAttribute('aria-hidden','true');preview.append(photo(product,product.image,'thumb'),icon);preview.onclick=()=>openPhotoViewer(product,product.image,preview);
+  text.append(el('strong',product.code),el('span',product.name));row.append(preview,text,remove,requestEditor(product));
   remove.onclick=()=>{const index=[...$('#selectionList').children].indexOf(row);selectedCodes.delete(product.code);requestDetails.delete(product.code);updateSelection();$('#selectionStatus').textContent='Eliminat: '+product.code+'. '+selectedCodes.size+' modele selectate.';if($('#selectionDialog').open){const buttons=$('#selectionList').querySelectorAll('.remove-product');(buttons[Math.min(index,buttons.length-1)]||$('#selectionSend')).focus();}};return row;
  }));
 }
@@ -291,12 +293,14 @@ function loadViewerPhoto(){
  $('#photoPosition').textContent=(viewerIndex+1)+' / '+viewerImages.length;$('#photoPrevious').disabled=viewerImages.length<2;$('#photoNext').disabled=viewerImages.length<2;
  viewerPointers.clear();fitPhotoViewer();image.src=source.split('#')[0];if(image.complete)ready();
 }
-function openPhotoViewer(product,source){
+let viewerOpener=null;
+function openPhotoViewer(product,source,opener=document.activeElement){
+ viewerOpener=opener;
  viewerProduct=product;viewerImages=[...new Set([...(product.images||[product.image]),...(product.colorVariantsImage?[product.colorVariantsImage]:[])])];if(!viewerImages.includes(source))viewerImages.push(source);viewerIndex=viewerImages.indexOf(source);
  photoViewer.showModal();document.body.style.overflow='hidden';loadViewerPhoto();
 }
 $('#photoViewerClose').onclick=()=>photoViewer.close();
-photoViewer.addEventListener('close',()=>{viewerPointers.clear();viewerSwipe=null;photoFrame.replaceChildren();document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';$('#detail .photo-enlarge')?.focus({preventScroll:true});});
+photoViewer.addEventListener('close',()=>{viewerPointers.clear();viewerSwipe=null;photoFrame.replaceChildren();document.body.style.overflow=document.querySelector('dialog[open]')?'hidden':'';const target=viewerOpener;viewerOpener=null;if(target?.isConnected)target.focus({preventScroll:true});});
 $('#photoZoomIn').onclick=()=>zoomPhoto(viewerScale+.5);$('#photoZoomOut').onclick=()=>zoomPhoto(viewerScale-.5);$('#photoReset').onclick=resetPhotoZoom;
 function stepViewerPhoto(direction){if(viewerImages.length>1){viewerIndex=(viewerIndex+direction+viewerImages.length)%viewerImages.length;loadViewerPhoto();}}
 $('#photoPrevious').onclick=()=>stepViewerPhoto(-1);$('#photoNext').onclick=()=>stepViewerPhoto(1);

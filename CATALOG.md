@@ -1,3 +1,8 @@
+## 2026-11-27 · v69 · Galerie din selecția comenzii
+
+- Apăsarea fotografiei mici din „Selecția ta” deschide galeria existentă cu originalele și toate cadrele, inclusiv imaginea variantelor de culoare când există.
+- Se păstrează fereastra comenzii, culorile, cantitățile, datele clientului și poziția derulării. Închiderea galeriei readuce focusul pe fotografia apăsată. Zoomul rămâne explicit pe +.
+
 ## 2026-11-27 · v68 · Comenzi prin link și culori compacte
 
 - Alegere culori prin butoane; cantitățile apar numai pentru culorile alese. Se păstrează selecțiile existente și imaginile originale.
