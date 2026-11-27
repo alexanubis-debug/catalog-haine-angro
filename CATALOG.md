@@ -1,3 +1,9 @@
+## 2026-11-27 · v70 · Fișă de comandă partajată
+
+- Pagina linkului de comandă arată un rezumat, produse grupate pe cod, totaluri de bucăți pe model și tabel poză / culoare / mărime / cantitate. Fără prețuri numerice.
+- File separate „Produse” și „Date client”; tipărirea include ambele. Fotografiile se pot deschide mari, cu originalele și cadrul corect; închiderea păstrează poziția și focusul.
+- Formatul linkurilor existente rămâne v1. Este o solicitare de confirmat, fără stări inventate de plată/livrare sau panou central. Nu se modifică produsele ori selecția din catalog.
+
 ## 2026-11-27 · v69 · Galerie din selecția comenzii
 
 - Apăsarea fotografiei mici din „Selecția ta” deschide galeria existentă cu originalele și toate cadrele, inclusiv imaginea variantelor de culoare când există.
